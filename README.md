@@ -1,4 +1,4 @@
-# The Australian Projection Archive
+# Film Cinemas
 
 Static website prototype for a cinema heritage archive: a map-first homepage of Brisbane, Sydney and Melbourne cinema sites, individual cinema pages, equipment, research, explore and share pages.
 
