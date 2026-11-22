@@ -15,7 +15,7 @@
     var pad = 0.03;
     return [[Math.min.apply(0, la) - pad, Math.min.apply(0, lo) - pad], [Math.max.apply(0, la) + pad, Math.max.apply(0, lo) + pad]];
   }
-  var REGION_NAME = { brisbane: "Brisbane", sydney: "Sydney", melbourne: "Melbourne" };
+  var REGION_NAME = { brisbane: "Brisbane", sydney: "Sydney", melbourne: "Melbourne", "regional queensland": "regional Queensland", "regional nsw": "regional New South Wales" };
 
   function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
 
@@ -122,7 +122,7 @@
       });
     });
     var sa = fig.querySelector("[data-show-australia]");
-    if (sa) sa.addEventListener("click", function () { map.closePopup(); map.flyToBounds(AUSTRALIA, { duration: 0.6 }); say("Map shows all of Australia. Sites in each city are grouped into clusters."); });
+    if (sa) sa.addEventListener("click", function () { map.closePopup(); map.flyToBounds(AUSTRALIA, { duration: 0.6 }); say("Map shows all of Australia. Nearby sites are grouped into clusters."); });
     // Scroll-wheel zoom only once the visitor has engaged with the map, so the page still scrolls past it.
     map.on("focus click", function () { map.scrollWheelZoom.enable(); });
     map.on("blur mouseout", function () { map.scrollWheelZoom.disable(); });
