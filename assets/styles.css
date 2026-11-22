@@ -944,3 +944,9 @@ h2 { font-size: clamp(2rem, 1.5rem + 2vw, 3rem); letter-spacing: -0.01em; }
   .rmap-tools .btn { justify-content: center; padding-inline: 0.4rem; font-size: 0.95rem; }
   .rmap-tools [data-zoom] svg { display: none; }
 }
+
+/* Hero photo-style illustration (replaces the drawn Empress scene) */
+.hero-scene img.scene-photo { position: absolute; top: 0; right: 0; height: 100%; width: min(66%, 64rem); max-width: none; object-fit: cover; object-position: 55% 50%; display: block; }
+@media (max-width: 860px) {
+  .hero-scene img.scene-photo { left: 0; right: 0; width: 100%; height: var(--scene-h); object-position: 50% 50%; }
+}
