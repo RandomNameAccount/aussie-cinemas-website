@@ -1037,3 +1037,22 @@ h2 { font-size: clamp(2rem, 1.5rem + 2vw, 3rem); letter-spacing: -0.01em; }
 .cc-cards .cc-event .btn, .cc-cards .cc-event > .cc-muted { margin-top: auto; }
 .stack > .badge, .panel > .badge { justify-self: start; align-self: start; }
 .stack > .btn { justify-self: start; }
+
+/* ---------- Cinema Community forums ---------- */
+.fm-threads { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.75rem; }
+.fm-thread { display: grid; gap: 0.3rem; background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); padding: 1rem 1.25rem; }
+.fm-thread-title { font-family: var(--font-display); font-size: var(--step-1); font-weight: 600; color: var(--text); }
+.fm-thread .badge { justify-self: start; }
+.fm-post { gap: 0.6rem; }
+.fm-post .badge { justify-self: start; }
+.fm-meta { margin: 0; font-size: var(--step--1); color: var(--muted); }
+.fm-meta strong { color: var(--text); }
+.fm-body { white-space: pre-wrap; overflow-wrap: anywhere; }
+.fm-actions { display: flex; flex-wrap: wrap; gap: 1rem; }
+.fm-link { background: none; border: 0; padding: 0; min-height: var(--target); font: inherit; font-size: var(--step--1); color: var(--accent); text-decoration: underline; cursor: pointer; }
+.fm-whoami { display: flex; flex-wrap: wrap; gap: 0.75rem 1rem; align-items: center; }
+.fm-chip { display: inline-flex; align-items: center; text-decoration: none; }
+.fm-chip[aria-current="page"] { background: var(--text); color: var(--bg); border-color: var(--text); }
+.fm-auth textarea, [data-forum] textarea, .fm-report textarea { width: 100%; box-sizing: border-box; min-height: 6rem; border: 1.5px solid var(--border); border-radius: var(--radius); background: var(--surface); color: var(--text); font: inherit; padding: 0.6rem 0.75rem; }
+[data-forum] input[type="text"], [data-forum] input[type="email"] { width: 100%; box-sizing: border-box; }
+.fm-report { border-top: 1px solid var(--rule); padding-top: 0.75rem; }
