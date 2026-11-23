@@ -1,4 +1,4 @@
--- Film Cinemas Australia: Cinema Community forums
+-- Film Cinemas Australia: Cinema Community (member accounts, forums, and advertising switched off)
 -- Run once in the Supabase SQL editor (Project > SQL editor > New query > paste > Run).
 -- Separate from the archive: nothing here can read or change archive records.
 -- Safe to re-run: objects are created only if missing; policies are replaced.
@@ -274,3 +274,61 @@ create policy "log moderators" on public.forum_moderation_log for select to auth
 -- No deletes from the website: content is soft-deleted (status = 'deleted') so moderation history is kept.
 -- To make yourself the first administrator, after signing in once on the site and creating your profile, run:
 --   update public.profiles set role = 'admin' where id = (select id from auth.users where email = 'YOUR EMAIL');
+
+-- ================================================================ advertising (switched off)
+-- Ready for Cinema Partners advertising later. Nothing shows on the site until an administrator
+-- switches a placement on AND adds an ad with status 'live' inside its date range.
+-- Ads are always labelled "Sponsored" on the site and never appear inside archive records or search.
+-- No tracking: the site does not record who sees or clicks an ad.
+
+create or replace function public.is_admin() returns boolean
+language sql stable security definer set search_path = public as $$
+  select exists (select 1 from public.profiles where id = auth.uid() and role = 'admin');
+$$;
+
+create table if not exists public.ad_placements (
+  key text primary key,
+  label text not null,
+  enabled boolean not null default false
+);
+insert into public.ad_placements (key, label) values
+  ('home-banner', 'Homepage banner, below What''s on'),
+  ('forums-banner', 'Forums page banner, below the topic list')
+on conflict (key) do nothing;
+
+create table if not exists public.ads (
+  id bigint generated always as identity primary key,
+  placement text not null references public.ad_placements (key),
+  advertiser text not null check (char_length(btrim(advertiser)) between 2 and 120),
+  headline text not null check (char_length(btrim(headline)) between 3 and 90),
+  body text check (body is null or char_length(body) <= 220),
+  link_url text not null check (link_url ~ '^https://'),
+  image_url text check (image_url is null or image_url ~ '^https://'),
+  starts_at timestamptz not null default now(),
+  ends_at timestamptz not null,
+  status text not null default 'draft' check (status in ('draft', 'live', 'paused', 'ended')),
+  created_at timestamptz not null default now(),
+  check (ends_at > starts_at)
+);
+create index if not exists ads_live on public.ads (placement, status, starts_at, ends_at);
+
+alter table public.ad_placements enable row level security;
+alter table public.ads enable row level security;
+
+drop policy if exists "placements readable" on public.ad_placements;
+create policy "placements readable" on public.ad_placements for select using (true);
+drop policy if exists "placements admin" on public.ad_placements;
+create policy "placements admin" on public.ad_placements for update to authenticated using (public.is_admin()) with check (public.is_admin());
+
+-- The public can only ever see live, in-date ads in a switched-on placement. Admins see everything.
+drop policy if exists "ads public live" on public.ads;
+create policy "ads public live" on public.ads for select using (
+  (status = 'live' and now() between starts_at and ends_at
+   and exists (select 1 from public.ad_placements p where p.key = placement and p.enabled))
+  or public.is_admin());
+drop policy if exists "ads admin insert" on public.ads;
+create policy "ads admin insert" on public.ads for insert to authenticated with check (public.is_admin());
+drop policy if exists "ads admin update" on public.ads;
+create policy "ads admin update" on public.ads for update to authenticated using (public.is_admin()) with check (public.is_admin());
+drop policy if exists "ads admin delete" on public.ads;
+create policy "ads admin delete" on public.ads for delete to authenticated using (public.is_admin());
