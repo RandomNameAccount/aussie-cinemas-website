@@ -123,6 +123,23 @@
     });
     var sa = fig.querySelector("[data-show-australia]");
     if (sa) sa.addEventListener("click", function () { map.closePopup(); map.flyToBounds(AUSTRALIA, { duration: 0.6 }); say("Map shows all of Australia. Nearby sites are grouped into clusters."); });
+    // On touch screens one finger scrolls the page, not the map; pinch zooms. "Move the map" turns one-finger panning on.
+    var pan = fig.querySelector("[data-pan-toggle]");
+    var coarse = false;
+    try { coarse = window.matchMedia("(pointer: coarse)").matches; } catch (e) { /* ignore */ }
+    if (coarse) {
+      map.dragging.disable();
+      if (pan) {
+        pan.hidden = false;
+        pan.addEventListener("click", function () {
+          var on = pan.getAttribute("aria-pressed") !== "true";
+          pan.setAttribute("aria-pressed", on ? "true" : "false");
+          if (on) { map.dragging.enable(); } else { map.dragging.disable(); }
+          el.classList.toggle("is-panning", on);
+          say(on ? "Moving the map with one finger is on. Turn it off to scroll the page." : "One finger scrolls the page again. Pinch to zoom the map.");
+        });
+      }
+    }
     // Scroll-wheel zoom only once the visitor has engaged with the map, so the page still scrolls past it.
     map.on("focus click", function () { map.scrollWheelZoom.enable(); });
     map.on("blur mouseout", function () { map.scrollWheelZoom.disable(); });
