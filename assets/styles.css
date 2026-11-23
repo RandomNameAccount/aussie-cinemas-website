@@ -1314,10 +1314,10 @@ img { height: auto; }
 .cc-split > :first-child > h2, .cc-split > :first-child > .stack > h2 { font-size: clamp(1.6rem, 1.3rem + 1.2vw, 2.25rem); }
 .cc-badges .badge { white-space: normal; }
 
-/* Supplied logo (PNG, about 1.86:1): kept at least 160 px wide at every size */
-.brand-logo { height: 96px; width: auto; }
-.site-header.is-compact .brand-logo { height: 86px; }
-@media (max-width: 560px) { .brand-logo, .site-header.is-compact .brand-logo { height: 86px; min-width: 160px; } }
+/* Supplied logo (PNG, 2.5:1): kept at least 160 px wide at every size */
+.brand-logo { height: 88px; width: auto; }
+.site-header.is-compact .brand-logo { height: 72px; }
+@media (max-width: 560px) { .brand-logo, .site-header.is-compact .brand-logo { height: 80px; min-width: 160px; } }
 .site-header .wrap { padding-block: 0.75rem; }
 .site-header.is-compact .wrap { padding-block: 0.35rem; }
-.footer-brand img { width: 260px; }
+.footer-brand img { width: 280px; }
