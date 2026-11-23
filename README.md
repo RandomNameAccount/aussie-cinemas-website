@@ -23,5 +23,5 @@ then visit http://localhost:8000.
 
 - `assets/theme.css` holds every colour, font, size and spacing token. `assets/styles.css` reads only those tokens, so a rebrand is a one-file change.
 - Fonts are self-hosted in `assets/fonts/` (Marcellus for headings, Manrope for body; SIL Open Font Licence, see the `OFL-*.txt` files). No Google Fonts requests.
-- The logo files in `assets/img/brand/` are **placeholders** until the approved Art Deco logo is supplied. Replace `fca-logo.svg` (header) and `fca-logo-on-navy.svg` (footer tile) with the real files; no page code needs to change.
+- Logo files are in `assets/img/brand/`: `fca-logo.png` (header), `fca-logo-on-navy.png` (footer, on a white tile) and `fca-logo-1200.png` (master for documents). Replace these files to update every page.
 - Dark mode is the reader's choice (footer switch); the site is white by default.
