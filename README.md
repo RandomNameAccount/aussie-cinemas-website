@@ -26,9 +26,9 @@ then visit http://localhost:8000.
 - Logo files are in `assets/img/brand/`: `fca-logo.png` (header), `fca-logo-on-navy.png` (footer, on a white tile) and `fca-logo-1200.png` (master for documents). Replace these files to update every page.
 - Dark mode is the reader's choice (footer switch); the site is white by default.
 
-### Refinement round 1 (branch `refine-1`): awaiting Tony's review
+### Refinement round 1 (live from 24 November 2026)
 
-Not live. The approved White Art Deco design on `main` stays as it is until Tony confirms this round.
+Released at Matt's request on 24 November 2026.
 
 - Homepage is more image-led: a larger hero picture with the panel overlapping it, a full-width story picture, and featured records as large picture-first cards (one lead record, three supporting).
 - The map stays directly under the hero, with state and territory browsing straight beneath it. The map is taller, its area buttons are larger, and its zoom buttons are 44 px. On phones the area buttons scroll sideways and the key is more compact. On touch screens one finger scrolls the page and pinch zooms the map; a "Move the map" button turns one-finger panning on.
