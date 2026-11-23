@@ -21,10 +21,18 @@
     });
   }
 
-  /* Light and dark theme switch. Follows the device until the visitor chooses. The choice is kept in this browser when storage is available. */
+  /* Header turns compact (56 px logo, shadow) once the page scrolls */
+  var header = $("[data-site-header]");
+  if (header) {
+    var ticking = false;
+    var setCompact = function () { header.classList.toggle("is-compact", window.scrollY > 40); ticking = false; };
+    window.addEventListener("scroll", function () { if (!ticking) { ticking = true; window.requestAnimationFrame(setCompact); } }, { passive: true });
+    setCompact();
+  }
+
+  /* Light and dark theme switch. The site is light (white) unless the visitor chooses dark. The choice is kept in this browser when storage is available. */
   var root = document.documentElement;
-  function systemDark() { try { return window.matchMedia("(prefers-color-scheme: dark)").matches; } catch (e) { return false; } }
-  function currentDark() { var t = root.getAttribute("data-theme"); return t ? t === "dark" : systemDark(); }
+  function currentDark() { var t = root.getAttribute("data-theme"); return t === "dark"; }
   function syncToggles() { $$("[data-theme-toggle]").forEach(function (b) { b.setAttribute("aria-checked", String(currentDark())); }); }
   $$("[data-theme-toggle]").forEach(function (b) {
     b.addEventListener("click", function () {

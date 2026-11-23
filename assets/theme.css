@@ -1,0 +1,111 @@
+/* Film Cinemas Australia: theme tokens (White Art Deco, style guide v0.1, approved by Tony Nov 2026).
+   Every colour, font, size and spacing value lives here. styles.css reads only these tokens,
+   so a future rebrand is a change to this one file.
+   Fonts are self-hosted (SIL Open Font Licence; see assets/fonts/OFL-*.txt). */
+
+@font-face {
+  font-family: "Marcellus";
+  src: url("fonts/marcellus-400.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("fonts/manrope-variable.woff2") format("woff2");
+  font-weight: 200 800; font-style: normal; font-display: swap;
+}
+
+:root {
+  /* Fixed brand constants: never change with the reader's theme */
+  --brand-navy: #0B1E2D; --brand-navy-2: #132A3D; --brand-navy-3: #1C3A52;
+  --brand-white: #FFFFFF; --brand-ivory: #F4E8D6; --brand-brass: #C9A453; --brand-brass-dark: #775D25;
+  --brand-turquoise: #0F6E6E; --brand-magenta: #A3215E; --brand-on-navy-soft: #D9D2C5;
+
+  /* Colour: themed */
+  --color-bg: #FFFFFF;          /* main background */
+  --color-bg-alt: #F4E8D6;      /* warm ivory: alternate sections */
+  --color-bg-raised: #FFFFFF;   /* panels and cards */
+  --color-ink: #0B1E2D;         /* midnight navy: text, buttons, footer (16.97:1 on white) */
+  --color-ink-2: #132A3D;       /* navy, one step lighter (hover on navy) */
+  --color-ink-3: #1C3A52;
+  --color-brass: #C9A453;       /* rules, frames, pins only: never text on white (2.35:1) */
+  --color-brass-text: #775D25;  /* eyebrows, dates (6.22:1 on white) */
+  --color-accent-1: #0F6E6E;    /* turquoise: What's on, small accents (6.04:1) */
+  --color-accent-2: #A3215E;    /* magenta: voting, small accents (7.15:1) */
+  --color-text-soft: #3F4A54;   /* slate: long body copy (9.06:1) */
+  --color-line: #E7DCC8;        /* hairlines between rows and cards */
+  --color-line-strong: #8C7B66; /* form borders (3:1 or better on white) */
+  --color-on-ink: #FFFFFF;      /* text on navy */
+  --color-on-ink-soft: #D9D2C5; /* secondary text on navy */
+
+  /* Evidence colours: unchanged from the archive so readers' trust signals stay the same */
+  --ev-confirmed: #2E6B3A; --ev-strong: #2B5A8A; --ev-prelim: #C9A453; --ev-prelim-text: #0B1E2D;
+  --ev-memory: #6A4A86; --ev-unverified: #66625C; --ev-conflict: #7A2E22;
+  --ev-unknown: #D8D3CB; --ev-unknown-text: #0B1E2D; --ev-text: #FFFFFF;
+
+  /* Status and notice colours (archive trust signals: unchanged) */
+  --ok-bg: #E2EEDF; --ok-fg: #1E4623; --ok-bd: #3D6B42;
+  --info-bg: #E3E9F1; --info-fg: #15314F; --info-bd: #3F5F86;
+  --prelim-bg: #EFE6D6; --prelim-fg: #4F3B12; --prelim-bd: #775D25;
+  --memory-bg: #ECE3EF; --memory-fg: #412650; --memory-bd: #6C4C80;
+  --warn-bg: #F6E7CF; --warn-fg: #5A3A00; --warn-bd: #8A5A00;
+  --error: #8B1A10; --alert-bg: #F4DFDA; --alert-fg: #6B1F16; --alert-bd: #7A2E22;
+  --none-bg: #E7E1D8; --none-fg: #3A342E; --none-bd: #6F665C;
+
+  /* Map (Leaflet) */
+  --map-sea: #FFFFFF; --map-land-fill: #F4E8D6; --map-land-edge: #C9A453; --map-state-edge: #C9A453; --map-river: #8FB8C9;
+  --map-text: #0B1E2D; --map-text-halo: #FFFFFF; --map-text-soft: #5B5246;
+  --pin-operating: #0B1E2D; --pin-repurposed: #FFFFFF; --pin-demolished: #A3215E; --pin-closed: #8A939B; --pin-ring: #0B1E2D;
+
+  /* Typography */
+  --font-display: "Marcellus", "Iowan Old Style", Georgia, serif;
+  --font-body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --type-display: clamp(2.375rem, 1.5rem + 3.6vw, 4.25rem);  /* 68 desktop, 38 mobile */
+  --type-h1: clamp(2.25rem, 1.45rem + 3.3vw, 4rem);          /* 64 / 36 */
+  --type-h2: clamp(1.875rem, 1.35rem + 2.2vw, 3rem);         /* 48 / 30 */
+  --type-h3: clamp(1.3125rem, 1.15rem + 0.6vw, 1.625rem);    /* 26 / 21 */
+  --type-lead: 1.125rem;   /* 18 */
+  --type-body: 1rem;       /* 16, never smaller on mobile */
+  --type-small: 0.875rem;  /* 14 */
+  --type-caption: 0.8125rem; /* 13 */
+  --type-eyebrow: 0.75rem;   /* 12, +0.24em, 700 */
+
+  /* Spacing (4, 8, 12, 16, 24, 32, 48, 64, 96, 120) */
+  --space-1: 0.25rem; --space-2: 0.5rem; --space-3: 0.75rem; --space-4: 1rem; --space-5: 1.5rem;
+  --space-6: 2rem; --space-7: 3rem; --space-8: 4rem; --space-9: 6rem; --space-10: 7.5rem;
+  --band-space: clamp(3rem, 1.6rem + 5.4vw, 7rem); /* 48-56 mobile, 96-120 desktop */
+  --content-max: 85rem; /* 1360 px */
+  --gutter-desktop: 2.5rem; --gutter-tablet: 1.5rem; --gutter-mobile: 1.125rem;
+
+  /* Shape and depth */
+  --radius: 0;            /* square corners */
+  --target: 44px;         /* minimum control height */
+  --rule-raised: 3px;     /* brass top rule on raised panels */
+  --shadow-raised: 0 18px 40px -22px rgba(11, 30, 45, 0.35);
+  --focus-ring: 3px solid var(--color-ink);
+  --focus-offset: 2px;
+
+  color-scheme: light;
+}
+
+/* Dark mode (reader's choice in the footer): navy reading room, same brand colours */
+:root[data-theme="dark"] {
+  --color-bg: #0B1E2D; --color-bg-alt: #132A3D; --color-bg-raised: #132A3D;
+  --color-ink: #F4EFE6; --color-ink-2: #FFFFFF; --color-ink-3: #E7DCC8;
+  --color-brass-text: #C9A453; --color-text-soft: #C9C3B8;
+  --color-accent-1: #5FC4C4; --color-accent-2: #E87CAE;
+  --color-line: #2A445A; --color-line-strong: #7D8A96;
+  --color-on-ink: #0B1E2D; --color-on-ink-soft: #3F4A54;
+  --ev-unknown: #3A4652; --ev-unknown-text: #F4EFE6;
+  --map-sea: #0B1E2D; --map-land-fill: #1C3A52; --map-land-edge: #C9A453; --map-state-edge: #9DB0C2; --map-river: #6FA0C8;
+  --map-text: #F4E8D6; --map-text-halo: #0B1E2D; --map-text-soft: #C9BBA4;
+  --pin-operating: #C9A453; --pin-repurposed: #F4E8D6; --pin-demolished: #E87CAE; --pin-closed: #A9B4BE; --pin-ring: #0B1E2D;
+  --shadow-raised: 0 18px 40px -22px rgba(0, 0, 0, 0.7);
+  --ok-bg: #1D3A2A; --ok-fg: #CFEBD3; --ok-bd: #6FB27A;
+  --info-bg: #1B3350; --info-fg: #D5E3F6; --info-bd: #7AA3DF;
+  --prelim-bg: #3A3018; --prelim-fg: #F1DDAE; --prelim-bd: #C9A453;
+  --memory-bg: #33263D; --memory-fg: #E8D8F1; --memory-bd: #B497C9;
+  --warn-bg: #3D2E10; --warn-fg: #F8E2B5; --warn-bd: #D9A441;
+  --error: #F4A99F; --alert-bg: #42211C; --alert-fg: #F6D3CC; --alert-bd: #E0857D;
+  --none-bg: #2A3440; --none-fg: #E1DCD3; --none-bd: #9AA4AE;
+  color-scheme: dark;
+}
