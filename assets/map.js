@@ -1,5 +1,7 @@
-/* Real-site cinema map (Rounds 4 and 5). Leaflet with a self-hosted Natural Earth basemap, so the map makes no requests
-   to any tile server. Site data comes from assets/map/cinema-sites.js, built from src/brisbane.py and src/nswvic.py. */
+/* Genuine cinema map. Leaflet with a self-hosted Natural Earth basemap, so the map makes no requests
+   to any tile server. Site data comes from assets/map/cinema-sites.js. Sites whose location is "none" or "withheld"
+   (licensing or provenance under review) are never placed on the map; they stay in search and the record pages.
+   Public API on each map element: el._apaMap (Leaflet map), el._apaMarkers (id -> marker), el._apaFilter(idSet|null), el._apaFocus(id). */
 (function () {
   "use strict";
   if (!window.L || !window.APA_SITES || !window.APA_BASEMAP) return;
@@ -9,12 +11,13 @@
   // Sydney and Melbourne views are fitted to the mapped sites themselves, with a margin, so no bounds are invented.
   function regionBounds(r) {
     if (r === "brisbane") return BRISBANE;
-    var pts = DATA.sites.filter(function (s) { return s.region.toLowerCase() === r && s.loc.kind !== "none"; });
+    var pts = DATA.sites.filter(function (s) { return s.region.toLowerCase() === r && mappable(s); });
     if (!pts.length) return AUSTRALIA;
     var la = pts.map(function (s) { return s.loc.lat; }), lo = pts.map(function (s) { return s.loc.lon; });
     var pad = 0.03;
     return [[Math.min.apply(0, la) - pad, Math.min.apply(0, lo) - pad], [Math.max.apply(0, la) + pad, Math.max.apply(0, lo) + pad]];
   }
+  function mappable(s) { return (s.loc.kind === "site" || s.loc.kind === "city" || s.loc.kind === "suburb") && typeof s.loc.lat === "number"; }
   var REGION_NAME = { brisbane: "Brisbane", sydney: "Sydney", melbourne: "Melbourne", "regional queensland": "regional Queensland", "regional nsw": "regional New South Wales" };
 
   function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
@@ -38,10 +41,12 @@
       '<dl class="rm-conf"><div><dt>Location</dt><dd>' + esc(s.locLabel) + "</dd></div><div><dt>Evidence</dt><dd>" + esc(s.evidenceLabel) + "</dd></div></dl>" +
       '<p class="rm-locnote">' + esc(s.loc.note) + "</p>" + conflict +
       '<p class="rm-srch">Sources</p><ul class="rm-sources">' + src + "</ul>" +
-      '<p><a class="rm-record" href="research.html#site-' + esc(s.id) + '">Full research record</a></p></div>';
+      '<p><a class="rm-record" href="' + RECORD_BASE + esc(s.id) + '.html">Open the full cinema record</a></p></div>';
   }
 
+  var RECORD_BASE = "cinemas/";
   function init(el) {
+    RECORD_BASE = el.getAttribute("data-record-base") || "cinemas/";
     var map = L.map(el, { zoomSnap: 0.5, minZoom: 3, maxZoom: 16, attributionControl: true, worldCopyJump: false, scrollWheelZoom: false });
     map.attributionControl.setPrefix(false);
     map.attributionControl.addAttribution('Basemap: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a> (public domain), simplified. Not a street map. Map library: <a href="https://leafletjs.com/" target="_blank" rel="noopener">Leaflet</a>');
@@ -77,14 +82,15 @@
     map.on("resize", refitPopups);
 
     var cluster = L.markerClusterGroup({
-      maxClusterRadius: 44, spiderfyOnMaxZoom: true, showCoverageOnHover: false, zoomToBoundsOnClick: true,
+      maxClusterRadius: 64, spiderfyOnMaxZoom: true, showCoverageOnHover: false, zoomToBoundsOnClick: true,
       iconCreateFunction: function (c) {
         var n = c.getChildCount();
-        return L.divIcon({ className: "rm-cluster", html: '<span aria-hidden="true">' + n + "</span>", iconSize: [44, 44] });
+        return L.divIcon({ className: "rm-cluster", html: '<span aria-hidden="true">' + n + "</span>", iconSize: [40, 40] });
       }
     });
+    var markers = {};
     DATA.sites.forEach(function (s) {
-      if (s.loc.kind === "none") return;
+      if (!mappable(s)) return;
       var approx = s.loc.kind === "site" ? "" : ", approximate location";
       var m = L.marker([s.loc.lat, s.loc.lon], {
         icon: L.divIcon({ className: "rm-marker", html: markerHtml(s), iconSize: [30, 30], iconAnchor: [15, 15], popupAnchor: [0, -12] }),
@@ -92,6 +98,7 @@
       });
       m.bindPopup(popupHtml(s), popOpts());
       m.on("add", function () { var ic = m.getElement(); if (ic) { ic.setAttribute("aria-label", s.name + ", " + s.suburb + ". " + s.statusLabel + approx + ". Open details"); ic.setAttribute("role", "button"); } });
+      markers[s.id] = m;
       cluster.addLayer(m);
     });
     // Cluster icons need an accessible name too: they are focusable and open on Enter.
@@ -117,7 +124,7 @@
       var r = b.getAttribute("data-zoom");
       b.addEventListener("click", function () {
         map.closePopup(); map.flyToBounds(regionBounds(r), { duration: 0.6 });
-        var n = DATA.sites.filter(function (s) { return s.region.toLowerCase() === r && s.loc.kind !== "none"; }).length;
+        var n = DATA.sites.filter(function (s) { return s.region.toLowerCase() === r && mappable(s); }).length;
         say("Map zoomed to " + REGION_NAME[r] + ". " + n + " mapped sites in this area.");
       });
     });
@@ -146,6 +153,29 @@
     // A reduced-motion preference turns the fly animation into a jump.
     try { if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) { map.flyToBounds = function (b) { map.fitBounds(b); }; } } catch (e) { /* ignore */ }
     el._apaMap = map;
+    el._apaMarkers = markers;
+    // Filtering (used by Explore): show only the given site ids; null shows every mapped site.
+    el._apaFilter = function (ids) {
+      map.closePopup(); cluster.clearLayers();
+      var list = Object.keys(markers).filter(function (id) { return !ids || ids.has(id); }).map(function (id) { return markers[id]; });
+      cluster.addLayers(list);
+      // Fit the view to the matching cinemas (only when the map is visible, otherwise Leaflet measures zero size).
+      if (ids && list.length && el.offsetWidth) {
+        map.invalidateSize();
+        map.fitBounds(L.latLngBounds(list.map(function (m) { return m.getLatLng(); })).pad(0.15), { maxZoom: 14 });
+      }
+      setTimeout(nameClusters, 0);
+      return list.length;
+    };
+    // Focus one site: zoom until its marker is visible, then open its popup.
+    el._apaFocus = function (id) {
+      var m = markers[id]; if (!m) return false;
+      if (!cluster.hasLayer(m)) cluster.addLayer(m);
+      cluster.zoomToShowLayer(m, function () { m.openPopup(); });
+      return true;
+    };
+    var fq = (window.location.search.match(/[?&]focus=([a-z0-9-]+)/) || [])[1];
+    if (fq && el.hasAttribute("data-focus-from-url")) setTimeout(function () { if (el._apaFocus(fq)) { var s0 = DATA.sites.filter(function (s) { return s.id === fq; })[0]; say("Map shows " + s0.name + "."); } }, 200);
     // Maps inside a hidden panel (the Explore map view) need a size refresh when shown.
     var wasHidden = el.clientWidth === 0;
     if ("ResizeObserver" in window) new ResizeObserver(function () {
@@ -156,4 +186,5 @@
   }
 
   Array.prototype.forEach.call(document.querySelectorAll("[data-real-map]"), init);
+  try { window.dispatchEvent(new Event("apa:map-ready")); } catch (e) { /* old browsers */ }
 })();

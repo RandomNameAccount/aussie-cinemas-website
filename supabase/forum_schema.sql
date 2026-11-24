@@ -78,6 +78,7 @@ create table if not exists public.forum_moderation_log (
   note text,
   created_at timestamptz not null default now()
 );
+alter table public.forum_moderation_log add column if not exists target_profile uuid references public.profiles (id) on delete set null;
 
 -- ---------------------------------------------------------------- helpers
 create or replace function public.is_moderator() returns boolean
@@ -183,6 +184,12 @@ begin
   if tg_op = 'INSERT' then
     new.reporter_id := auth.uid(); new.status := 'open'; new.created_at := now();
     if new.reporter_id is null then raise exception 'Sign in to report a post.'; end if;
+    -- Phase A (M-05): the reported discussion or reply must exist and not be deleted.
+    if new.target_type = 'thread' and not exists (select 1 from forum_threads where id = new.target_id and status <> 'deleted') then
+      raise exception 'That discussion could not be found.';
+    elsif new.target_type = 'post' and not exists (select 1 from forum_posts where id = new.target_id and status <> 'deleted') then
+      raise exception 'That reply could not be found.';
+    end if;
   elsif auth.uid() is null then
     return new;
   elsif not public.is_moderator() then
@@ -195,17 +202,39 @@ begin
 end $$;
 
 -- Members cannot give themselves a role or lift a suspension.
+-- Phase A (M-04): a moderator acting on someone else's profile can change only the suspension date, and every
+-- change made by a moderator or admin to another member's profile is written to the moderation log.
 create or replace function public.profiles_guard() returns trigger
 language plpgsql security definer set search_path = public as $$
+declare is_adm boolean;
 begin
   if tg_op = 'INSERT' then
     new.id := auth.uid(); new.role := 'member'; new.suspended_until := null; new.created_at := now(); new.guidelines_accepted_at := now();
+    return new;
   elsif auth.uid() is null then
     return new;  -- SQL editor / service role
-  elsif not exists (select 1 from profiles where id = auth.uid() and role = 'admin') then
+  end if;
+  is_adm := exists (select 1 from profiles where id = auth.uid() and role = 'admin');
+  new.id := old.id; new.created_at := old.created_at;
+  new.age_16_confirmed := old.age_16_confirmed; new.guidelines_accepted_at := old.guidelines_accepted_at;
+  if not is_adm then
     new.role := old.role;
-    if not public.is_moderator() then new.suspended_until := old.suspended_until; end if;
-    new.id := old.id; new.created_at := old.created_at;
+    if old.id = auth.uid() then
+      new.suspended_until := old.suspended_until;          -- nobody lifts their own suspension
+    elsif public.is_moderator() then
+      new.display_name := old.display_name;                -- moderators may only suspend or unsuspend others
+    else
+      raise exception 'You can only change your own profile.';
+    end if;
+  end if;
+  if old.id <> auth.uid() and (new.display_name is distinct from old.display_name or new.role is distinct from old.role
+                               or new.suspended_until is distinct from old.suspended_until) then
+    insert into forum_moderation_log (actor_id, target_type, target_id, target_profile, action, note)
+    values (auth.uid(), 'profile', 0, old.id, 'profile changed',
+            concat_ws('; ',
+              case when new.display_name is distinct from old.display_name then 'display name: ' || old.display_name || ' -> ' || new.display_name end,
+              case when new.role is distinct from old.role then 'role: ' || old.role || ' -> ' || new.role end,
+              case when new.suspended_until is distinct from old.suspended_until then 'suspended until: ' || coalesce(old.suspended_until::text, 'none') || ' -> ' || coalesce(new.suspended_until::text, 'none') end));
   end if;
   return new;
 end $$;
@@ -332,3 +361,18 @@ drop policy if exists "ads admin update" on public.ads;
 create policy "ads admin update" on public.ads for update to authenticated using (public.is_admin()) with check (public.is_admin());
 drop policy if exists "ads admin delete" on public.ads;
 create policy "ads admin delete" on public.ads for delete to authenticated using (public.is_admin());
+
+-- ---------------------------------------------------------------- Phase A (M-03): public profile information
+-- Visitors and members can read only a member's id, display name and join date. Role, suspension date,
+-- age confirmation and guideline acceptance are no longer readable through the public API.
+-- A signed-in member reads their own full profile through public.my_profile().
+revoke select on public.profiles from anon, authenticated;
+grant select (id, display_name, created_at) on public.profiles to anon, authenticated;
+
+create or replace function public.my_profile()
+returns table (id uuid, display_name text, role text, suspended_until timestamptz)
+language sql stable security definer set search_path = public as $$
+  select p.id, p.display_name, p.role, p.suspended_until from public.profiles p where p.id = auth.uid();
+$$;
+revoke execute on function public.my_profile() from public, anon;
+grant execute on function public.my_profile() to authenticated;

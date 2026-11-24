@@ -1,5 +1,5 @@
 /* Front-end-only prototype behaviour. Nothing is sent or stored anywhere except an optional
-   search phrase kept in this browser tab (sessionStorage) to carry it from the homepage to Explore. */
+   search phrase used to be kept in sessionStorage; search now uses explore.html?q= (Phase A). */
 (function () {
   "use strict";
   function $(s, r) { return (r || document).querySelector(s); }
@@ -44,58 +44,67 @@
   });
   syncToggles();
 
-  /* Homepage search: carry the phrase to Explore */
-  $$("[data-search-form]").forEach(function (f) {
-    f.addEventListener("submit", function (ev) {
-      ev.preventDefault();
-      store("apa-q", (f.elements.q.value || "").trim());
-      window.location.href = "explore.html";
-    });
-  });
+  /* Homepage search is a plain GET form to explore.html?q=..., so it works without JavaScript too. */
 
-  /* Explore: filters, list and map views */
-  var filters = $("[data-filters]");
-  if (filters) {
-    var cards = $$("[data-list] .card"), pins = $$("[data-map] .pin"), count = $("[data-count]");
-    var listEl = $("[data-list]"), mapEl = $("[data-map]"), empty = $("[data-empty]");
-    var view = "list";
-    var eraOf = {}; pins.forEach(function (p) { eraOf[p.getAttribute("data-id")] = p; });
-
-    function readHash() {
+  /* Explore: search and filters over the genuine records (built by tools/build_genuine.py), list and map views.
+     Search matches every word against the name, former names, address, suburb or town, region, state and status. */
+  var gx = $("[data-gx-filters]");
+  if (gx) {
+    var items = $$("[data-list] .gx-item"), count = $("[data-count]"), listWrap = $("[data-list-wrap]"), mapEl = $("[data-map]"), empty = $("[data-empty]");
+    var mapCanvas = $("[data-map] [data-real-map]");
+    var view = "list", total = items.length;
+    function norm(t) { return String(t || "").toLowerCase().replace(/&/g, " and ").replace(/[\u2019'`]/g, "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim(); }
+    function readUrl() {
+      var p = new URLSearchParams(window.location.search);
+      if (p.get("q")) gx.elements.q.value = p.get("q");
+      if (p.get("state")) gx.elements.state.value = p.get("state").toLowerCase();
       var h = (window.location.hash || "").slice(1);
-      if (h.indexOf("state-") === 0) filters.elements.state.value = h.slice(6);
-      if (h === "view-map") view = "map";
+      if (h.indexOf("state-") === 0) gx.elements.state.value = h.slice(6);
+      if (h === "view-map" || p.get("view") === "map") view = "map";
     }
+    function writeUrl() {
+      var p = new URLSearchParams();
+      var q = gx.elements.q.value.trim(); if (q) p.set("q", q);
+      if (gx.elements.state.value) p.set("state", gx.elements.state.value);
+      if (view === "map") p.set("view", "map");
+      var url = window.location.pathname + (p.toString() ? "?" + p.toString() : "");
+      try { history.replaceState(null, "", url); } catch (e) { /* ignore */ }
+    }
+    function checked(name) { return $$("input[name=" + name + "]:checked", gx).map(function (i) { return i.value; }); }
     function apply() {
-      var q = filters.elements.q.value.trim().toLowerCase();
-      var st = filters.elements.state.value, era = filters.elements.era.value, ty = filters.elements.type.value;
-      var statuses = $$("input[name=status]:checked", filters).map(function (i) { return i.value; });
-      var shown = 0, visibleIds = {};
-      cards.forEach(function (c) {
-        var ok = (!q || c.getAttribute("data-text").indexOf(q) !== -1 || c.getAttribute("data-type").indexOf(q.replace(" ", "-")) !== -1) &&
-          (!st || c.getAttribute("data-state") === st) && (!era || c.getAttribute("data-era") === era) &&
-          (!ty || c.getAttribute("data-type") === ty) && statuses.indexOf(c.getAttribute("data-status")) !== -1;
+      var words = norm(gx.elements.q.value).split(" ").filter(Boolean);
+      var st = gx.elements.state.value, loc = gx.elements.loc.value, era = gx.elements.era.value;
+      var statuses = checked("status"), evid = checked("evidence");
+      var shown = 0, ids = new Set();
+      items.forEach(function (c) {
+        var hay = c.getAttribute("data-search");
+        var ok = words.every(function (w) { return hay.indexOf(w) !== -1; }) &&
+          (!st || c.getAttribute("data-state") === st) && (!loc || c.getAttribute("data-loc") === loc) && (!era || c.getAttribute("data-era") === era) &&
+          statuses.indexOf(c.getAttribute("data-status")) !== -1 && evid.indexOf(c.getAttribute("data-evidence")) !== -1;
         c.hidden = !ok;
-        if (ok) { shown++; visibleIds[$("h3 a", c).getAttribute("href")] = true; }
+        if (ok) { shown++; ids.add(c.getAttribute("data-id")); }
       });
-      pins.forEach(function (p) { p.classList.toggle("is-hidden", !visibleIds[p.getAttribute("href")]); });
-      count.textContent = shown + (shown === 1 ? " cinema" : " cinemas") + (st || era || ty || q || statuses.length < 4 ? " match your filters" : "");
+      var filtered = words.length || st || loc || era || statuses.length < 4 || evid.length < 3;
       empty.hidden = shown !== 0;
-      listEl.hidden = view !== "list" || shown === 0;
+      listWrap.hidden = view !== "list" || shown === 0;
       mapEl.hidden = view !== "map" || shown === 0;
+      var onMap = mapCanvas && mapCanvas._apaFilter ? mapCanvas._apaFilter(filtered ? ids : null) : null;
+      count.textContent = shown + (shown === 1 ? " cinema" : " cinemas") + (filtered ? " match" : "") +
+        (view === "map" && onMap !== null ? " (" + onMap + " on the map" + (onMap < shown ? "; the rest have no public location and stay in the list" : "") + ")" : "");
       $$("[data-view]").forEach(function (b) { b.setAttribute("aria-pressed", String(b.getAttribute("data-view") === view)); });
+      writeUrl();
     }
-    var saved = store("apa-q");
-    if (saved) { filters.elements.q.value = saved; store("apa-q", null); }
-    readHash();
-    filters.addEventListener("input", apply);
-    filters.addEventListener("change", apply);
-    filters.addEventListener("submit", function (ev) { ev.preventDefault(); });
-    filters.addEventListener("reset", function () { setTimeout(apply, 0); });
-    $("[data-clear]").addEventListener("click", function () { filters.reset(); });
+    readUrl();
+    gx.addEventListener("input", apply);
+    gx.addEventListener("change", apply);
+    gx.addEventListener("submit", function (ev) { ev.preventDefault(); apply(); });
+    gx.addEventListener("reset", function () { setTimeout(apply, 0); });
+    $("[data-clear]").addEventListener("click", function () { gx.reset(); gx.elements.q.focus(); });
     $$("[data-view]").forEach(function (b) { b.addEventListener("click", function () { view = b.getAttribute("data-view"); apply(); }); });
-    window.addEventListener("hashchange", function () { readHash(); apply(); });
+    window.addEventListener("hashchange", function () { readUrl(); apply(); });
     apply();
+    // The map script loads after this one; filter it once it is ready.
+    window.addEventListener("apa:map-ready", apply);
   }
 
   /* Share form: plain-language date interpretation, validation and a preview that sends nothing */
@@ -135,8 +144,8 @@
     when.addEventListener("input", updateWhen);
     function updateKind() { matBox.hidden = form.elements.kind.value !== "material"; }
     $$("input[name=kind]", form).forEach(function (r) { r.addEventListener("change", updateKind); });
-    var cinemaFromHash = (window.location.hash || "").match(/^#cinema-(.+)$/);
-    if (cinemaFromHash) { var sel = $("#s-cinema"); sel.value = cinemaFromHash[1]; }
+    var cinemaParam = new URLSearchParams(window.location.search).get("cinema") || ((window.location.hash || "").match(/^#cinema-(.+)$/) || [])[1];
+    if (cinemaParam) { var sel = $("#s-cinema"); if (sel && sel.querySelector('option[value="' + cinemaParam.replace(/[^a-z0-9-]/g, "") + '"]')) sel.value = cinemaParam; }
     function setError(el, msg) {
       el.setAttribute("aria-invalid", "true");
       var id = el.id + "-err", p = document.getElementById(id);

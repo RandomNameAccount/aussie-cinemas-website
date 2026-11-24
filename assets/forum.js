@@ -44,7 +44,7 @@
     me.user = s.data.session ? s.data.session.user : null;
     me.profile = null;
     if (me.user) {
-      var p = await sb.from("profiles").select("id, display_name, role").eq("id", me.user.id).maybeSingle();
+      var p = await sb.rpc("my_profile").maybeSingle();  // M-03: role is no longer publicly readable
       me.profile = p.data || null;
     }
     renderAuth();
