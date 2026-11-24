@@ -1357,8 +1357,7 @@ img { height: auto; }
 /* Architectural section heads: hairline rule above, heading and lede on one baseline */
 .section-head { border-top: 1px solid var(--color-line); padding-top: clamp(1rem, 0.6rem + 1vw, 1.75rem); }
 .hero + .rmap-section .section-head { border-top: 0; padding-top: 0; }
-.section-head .eyebrow { display: flex; align-items: center; gap: 0.75rem; }
-.section-head .eyebrow::before { content: ""; width: 2.25rem; height: 1px; background: var(--brand-brass); flex: none; }
+.section-head .eyebrow { display: block; }
 
 /* Hero: bigger picture, panel anchored to its lower edge */
 .hero-scene { height: clamp(30rem, 20rem + 26vw, 48rem); }
