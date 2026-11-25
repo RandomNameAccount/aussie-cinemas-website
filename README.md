@@ -35,3 +35,14 @@ Released at Matt's request on 24 November 2026.
 - Phones: tighter section spacing, a shorter header and menu, states in a 4-across grid, and What's On cards that swipe sideways.
 - Same logo file (`assets/img/brand/fca-logo.png`) in the header and phone menu; the footer uses the same artwork on a white tile.
 - Evidence labels, source citations, and the fictional/real labelling are unchanged. Member accounts, forums, giveaways and payments stay switched off.
+
+## Research leads (Phase B)
+
+Unverified research for SA, ACT, Queensland (round 2), Tasmania and WA is published, with the owner's approval, as **research leads**, kept separate from the genuine records:
+
+- data: `assets/data/leads-<state>.json` (exported from the Phase B staging databases)
+- pages: `leads/<id>.html`, listed in Explore with the "Research lead, not yet verified" badge and filter
+- leads have no map pins, photographs or personal details, and every page says the details are not yet checked
+- Queensland round-2 leads that match an existing QLD record are not published, so no cinema appears twice
+
+Rebuild everything with `python3 tools/build_genuine.py` (it runs `tools/build_leads.py` at the end). To remove a state's leads, delete its JSON file and rebuild.

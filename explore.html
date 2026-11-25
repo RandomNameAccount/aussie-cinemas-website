@@ -37,7 +37,7 @@
     <div class="field"><label for="f-q">Cinema, former name, suburb or town</label><input id="f-q" type="search" name="q" autocomplete="off" aria-describedby="f-q-hint"><p class="hint" id="f-q-hint">For example Regent, Toowoomba or Hoyts.</p></div>
     <div class="field"><label for="f-state">State or territory</label><select id="f-state" name="state"><option value="">All of Australia</option><option value="qld">Queensland</option><option value="nsw">New South Wales</option><option value="vic">Victoria</option><option value="wa" disabled>Western Australia (no records yet)</option><option value="sa" disabled>South Australia (no records yet)</option><option value="tas" disabled>Tasmania (no records yet)</option><option value="nt" disabled>Northern Territory (no records yet)</option><option value="act" disabled>Australian Capital Territory (no records yet)</option></select></div>
     <fieldset class="field"><legend>Status today</legend><div class="choices"><label class="choice"><input type="checkbox" name="status" value="operating" checked> Operating cinema</label><label class="choice"><input type="checkbox" name="status" value="repurposed" checked> Building survives, other use</label><label class="choice"><input type="checkbox" name="status" value="demolished" checked> Demolished</label><label class="choice"><input type="checkbox" name="status" value="closed" checked> Closed or not stated</label></div></fieldset>
-    <fieldset class="field"><legend>Evidence</legend><div class="choices"><label class="choice"><input type="checkbox" name="evidence" value="confirmed" checked> Heritage register confirms name and address</label><label class="choice"><input type="checkbox" name="evidence" value="strong" checked> Two published sources agree</label><label class="choice"><input type="checkbox" name="evidence" value="prelim" checked> Single secondary source (preliminary)</label></div></fieldset>
+    <fieldset class="field"><legend>Evidence</legend><div class="choices"><label class="choice"><input type="checkbox" name="evidence" value="confirmed" checked> Heritage register confirms name and address</label><label class="choice"><input type="checkbox" name="evidence" value="strong" checked> Two published sources agree</label><label class="choice"><input type="checkbox" name="evidence" value="prelim" checked> Single secondary source (preliminary)</label><label class="choice"><input type="checkbox" name="evidence" value="lead" checked> Research lead, not yet verified</label></div></fieldset>
     <div class="field"><label for="f-loc">Location</label><select id="f-loc" name="loc"><option value="">Any</option><option value="site">Published site point</option><option value="approx">Approximate (city centre)</option><option value="notmapped">Not on the map</option></select></div>
     <div class="field"><label for="f-era">Opened</label><select id="f-era" name="era"><option value="">Any time</option><option value="pre1930">Before 1930</option><option value="1930s40s">1930 to 1949</option><option value="1950s60s">1950 to 1969</option><option value="1970s80s">1970 to 1989</option><option value="1990on">1990 to today</option><option value="unknown">No opening date recorded</option></select></div>
     <button class="btn btn-secondary" type="reset"><span>Clear search and filters</span></button>
@@ -494,6 +494,11 @@
 </li>
 </ul>
 <!-- GENUINE-RESULTS:END -->
+<!-- LEAD-RESULTS:START -->
+<ul class="gx-list" data-list>
+
+</ul>
+<!-- LEAD-RESULTS:END -->
     </div>
     <div data-map hidden class="map-view">
       <p class="notice n-info" data-map-note>The map shows the cinemas that match your search and filters and have a public location. Cinemas without a placeable or released location stay in the list.</p>

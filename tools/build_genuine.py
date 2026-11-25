@@ -117,7 +117,7 @@ mapped = sum(counts.values())
 withheld = sum(1 for s in SITES if s["loc"]["kind"] == "withheld")
 unmapped = sum(1 for s in SITES if s["loc"]["kind"] == "none")
 region_text = ", ".join(f"{r} {counts.get(r, 0)}" for r in ["Brisbane", "Sydney", "Melbourne", "Regional Queensland", "Regional NSW"])
-research = re.sub(r"73 sites, \d+ on the map:[^.]*\.( \d+ more are listed but not yet mapped\.)?( \d+ more [^.]*\.)*",
+research = re.sub(r"\d+ sites, \d+ on the map:[^.]*\.( \d+ more are listed but not yet mapped\.)?( \d+ more [^.]*\.)*( \d+ have no placeable location and \d+ have their location withheld [^.]*\.)*",
                   f"{len(SITES)} sites, {mapped} on the map: {region_text}. {unmapped} have no placeable location and {withheld} have their location withheld while its licence or provenance is reviewed.",
                   research, count=1)
 open("research.html", "w", encoding="utf-8").write(research)
@@ -311,3 +311,7 @@ if sh2 != sh:
     open("share.html", "w", encoding="utf-8").write(sh2); print("share.html cinema list updated")
 
 print(f"{len(SITES)} record pages written to cinemas/; {mapped} mapped, {withheld} withheld, {unmapped} unmapped")
+
+# ---------------------------------------------------------------- Research leads (kept separate from genuine records)
+import runpy
+runpy.run_path(os.path.join(ROOT, "tools", "build_leads.py"), run_name="__main__")

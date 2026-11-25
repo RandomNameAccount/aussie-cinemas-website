@@ -84,7 +84,7 @@
         c.hidden = !ok;
         if (ok) { shown++; ids.add(c.getAttribute("data-id")); }
       });
-      var filtered = words.length || st || loc || era || statuses.length < 4 || evid.length < 3;
+      var filtered = words.length || st || loc || era || statuses.length < 4 || evid.length < 4;
       empty.hidden = shown !== 0;
       listWrap.hidden = view !== "list" || shown === 0;
       mapEl.hidden = view !== "map" || shown === 0;
