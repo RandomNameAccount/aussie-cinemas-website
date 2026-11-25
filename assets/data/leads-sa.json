@@ -1,0 +1,3404 @@
+[
+ {
+  "aliases": [
+   "Chelsea Cinema",
+   "Princess Theatre",
+   "Marryatville Ozone",
+   "Chelsea"
+  ],
+  "address": "275 Kensington Road",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Construction year reported 1925; heritage ID reported 10952."
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (batch_SA-B002-001)",
+    "url": "https://maps.sa.gov.au/heritagesearch/HeritageItem.aspx?p_heritageno=8398"
+   },
+   {
+    "label": "Source reference adelaideaz-smith (national catalogue; link to be added)",
+    "url": ""
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "APA-SA-00004",
+  "candidateIds": [
+   "SA-R-0001"
+  ],
+  "id": "apa-sa-00004",
+  "state": "SA",
+  "name": "Regal Theatre",
+  "locality": "Kensington Park",
+  "basis": "From an earlier research batch citing a South Australian Heritage Register item; needs re-checking."
+ },
+ {
+  "aliases": [
+   "New Goodwood Star Theatre",
+   "New Curzon",
+   "New Star Theatre",
+   "Goodwood Star",
+   "Cinema Capri"
+  ],
+  "address": "141 Goodwood Road",
+  "type": "cinema",
+  "facts": [
+   [
+    "Opened (as recorded)",
+    "1941 (built)"
+   ]
+  ],
+  "notes": [
+   "Construction year reported 1941; heritage ID reported 10670."
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (heritage)",
+    "url": "https://cdn.environment.sa.gov.au/environment/images/26556-Victa-Cinema_CON_Assessment_17AUG2023.pdf"
+   },
+   {
+    "label": "Source reference sahr10670 (national catalogue; link to be added)",
+    "url": ""
+   },
+   {
+    "label": "Source reference wp-capri (national catalogue; link to be added)",
+    "url": ""
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "APA-SA-00001",
+  "candidateIds": [
+   "SA-R-0002"
+  ],
+  "id": "apa-sa-00001",
+  "state": "SA",
+  "name": "Capri Theatre",
+  "locality": "Goodwood",
+  "basis": "A heritage or official source was reported as checked by the researcher; Film Cinemas Australia has not yet checked each claim."
+ },
+ {
+  "aliases": [
+   "Forum"
+  ],
+  "address": "181–189 O’Connell Street",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Construction year reported 1940; heritage ID reported 13496."
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (survey)",
+    "url": "https://cdn.environment.sa.gov.au/environment/docs/her-gen-heritagesurvey2-1928-1945part1.pdf"
+   },
+   {
+    "label": "Source reference sahr13496 (national catalogue; link to be added)",
+    "url": ""
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "APA-SA-00003",
+  "candidateIds": [
+   "SA-R-0003"
+  ],
+  "id": "apa-sa-00003",
+  "state": "SA",
+  "name": "Piccadilly Theatre",
+  "locality": "North Adelaide",
+  "basis": "A heritage or official source was reported as checked by the researcher; Film Cinemas Australia has not yet checked each claim."
+ },
+ {
+  "aliases": [
+   "Regent Theatre"
+  ],
+  "address": "101–109 Rundle Mall",
+  "type": "cinema",
+  "facts": [
+   [
+    "Opened (as recorded)",
+    "1928 (built)"
+   ]
+  ],
+  "notes": [
+   "Construction year reported 1928; heritage ID reported 13373."
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (batch_SA-B002-004)",
+    "url": "https://maps.sa.gov.au/heritagesearch/HeritageItem.aspx?p_heritageno=1617"
+   },
+   {
+    "label": "Source reference sahr13373 (national catalogue; link to be added)",
+    "url": ""
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "APA-SA-00005",
+  "candidateIds": [
+   "SA-R-0004"
+  ],
+  "id": "apa-sa-00005",
+  "state": "SA",
+  "name": "Regent Theatre (former; facade)",
+  "locality": "Adelaide",
+  "basis": "From an earlier research batch citing a South Australian Heritage Register item; needs re-checking."
+ },
+ {
+  "aliases": [
+   "Ozone Theatre",
+   "Victor Theatre"
+  ],
+  "address": "37–41 Ocean Street",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Construction year reported 1934; heritage ID reported 26556."
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (victa)",
+    "url": "https://cdn.environment.sa.gov.au/environment/docs/26556_SSHP-REG_Victa-Cinema-Former-Ozone-Theatre_17AUG2023.pdf"
+   }
+  ],
+  "conflicts": [
+   "SA-R-0005: Distinguish 1923 business commencement from 1934 building construction",
+   "Alias 'Ozone Theatre' used for Victa (SA-R-0005) and Mount Gambier Institute (SA-R-0022); Ozone was a chain name used across many towns"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0005"
+  ],
+  "id": "sa-r-0005",
+  "state": "SA",
+  "name": "Victa Cinema",
+  "locality": "Victor Harbor",
+  "basis": "A heritage or official source was reported as checked by the researcher; Film Cinemas Australia has not yet checked each claim."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0006"
+  ],
+  "id": "sa-r-0006",
+  "state": "SA",
+  "name": "Semaphore Ozone",
+  "locality": "Semaphore",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Odeon Star"
+  ],
+  "address": "63–65A Semaphore Road",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [
+   "Alias 'Odeon Star' attached to two venues: Wondergraph Semaphore (SA-R-0007) and Woodville Town Hall (SA-R-0050)"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0007"
+  ],
+  "id": "sa-r-0007",
+  "state": "SA",
+  "name": "Wondergraph Picture Palace",
+  "locality": "Semaphore",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0008"
+  ],
+  "id": "sa-r-0008",
+  "state": "SA",
+  "name": "West's Olympia",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0009"
+  ],
+  "id": "sa-r-0009",
+  "state": "SA",
+  "name": "Theatre Royal",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0010"
+  ],
+  "id": "sa-r-0010",
+  "state": "SA",
+  "name": "Melba Cinema",
+  "locality": "Dulwich",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "1; demolished 1960s reported"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0011"
+  ],
+  "id": "sa-r-0011",
+  "state": "SA",
+  "name": "York Theatre",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Glenelg Cinema Centre"
+  ],
+  "address": "119 Jetty Road",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "7; closed 2009; demolished 2011 reported"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0012"
+  ],
+  "id": "sa-r-0012",
+  "state": "SA",
+  "name": "Glenelg Ozone",
+  "locality": "Glenelg",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "13 Morphett Street",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0013"
+  ],
+  "id": "sa-r-0013",
+  "state": "SA",
+  "name": "Mercury Cinema",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Greater Union Arndale"
+  ],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0014"
+  ],
+  "id": "sa-r-0014",
+  "state": "SA",
+  "name": "Hoyts Arndale",
+  "locality": "Kilkenny",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0015"
+  ],
+  "id": "sa-r-0015",
+  "state": "SA",
+  "name": "IMAX Multiplex",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0016"
+  ],
+  "id": "sa-r-0016",
+  "state": "SA",
+  "name": "Cameo Cinema",
+  "locality": "Murray Bridge",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "Lot 1801 Hutchison Street",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0017"
+  ],
+  "id": "sa-r-0017",
+  "state": "SA",
+  "name": "Coober Pedy Drive-in",
+  "locality": "Coober Pedy",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0018"
+  ],
+  "id": "sa-r-0018",
+  "state": "SA",
+  "name": "Starline Drive-in",
+  "locality": "Gilles Plains",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0019"
+  ],
+  "id": "sa-r-0019",
+  "state": "SA",
+  "name": "Hollywood Drive-in",
+  "locality": "Salisbury Downs",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0020"
+  ],
+  "id": "sa-r-0020",
+  "state": "SA",
+  "name": "Starline Drive-in",
+  "locality": "O'Halloran Hill",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "7 Percy Street",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "7 opening reported"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0021"
+  ],
+  "id": "sa-r-0021",
+  "state": "SA",
+  "name": "Oatmill Cinema",
+  "locality": "Mount Gambier",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "King's Theatre",
+   "Ozone Theatre"
+  ],
+  "address": "8–20 Commercial Street East",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Multi-use hall or institute: confirm regular film screenings before treating as a cinema"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [
+   "Alias 'Ozone Theatre' used for Victa (SA-R-0005) and Mount Gambier Institute (SA-R-0022); Ozone was a chain name used across many towns"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0022"
+  ],
+  "id": "sa-r-0022",
+  "state": "SA",
+  "name": "Mount Gambier Institute",
+  "locality": "Mount Gambier",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0023"
+  ],
+  "id": "sa-r-0023",
+  "state": "SA",
+  "name": "Pacific Theatre",
+  "locality": "Whyalla",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "Forsyth Street",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0024"
+  ],
+  "id": "sa-r-0024",
+  "state": "SA",
+  "name": "Ozone Theatre",
+  "locality": "Whyalla",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0025"
+  ],
+  "id": "sa-r-0025",
+  "state": "SA",
+  "name": "Chaffey Theatre",
+  "locality": "Renmark",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0026"
+  ],
+  "id": "sa-r-0026",
+  "state": "SA",
+  "name": "Groveline Drive-in",
+  "locality": "Renmark",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0027"
+  ],
+  "id": "sa-r-0027",
+  "state": "SA",
+  "name": "Lyric Theatre",
+  "locality": "Renmark",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Capitol"
+  ],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Multi-use hall or institute: confirm regular film screenings before treating as a cinema"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0028"
+  ],
+  "id": "sa-r-0028",
+  "state": "SA",
+  "name": "Renmark Memorial Hall",
+  "locality": "Renmark",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Arcadia"
+  ],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0029"
+  ],
+  "id": "sa-r-0029",
+  "state": "SA",
+  "name": "Ozone Theatre",
+  "locality": "Renmark",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0030"
+  ],
+  "id": "sa-r-0030",
+  "state": "SA",
+  "name": "Roxy Gardens",
+  "locality": "Renmark",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0031"
+  ],
+  "id": "sa-r-0031",
+  "state": "SA",
+  "name": "Flinders Drive-in",
+  "locality": "Port Augusta",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [
+   "Town Hall Pictures"
+  ],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0032"
+  ],
+  "id": "sa-r-0032",
+  "state": "SA",
+  "name": "Chelsea Cinema",
+  "locality": "Port Augusta",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Brian Evans Theatre"
+  ],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0033"
+  ],
+  "id": "sa-r-0033",
+  "state": "SA",
+  "name": "Cinema Augusta",
+  "locality": "Port Augusta",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0034"
+  ],
+  "id": "sa-r-0034",
+  "state": "SA",
+  "name": "Bel Air Drive-in",
+  "locality": "Port Lincoln",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [
+   "Lincoln Cinema"
+  ],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0035"
+  ],
+  "id": "sa-r-0035",
+  "state": "SA",
+  "name": "Flinders Picture Theatre",
+  "locality": "Port Lincoln",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0036"
+  ],
+  "id": "sa-r-0036",
+  "state": "SA",
+  "name": "Alhambra Pavilion",
+  "locality": "Port Pirie",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0037"
+  ],
+  "id": "sa-r-0037",
+  "state": "SA",
+  "name": "Port Pirie Drive-in",
+  "locality": "Port Pirie",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0038"
+  ],
+  "id": "sa-r-0038",
+  "state": "SA",
+  "name": "South Coast Drive-in",
+  "locality": "Port Elliot",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0039"
+  ],
+  "id": "sa-r-0039",
+  "state": "SA",
+  "name": "South Coast Cinema",
+  "locality": "Robe",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0040"
+  ],
+  "id": "sa-r-0040",
+  "state": "SA",
+  "name": "Outback Cinema",
+  "locality": "Roxby Downs",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0041"
+  ],
+  "id": "sa-r-0041",
+  "state": "SA",
+  "name": "Ascot Cinema",
+  "locality": "Kadina",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Peninsular Drive-in"
+  ],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0042"
+  ],
+  "id": "sa-r-0042",
+  "state": "SA",
+  "name": "Sunset Drive-in",
+  "locality": "Kadina",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [
+   "Rex Theatre"
+  ],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0043"
+  ],
+  "id": "sa-r-0043",
+  "state": "SA",
+  "name": "Pavilion",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Mayfair",
+   "Sturt"
+  ],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0044"
+  ],
+  "id": "sa-r-0044",
+  "state": "SA",
+  "name": "Grand Picture Theatre",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0045"
+  ],
+  "id": "sa-r-0045",
+  "state": "SA",
+  "name": "Metro Theatre",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0046"
+  ],
+  "id": "sa-r-0046",
+  "state": "SA",
+  "name": "Savoy Theatre",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0047"
+  ],
+  "id": "sa-r-0047",
+  "state": "SA",
+  "name": "Majestic Theatre",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0048"
+  ],
+  "id": "sa-r-0048",
+  "state": "SA",
+  "name": "Curzon Cinema",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Paris"
+  ],
+  "address": "Grenfell Street",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "5 opening reported; successor New Paris separate building"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0049"
+  ],
+  "id": "sa-r-0049",
+  "state": "SA",
+  "name": "Plaza Theatre",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Odeon Star"
+  ],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Multi-use hall or institute: confirm regular film screenings before treating as a cinema"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [
+   "Alias 'Odeon Star' attached to two venues: Wondergraph Semaphore (SA-R-0007) and Woodville Town Hall (SA-R-0050)"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0050"
+  ],
+  "id": "sa-r-0050",
+  "state": "SA",
+  "name": "Woodville Town Hall",
+  "locality": "Woodville",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0051"
+  ],
+  "id": "sa-r-0051",
+  "state": "SA",
+  "name": "Thebarton Theatre",
+  "locality": "Thebarton",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0052"
+  ],
+  "id": "sa-r-0052",
+  "state": "SA",
+  "name": "Vogue Theatre",
+  "locality": "Unley",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Star Theatre"
+  ],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Multi-use hall or institute: confirm regular film screenings before treating as a cinema"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0053"
+  ],
+  "id": "sa-r-0053",
+  "state": "SA",
+  "name": "Hindmarsh Town Hall",
+  "locality": "Hindmarsh",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [
+   "3 versus 1954 opening disputed"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [
+   "3 versus 1954 opening disputed"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0054"
+  ],
+  "id": "sa-r-0054",
+  "state": "SA",
+  "name": "Blueline Drive-in",
+  "locality": "West Beach",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0055"
+  ],
+  "id": "sa-r-0055",
+  "state": "SA",
+  "name": "Mainline Drive-in",
+  "locality": "Gepps Cross",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0056"
+  ],
+  "id": "sa-r-0056",
+  "state": "SA",
+  "name": "Hiline Drive-in",
+  "locality": "Panorama",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0057"
+  ],
+  "id": "sa-r-0057",
+  "state": "SA",
+  "name": "Harbourline Drive-in",
+  "locality": "Outer Harbour",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0058"
+  ],
+  "id": "sa-r-0058",
+  "state": "SA",
+  "name": "Oceanline Drive-in",
+  "locality": "Christies Beach",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0059"
+  ],
+  "id": "sa-r-0059",
+  "state": "SA",
+  "name": "Parkline Drive-in",
+  "locality": "Mitchell Park",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0060"
+  ],
+  "id": "sa-r-0060",
+  "state": "SA",
+  "name": "Valleyline Drive-in",
+  "locality": "St Agnes",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0061"
+  ],
+  "id": "sa-r-0061",
+  "state": "SA",
+  "name": "Metro Twin Drive-in",
+  "locality": "Marion",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0062"
+  ],
+  "id": "sa-r-0062",
+  "state": "SA",
+  "name": "Murrayline Drive-in",
+  "locality": "Berri",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0063"
+  ],
+  "id": "sa-r-0063",
+  "state": "SA",
+  "name": "Barossaline Drive-in",
+  "locality": "Tanunda",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0064"
+  ],
+  "id": "sa-r-0064",
+  "state": "SA",
+  "name": "Riverline Drive-in",
+  "locality": "Loxton",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0065"
+  ],
+  "id": "sa-r-0065",
+  "state": "SA",
+  "name": "Bonneyline Drive-in",
+  "locality": "Barmera",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0066"
+  ],
+  "id": "sa-r-0066",
+  "state": "SA",
+  "name": "Northline Drive-in",
+  "locality": "Clare",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Industry screening room: confirm public cinema scope"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0067"
+  ],
+  "id": "sa-r-0067",
+  "state": "SA",
+  "name": "Adelaide Studios Screening Theatre",
+  "locality": "Glenside",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "33 Fussell Place",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0068"
+  ],
+  "id": "sa-r-0068",
+  "state": "SA",
+  "name": "Alberton Ozone",
+  "locality": "Alberton",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0069"
+  ],
+  "id": "sa-r-0069",
+  "state": "SA",
+  "name": "Port Adelaide Ozone",
+  "locality": "Port Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "163 St Vincent Street",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Multi-use hall or institute: confirm regular film screenings before treating as a cinema"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0070"
+  ],
+  "id": "sa-r-0070",
+  "state": "SA",
+  "name": "Port Adelaide Town Hall",
+  "locality": "Port Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "378 Seaview Road",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Multi-use hall or institute: confirm regular film screenings before treating as a cinema"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0071"
+  ],
+  "id": "sa-r-0071",
+  "state": "SA",
+  "name": "Henley Beach Town Hall",
+  "locality": "Henley Beach",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Odeon"
+  ],
+  "address": "226–230 The Parade",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0072"
+  ],
+  "id": "sa-r-0072",
+  "state": "SA",
+  "name": "Star Theatre",
+  "locality": "Norwood",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "195–197 The Parade",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0073"
+  ],
+  "id": "sa-r-0073",
+  "state": "SA",
+  "name": "Wells' Picture Palace",
+  "locality": "Norwood",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Ozone"
+  ],
+  "address": "175 The Parade",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Multi-use hall or institute: confirm regular film screenings before treating as a cinema"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0074"
+  ],
+  "id": "sa-r-0074",
+  "state": "SA",
+  "name": "Norwood Town Hall",
+  "locality": "Norwood",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "185 The Parade",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0075"
+  ],
+  "id": "sa-r-0075",
+  "state": "SA",
+  "name": "Hoyts Norwood",
+  "locality": "Norwood",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "49–50 McKinnon Parade",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0076"
+  ],
+  "id": "sa-r-0076",
+  "state": "SA",
+  "name": "Sheridan Theatre",
+  "locality": "North Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "164 Tynte Street",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Multi-use hall or institute: confirm regular film screenings before treating as a cinema"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0077"
+  ],
+  "id": "sa-r-0077",
+  "state": "SA",
+  "name": "North Adelaide Institute",
+  "locality": "North Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Plaza"
+  ],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0078"
+  ],
+  "id": "sa-r-0078",
+  "state": "SA",
+  "name": "Torrensville Star",
+  "locality": "Mile End",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0079"
+  ],
+  "id": "sa-r-0079",
+  "state": "SA",
+  "name": "Lyric Theatre",
+  "locality": "Thebarton",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Windsor"
+  ],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0080"
+  ],
+  "id": "sa-r-0080",
+  "state": "SA",
+  "name": "Lockleys Lyric",
+  "locality": "Lockleys",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0081"
+  ],
+  "id": "sa-r-0081",
+  "state": "SA",
+  "name": "Richmond Theatre",
+  "locality": "Marleston",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0082"
+  ],
+  "id": "sa-r-0082",
+  "state": "SA",
+  "name": "Hilton Theatre",
+  "locality": "Hilton",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0083"
+  ],
+  "id": "sa-r-0083",
+  "state": "SA",
+  "name": "Roxy Theatre",
+  "locality": "Everard Park",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Multi-use hall or institute: confirm regular film screenings before treating as a cinema"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0084"
+  ],
+  "id": "sa-r-0084",
+  "state": "SA",
+  "name": "Druid's Hall",
+  "locality": "Torrensville",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Multi-use hall or institute: confirm regular film screenings before treating as a cinema"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0085"
+  ],
+  "id": "sa-r-0085",
+  "state": "SA",
+  "name": "Camden Hall",
+  "locality": "Camden",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Name is a description, not a recorded venue name"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0086"
+  ],
+  "id": "sa-r-0086",
+  "state": "SA",
+  "name": "Open-air Picture Show",
+  "locality": "Thebarton",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Name is a description, not a recorded venue name"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0087"
+  ],
+  "id": "sa-r-0087",
+  "state": "SA",
+  "name": "Open-air Picture Show",
+  "locality": "Hilton",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "27 versus 29 Murray Street disputed"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [
+   "27 versus 29 Murray Street disputed"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0088"
+  ],
+  "id": "sa-r-0088",
+  "state": "SA",
+  "name": "Austral Theatre",
+  "locality": "Gawler",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Name is a description, not a recorded venue name"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0089"
+  ],
+  "id": "sa-r-0089",
+  "state": "SA",
+  "name": "Former Picture Theatre",
+  "locality": "Strathalbyn",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Landmark Cinema"
+  ],
+  "address": "95 Smith Street",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Multi-use hall or institute: confirm regular film screenings before treating as a cinema"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0090"
+  ],
+  "id": "sa-r-0090",
+  "state": "SA",
+  "name": "Naracoorte Institute",
+  "locality": "Naracoorte",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Rivoli"
+  ],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0091"
+  ],
+  "id": "sa-r-0091",
+  "state": "SA",
+  "name": "Austral Theatre",
+  "locality": "Naracoorte",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Multi-use hall or institute: confirm regular film screenings before treating as a cinema"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0092"
+  ],
+  "id": "sa-r-0092",
+  "state": "SA",
+  "name": "Nuriootpa Institute",
+  "locality": "Nuriootpa",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Wallis Noarlunga"
+  ],
+  "address": "40–42 David Witton Drive",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0093"
+  ],
+  "id": "sa-r-0093",
+  "state": "SA",
+  "name": "Noarlunga Cinema Centre",
+  "locality": "Noarlunga Centre",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "Ramsay Place",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0094"
+  ],
+  "id": "sa-r-0094",
+  "state": "SA",
+  "name": "Noarlunga Theatres",
+  "locality": "Noarlunga Centre",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "119 Belair Road",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0095"
+  ],
+  "id": "sa-r-0095",
+  "state": "SA",
+  "name": "Wallis Mitcham",
+  "locality": "Torrens Park",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "17 Adelaide Road",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0096"
+  ],
+  "id": "sa-r-0096",
+  "state": "SA",
+  "name": "Wallis Mount Barker",
+  "locality": "Mount Barker",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Event Glenelg"
+  ],
+  "address": "2 Cowper Street",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0097"
+  ],
+  "id": "sa-r-0097",
+  "state": "SA",
+  "name": "Wallis Glenelg",
+  "locality": "Glenelg",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0098"
+  ],
+  "id": "sa-r-0098",
+  "state": "SA",
+  "name": "Hoyts Salisbury",
+  "locality": "Salisbury",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0099"
+  ],
+  "id": "sa-r-0099",
+  "state": "SA",
+  "name": "Hoyts Tea Tree Plaza",
+  "locality": "Modbury",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0100"
+  ],
+  "id": "sa-r-0100",
+  "state": "SA",
+  "name": "Event Marion",
+  "locality": "Oaklands Park",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0101"
+  ],
+  "id": "sa-r-0101",
+  "state": "SA",
+  "name": "Reading Elizabeth",
+  "locality": "Elizabeth",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0102"
+  ],
+  "id": "sa-r-0102",
+  "state": "SA",
+  "name": "Reading West Lakes",
+  "locality": "West Lakes",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0103"
+  ],
+  "id": "sa-r-0103",
+  "state": "SA",
+  "name": "Palace Nova Eastend",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0104"
+  ],
+  "id": "sa-r-0104",
+  "state": "SA",
+  "name": "Palace Nova Prospect",
+  "locality": "Prospect",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "11 Murray Street",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0105"
+  ],
+  "id": "sa-r-0105",
+  "state": "SA",
+  "name": "Gawler Cinema",
+  "locality": "Gawler",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0106"
+  ],
+  "id": "sa-r-0106",
+  "state": "SA",
+  "name": "Whyalla Cinema",
+  "locality": "Whyalla Norrie",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0107"
+  ],
+  "id": "sa-r-0107",
+  "state": "SA",
+  "name": "Kadina Cinema",
+  "locality": "Kadina",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0108"
+  ],
+  "id": "sa-r-0108",
+  "state": "SA",
+  "name": "Youthoria Cinema",
+  "locality": "Port Lincoln",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Performing arts centre: confirm film screening history"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0109"
+  ],
+  "id": "sa-r-0109",
+  "state": "SA",
+  "name": "Northern Festival Centre",
+  "locality": "Port Pirie",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Multi-use hall or institute: confirm regular film screenings before treating as a cinema"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0110"
+  ],
+  "id": "sa-r-0110",
+  "state": "SA",
+  "name": "Moonta Town Hall Cinema",
+  "locality": "Moonta",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0111"
+  ],
+  "id": "sa-r-0111",
+  "state": "SA",
+  "name": "Cinemallunga",
+  "locality": "Willunga",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0112"
+  ],
+  "id": "sa-r-0112",
+  "state": "SA",
+  "name": "Windsor Theatre",
+  "locality": "Brighton",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0113"
+  ],
+  "id": "sa-r-0113",
+  "state": "SA",
+  "name": "Trak Cinema",
+  "locality": "Toorak Gardens",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Seasonal outdoor cinema: confirm scope and fixed site"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0114"
+  ],
+  "id": "sa-r-0114",
+  "state": "SA",
+  "name": "Moonlight Cinema",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Multi-use hall or institute: confirm regular film screenings before treating as a cinema"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0115"
+  ],
+  "id": "sa-r-0115",
+  "state": "SA",
+  "name": "Institute Hall",
+  "locality": "Littlehampton",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Multi-use hall or institute: confirm regular film screenings before treating as a cinema"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0116"
+  ],
+  "id": "sa-r-0116",
+  "state": "SA",
+  "name": "Milton Hall",
+  "locality": "Fullarton",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Name is a description, not a recorded venue name"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0117"
+  ],
+  "id": "sa-r-0117",
+  "state": "SA",
+  "name": "Family cinema",
+  "locality": "Bute",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Name is a description, not a recorded venue name"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0118"
+  ],
+  "id": "sa-r-0118",
+  "state": "SA",
+  "name": "Family cinema",
+  "locality": "Snowtown",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (oral)",
+    "url": "https://www.westtorrens.sa.gov.au/files/sharedassets/public/v/1/objective-digitalpublications/external-website/publications/2024-preserving-memories-lorna-wallis-oral-history.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0119"
+  ],
+  "id": "sa-r-0119",
+  "state": "SA",
+  "name": "Starline Drive-in",
+  "locality": "Hectorville",
+  "basis": "From a single oral-history document; needs documentary confirmation."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0120"
+  ],
+  "id": "sa-r-0120",
+  "state": "SA",
+  "name": "Capri Theatre",
+  "locality": "Marion",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0121"
+  ],
+  "id": "sa-r-0121",
+  "state": "SA",
+  "name": "Elizabeth Twin Cinemas",
+  "locality": "Elizabeth",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0122"
+  ],
+  "id": "sa-r-0122",
+  "state": "SA",
+  "name": "Clifford Theatrette",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0123"
+  ],
+  "id": "sa-r-0123",
+  "state": "SA",
+  "name": "Sturt Cinema",
+  "locality": "Mount Gambier",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0124"
+  ],
+  "id": "sa-r-0124",
+  "state": "SA",
+  "name": "Warner Theatre",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0125"
+  ],
+  "id": "sa-r-0125",
+  "state": "SA",
+  "name": "Chinese Gardens Theatre",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0126"
+  ],
+  "id": "sa-r-0126",
+  "state": "SA",
+  "name": "Wonderview Theatre",
+  "locality": "Victor Harbor",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "Hindley Street",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0127"
+  ],
+  "id": "sa-r-0127",
+  "state": "SA",
+  "name": "Civic Theatre",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "Hindmarsh Square",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0128"
+  ],
+  "id": "sa-r-0128",
+  "state": "SA",
+  "name": "Academy Cinema City",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0129"
+  ],
+  "id": "sa-r-0129",
+  "state": "SA",
+  "name": "Fair Lady",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [
+   "Regent 2"
+  ],
+  "address": "Grenfell Street",
+  "type": "cinema",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (caths)",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0130"
+  ],
+  "id": "sa-r-0130",
+  "state": "SA",
+  "name": "New Paris",
+  "locality": "Adelaide",
+  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
+ },
+ {
+  "aliases": [],
+  "address": "2–4 Barwell Avenue",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "8; heritage 13766"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (heritage)",
+    "url": "https://cdn.environment.sa.gov.au/environment/images/26556-Victa-Cinema_CON_Assessment_17AUG2023.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0131"
+  ],
+  "id": "sa-r-0131",
+  "state": "SA",
+  "name": "Bonney Theatre",
+  "locality": "Barmera",
+  "basis": "A heritage or official source was reported as checked by the researcher; Film Cinemas Australia has not yet checked each claim."
+ },
+ {
+  "aliases": [],
+  "address": "30–36 Main Street",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "7; report has conflicting heritage IDs",
+   "Multi-use hall or institute: confirm regular film screenings before treating as a cinema"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (heritage)",
+    "url": "https://cdn.environment.sa.gov.au/environment/images/26556-Victa-Cinema_CON_Assessment_17AUG2023.pdf"
+   }
+  ],
+  "conflicts": [
+   "7; report has conflicting heritage IDs"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0132"
+  ],
+  "id": "sa-r-0132",
+  "state": "SA",
+  "name": "Lobethal Institute and Cinema",
+  "locality": "Lobethal",
+  "basis": "A heritage or official source was reported as checked by the researcher; Film Cinemas Australia has not yet checked each claim."
+ },
+ {
+  "aliases": [],
+  "address": "227–231 Main Street",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Heritage 16002"
+  ],
+  "sources": [
+   {
+    "label": "Source cited by the researcher (heritage)",
+    "url": "https://cdn.environment.sa.gov.au/environment/images/26556-Victa-Cinema_CON_Assessment_17AUG2023.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "SA-R-0133"
+  ],
+  "id": "sa-r-0133",
+  "state": "SA",
+  "name": "Capitol Theatre",
+  "locality": "Peterborough",
+  "basis": "A heritage or official source was reported as checked by the researcher; Film Cinemas Australia has not yet checked each claim."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "picture-theatre",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "Source reference adelaideaz-smith (national catalogue; link to be added)",
+    "url": ""
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "APA-SA-00002",
+  "candidateIds": [],
+  "id": "apa-sa-00002",
+  "state": "SA",
+  "name": "Garden Theatre",
+  "locality": "Colonel Light Gardens",
+  "basis": "From the national staging catalogue; not yet verified for publication."
+ }
+]
