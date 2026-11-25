@@ -1,0 +1,5000 @@
+[
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "built 1938 closed 2013"
+  ],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-001"
+  ],
+  "id": "wa-001",
+  "state": "WA",
+  "name": "Piccadilly",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Plaza",
+   "Paris"
+  ],
+  "address": "",
+  "type": "picture-theatre",
+  "facts": [
+   [
+    "Opened (as recorded)",
+    "1937 (as cited by inHerit)"
+   ]
+  ],
+  "notes": [
+   "DP70 recovery May 2016"
+  ],
+  "sources": [
+   {
+    "label": "Source reference inherit24807 (national catalogue; link to be added)",
+    "url": ""
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "APA-WA-00003",
+  "candidateIds": [
+   "WA-002"
+  ],
+  "id": "apa-wa-00003",
+  "state": "WA",
+  "name": "Plaza Theatre (former) and Arcade",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Cygnet",
+   "Como Theatre"
+  ],
+  "address": "",
+  "type": "picture-theatre",
+  "facts": [
+   [
+    "Opened (as recorded)",
+    "1938 (as cited by inHerit)"
+   ]
+  ],
+  "notes": [
+   "built 1938 heritage 02404 shared indoor outdoor projection",
+   "Revival House current 35mm and 16mm",
+   "16 Preston Street"
+  ],
+  "sources": [
+   {
+    "label": "Source reference inherit24807 (national catalogue; link to be added)",
+    "url": ""
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "APA-WA-00002",
+  "candidateIds": [
+   "WA-003"
+  ],
+  "id": "apa-wa-00002",
+  "state": "WA",
+  "name": "Cygnet Cinema",
+  "locality": "Como",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Astor",
+   "Lyceum Theatre",
+   "State Theatre",
+   "Astor Cinema"
+  ],
+  "address": "659 Beaufort Street",
+  "type": "picture-theatre",
+  "facts": [
+   [
+    "Opened (as recorded)",
+    "1914-15 (built)"
+   ]
+  ],
+  "notes": [
+   "659 Beaufort Street"
+  ],
+  "sources": [
+   {
+    "label": "Source reference inherit2425 (national catalogue; link to be added)",
+    "url": ""
+   }
+  ],
+  "conflicts": [
+   "associated facilities"
+  ],
+  "related": [
+   "Shares a name and place with WA-102 (Astor; Astor Gardens); identity not yet resolved"
+  ],
+  "nationalId": "APA-WA-00001",
+  "candidateIds": [
+   "WA-004"
+  ],
+  "id": "apa-wa-00001",
+  "state": "WA",
+  "name": "Astor Theatre",
+  "locality": "Mount Lawley",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Regal"
+  ],
+  "address": "",
+  "type": "picture-theatre",
+  "facts": [
+   [
+    "Opened (as recorded)",
+    "1936 (as cited by inHerit)"
+   ]
+  ],
+  "notes": [
+   "474 Hay Street"
+  ],
+  "sources": [
+   {
+    "label": "Source reference inherit24807 (national catalogue; link to be added)",
+    "url": ""
+   }
+  ],
+  "conflicts": [
+   "historical relationship"
+  ],
+  "related": [],
+  "nationalId": "APA-WA-00004",
+  "candidateIds": [
+   "WA-005"
+  ],
+  "id": "apa-wa-00004",
+  "state": "WA",
+  "name": "Regal Theatre",
+  "locality": "Subiaco",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Windsor",
+   "Windsor Cinema",
+   "Windsor Twin Cinema",
+   "Windsor Theatre and Gardens"
+  ],
+  "address": "100 Stirling Highway (City of Nedlands); 100 & 102 (Heritage Council); 98 (Wikipedia)",
+  "type": "picture-theatre",
+  "facts": [
+   [
+    "Opened (as recorded)",
+    "September 1937"
+   ]
+  ],
+  "notes": [
+   "built 1937 indoor outdoor capacity 800 each",
+   "98/100/102 Stirling Highway"
+  ],
+  "sources": [
+   {
+    "label": "Source reference inherit1831 (national catalogue; link to be added)",
+    "url": ""
+   },
+   {
+    "label": "Source reference inherit24807 (national catalogue; link to be added)",
+    "url": ""
+   },
+   {
+    "label": "Source reference inherit1831-nm (national catalogue; link to be added)",
+    "url": ""
+   },
+   {
+    "label": "Source reference wp-windsor-ned (national catalogue; link to be added)",
+    "url": ""
+   }
+  ],
+  "conflicts": [
+   "associated facilities"
+  ],
+  "related": [
+   "Shares a name and place with WA-103 (Windsor; Windsor Gardens); identity not yet resolved"
+  ],
+  "nationalId": "APA-WA-00006",
+  "candidateIds": [
+   "WA-006"
+  ],
+  "id": "apa-wa-00006",
+  "state": "WA",
+  "name": "Windsor Theatre",
+  "locality": "Nedlands",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-007"
+  ],
+  "id": "wa-007",
+  "state": "WA",
+  "name": "Beacon",
+  "locality": "South Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Hoyts"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-008"
+  ],
+  "id": "wa-008",
+  "state": "WA",
+  "name": "Oriana",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Memorial Hall"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "associated facilities"
+  ],
+  "related": [
+   "Shares a name and place with WA-144 (Camelot / Memorial Hall; Camelot Gardens); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-009"
+  ],
+  "id": "wa-009",
+  "state": "WA",
+  "name": "Camelot",
+  "locality": "Mosman Park",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-010"
+  ],
+  "id": "wa-010",
+  "state": "WA",
+  "name": "Broadway",
+  "locality": "Victoria Park",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-011"
+  ],
+  "id": "wa-011",
+  "state": "WA",
+  "name": "Amusa",
+  "locality": "Victoria Park",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-012"
+  ],
+  "id": "wa-012",
+  "state": "WA",
+  "name": "Savoy",
+  "locality": "East Victoria Park",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [
+   "Shares a name and place with WA-088 (Hurlingham Picture Gardens; Hurlingham Theatre); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-013"
+  ],
+  "id": "wa-013",
+  "state": "WA",
+  "name": "Hurlingham Picture Gardens",
+  "locality": "South Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-014"
+  ],
+  "id": "wa-014",
+  "state": "WA",
+  "name": "Claremont Picture Gardens",
+  "locality": "Claremont",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-015"
+  ],
+  "id": "wa-015",
+  "state": "WA",
+  "name": "Dalkeith Picture Gardens",
+  "locality": "Dalkeith",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Gardens"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-016"
+  ],
+  "id": "wa-016",
+  "state": "WA",
+  "name": "Broadway Cinema",
+  "locality": "Nedlands",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Gardens"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-017"
+  ],
+  "id": "wa-017",
+  "state": "WA",
+  "name": "Crystal Theatre",
+  "locality": "East Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Gardens"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-018"
+  ],
+  "id": "wa-018",
+  "state": "WA",
+  "name": "Premier Theatre",
+  "locality": "East Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-019"
+  ],
+  "id": "wa-019",
+  "state": "WA",
+  "name": "Chinatown Cinema",
+  "locality": "East Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-020"
+  ],
+  "id": "wa-020",
+  "state": "WA",
+  "name": "Hatfield House former picture gardens",
+  "locality": "Shenton Park",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-021"
+  ],
+  "id": "wa-021",
+  "state": "WA",
+  "name": "Cremorne Gardens",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-022"
+  ],
+  "id": "wa-022",
+  "state": "WA",
+  "name": "Ye Olde Englishe Fayre",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-023"
+  ],
+  "id": "wa-023",
+  "state": "WA",
+  "name": "Highway Drive-in",
+  "locality": "Bentley",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-024"
+  ],
+  "id": "wa-024",
+  "state": "WA",
+  "name": "Skyline Drive-in",
+  "locality": "Floreat",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-025"
+  ],
+  "id": "wa-025",
+  "state": "WA",
+  "name": "Mott's Drive-in",
+  "locality": "Gosnells",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-026"
+  ],
+  "id": "wa-026",
+  "state": "WA",
+  "name": "Panorama Drive-in",
+  "locality": "Roleystone",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-027"
+  ],
+  "id": "wa-027",
+  "state": "WA",
+  "name": "Metro Drive-in",
+  "locality": "Innaloo",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-028"
+  ],
+  "id": "wa-028",
+  "state": "WA",
+  "name": "Lakeway Drive-in",
+  "locality": "Swanbourne",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-029"
+  ],
+  "id": "wa-029",
+  "state": "WA",
+  "name": "Melway Drive-in",
+  "locality": "Melville",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-030"
+  ],
+  "id": "wa-030",
+  "state": "WA",
+  "name": "Wirrina Drive-in",
+  "locality": "Morley",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-031"
+  ],
+  "id": "wa-031",
+  "state": "WA",
+  "name": "Eastway Drive-in",
+  "locality": "Belmont",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-032"
+  ],
+  "id": "wa-032",
+  "state": "WA",
+  "name": "Aceway Drive-in",
+  "locality": "Morley",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [
+   "construction 1972 heritage 26079",
+   "159 Goollelal Drive"
+  ],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-033"
+  ],
+  "id": "wa-033",
+  "state": "WA",
+  "name": "Galaxy Drive-in",
+  "locality": "Kingsley",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-034"
+  ],
+  "id": "wa-034",
+  "state": "WA",
+  "name": "Moonline Drive-in",
+  "locality": "Pearsall",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "drive-in identities"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-035"
+  ],
+  "id": "wa-035",
+  "state": "WA",
+  "name": "Parkline Drive-in",
+  "locality": "Forrestfield",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-036"
+  ],
+  "id": "wa-036",
+  "state": "WA",
+  "name": "Oasis Drive-in",
+  "locality": "Geraldton",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-037"
+  ],
+  "id": "wa-037",
+  "state": "WA",
+  "name": "Mayfair Drive-in",
+  "locality": "Bunbury",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-038"
+  ],
+  "id": "wa-038",
+  "state": "WA",
+  "name": "Avonway Drive-in",
+  "locality": "Northam",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-039"
+  ],
+  "id": "wa-039",
+  "state": "WA",
+  "name": "Morcady Drive-in",
+  "locality": "Wongan Hills",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-040"
+  ],
+  "id": "wa-040",
+  "state": "WA",
+  "name": "Pink Lake Drive-in",
+  "locality": "Esperance",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-041"
+  ],
+  "id": "wa-041",
+  "state": "WA",
+  "name": "Exmouth Drive-in",
+  "locality": "Exmouth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-042"
+  ],
+  "id": "wa-042",
+  "state": "WA",
+  "name": "Busselton Drive-in",
+  "locality": "Busselton",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [
+   "digital conversion March 2015"
+  ],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-043"
+  ],
+  "id": "wa-043",
+  "state": "WA",
+  "name": "Koorda Drive-in",
+  "locality": "Koorda",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-044"
+  ],
+  "id": "wa-044",
+  "state": "WA",
+  "name": "Port Denison Drive-in",
+  "locality": "Port Denison",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-045"
+  ],
+  "id": "wa-045",
+  "state": "WA",
+  "name": "Riverside Drive-in",
+  "locality": "Carnarvon",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [
+   "Shares a name and place with WA-206 (Armadale Drive-in; Armadale Picture Gardens); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-046"
+  ],
+  "id": "wa-046",
+  "state": "WA",
+  "name": "Armadale Drive-in",
+  "locality": "Armadale",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Sun Pictures",
+   "Sun Picture Theatre"
+  ],
+  "address": "8 Carnarvon Street",
+  "type": "open-air",
+  "facts": [
+   [
+    "Opened (as recorded)",
+    "December 1916"
+   ]
+  ],
+  "notes": [
+   "digital conversion October 2012",
+   "8 Carnarvon Street"
+  ],
+  "sources": [
+   {
+    "label": "Source reference inherit293 (national catalogue; link to be added)",
+    "url": ""
+   },
+   {
+    "label": "Source reference inherit293b (national catalogue; link to be added)",
+    "url": ""
+   },
+   {
+    "label": "Source reference wa-media-1995 (national catalogue; link to be added)",
+    "url": ""
+   },
+   {
+    "label": "Source reference wp-sun-broome (national catalogue; link to be added)",
+    "url": ""
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "APA-WA-00005",
+  "candidateIds": [
+   "WA-047"
+  ],
+  "id": "apa-wa-00005",
+  "state": "WA",
+  "name": "Sun Picture Gardens",
+  "locality": "Broome",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-048"
+  ],
+  "id": "wa-048",
+  "state": "WA",
+  "name": "Lyric",
+  "locality": "Bunbury",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-049"
+  ],
+  "id": "wa-049",
+  "state": "WA",
+  "name": "Princess",
+  "locality": "Bunbury",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-050"
+  ],
+  "id": "wa-050",
+  "state": "WA",
+  "name": "Lyric",
+  "locality": "Katanning",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Gardens"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "42 Main Street"
+  ],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-051"
+  ],
+  "id": "wa-051",
+  "state": "WA",
+  "name": "Royal Theatre",
+  "locality": "Meekatharra",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Gardens"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-052"
+  ],
+  "id": "wa-052",
+  "state": "WA",
+  "name": "Cue Public Hall",
+  "locality": "Cue",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-053"
+  ],
+  "id": "wa-053",
+  "state": "WA",
+  "name": "Memorial Theatre",
+  "locality": "Carnarvon",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-054"
+  ],
+  "id": "wa-054",
+  "state": "WA",
+  "name": "Carnival Open Air",
+  "locality": "Carnarvon",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-055"
+  ],
+  "id": "wa-055",
+  "state": "WA",
+  "name": "Naval Base Hall",
+  "locality": "Exmouth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-056"
+  ],
+  "id": "wa-056",
+  "state": "WA",
+  "name": "Finucane Island Open Air",
+  "locality": "Finucane Island",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "39 Coolibah Drive"
+  ],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-057"
+  ],
+  "id": "wa-057",
+  "state": "WA",
+  "name": "Kununurra Picture Gardens",
+  "locality": "Kununurra",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-058"
+  ],
+  "id": "wa-058",
+  "state": "WA",
+  "name": "Theatre Royal",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "Queen Hall Regent Metro same site"
+  ],
+  "sources": [],
+  "conflicts": [
+   "same site proposed"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-059"
+  ],
+  "id": "wa-059",
+  "state": "WA",
+  "name": "Queen's Hall",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Metro"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "same site proposed"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-060"
+  ],
+  "id": "wa-060",
+  "state": "WA",
+  "name": "Regent",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-061"
+  ],
+  "id": "wa-061",
+  "state": "WA",
+  "name": "Ambassadors",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-062"
+  ],
+  "id": "wa-062",
+  "state": "WA",
+  "name": "Capitol",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-063"
+  ],
+  "id": "wa-063",
+  "state": "WA",
+  "name": "Grand",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-064"
+  ],
+  "id": "wa-064",
+  "state": "WA",
+  "name": "Majestic",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-065"
+  ],
+  "id": "wa-065",
+  "state": "WA",
+  "name": "Pavilion",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-066"
+  ],
+  "id": "wa-066",
+  "state": "WA",
+  "name": "Palladium Picture Palace",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-067"
+  ],
+  "id": "wa-067",
+  "state": "WA",
+  "name": "Melrose",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-068"
+  ],
+  "id": "wa-068",
+  "state": "WA",
+  "name": "Prince of Wales",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Luxor",
+   "Tivoli"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-069"
+  ],
+  "id": "wa-069",
+  "state": "WA",
+  "name": "Shaftesbury",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Spencer's Esplanade Gardens"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-070"
+  ],
+  "id": "wa-070",
+  "state": "WA",
+  "name": "King's",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-071"
+  ],
+  "id": "wa-071",
+  "state": "WA",
+  "name": "Perth Town Hall",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-072"
+  ],
+  "id": "wa-072",
+  "state": "WA",
+  "name": "His Majesty's Theatre",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-073"
+  ],
+  "id": "wa-073",
+  "state": "WA",
+  "name": "Empire Picture Palace",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-074"
+  ],
+  "id": "wa-074",
+  "state": "WA",
+  "name": "Star Picture Pavilion",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-075"
+  ],
+  "id": "wa-075",
+  "state": "WA",
+  "name": "Britannia",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-076"
+  ],
+  "id": "wa-076",
+  "state": "WA",
+  "name": "Times Theatrette",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Capri"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-077"
+  ],
+  "id": "wa-077",
+  "state": "WA",
+  "name": "Mayfair",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Kimberley City Cinema"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-078"
+  ],
+  "id": "wa-078",
+  "state": "WA",
+  "name": "Liberty",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-079"
+  ],
+  "id": "wa-079",
+  "state": "WA",
+  "name": "Savoy Theatrette",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-080"
+  ],
+  "id": "wa-080",
+  "state": "WA",
+  "name": "Town Cinema",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Lumiere Twin"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-081"
+  ],
+  "id": "wa-081",
+  "state": "WA",
+  "name": "Academy",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-082"
+  ],
+  "id": "wa-082",
+  "state": "WA",
+  "name": "Hoyts Cinema Complex",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-083"
+  ],
+  "id": "wa-083",
+  "state": "WA",
+  "name": "Cinema City",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-084"
+  ],
+  "id": "wa-084",
+  "state": "WA",
+  "name": "Cine Centre",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-085"
+  ],
+  "id": "wa-085",
+  "state": "WA",
+  "name": "Unity Theatre",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-086"
+  ],
+  "id": "wa-086",
+  "state": "WA",
+  "name": "Perth Oval outdoor exhibition",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-087"
+  ],
+  "id": "wa-087",
+  "state": "WA",
+  "name": "Gaiety Theatre",
+  "locality": "South Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [
+   "Shares a name and place with WA-013 (Hurlingham Picture Gardens; Hurlingham Theatre); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-088"
+  ],
+  "id": "wa-088",
+  "state": "WA",
+  "name": "Hurlingham Theatre",
+  "locality": "South Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Luna"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "159 Oxford Street"
+  ],
+  "sources": [],
+  "conflicts": [
+   "associated facilities"
+  ],
+  "related": [
+   "Shares a name and place with WA-090 (New Oxford / Luna; Oxford Picture Gardens); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-089"
+  ],
+  "id": "wa-089",
+  "state": "WA",
+  "name": "New Oxford",
+  "locality": "Leederville",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [
+   "Shares a name and place with WA-089 (New Oxford / Luna; Oxford Picture Gardens); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-090"
+  ],
+  "id": "wa-090",
+  "state": "WA",
+  "name": "Oxford Picture Gardens",
+  "locality": "Leederville",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "associated facilities"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-091"
+  ],
+  "id": "wa-091",
+  "state": "WA",
+  "name": "Luna Outdoor",
+  "locality": "Leederville",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-092"
+  ],
+  "id": "wa-092",
+  "state": "WA",
+  "name": "Luna in Park",
+  "locality": "Leederville",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-093"
+  ],
+  "id": "wa-093",
+  "state": "WA",
+  "name": "Original Rosemount Gardens",
+  "locality": "North Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Rosemount"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-094"
+  ],
+  "id": "wa-094",
+  "state": "WA",
+  "name": "Regent",
+  "locality": "North Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-095"
+  ],
+  "id": "wa-095",
+  "state": "WA",
+  "name": "Re-established Rosemount Gardens",
+  "locality": "North Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-096"
+  ],
+  "id": "wa-096",
+  "state": "WA",
+  "name": "Later Rosemount Gardens",
+  "locality": "North Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-097"
+  ],
+  "id": "wa-097",
+  "state": "WA",
+  "name": "Lyric",
+  "locality": "Maylands",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-098"
+  ],
+  "id": "wa-098",
+  "state": "WA",
+  "name": "Roxy Gardens",
+  "locality": "Maylands",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [
+   "Shares a name and place with WA-100 (West's Picture Palace; West's Gardens); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-099"
+  ],
+  "id": "wa-099",
+  "state": "WA",
+  "name": "West's Picture Palace",
+  "locality": "Subiaco",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [
+   "Shares a name and place with WA-099 (West's Picture Palace; West's Gardens); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-100"
+  ],
+  "id": "wa-100",
+  "state": "WA",
+  "name": "West's Gardens",
+  "locality": "Subiaco",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Gardens"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "historical relationship"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-101"
+  ],
+  "id": "wa-101",
+  "state": "WA",
+  "name": "Coliseum Theatre",
+  "locality": "Subiaco",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "associated facilities"
+  ],
+  "related": [
+   "Associated with APA-WA-00001 (Astor Theatre): proposed link (partial name, same locality)",
+   "Shares a name and place with WA-004 (Astor; Astor Gardens); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-102"
+  ],
+  "id": "wa-102",
+  "state": "WA",
+  "name": "Astor Gardens",
+  "locality": "Mount Lawley",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "associated facilities"
+  ],
+  "related": [
+   "Associated with APA-WA-00006 (Windsor Theatre): proposed link (name and locality agree)",
+   "Shares a name and place with WA-006 (Windsor; Windsor Gardens); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-103"
+  ],
+  "id": "wa-103",
+  "state": "WA",
+  "name": "Windsor Gardens",
+  "locality": "Nedlands",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-104"
+  ],
+  "id": "wa-104",
+  "state": "WA",
+  "name": "Civic Theatre",
+  "locality": "Inglewood",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-105"
+  ],
+  "id": "wa-105",
+  "state": "WA",
+  "name": "Piccadilly Gardens",
+  "locality": "Inglewood",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [
+   "Shares a name and place with WA-107 (Wembley Picture Theatre; Wembley Gardens); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-106"
+  ],
+  "id": "wa-106",
+  "state": "WA",
+  "name": "Wembley Picture Theatre",
+  "locality": "Wembley",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [
+   "Shares a name and place with WA-106 (Wembley Picture Theatre; Wembley Gardens); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-107"
+  ],
+  "id": "wa-107",
+  "state": "WA",
+  "name": "Wembley Gardens",
+  "locality": "Wembley",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-108"
+  ],
+  "id": "wa-108",
+  "state": "WA",
+  "name": "Cameo Gardens",
+  "locality": "Wembley",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-109"
+  ],
+  "id": "wa-109",
+  "state": "WA",
+  "name": "West Leederville Picture Theatre",
+  "locality": "West Leederville",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-110"
+  ],
+  "id": "wa-110",
+  "state": "WA",
+  "name": "Regent",
+  "locality": "Guildford",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-111"
+  ],
+  "id": "wa-111",
+  "state": "WA",
+  "name": "Rivervale Picture Theatre",
+  "locality": "Rivervale",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-112"
+  ],
+  "id": "wa-112",
+  "state": "WA",
+  "name": "Wonder View",
+  "locality": "Bassendean",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-113"
+  ],
+  "id": "wa-113",
+  "state": "WA",
+  "name": "Vaudeville Theatre",
+  "locality": "Guildford",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-114"
+  ],
+  "id": "wa-114",
+  "state": "WA",
+  "name": "Original Innaloo cinema",
+  "locality": "Innaloo",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-115"
+  ],
+  "id": "wa-115",
+  "state": "WA",
+  "name": "Innaloo Gardens",
+  "locality": "Innaloo",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "and WA-116 digital IMAX laser"
+  ],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-116"
+  ],
+  "id": "wa-116",
+  "state": "WA",
+  "name": "Innaloo multiplex",
+  "locality": "Innaloo",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-117"
+  ],
+  "id": "wa-117",
+  "state": "WA",
+  "name": "Grand Whitfords",
+  "locality": "Hillarys",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-118"
+  ],
+  "id": "wa-118",
+  "state": "WA",
+  "name": "Hamilton Hill Gardens",
+  "locality": "Hamilton Hill",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-119"
+  ],
+  "id": "wa-119",
+  "state": "WA",
+  "name": "Somerville Auditorium",
+  "locality": "Crawley",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-120"
+  ],
+  "id": "wa-120",
+  "state": "WA",
+  "name": "Swan Street Hall",
+  "locality": "South Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "associated facilities"
+  ],
+  "related": [
+   "Shares a name and place with WA-122 (Palladium Theatre; Palladium Gardens); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-121"
+  ],
+  "id": "wa-121",
+  "state": "WA",
+  "name": "Palladium Theatre",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "associated facilities"
+  ],
+  "related": [
+   "Shares a name and place with WA-121 (Palladium Theatre; Palladium Gardens); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-122"
+  ],
+  "id": "wa-122",
+  "state": "WA",
+  "name": "Palladium Gardens",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-123"
+  ],
+  "id": "wa-123",
+  "state": "WA",
+  "name": "Majestic",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-124"
+  ],
+  "id": "wa-124",
+  "state": "WA",
+  "name": "Fremantle Town Hall",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Opera House"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-125"
+  ],
+  "id": "wa-125",
+  "state": "WA",
+  "name": "Kings Theatre",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-126"
+  ],
+  "id": "wa-126",
+  "state": "WA",
+  "name": "South Beach Hydrodrome",
+  "locality": "South Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-127"
+  ],
+  "id": "wa-127",
+  "state": "WA",
+  "name": "Luna on SX",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "site relationship"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-128"
+  ],
+  "id": "wa-128",
+  "state": "WA",
+  "name": "Millennium Cinemas",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Arcadia"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-129"
+  ],
+  "id": "wa-129",
+  "state": "WA",
+  "name": "North Fremantle Town Hall",
+  "locality": "North Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Bijou",
+   "Gaiety"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-130"
+  ],
+  "id": "wa-130",
+  "state": "WA",
+  "name": "Oddfellows Hall",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-131"
+  ],
+  "id": "wa-131",
+  "state": "WA",
+  "name": "Pier Hotel outdoor",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-132"
+  ],
+  "id": "wa-132",
+  "state": "WA",
+  "name": "Princess Theatre",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-133"
+  ],
+  "id": "wa-133",
+  "state": "WA",
+  "name": "Port Cinéaste",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-134"
+  ],
+  "id": "wa-134",
+  "state": "WA",
+  "name": "FTI Cinema",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-135"
+  ],
+  "id": "wa-135",
+  "state": "WA",
+  "name": "Bohemia Outdoor",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "site relationship"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-136"
+  ],
+  "id": "wa-136",
+  "state": "WA",
+  "name": "Queensgate Cinemas",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-137"
+  ],
+  "id": "wa-137",
+  "state": "WA",
+  "name": "Cine2",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-138"
+  ],
+  "id": "wa-138",
+  "state": "WA",
+  "name": "Olympia Theatre",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-139"
+  ],
+  "id": "wa-139",
+  "state": "WA",
+  "name": "Victoria Hall",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-140"
+  ],
+  "id": "wa-140",
+  "state": "WA",
+  "name": "Fremantle Prison Cinema",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-141"
+  ],
+  "id": "wa-141",
+  "state": "WA",
+  "name": "Under the Dome",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-142"
+  ],
+  "id": "wa-142",
+  "state": "WA",
+  "name": "Movies in the Square",
+  "locality": "Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-143"
+  ],
+  "id": "wa-143",
+  "state": "WA",
+  "name": "Richmond Cinema",
+  "locality": "East Fremantle",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "associated facilities"
+  ],
+  "related": [
+   "Shares a name and place with WA-009 (Camelot / Memorial Hall; Camelot Gardens); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-144"
+  ],
+  "id": "wa-144",
+  "state": "WA",
+  "name": "Camelot Gardens",
+  "locality": "Mosman Park",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-145"
+  ],
+  "id": "wa-145",
+  "state": "WA",
+  "name": "Heritage Collective",
+  "locality": "Cottesloe",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Jazz Hall"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-146"
+  ],
+  "id": "wa-146",
+  "state": "WA",
+  "name": "Cabaret",
+  "locality": "Rockingham",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-147"
+  ],
+  "id": "wa-147",
+  "state": "WA",
+  "name": "Bay View",
+  "locality": "Safety Bay",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-148"
+  ],
+  "id": "wa-148",
+  "state": "WA",
+  "name": "Rockingham Hotel Gardens",
+  "locality": "Rockingham",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-149"
+  ],
+  "id": "wa-149",
+  "state": "WA",
+  "name": "Railway Terrace outdoor",
+  "locality": "Rockingham",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-150"
+  ],
+  "id": "wa-150",
+  "state": "WA",
+  "name": "Century Gardens",
+  "locality": "Rockingham",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-151"
+  ],
+  "id": "wa-151",
+  "state": "WA",
+  "name": "Melody Picture Theatre",
+  "locality": "Rockingham",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-152"
+  ],
+  "id": "wa-152",
+  "state": "WA",
+  "name": "Fisher's Bakery outdoor",
+  "locality": "Rockingham",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "6"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "Rockingham identities"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-153"
+  ],
+  "id": "wa-153",
+  "state": "WA",
+  "name": "Rockingham 3",
+  "locality": "Rockingham",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-154"
+  ],
+  "id": "wa-154",
+  "state": "WA",
+  "name": "Melody Drive-in",
+  "locality": "Kwinana Beach",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-155"
+  ],
+  "id": "wa-155",
+  "state": "WA",
+  "name": "King's Theatre",
+  "locality": "Geraldton",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-156"
+  ],
+  "id": "wa-156",
+  "state": "WA",
+  "name": "Radio Theatre",
+  "locality": "Geraldton",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-157"
+  ],
+  "id": "wa-157",
+  "state": "WA",
+  "name": "Derby Picture Gardens",
+  "locality": "Derby",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-158"
+  ],
+  "id": "wa-158",
+  "state": "WA",
+  "name": "Port Hedland Picture Gardens",
+  "locality": "Port Hedland",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-159"
+  ],
+  "id": "wa-159",
+  "state": "WA",
+  "name": "Albany Town Hall",
+  "locality": "Albany",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-160"
+  ],
+  "id": "wa-160",
+  "state": "WA",
+  "name": "Cremorne Gardens",
+  "locality": "Albany",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Empire"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-161"
+  ],
+  "id": "wa-161",
+  "state": "WA",
+  "name": "Princess Pavilion",
+  "locality": "Albany",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Green's Hall"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-162"
+  ],
+  "id": "wa-162",
+  "state": "WA",
+  "name": "Middleton Beach Tea Rooms",
+  "locality": "Albany",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-163"
+  ],
+  "id": "wa-163",
+  "state": "WA",
+  "name": "Downtown Cinema",
+  "locality": "Albany",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "indoor cinema opened 1993",
+   "451 Albany Highway"
+  ],
+  "sources": [],
+  "conflicts": [
+   "distinct facilities shared site"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-164"
+  ],
+  "id": "wa-164",
+  "state": "WA",
+  "name": "Albany Twin",
+  "locality": "Albany",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [
+   "Troode Street near Wright Street"
+  ],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-165"
+  ],
+  "id": "wa-165",
+  "state": "WA",
+  "name": "Boronia Drive-in",
+  "locality": "Albany",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [
+   "opened 26 Dec 1964 historical 70mm",
+   "Barker Street opposite Stead Road"
+  ],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-166"
+  ],
+  "id": "wa-166",
+  "state": "WA",
+  "name": "Central 70 Drive-in",
+  "locality": "Albany",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [
+   "451 Albany Highway"
+  ],
+  "sources": [],
+  "conflicts": [
+   "distinct facilities shared site"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-167"
+  ],
+  "id": "wa-167",
+  "state": "WA",
+  "name": "Orana Drive-in",
+  "locality": "Albany",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Adya Hall"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-168"
+  ],
+  "id": "wa-168",
+  "state": "WA",
+  "name": "Pemberton Picture Theatre",
+  "locality": "Pemberton",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-169"
+  ],
+  "id": "wa-169",
+  "state": "WA",
+  "name": "Mill Hall",
+  "locality": "Pemberton",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-170"
+  ],
+  "id": "wa-170",
+  "state": "WA",
+  "name": "Bow Cinema",
+  "locality": "Collie",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Amasu"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-171"
+  ],
+  "id": "wa-171",
+  "state": "WA",
+  "name": "National Hall",
+  "locality": "Narrogin",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-172"
+  ],
+  "id": "wa-172",
+  "state": "WA",
+  "name": "Cummins Theatre",
+  "locality": "Merredin",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-173"
+  ],
+  "id": "wa-173",
+  "state": "WA",
+  "name": "Cremorne Theatre",
+  "locality": "Kalgoorlie",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-174"
+  ],
+  "id": "wa-174",
+  "state": "WA",
+  "name": "Palace Theatre and Fun Gardens",
+  "locality": "Boulder",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-175"
+  ],
+  "id": "wa-175",
+  "state": "WA",
+  "name": "Agnew Picture Gardens",
+  "locality": "Agnew",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "associated facilities"
+  ],
+  "related": [
+   "Shares a name and place with WA-177 (Ambassadors; Ambassadors Gardens); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-176"
+  ],
+  "id": "wa-176",
+  "state": "WA",
+  "name": "Ambassadors",
+  "locality": "Wiluna",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "associated facilities"
+  ],
+  "related": [
+   "Shares a name and place with WA-176 (Ambassadors; Ambassadors Gardens); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-177"
+  ],
+  "id": "wa-177",
+  "state": "WA",
+  "name": "Ambassadors Gardens",
+  "locality": "Wiluna",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-178"
+  ],
+  "id": "wa-178",
+  "state": "WA",
+  "name": "Wickham Picture Gardens",
+  "locality": "Wickham",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-179"
+  ],
+  "id": "wa-179",
+  "state": "WA",
+  "name": "Pannawonica Drive-in",
+  "locality": "Pannawonica",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-180"
+  ],
+  "id": "wa-180",
+  "state": "WA",
+  "name": "Hearson's Cove cinema first",
+  "locality": "Hearson's Cove",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-181"
+  ],
+  "id": "wa-181",
+  "state": "WA",
+  "name": "Hearson's Cove cinema second",
+  "locality": "Hearson's Cove",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-182"
+  ],
+  "id": "wa-182",
+  "state": "WA",
+  "name": "Karratha Drive-in",
+  "locality": "Karratha",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-183"
+  ],
+  "id": "wa-183",
+  "state": "WA",
+  "name": "Wagin Agricultural Hall",
+  "locality": "Wagin",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-184"
+  ],
+  "id": "wa-184",
+  "state": "WA",
+  "name": "Wagerup Hall",
+  "locality": "Wagerup",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-185"
+  ],
+  "id": "wa-185",
+  "state": "WA",
+  "name": "Continental Gardens Hotel",
+  "locality": "Broome",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-186"
+  ],
+  "id": "wa-186",
+  "state": "WA",
+  "name": "Roebuck Bay Hotel",
+  "locality": "Broome",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-187"
+  ],
+  "id": "wa-187",
+  "state": "WA",
+  "name": "Bijou",
+  "locality": "Esperance",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [
+   "Pictures"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-188"
+  ],
+  "id": "wa-188",
+  "state": "WA",
+  "name": "Queen's Hall",
+  "locality": "Geraldton",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-189"
+  ],
+  "id": "wa-189",
+  "state": "WA",
+  "name": "Orana Cinemas",
+  "locality": "Geraldton",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-190"
+  ],
+  "id": "wa-190",
+  "state": "WA",
+  "name": "Ozone Drive-in",
+  "locality": "Utakarra",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-191"
+  ],
+  "id": "wa-191",
+  "state": "WA",
+  "name": "Dongara Town Hall",
+  "locality": "Dongara",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "drive-in identities"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-192"
+  ],
+  "id": "wa-192",
+  "state": "WA",
+  "name": "Beechline Drive-in",
+  "locality": "Beechboro",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "drive-in identities"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-193"
+  ],
+  "id": "wa-193",
+  "state": "WA",
+  "name": "Glenway Drive-in",
+  "locality": "Balga",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "drive-in identities"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-194"
+  ],
+  "id": "wa-194",
+  "state": "WA",
+  "name": "Odin Drive-in",
+  "locality": "Gwelup",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "drive-in identities"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-195"
+  ],
+  "id": "wa-195",
+  "state": "WA",
+  "name": "Riverline Drive-in",
+  "locality": "Riverton",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "drive-in identities"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-196"
+  ],
+  "id": "wa-196",
+  "state": "WA",
+  "name": "Starline Drive-in",
+  "locality": "Hilton",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "drive-in identities"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-197"
+  ],
+  "id": "wa-197",
+  "state": "WA",
+  "name": "Swanway Drive-in",
+  "locality": "Midland",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "drive-in identities"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-198"
+  ],
+  "id": "wa-198",
+  "state": "WA",
+  "name": "Twilight Drive-in",
+  "locality": "Maddington",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "drive-in identities"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-199"
+  ],
+  "id": "wa-199",
+  "state": "WA",
+  "name": "Waverley Drive-in",
+  "locality": "Beckenham",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "drive-in identities"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-200"
+  ],
+  "id": "wa-200",
+  "state": "WA",
+  "name": "Marmion Drive-in",
+  "locality": "Marmion",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "drive-in identities"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-201"
+  ],
+  "id": "wa-201",
+  "state": "WA",
+  "name": "Darlington outdoor vehicle viewing",
+  "locality": "Darlington",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-202"
+  ],
+  "id": "wa-202",
+  "state": "WA",
+  "name": "Mukinbudin Drive-in",
+  "locality": "Mukinbudin",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-203"
+  ],
+  "id": "wa-203",
+  "state": "WA",
+  "name": "Teneriffe Gardens",
+  "locality": "Applecross",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-204"
+  ],
+  "id": "wa-204",
+  "state": "WA",
+  "name": "Armadale Open Air Cinema",
+  "locality": "Armadale",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-205"
+  ],
+  "id": "wa-205",
+  "state": "WA",
+  "name": "Armadale Public Hall",
+  "locality": "Armadale",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [
+   "Shares a name and place with WA-046 (Armadale Drive-in; Armadale Picture Gardens); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-206"
+  ],
+  "id": "wa-206",
+  "state": "WA",
+  "name": "Armadale Picture Gardens",
+  "locality": "Armadale",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "Cameo identities"
+  ],
+  "related": [
+   "Shares a name and place with WA-208 (Cameo Theatre; Cameo Gardens); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-207"
+  ],
+  "id": "wa-207",
+  "state": "WA",
+  "name": "Cameo Theatre",
+  "locality": "South Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "Cameo identities"
+  ],
+  "related": [
+   "Shares a name and place with WA-207 (Cameo Theatre; Cameo Gardens); identity not yet resolved"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-208"
+  ],
+  "id": "wa-208",
+  "state": "WA",
+  "name": "Cameo Gardens",
+  "locality": "South Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-209"
+  ],
+  "id": "wa-209",
+  "state": "WA",
+  "name": "Gosnells Public Hall",
+  "locality": "Gosnells",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-210"
+  ],
+  "id": "wa-210",
+  "state": "WA",
+  "name": "Gosnells Picture Gardens",
+  "locality": "Gosnells",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-211"
+  ],
+  "id": "wa-211",
+  "state": "WA",
+  "name": "Sandstone Municipal Hall",
+  "locality": "Sandstone",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-212"
+  ],
+  "id": "wa-212",
+  "state": "WA",
+  "name": "Sandstone Picture Gardens",
+  "locality": "Sandstone",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-213"
+  ],
+  "id": "wa-213",
+  "state": "WA",
+  "name": "Dunsborough outdoor cinema",
+  "locality": "Dunsborough",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-214"
+  ],
+  "id": "wa-214",
+  "state": "WA",
+  "name": "ACE HOYTS Midland Gate",
+  "locality": "Midland",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-215"
+  ],
+  "id": "wa-215",
+  "state": "WA",
+  "name": "ACE HOYTS Morley",
+  "locality": "Morley",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-216"
+  ],
+  "id": "wa-216",
+  "state": "WA",
+  "name": "HOYTS Bunbury",
+  "locality": "Bunbury",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "and WA-116 digital IMAX laser"
+  ],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-217"
+  ],
+  "id": "wa-217",
+  "state": "WA",
+  "name": "HOYTS Carousel",
+  "locality": "Cannington",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-218"
+  ],
+  "id": "wa-218",
+  "state": "WA",
+  "name": "HOYTS Currambine",
+  "locality": "Currambine",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-219"
+  ],
+  "id": "wa-219",
+  "state": "WA",
+  "name": "HOYTS Joondalup",
+  "locality": "Joondalup",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-220"
+  ],
+  "id": "wa-220",
+  "state": "WA",
+  "name": "HOYTS Karrinyup",
+  "locality": "Karrinyup",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-221"
+  ],
+  "id": "wa-221",
+  "state": "WA",
+  "name": "HOYTS Southlands",
+  "locality": "Willetton",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-222"
+  ],
+  "id": "wa-222",
+  "state": "WA",
+  "name": "Orana Busselton",
+  "locality": "Busselton",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-223"
+  ],
+  "id": "wa-223",
+  "state": "WA",
+  "name": "Orana Kalgoorlie",
+  "locality": "Kalgoorlie",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-224"
+  ],
+  "id": "wa-224",
+  "state": "WA",
+  "name": "Orana Merredin",
+  "locality": "Merredin",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-225"
+  ],
+  "id": "wa-225",
+  "state": "WA",
+  "name": "Palace Raine Square",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-226"
+  ],
+  "id": "wa-226",
+  "state": "WA",
+  "name": "HOYTS Garden City",
+  "locality": "Booragoon",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-227"
+  ],
+  "id": "wa-227",
+  "state": "WA",
+  "name": "HOYTS Warwick",
+  "locality": "Warwick",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-228"
+  ],
+  "id": "wa-228",
+  "state": "WA",
+  "name": "Reading Belmont",
+  "locality": "Belmont",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-229"
+  ],
+  "id": "wa-229",
+  "state": "WA",
+  "name": "Reading Armadale",
+  "locality": "Armadale",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-230"
+  ],
+  "id": "wa-230",
+  "state": "WA",
+  "name": "Reading Mandurah",
+  "locality": "Mandurah",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "Rockingham identities"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-231"
+  ],
+  "id": "wa-231",
+  "state": "WA",
+  "name": "United Rockingham",
+  "locality": "Rockingham",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-232"
+  ],
+  "id": "wa-232",
+  "state": "WA",
+  "name": "Red Earth Arts Precinct",
+  "locality": "Karratha",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-233"
+  ],
+  "id": "wa-233",
+  "state": "WA",
+  "name": "Camel Lane Cinema",
+  "locality": "Carnarvon",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-234"
+  ],
+  "id": "wa-234",
+  "state": "WA",
+  "name": "Fenwick Cinemas",
+  "locality": "Esperance",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-235"
+  ],
+  "id": "wa-235",
+  "state": "WA",
+  "name": "Margaret River HEART",
+  "locality": "Margaret River",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-236"
+  ],
+  "id": "wa-236",
+  "state": "WA",
+  "name": "Telethon Community Cinemas",
+  "locality": "Burswood",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-237"
+  ],
+  "id": "wa-237",
+  "state": "WA",
+  "name": "Telethon Community Cinemas",
+  "locality": "Bassendean",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-238"
+  ],
+  "id": "wa-238",
+  "state": "WA",
+  "name": "Telethon Community Cinemas",
+  "locality": "Joondalup",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-239"
+  ],
+  "id": "wa-239",
+  "state": "WA",
+  "name": "Telethon Community Cinemas",
+  "locality": "Murdoch",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-240"
+  ],
+  "id": "wa-240",
+  "state": "WA",
+  "name": "Rooftop Movies",
+  "locality": "Northbridge",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-241"
+  ],
+  "id": "wa-241",
+  "state": "WA",
+  "name": "Picture Hall",
+  "locality": "Rottnest Island",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-242"
+  ],
+  "id": "wa-242",
+  "state": "WA",
+  "name": "Backlot Cinema",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-243"
+  ],
+  "id": "wa-243",
+  "state": "WA",
+  "name": "City of Perth Library Auditorium",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-244"
+  ],
+  "id": "wa-244",
+  "state": "WA",
+  "name": "North Metropolitan TAFE exhibition facility",
+  "locality": "Perth",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-245"
+  ],
+  "id": "wa-245",
+  "state": "WA",
+  "name": "Planet Royale",
+  "locality": "Northbridge",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "362 Walcott Street"
+  ],
+  "sources": [],
+  "conflicts": [
+   "Menora duplicate search"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "WA-246"
+  ],
+  "id": "wa-246",
+  "state": "WA",
+  "name": "Menora Theatre and Gardens",
+  "locality": "Menora",
+  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
+ }
+]
