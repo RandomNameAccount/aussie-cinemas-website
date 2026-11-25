@@ -1,0 +1,2710 @@
+[
+ {
+  "aliases": [
+   "Palace Theatre"
+  ],
+  "address": "",
+  "type": "picture-palace",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   },
+   {
+    "label": "Source reference utas-picture (national catalogue; link to be added)",
+    "url": ""
+   }
+  ],
+  "conflicts": [
+   "closure 1924/25"
+  ],
+  "related": [],
+  "nationalId": "APA-TAS-00001",
+  "candidateIds": [
+   "TAS-001"
+  ],
+  "id": "apa-tas-00001",
+  "state": "TAS",
+  "name": "The Palace",
+  "locality": "Hobart",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [
+   "Picture Palace",
+   "Liberty",
+   "State",
+   "North Hobart Picture Palace",
+   "Liberty Theatre",
+   "State Theatre"
+  ],
+  "address": "375 Elizabeth Street",
+  "type": "picture-theatre",
+  "facts": [
+   [
+    "Opened (as recorded)",
+    "2 October 1913"
+   ]
+  ],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   },
+   {
+    "label": "Source reference wp-state-hobart (national catalogue; link to be added)",
+    "url": ""
+   },
+   {
+    "label": "Source reference ct51906 (national catalogue; link to be added)",
+    "url": ""
+   },
+   {
+    "label": "Source reference utas-picture (national catalogue; link to be added)",
+    "url": ""
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "APA-TAS-00004",
+  "candidateIds": [
+   "TAS-002"
+  ],
+  "id": "apa-tas-00004",
+  "state": "TAS",
+  "name": "State Cinema",
+  "locality": "North Hobart",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [
+   "Strand",
+   "Odeon",
+   "Odeon (later name)"
+  ],
+  "address": "",
+  "type": "picture-theatre",
+  "facts": [
+   [
+    "Opened (as recorded)",
+    "by 1930"
+   ]
+  ],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   },
+   {
+    "label": "Source reference utas-picture (national catalogue; link to be added)",
+    "url": ""
+   }
+  ],
+  "conflicts": [
+   "opening date and street number"
+  ],
+  "related": [],
+  "nationalId": "APA-TAS-00005",
+  "candidateIds": [
+   "TAS-003"
+  ],
+  "id": "apa-tas-00005",
+  "state": "TAS",
+  "name": "Strand Theatre",
+  "locality": "Hobart",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [
+   "Playhouse"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-004"
+  ],
+  "id": "tas-004",
+  "state": "TAS",
+  "name": "Amuzu",
+  "locality": "Hobart",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [
+   "Prince of Wales"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [
+   "opening/name chronology"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-005"
+  ],
+  "id": "tas-005",
+  "state": "TAS",
+  "name": "Empire",
+  "locality": "Hobart",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [
+   "closure 1960/61"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-006"
+  ],
+  "id": "tas-006",
+  "state": "TAS",
+  "name": "His Majesty's",
+  "locality": "Hobart",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-007"
+  ],
+  "id": "tas-007",
+  "state": "TAS",
+  "name": "Variety Theatrette",
+  "locality": "Hobart",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [
+   "construction/opening and closure dates; heritage reference"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-008"
+  ],
+  "id": "tas-008",
+  "state": "TAS",
+  "name": "Avalon",
+  "locality": "Hobart",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [
+   "Cinema One names distinct"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-009"
+  ],
+  "id": "tas-009",
+  "state": "TAS",
+  "name": "Tatler",
+  "locality": "Hobart",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-010"
+  ],
+  "id": "tas-010",
+  "state": "TAS",
+  "name": "Theatre Royal",
+  "locality": "Hobart",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-011"
+  ],
+  "id": "tas-011",
+  "state": "TAS",
+  "name": "Melrose",
+  "locality": "Glenorchy",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [
+   "Regent",
+   "Town Hall"
+  ],
+  "address": "",
+  "type": "hall",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   },
+   {
+    "label": "Source reference utas-picture (national catalogue; link to be added)",
+    "url": ""
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "APA-TAS-00003",
+  "candidateIds": [
+   "TAS-012"
+  ],
+  "id": "apa-tas-00003",
+  "state": "TAS",
+  "name": "Regent Cinema (Bellerive town hall)",
+  "locality": "Bellerive",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-013"
+  ],
+  "id": "tas-013",
+  "state": "TAS",
+  "name": "Plaza",
+  "locality": "New Norfolk",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-014"
+  ],
+  "id": "tas-014",
+  "state": "TAS",
+  "name": "Soldiers Memorial Hall",
+  "locality": "Ranelagh",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-015"
+  ],
+  "id": "tas-015",
+  "state": "TAS",
+  "name": "Huon Theatre",
+  "locality": "Huonville",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [
+   "separate locations possible"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-016"
+  ],
+  "id": "tas-016",
+  "state": "TAS",
+  "name": "Town Hall",
+  "locality": "Kingston",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-017"
+  ],
+  "id": "tas-017",
+  "state": "TAS",
+  "name": "University Arts Lecture Theatre",
+  "locality": "Hobart",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-018"
+  ],
+  "id": "tas-018",
+  "state": "TAS",
+  "name": "St John's Park cinema",
+  "locality": "New Town",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [
+   "Princess"
+  ],
+  "address": "Brisbane Street (no number)",
+  "type": "picture-palace",
+  "facts": [
+   [
+    "Opened (as recorded)",
+    "1911"
+   ]
+  ],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   },
+   {
+    "label": "Source reference utas-picture (national catalogue; link to be added)",
+    "url": ""
+   }
+  ],
+  "conflicts": [
+   "opening and closure chronology"
+  ],
+  "related": [],
+  "nationalId": "APA-TAS-00002",
+  "candidateIds": [
+   "TAS-019"
+  ],
+  "id": "apa-tas-00002",
+  "state": "TAS",
+  "name": "Princess Theatre",
+  "locality": "Launceston",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-020"
+  ],
+  "id": "tas-020",
+  "state": "TAS",
+  "name": "Majestic",
+  "locality": "Launceston",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [
+   "predecessor identity"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-021"
+  ],
+  "id": "tas-021",
+  "state": "TAS",
+  "name": "Plaza",
+  "locality": "Launceston",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-022"
+  ],
+  "id": "tas-022",
+  "state": "TAS",
+  "name": "Star",
+  "locality": "Invermay",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-023"
+  ],
+  "id": "tas-023",
+  "state": "TAS",
+  "name": "National",
+  "locality": "Launceston",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [
+   "Cinema One"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [
+   "Cinema One names distinct"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-024"
+  ],
+  "id": "tas-024",
+  "state": "TAS",
+  "name": "Tatler",
+  "locality": "Launceston",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [
+   "street number"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-025"
+  ],
+  "id": "tas-025",
+  "state": "TAS",
+  "name": "Lyric",
+  "locality": "Scottsdale",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [
+   "surviving versus operational equipment",
+   "address 1/11 McNamara"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-026"
+  ],
+  "id": "tas-026",
+  "state": "TAS",
+  "name": "Paragon",
+  "locality": "Queenstown",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [
+   "Empire versus Capitol"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-027"
+  ],
+  "id": "tas-027",
+  "state": "TAS",
+  "name": "Empire",
+  "locality": "Queenstown",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-028"
+  ],
+  "id": "tas-028",
+  "state": "TAS",
+  "name": "Gaiety",
+  "locality": "Zeehan",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "capacity"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-029"
+  ],
+  "id": "tas-029",
+  "state": "TAS",
+  "name": "Currie Town Hall",
+  "locality": "King Island",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "capacity"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-030"
+  ],
+  "id": "tas-030",
+  "state": "TAS",
+  "name": "Grassy Public Hall",
+  "locality": "King Island",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [
+   "Oddfellows Hall"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-031"
+  ],
+  "id": "tas-031",
+  "state": "TAS",
+  "name": "Capitol",
+  "locality": "Latrobe",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-032"
+  ],
+  "id": "tas-032",
+  "state": "TAS",
+  "name": "Lyric",
+  "locality": "Glenorchy",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "separate locations possible"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-033"
+  ],
+  "id": "tas-033",
+  "state": "TAS",
+  "name": "Community Hall",
+  "locality": "Kingston Beach",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-034"
+  ],
+  "id": "tas-034",
+  "state": "TAS",
+  "name": "Albert Hall",
+  "locality": "Launceston",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [
+   [
+    "Type (as recorded)",
+    "drive-in"
+   ]
+  ],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [
+   "distinct drive-ins; inherited racecourse confusion",
+   "closure 1985/1989"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-035"
+  ],
+  "id": "tas-035",
+  "state": "TAS",
+  "name": "Elwick Drive-in",
+  "locality": "Glenorchy",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [
+   [
+    "Type (as recorded)",
+    "drive-in"
+   ]
+  ],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-036"
+  ],
+  "id": "tas-036",
+  "state": "TAS",
+  "name": "Eastside Drive-in",
+  "locality": "Warrane",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [
+   [
+    "Type (as recorded)",
+    "drive-in"
+   ]
+  ],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [
+   "distinct drive-ins; inherited racecourse confusion"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-037"
+  ],
+  "id": "tas-037",
+  "state": "TAS",
+  "name": "Village Drive-in",
+  "locality": "Mowbray",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [
+   [
+    "Type (as recorded)",
+    "drive-in"
+   ]
+  ],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [
+   "separate Starlite localities"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-038"
+  ],
+  "id": "tas-038",
+  "state": "TAS",
+  "name": "Starlite Drive-in",
+  "locality": "East Devonport",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [
+   [
+    "Type (as recorded)",
+    "drive-in"
+   ]
+  ],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [
+   "separate Starlite localities"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-039"
+  ],
+  "id": "tas-039",
+  "state": "TAS",
+  "name": "Starlite Drive-in",
+  "locality": "Somerset",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-040"
+  ],
+  "id": "tas-040",
+  "state": "TAS",
+  "name": "Village",
+  "locality": "Hobart",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-041"
+  ],
+  "id": "tas-041",
+  "state": "TAS",
+  "name": "Village",
+  "locality": "Launceston",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-042"
+  ],
+  "id": "tas-042",
+  "state": "TAS",
+  "name": "Village",
+  "locality": "Glenorchy",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-043"
+  ],
+  "id": "tas-043",
+  "state": "TAS",
+  "name": "Village Eastlands",
+  "locality": "Rosny",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-044"
+  ],
+  "id": "tas-044",
+  "state": "TAS",
+  "name": "CMax",
+  "locality": "Devonport",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "academic account supports historical exhibition or locality"
+  ],
+  "sources": [
+   {
+    "label": "Academic history",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-045"
+  ],
+  "id": "tas-045",
+  "state": "TAS",
+  "name": "Metro",
+  "locality": "Burnie",
+  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
+ },
+ {
+  "aliases": [
+   "Star"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "separate Burnie venues",
+   "Cinema One names distinct"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-046"
+  ],
+  "id": "tas-046",
+  "state": "TAS",
+  "name": "Cinema One",
+  "locality": "Burnie",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [
+   "Associated with APA-TAS-00004 (State Cinema): proposed link (partial name, same locality)"
+  ],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-047"
+  ],
+  "id": "tas-047",
+  "state": "TAS",
+  "name": "State Rooftop",
+  "locality": "North Hobart",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-048"
+  ],
+  "id": "tas-048",
+  "state": "TAS",
+  "name": "Hoyts Mid City",
+  "locality": "Hobart",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-049"
+  ],
+  "id": "tas-049",
+  "state": "TAS",
+  "name": "King's Hall",
+  "locality": "Hobart",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-050"
+  ],
+  "id": "tas-050",
+  "state": "TAS",
+  "name": "Town Hall",
+  "locality": "Hobart",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-051"
+  ],
+  "id": "tas-051",
+  "state": "TAS",
+  "name": "Tasmanian Hall",
+  "locality": "Hobart",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-052"
+  ],
+  "id": "tas-052",
+  "state": "TAS",
+  "name": "Peacock",
+  "locality": "Hobart",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "address 110/113–115"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-053"
+  ],
+  "id": "tas-053",
+  "state": "TAS",
+  "name": "Moonah Theatre",
+  "locality": "Moonah",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-054"
+  ],
+  "id": "tas-054",
+  "state": "TAS",
+  "name": "Lindisfarne cinema",
+  "locality": "Lindisfarne",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "hall identity"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-055"
+  ],
+  "id": "tas-055",
+  "state": "TAS",
+  "name": "Public Hall",
+  "locality": "Glenorchy",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "hall identity"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-056"
+  ],
+  "id": "tas-056",
+  "state": "TAS",
+  "name": "Town Hall",
+  "locality": "Glenorchy",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [
+   "Town Hall"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "renovation 1938/39"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-057"
+  ],
+  "id": "tas-057",
+  "state": "TAS",
+  "name": "Palais",
+  "locality": "Franklin",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [
+   "Town Hall"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-058"
+  ],
+  "id": "tas-058",
+  "state": "TAS",
+  "name": "Empire",
+  "locality": "Geeveston",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "possible duplicate"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-059"
+  ],
+  "id": "tas-059",
+  "state": "TAS",
+  "name": "Cygnet cinema",
+  "locality": "Cygnet",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "possible duplicate"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-060"
+  ],
+  "id": "tas-060",
+  "state": "TAS",
+  "name": "Town Hall",
+  "locality": "Cygnet",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-061"
+  ],
+  "id": "tas-061",
+  "state": "TAS",
+  "name": "Alicia Hall",
+  "locality": "Beaconsfield",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [
+   "Todd's Lyceum"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-062"
+  ],
+  "id": "tas-062",
+  "state": "TAS",
+  "name": "Theatre Royal",
+  "locality": "Launceston",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [
+   "Star"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-063"
+  ],
+  "id": "tas-063",
+  "state": "TAS",
+  "name": "Foresters Hall",
+  "locality": "Longford",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-064"
+  ],
+  "id": "tas-064",
+  "state": "TAS",
+  "name": "Memorial Hall",
+  "locality": "Lilydale",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-065"
+  ],
+  "id": "tas-065",
+  "state": "TAS",
+  "name": "Town Hall",
+  "locality": "Campbell Town",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-066"
+  ],
+  "id": "tas-066",
+  "state": "TAS",
+  "name": "Miller's Hall",
+  "locality": "Campbell Town",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-067"
+  ],
+  "id": "tas-067",
+  "state": "TAS",
+  "name": "Annexe",
+  "locality": "Invermay",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [
+   "earlier Star"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "separate Burnie venues"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-068"
+  ],
+  "id": "tas-068",
+  "state": "TAS",
+  "name": "Burnie Theatre",
+  "locality": "Burnie",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [
+   "Cinema One"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "Cinema One names distinct",
+   "closure 1999/2000"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-069"
+  ],
+  "id": "tas-069",
+  "state": "TAS",
+  "name": "Star",
+  "locality": "Devonport",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-070"
+  ],
+  "id": "tas-070",
+  "state": "TAS",
+  "name": "Central Hall",
+  "locality": "Burnie",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-071"
+  ],
+  "id": "tas-071",
+  "state": "TAS",
+  "name": "Vogue",
+  "locality": "Burnie",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-072"
+  ],
+  "id": "tas-072",
+  "state": "TAS",
+  "name": "Town Hall",
+  "locality": "Penguin",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-073"
+  ],
+  "id": "tas-073",
+  "state": "TAS",
+  "name": "Unidentified picture show",
+  "locality": "Penguin",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [
+   "Trusound"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-074"
+  ],
+  "id": "tas-074",
+  "state": "TAS",
+  "name": "Claremont",
+  "locality": "Smithton",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [
+   "Tasma"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "name chronology"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-075"
+  ],
+  "id": "tas-075",
+  "state": "TAS",
+  "name": "Broadway",
+  "locality": "Rosebery",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-076"
+  ],
+  "id": "tas-076",
+  "state": "TAS",
+  "name": "King's Hall",
+  "locality": "Railton",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-077"
+  ],
+  "id": "tas-077",
+  "state": "TAS",
+  "name": "Town Hall",
+  "locality": "Sheffield",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "duplicate gazetteer entries"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-078"
+  ],
+  "id": "tas-078",
+  "state": "TAS",
+  "name": "Alonnah Pictures",
+  "locality": "Bruny Island",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "possible same Deloraine building"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-079"
+  ],
+  "id": "tas-079",
+  "state": "TAS",
+  "name": "Town Hall",
+  "locality": "Deloraine",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "Athenaeum versus Mechanics Institute"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-080"
+  ],
+  "id": "tas-080",
+  "state": "TAS",
+  "name": "Athenaeum",
+  "locality": "Waratah",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-081"
+  ],
+  "id": "tas-081",
+  "state": "TAS",
+  "name": "Thompson's Hall",
+  "locality": "St Helens",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-082"
+  ],
+  "id": "tas-082",
+  "state": "TAS",
+  "name": "Crystal",
+  "locality": "Stanley",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "historical/current cinema"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-083"
+  ],
+  "id": "tas-083",
+  "state": "TAS",
+  "name": "Historical Picture Theatre",
+  "locality": "Flinders Island",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [
+   "Wynyard Theatre"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-084"
+  ],
+  "id": "tas-084",
+  "state": "TAS",
+  "name": "Princess",
+  "locality": "Wynyard",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-085"
+  ],
+  "id": "tas-085",
+  "state": "TAS",
+  "name": "Pontifex Pictures",
+  "locality": "Strahan",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-086"
+  ],
+  "id": "tas-086",
+  "state": "TAS",
+  "name": "Public Hall",
+  "locality": "Ellendale",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [
+   "Town Hall"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-087"
+  ],
+  "id": "tas-087",
+  "state": "TAS",
+  "name": "Westbury Pictures",
+  "locality": "Westbury",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-088"
+  ],
+  "id": "tas-088",
+  "state": "TAS",
+  "name": "Williamsford Hall",
+  "locality": "Williamsford",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-089"
+  ],
+  "id": "tas-089",
+  "state": "TAS",
+  "name": "Mechanics Institute",
+  "locality": "Woodbridge",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-090"
+  ],
+  "id": "tas-090",
+  "state": "TAS",
+  "name": "Central Hall",
+  "locality": "Wynyard",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [
+   "Town Hall"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-091"
+  ],
+  "id": "tas-091",
+  "state": "TAS",
+  "name": "Leven Star",
+  "locality": "Ulverstone",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [
+   "Academy of Music"
+  ],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-092"
+  ],
+  "id": "tas-092",
+  "state": "TAS",
+  "name": "Theatre Royal",
+  "locality": "Zeehan",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [
+   [
+    "Type (as recorded)",
+    "temporary lead"
+   ]
+  ],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-093"
+  ],
+  "id": "tas-093",
+  "state": "TAS",
+  "name": "Town Hall",
+  "locality": "Swansea",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [
+   [
+    "Type (as recorded)",
+    "temporary lead"
+   ]
+  ],
+  "notes": [],
+  "sources": [],
+  "conflicts": [
+   "possible same Deloraine building"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-094"
+  ],
+  "id": "tas-094",
+  "state": "TAS",
+  "name": "Little Theatre",
+  "locality": "Deloraine",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [
+   [
+    "Type (as recorded)",
+    "temporary lead"
+   ]
+  ],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-095"
+  ],
+  "id": "tas-095",
+  "state": "TAS",
+  "name": "Tramshed Auditorium",
+  "locality": "Inveresk",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [
+   [
+    "Type (as recorded)",
+    "temporary lead"
+   ]
+  ],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-096"
+  ],
+  "id": "tas-096",
+  "state": "TAS",
+  "name": "Wharf Hotel Theatre",
+  "locality": "Wynyard",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [
+   [
+    "Type (as recorded)",
+    "temporary lead"
+   ]
+  ],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-097"
+  ],
+  "id": "tas-097",
+  "state": "TAS",
+  "name": "Town Hall",
+  "locality": "Bothwell",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [
+   [
+    "Type (as recorded)",
+    "temporary lead"
+   ]
+  ],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-098"
+  ],
+  "id": "tas-098",
+  "state": "TAS",
+  "name": "Town Hall",
+  "locality": "Richmond",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [
+   [
+    "Type (as recorded)",
+    "proposal"
+   ]
+  ],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-099"
+  ],
+  "id": "tas-099",
+  "state": "TAS",
+  "name": "Proposed drive-in",
+  "locality": "Breadalbane",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "drive-in",
+  "facts": [
+   [
+    "Type (as recorded)",
+    "temporary lead"
+   ]
+  ],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-100"
+  ],
+  "id": "tas-100",
+  "state": "TAS",
+  "name": "Showground drive-in",
+  "locality": "Hobart",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-101"
+  ],
+  "id": "tas-101",
+  "state": "TAS",
+  "name": "Memorial Hall",
+  "locality": "Claremont",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-102"
+  ],
+  "id": "tas-102",
+  "state": "TAS",
+  "name": "Public Hall",
+  "locality": "Sorell",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-103"
+  ],
+  "id": "tas-103",
+  "state": "TAS",
+  "name": "Tasma",
+  "locality": "Tullah",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-104"
+  ],
+  "id": "tas-104",
+  "state": "TAS",
+  "name": "City Pictures",
+  "locality": "St Marys",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-105"
+  ],
+  "id": "tas-105",
+  "state": "TAS",
+  "name": "Charlie's Cinema",
+  "locality": "Branxholm",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-106"
+  ],
+  "id": "tas-106",
+  "state": "TAS",
+  "name": "Charlie's Cinema",
+  "locality": "Derby",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-107"
+  ],
+  "id": "tas-107",
+  "state": "TAS",
+  "name": "Public Hall",
+  "locality": "Gladstone",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-108"
+  ],
+  "id": "tas-108",
+  "state": "TAS",
+  "name": "Eaglehawk Neck Hall",
+  "locality": "Eaglehawk Neck",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-109"
+  ],
+  "id": "tas-109",
+  "state": "TAS",
+  "name": "Northern Suburbs Community Centre",
+  "locality": "Newnham / Mowbray",
+  "basis": "Inherited research lead with no source attached yet."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "Listed in CATHS directory dated 2025-12-24; independent verification pending"
+  ],
+  "sources": [
+   {
+    "label": "Specialist directory generated 2025-12-24",
+    "url": "https://www.caths.org.au/venues/pdf/tas.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-110"
+  ],
+  "id": "tas-110",
+  "state": "TAS",
+  "name": "Cinemona",
+  "locality": "Berriedale",
+  "basis": "Listed in the CAThS cinema directory (partly checked by the researcher); needs independent verification."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "Listed in CATHS directory dated 2025-12-24; independent verification pending"
+  ],
+  "sources": [
+   {
+    "label": "Specialist directory generated 2025-12-24",
+    "url": "https://www.caths.org.au/venues/pdf/tas.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-111"
+  ],
+  "id": "tas-111",
+  "state": "TAS",
+  "name": "Upper Derwent United Hall",
+  "locality": "Bushy Park",
+  "basis": "Listed in the CAThS cinema directory (partly checked by the researcher); needs independent verification."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "Listed in CATHS directory dated 2025-12-24; independent verification pending"
+  ],
+  "sources": [
+   {
+    "label": "Specialist directory generated 2025-12-24",
+    "url": "https://www.caths.org.au/venues/pdf/tas.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-112"
+  ],
+  "id": "tas-112",
+  "state": "TAS",
+  "name": "Majestic Theatre",
+  "locality": "Devonport",
+  "basis": "Listed in the CAThS cinema directory (partly checked by the researcher); needs independent verification."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "Listed in CATHS directory dated 2025-12-24; independent verification pending"
+  ],
+  "sources": [
+   {
+    "label": "Specialist directory generated 2025-12-24",
+    "url": "https://www.caths.org.au/venues/pdf/tas.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-113"
+  ],
+  "id": "tas-113",
+  "state": "TAS",
+  "name": "George Town Picture Cinema",
+  "locality": "George Town",
+  "basis": "Listed in the CAThS cinema directory (partly checked by the researcher); needs independent verification."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "Listed in CATHS directory dated 2025-12-24; independent verification pending"
+  ],
+  "sources": [
+   {
+    "label": "Specialist directory generated 2025-12-24",
+    "url": "https://www.caths.org.au/venues/pdf/tas.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-114"
+  ],
+  "id": "tas-114",
+  "state": "TAS",
+  "name": "Roxy Theatre",
+  "locality": "Oatlands",
+  "basis": "Listed in the CAThS cinema directory (partly checked by the researcher); needs independent verification."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [
+   "Listed in CATHS directory dated 2025-12-24; independent verification pending"
+  ],
+  "sources": [
+   {
+    "label": "Specialist directory generated 2025-12-24",
+    "url": "https://www.caths.org.au/venues/pdf/tas.pdf"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "TAS-115"
+  ],
+  "id": "tas-115",
+  "state": "TAS",
+  "name": "Mt Lyell Hall",
+  "locality": "Gormanston",
+  "basis": "Listed in the CAThS cinema directory (partly checked by the researcher); needs independent verification."
+ }
+]

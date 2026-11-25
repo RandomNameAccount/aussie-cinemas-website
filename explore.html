@@ -29,13 +29,13 @@
 
 <section class="record-head" aria-labelledby="explore-title"><div class="wrap" style="grid-template-columns:1fr">
   <div class="stack"><nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="./">Home</a></li><li aria-current="page">Explore cinemas</li></ol></nav>
-  <p class="eyebrow">Explore</p><h1 id="explore-title">Explore cinemas</h1><p class="lede">Search and filter the archive's 73 cinema records and 149 research leads: names and former names, towns and suburbs, states and status today. Every record shows its sources and how sure we are. Research leads are unverified and are labelled as such.</p></div>
+  <p class="eyebrow">Explore</p><h1 id="explore-title">Explore cinemas</h1><p class="lede">Search and filter the archive's 73 cinema records and 264 research leads: names and former names, towns and suburbs, states and status today. Every record shows its sources and how sure we are. Research leads are unverified and are labelled as such.</p></div>
 </div></section>
 <div class="wrap"><div class="explore-layout">
   <form class="filters" data-gx-filters aria-labelledby="filters-title" action="explore.html" method="get">
     <h2 id="filters-title" style="font-size:var(--step-1)">Search and filter</h2>
     <div class="field"><label for="f-q">Cinema, former name, suburb or town</label><input id="f-q" type="search" name="q" autocomplete="off" aria-describedby="f-q-hint"><p class="hint" id="f-q-hint">For example Regent, Toowoomba or Hoyts.</p></div>
-    <div class="field"><label for="f-state">State or territory</label><select id="f-state" name="state"><option value="">All of Australia</option><option value="qld">Queensland</option><option value="nsw">New South Wales</option><option value="vic">Victoria</option><option value="wa" disabled>Western Australia (no records yet)</option><option value="sa">South Australia</option><option value="tas" disabled>Tasmania (no records yet)</option><option value="nt" disabled>Northern Territory (no records yet)</option><option value="act">Australian Capital Territory</option></select></div>
+    <div class="field"><label for="f-state">State or territory</label><select id="f-state" name="state"><option value="">All of Australia</option><option value="qld">Queensland</option><option value="nsw">New South Wales</option><option value="vic">Victoria</option><option value="wa" disabled>Western Australia (no records yet)</option><option value="sa">South Australia</option><option value="tas">Tasmania</option><option value="nt" disabled>Northern Territory (no records yet)</option><option value="act">Australian Capital Territory</option></select></div>
     <fieldset class="field"><legend>Status today</legend><div class="choices"><label class="choice"><input type="checkbox" name="status" value="operating" checked> Operating cinema</label><label class="choice"><input type="checkbox" name="status" value="repurposed" checked> Building survives, other use</label><label class="choice"><input type="checkbox" name="status" value="demolished" checked> Demolished</label><label class="choice"><input type="checkbox" name="status" value="closed" checked> Closed or not stated</label></div></fieldset>
     <fieldset class="field"><legend>Evidence</legend><div class="choices"><label class="choice"><input type="checkbox" name="evidence" value="confirmed" checked> Heritage register confirms name and address</label><label class="choice"><input type="checkbox" name="evidence" value="strong" checked> Two published sources agree</label><label class="choice"><input type="checkbox" name="evidence" value="prelim" checked> Single secondary source (preliminary)</label><label class="choice"><input type="checkbox" name="evidence" value="lead" checked> Research lead, not yet verified</label></div></fieldset>
     <div class="field"><label for="f-loc">Location</label><select id="f-loc" name="loc"><option value="">Any</option><option value="site">Published site point</option><option value="approx">Approximate (city centre)</option><option value="notmapped">Not on the map</option></select></div>
@@ -44,7 +44,7 @@
   </form>
   <div>
     <div class="results-bar">
-      <p class="result-count" role="status" aria-live="polite" data-count>222 cinemas</p>
+      <p class="result-count" role="status" aria-live="polite" data-count>337 cinemas</p>
       <div class="view-toggle" role="group" aria-label="View">
         <button type="button" class="btn btn-secondary" data-view="list" aria-pressed="true">List</button>
         <button type="button" class="btn btn-secondary" data-view="map" aria-pressed="false">Map</button>
@@ -508,6 +508,12 @@
   <p class="gx-place">Glenside, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-034" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="albert hall launceston tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-034.html">Albert Hall</a></h3>
+  
+  <p class="gx-place">Launceston, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0068" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="alberton ozone 33 fussell place alberton sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0068.html">Alberton Ozone</a></h3>
   
@@ -518,6 +524,30 @@
   <h3 class="gx-name"><a href="leads/sa-r-0036.html">Alhambra Pavilion</a></h3>
   
   <p class="gx-place">Port Pirie, SA · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-061" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="alicia hall beaconsfield tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-061.html">Alicia Hall</a></h3>
+  
+  <p class="gx-place">Beaconsfield, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-078" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="alonnah pictures bruny island tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-078.html">Alonnah Pictures</a></h3>
+  
+  <p class="gx-place">Bruny Island, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-004" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="amuzu playhouse hobart tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-004.html">Amuzu</a></h3>
+  <p class="gx-alias">Also recorded as Playhouse</p>
+  <p class="gx-place">Hobart, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-067" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="annexe invermay tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-067.html">Annexe</a></h3>
+  
+  <p class="gx-place">Invermay, TAS · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="act-r001-013" data-state="act" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="arc cinema acton act australian capital territory research lead not verified">
@@ -532,6 +562,12 @@
   <p class="gx-place">Kadina, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-080" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="athenaeum waratah tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-080.html">Athenaeum</a></h3>
+  
+  <p class="gx-place">Waratah, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0088" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="austral theatre gawler sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0088.html">Austral Theatre</a></h3>
   
@@ -543,6 +579,12 @@
   <p class="gx-alias">Also recorded as Rivoli</p>
   <p class="gx-place">Naracoorte, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-008" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="avalon hobart tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-008.html">Avalon</a></h3>
+  
+  <p class="gx-place">Hobart, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0063" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="barossaline drive in tanunda sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0063.html">Barossaline Drive-in</a></h3>
@@ -580,6 +622,18 @@
   <p class="gx-place">Canberra, ACT · Status not verified · opened 1973 (as recorded)</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-075" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="broadway tasma rosebery tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-075.html">Broadway</a></h3>
+  <p class="gx-alias">Also recorded as Tasma</p>
+  <p class="gx-place">Rosebery, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-068" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="burnie theatre earlier star burnie tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-068.html">Burnie Theatre</a></h3>
+  <p class="gx-alias">Also recorded as earlier Star</p>
+  <p class="gx-place">Burnie, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0085" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="camden hall camden sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0085.html">Camden Hall</a></h3>
   
@@ -590,6 +644,12 @@
   <h3 class="gx-name"><a href="leads/sa-r-0016.html">Cameo Cinema</a></h3>
   
   <p class="gx-place">Murray Bridge, SA · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-031" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="capitol oddfellows hall latrobe tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-031.html">Capitol</a></h3>
+  <p class="gx-alias">Also recorded as Oddfellows Hall</p>
+  <p class="gx-place">Latrobe, TAS · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="act-r001-002" data-state="act" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="capitol cinema successor manuka act australian capital territory research lead not verified">
@@ -628,10 +688,34 @@
   <p class="gx-place">Civic, ACT · Status not verified · opened 1966 (as recorded)</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-070" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="central hall burnie tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-070.html">Central Hall</a></h3>
+  
+  <p class="gx-place">Burnie, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-090" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="central hall wynyard tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-090.html">Central Hall</a></h3>
+  
+  <p class="gx-place">Wynyard, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0025" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="chaffey theatre renmark sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0025.html">Chaffey Theatre</a></h3>
   
   <p class="gx-place">Renmark, SA · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-105" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="charlies cinema branxholm tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-105.html">Charlie&#x27;s Cinema</a></h3>
+  
+  <p class="gx-place">Branxholm, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-106" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="charlies cinema derby tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-106.html">Charlie&#x27;s Cinema</a></h3>
+  
+  <p class="gx-place">Derby, TAS · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0032" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="chelsea cinema town hall pictures port augusta sa south australia research lead not verified">
@@ -652,10 +736,28 @@
   <p class="gx-place">Port Augusta, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-046" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="cinema one star burnie tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-046.html">Cinema One</a></h3>
+  <p class="gx-alias">Also recorded as Star</p>
+  <p class="gx-place">Burnie, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0111" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="cinemallunga willunga sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0111.html">Cinemallunga</a></h3>
   
   <p class="gx-place">Willunga, SA · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-110" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="cinemona berriedale tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-110.html">Cinemona</a></h3>
+  
+  <p class="gx-place">Berriedale, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-104" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="city pictures st marys tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-104.html">City Pictures</a></h3>
+  
+  <p class="gx-place">St Marys, TAS · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0127" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="civic theatre hindley street adelaide sa south australia research lead not verified">
@@ -676,11 +778,29 @@
   <p class="gx-place">Civic, ACT · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-074" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="claremont trusound smithton tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-074.html">Claremont</a></h3>
+  <p class="gx-alias">Also recorded as Trusound</p>
+  <p class="gx-place">Smithton, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0122" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="clifford theatrette adelaide sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0122.html">Clifford Theatrette</a></h3>
   
   <p class="gx-place">Adelaide, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-044" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="cmax devonport tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-044.html">CMax</a></h3>
+  
+  <p class="gx-place">Devonport, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-033" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="community hall kingston beach tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-033.html">Community Hall</a></h3>
+  
+  <p class="gx-place">Kingston Beach, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0017" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="coober pedy drive in lot 1801 hutchison street coober pedy sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0017.html">Coober Pedy Drive-in</a></h3>
@@ -694,11 +814,29 @@
   <p class="gx-place">Woden, ACT · Status not verified · opened 1984 (as recorded)</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-082" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="crystal stanley tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-082.html">Crystal</a></h3>
+  
+  <p class="gx-place">Stanley, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-029" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="currie town hall king island tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-029.html">Currie Town Hall</a></h3>
+  
+  <p class="gx-place">King Island, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0048" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="curzon cinema adelaide sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0048.html">Curzon Cinema</a></h3>
   
   <p class="gx-place">Adelaide, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-059" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="cygnet cinema cygnet tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-059.html">Cygnet cinema</a></h3>
+  
+  <p class="gx-place">Cygnet, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="act-r001-010" data-state="act" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="dendy canberra 148 bunda street canberra city act australian capital territory research lead not verified">
   <h3 class="gx-name"><a href="leads/act-r001-010.html">Dendy Canberra</a></h3>
@@ -712,11 +850,47 @@
   <p class="gx-place">Torrensville, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-108" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="eaglehawk neck hall eaglehawk neck tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-108.html">Eaglehawk Neck Hall</a></h3>
+  
+  <p class="gx-place">Eaglehawk Neck, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-036" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="eastside drive in warrane tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-036.html">Eastside Drive-in</a></h3>
+  
+  <p class="gx-place">Warrane, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0121" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="elizabeth twin cinemas elizabeth sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0121.html">Elizabeth Twin Cinemas</a></h3>
   
   <p class="gx-place">Elizabeth, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-035" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="elwick drive in glenorchy tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-035.html">Elwick Drive-in</a></h3>
+  
+  <p class="gx-place">Glenorchy, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-058" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="empire town hall geeveston tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-058.html">Empire</a></h3>
+  <p class="gx-alias">Also recorded as Town Hall</p>
+  <p class="gx-place">Geeveston, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-005" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="empire prince of wales hobart tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-005.html">Empire</a></h3>
+  <p class="gx-alias">Also recorded as Prince of Wales</p>
+  <p class="gx-place">Hobart, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-027" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="empire queenstown tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-027.html">Empire</a></h3>
+  
+  <p class="gx-place">Queenstown, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0100" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="event marion oaklands park sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0100.html">Event Marion</a></h3>
@@ -754,10 +928,22 @@
   <p class="gx-place">Port Lincoln, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-063" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="foresters hall star longford tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-063.html">Foresters Hall</a></h3>
+  <p class="gx-alias">Also recorded as Star</p>
+  <p class="gx-place">Longford, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0089" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="former picture theatre strathalbyn sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0089.html">Former Picture Theatre</a></h3>
   
   <p class="gx-place">Strathalbyn, SA · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-028" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="gaiety zeehan tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-028.html">Gaiety</a></h3>
+  
+  <p class="gx-place">Zeehan, TAS · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="apa-sa-00002" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="garden theatre colonel light gardens sa south australia research lead not verified">
@@ -772,6 +958,12 @@
   <p class="gx-place">Gawler, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-113" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="george town picture cinema george town tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-113.html">George Town Picture Cinema</a></h3>
+  
+  <p class="gx-place">George Town, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0012" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="glenelg ozone glenelg cinema centre 119 jetty road glenelg sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0012.html">Glenelg Ozone</a></h3>
   <p class="gx-alias">Also recorded as Glenelg Cinema Centre</p>
@@ -783,6 +975,12 @@
   <p class="gx-alias">Also recorded as Mayfair; Sturt</p>
   <p class="gx-place">Adelaide, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-030" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="grassy public hall king island tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-030.html">Grassy Public Hall</a></h3>
+  
+  <p class="gx-place">King Island, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0026" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="groveline drive in renmark sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0026.html">Groveline Drive-in</a></h3>
@@ -820,6 +1018,18 @@
   <p class="gx-place">Hindmarsh, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-006" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="his majestys hobart tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-006.html">His Majesty&#x27;s</a></h3>
+  
+  <p class="gx-place">Hobart, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-083" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="historical picture theatre flinders island tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-083.html">Historical Picture Theatre</a></h3>
+  
+  <p class="gx-place">Flinders Island, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0019" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="hollywood drive in salisbury downs sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0019.html">Hollywood Drive-in</a></h3>
   
@@ -836,6 +1046,12 @@
   <h3 class="gx-name"><a href="leads/act-r001-011.html">Hoyts Belconnen</a></h3>
   
   <p class="gx-place">Belconnen, ACT · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-048" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="hoyts mid city hobart tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-048.html">Hoyts Mid City</a></h3>
+  
+  <p class="gx-place">Hobart, TAS · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0075" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="hoyts norwood 185 the parade norwood sa south australia research lead not verified">
@@ -862,6 +1078,12 @@
   <p class="gx-place">Phillip, ACT · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-015" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="huon theatre huonville tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-015.html">Huon Theatre</a></h3>
+  
+  <p class="gx-place">Huonville, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0015" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="imax multiplex adelaide sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0015.html">IMAX Multiplex</a></h3>
   
@@ -880,11 +1102,41 @@
   <p class="gx-place">Kadina, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-049" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="kings hall hobart tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-049.html">King&#x27;s Hall</a></h3>
+  
+  <p class="gx-place">Hobart, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-076" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="kings hall railton tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-076.html">King&#x27;s Hall</a></h3>
+  
+  <p class="gx-place">Railton, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-091" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="leven star town hall ulverstone tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-091.html">Leven Star</a></h3>
+  <p class="gx-alias">Also recorded as Town Hall</p>
+  <p class="gx-place">Ulverstone, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="act-r001-015" data-state="act" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="limelight cinema greenway act australian capital territory research lead not verified">
   <h3 class="gx-name"><a href="leads/act-r001-015.html">Limelight Cinema</a></h3>
   
   <p class="gx-place">Greenway, ACT · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-054" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="lindisfarne cinema lindisfarne tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-054.html">Lindisfarne cinema</a></h3>
+  
+  <p class="gx-place">Lindisfarne, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-094" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="little theatre deloraine tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-094.html">Little Theatre</a></h3>
+  
+  <p class="gx-place">Deloraine, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0132" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="lobethal institute and cinema 30 36 main street lobethal sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0132.html">Lobethal Institute and Cinema</a></h3>
@@ -897,6 +1149,18 @@
   <p class="gx-alias">Also recorded as Windsor</p>
   <p class="gx-place">Lockleys, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-032" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="lyric glenorchy tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-032.html">Lyric</a></h3>
+  
+  <p class="gx-place">Glenorchy, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-025" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="lyric scottsdale tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-025.html">Lyric</a></h3>
+  
+  <p class="gx-place">Scottsdale, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0027" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="lyric theatre renmark sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0027.html">Lyric Theatre</a></h3>
@@ -916,10 +1180,28 @@
   <p class="gx-place">Gepps Cross, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-020" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="majestic launceston tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-020.html">Majestic</a></h3>
+  
+  <p class="gx-place">Launceston, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0047" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="majestic theatre adelaide sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0047.html">Majestic Theatre</a></h3>
   
   <p class="gx-place">Adelaide, SA · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-112" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="majestic theatre devonport tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-112.html">Majestic Theatre</a></h3>
+  
+  <p class="gx-place">Devonport, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-089" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="mechanics institute woodbridge tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-089.html">Mechanics Institute</a></h3>
+  
+  <p class="gx-place">Woodbridge, TAS · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0010" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="melba cinema dulwich sa south australia research lead not verified">
@@ -928,10 +1210,34 @@
   <p class="gx-place">Dulwich, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-011" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="melrose glenorchy tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-011.html">Melrose</a></h3>
+  
+  <p class="gx-place">Glenorchy, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-101" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="memorial hall claremont tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-101.html">Memorial Hall</a></h3>
+  
+  <p class="gx-place">Claremont, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-064" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="memorial hall lilydale tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-064.html">Memorial Hall</a></h3>
+  
+  <p class="gx-place">Lilydale, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0013" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="mercury cinema 13 morphett street adelaide sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0013.html">Mercury Cinema</a></h3>
   
   <p class="gx-place">Adelaide, SA · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-045" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="metro burnie tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-045.html">Metro</a></h3>
+  
+  <p class="gx-place">Burnie, TAS · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0045" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="metro theatre adelaide sa south australia research lead not verified">
@@ -946,11 +1252,23 @@
   <p class="gx-place">Marion, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-066" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="millers hall campbell town tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-066.html">Miller&#x27;s Hall</a></h3>
+  
+  <p class="gx-place">Campbell Town, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0116" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="milton hall fullarton sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0116.html">Milton Hall</a></h3>
   
   <p class="gx-place">Fullarton, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-053" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="moonah theatre moonah tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-053.html">Moonah Theatre</a></h3>
+  
+  <p class="gx-place">Moonah, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0114" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="moonlight cinema adelaide sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0114.html">Moonlight Cinema</a></h3>
@@ -970,6 +1288,12 @@
   <p class="gx-place">Mount Gambier, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-115" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="mt lyell hall gormanston tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-115.html">Mt Lyell Hall</a></h3>
+  
+  <p class="gx-place">Gormanston, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0062" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="murrayline drive in berri sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0062.html">Murrayline Drive-in</a></h3>
   
@@ -980,6 +1304,12 @@
   <h3 class="gx-name"><a href="leads/sa-r-0090.html">Naracoorte Institute</a></h3>
   <p class="gx-alias">Also recorded as Landmark Cinema</p>
   <p class="gx-place">Naracoorte, SA · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-023" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="national launceston tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-023.html">National</a></h3>
+  
+  <p class="gx-place">Launceston, TAS · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0130" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="new paris regent 2 grenfell street adelaide sa south australia research lead not verified">
@@ -1010,6 +1340,12 @@
   <h3 class="gx-name"><a href="leads/sa-r-0109.html">Northern Festival Centre</a></h3>
   
   <p class="gx-place">Port Pirie, SA · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-109" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="northern suburbs community centre newnham mowbray tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-109.html">Northern Suburbs Community Centre</a></h3>
+  
+  <p class="gx-place">Newnham / Mowbray, TAS · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0066" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="northline drive in clare sa south australia research lead not verified">
@@ -1096,6 +1432,18 @@
   <p class="gx-place">Prospect, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-057" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="palais town hall franklin tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-057.html">Palais</a></h3>
+  <p class="gx-alias">Also recorded as Town Hall</p>
+  <p class="gx-place">Franklin, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-026" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="paragon queenstown tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-026.html">Paragon</a></h3>
+  
+  <p class="gx-place">Queenstown, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0059" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="parkline drive in mitchell park sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0059.html">Parkline Drive-in</a></h3>
   
@@ -1108,16 +1456,40 @@
   <p class="gx-place">Adelaide, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-052" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="peacock hobart tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-052.html">Peacock</a></h3>
+  
+  <p class="gx-place">Hobart, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="apa-sa-00003" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="piccadilly theatre forum 181 189 oconnell street north adelaide sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/apa-sa-00003.html">Piccadilly Theatre</a></h3>
   <p class="gx-alias">Also recorded as Forum</p>
   <p class="gx-place">North Adelaide, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-021" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="plaza launceston tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-021.html">Plaza</a></h3>
+  
+  <p class="gx-place">Launceston, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-013" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="plaza new norfolk tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-013.html">Plaza</a></h3>
+  
+  <p class="gx-place">New Norfolk, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0049" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="plaza theatre paris grenfell street adelaide sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0049.html">Plaza Theatre</a></h3>
   <p class="gx-alias">Also recorded as Paris</p>
   <p class="gx-place">Adelaide, SA · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-085" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="pontifex pictures strahan tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-085.html">Pontifex Pictures</a></h3>
+  
+  <p class="gx-place">Strahan, TAS · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0069" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="port adelaide ozone port adelaide sa south australia research lead not verified">
@@ -1138,6 +1510,48 @@
   <p class="gx-place">Port Pirie, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-084" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="princess wynyard theatre wynyard tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-084.html">Princess</a></h3>
+  <p class="gx-alias">Also recorded as Wynyard Theatre</p>
+  <p class="gx-place">Wynyard, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="apa-tas-00002" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="pre1930" data-search="princess theatre princess brisbane street no number launceston tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/apa-tas-00002.html">Princess Theatre</a></h3>
+  <p class="gx-alias">Also recorded as Princess</p>
+  <p class="gx-place">Launceston, TAS · Status not verified · opened 1911 (as recorded)</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-099" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="proposed drive in breadalbane tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-099.html">Proposed drive-in</a></h3>
+  
+  <p class="gx-place">Breadalbane, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-086" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="public hall ellendale tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-086.html">Public Hall</a></h3>
+  
+  <p class="gx-place">Ellendale, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-107" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="public hall gladstone tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-107.html">Public Hall</a></h3>
+  
+  <p class="gx-place">Gladstone, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-055" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="public hall glenorchy tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-055.html">Public Hall</a></h3>
+  
+  <p class="gx-place">Glenorchy, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-102" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="public hall sorell tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-102.html">Public Hall</a></h3>
+  
+  <p class="gx-place">Sorell, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0101" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="reading elizabeth elizabeth sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0101.html">Reading Elizabeth</a></h3>
   
@@ -1154,6 +1568,12 @@
   <h3 class="gx-name"><a href="leads/apa-sa-00004.html">Regal Theatre</a></h3>
   <p class="gx-alias">Also recorded as Chelsea Cinema; Princess Theatre; Marryatville Ozone; Chelsea</p>
   <p class="gx-place">Kensington Park, SA · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="apa-tas-00003" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="regent cinema bellerive town hall regent town hall bellerive tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/apa-tas-00003.html">Regent Cinema (Bellerive town hall)</a></h3>
+  <p class="gx-alias">Also recorded as Regent; Town Hall</p>
+  <p class="gx-place">Bellerive, TAS · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="apa-sa-00005" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="pre1930" data-search="regent theatre former facade regent theatre 101 109 rundle mall adelaide sa south australia research lead not verified">
@@ -1192,6 +1612,12 @@
   <p class="gx-place">Everard Park, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-114" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="roxy theatre oatlands tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-114.html">Roxy Theatre</a></h3>
+  
+  <p class="gx-place">Oatlands, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0046" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="savoy theatre adelaide sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0046.html">Savoy Theatre</a></h3>
   
@@ -1210,6 +1636,18 @@
   <p class="gx-place">North Adelaide, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-100" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="showground drive in hobart tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-100.html">Showground drive-in</a></h3>
+  
+  <p class="gx-place">Hobart, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-014" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="soldiers memorial hall ranelagh tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-014.html">Soldiers Memorial Hall</a></h3>
+  
+  <p class="gx-place">Ranelagh, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0039" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="south coast cinema robe sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0039.html">South Coast Cinema</a></h3>
   
@@ -1220,6 +1658,24 @@
   <h3 class="gx-name"><a href="leads/sa-r-0038.html">South Coast Drive-in</a></h3>
   
   <p class="gx-place">Port Elliot, SA · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-018" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="st johns park cinema new town tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-018.html">St John&#x27;s Park cinema</a></h3>
+  
+  <p class="gx-place">New Town, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-069" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="star cinema one devonport tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-069.html">Star</a></h3>
+  <p class="gx-alias">Also recorded as Cinema One</p>
+  <p class="gx-place">Devonport, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-022" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="star invermay tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-022.html">Star</a></h3>
+  
+  <p class="gx-place">Invermay, TAS · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0072" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="star theatre odeon 226 230 the parade norwood sa south australia research lead not verified">
@@ -1252,6 +1708,36 @@
   <p class="gx-place">O&#x27;Halloran Hill, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-038" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="starlite drive in east devonport tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-038.html">Starlite Drive-in</a></h3>
+  
+  <p class="gx-place">East Devonport, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-039" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="starlite drive in somerset tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-039.html">Starlite Drive-in</a></h3>
+  
+  <p class="gx-place">Somerset, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="apa-tas-00004" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="pre1930" data-search="state cinema picture palace liberty state north hobart picture palace liberty theatre state theatre 375 elizabeth street north hobart tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/apa-tas-00004.html">State Cinema</a></h3>
+  <p class="gx-alias">Also recorded as Picture Palace; Liberty; State; North Hobart Picture Palace; Liberty Theatre; State Theatre</p>
+  <p class="gx-place">North Hobart, TAS · Status not verified · opened 1913 (as recorded)</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-047" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="state rooftop north hobart tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-047.html">State Rooftop</a></h3>
+  
+  <p class="gx-place">North Hobart, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="apa-tas-00005" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="1930s40s" data-search="strand theatre strand odeon odeon later name hobart tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/apa-tas-00005.html">Strand Theatre</a></h3>
+  <p class="gx-alias">Also recorded as Strand; Odeon; Odeon (later name)</p>
+  <p class="gx-place">Hobart, TAS · Status not verified · opened 1930 (as recorded)</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0123" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="sturt cinema mount gambier sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0123.html">Sturt Cinema</a></h3>
   
@@ -1270,10 +1756,58 @@
   <p class="gx-place">Kadina, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-103" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="tasma tullah tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-103.html">Tasma</a></h3>
+  
+  <p class="gx-place">Tullah, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-051" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="tasmanian hall hobart tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-051.html">Tasmanian Hall</a></h3>
+  
+  <p class="gx-place">Hobart, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-009" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="tatler hobart tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-009.html">Tatler</a></h3>
+  
+  <p class="gx-place">Hobart, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-024" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="tatler cinema one launceston tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-024.html">Tatler</a></h3>
+  <p class="gx-alias">Also recorded as Cinema One</p>
+  <p class="gx-place">Launceston, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="apa-tas-00001" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="the palace palace theatre hobart tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/apa-tas-00001.html">The Palace</a></h3>
+  <p class="gx-alias">Also recorded as Palace Theatre</p>
+  <p class="gx-place">Hobart, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0009" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="theatre royal adelaide sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0009.html">Theatre Royal</a></h3>
   
   <p class="gx-place">Adelaide, SA · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-010" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="theatre royal hobart tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-010.html">Theatre Royal</a></h3>
+  
+  <p class="gx-place">Hobart, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-062" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="theatre royal todds lyceum launceston tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-062.html">Theatre Royal</a></h3>
+  <p class="gx-alias">Also recorded as Todd&#x27;s Lyceum</p>
+  <p class="gx-place">Launceston, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-092" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="theatre royal academy of music zeehan tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-092.html">Theatre Royal</a></h3>
+  <p class="gx-alias">Also recorded as Academy of Music</p>
+  <p class="gx-place">Zeehan, TAS · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0051" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="thebarton theatre thebarton sa south australia research lead not verified">
@@ -1282,10 +1816,82 @@
   <p class="gx-place">Thebarton, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-081" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="thompsons hall st helens tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-081.html">Thompson&#x27;s Hall</a></h3>
+  
+  <p class="gx-place">St Helens, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0078" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="torrensville star plaza mile end sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0078.html">Torrensville Star</a></h3>
   <p class="gx-alias">Also recorded as Plaza</p>
   <p class="gx-place">Mile End, SA · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-097" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="town hall bothwell tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-097.html">Town Hall</a></h3>
+  
+  <p class="gx-place">Bothwell, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-065" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="town hall campbell town tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-065.html">Town Hall</a></h3>
+  
+  <p class="gx-place">Campbell Town, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-060" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="town hall cygnet tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-060.html">Town Hall</a></h3>
+  
+  <p class="gx-place">Cygnet, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-079" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="town hall deloraine tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-079.html">Town Hall</a></h3>
+  
+  <p class="gx-place">Deloraine, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-056" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="town hall glenorchy tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-056.html">Town Hall</a></h3>
+  
+  <p class="gx-place">Glenorchy, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-050" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="town hall hobart tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-050.html">Town Hall</a></h3>
+  
+  <p class="gx-place">Hobart, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-016" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="town hall kingston tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-016.html">Town Hall</a></h3>
+  
+  <p class="gx-place">Kingston, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-072" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="town hall penguin tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-072.html">Town Hall</a></h3>
+  
+  <p class="gx-place">Penguin, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-098" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="town hall richmond tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-098.html">Town Hall</a></h3>
+  
+  <p class="gx-place">Richmond, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-077" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="town hall sheffield tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-077.html">Town Hall</a></h3>
+  
+  <p class="gx-place">Sheffield, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-093" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="town hall swansea tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-093.html">Town Hall</a></h3>
+  
+  <p class="gx-place">Swansea, TAS · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0113" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="trak cinema toorak gardens sa south australia research lead not verified">
@@ -1294,10 +1900,40 @@
   <p class="gx-place">Toorak Gardens, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-095" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="tramshed auditorium inveresk tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-095.html">Tramshed Auditorium</a></h3>
+  
+  <p class="gx-place">Inveresk, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-073" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="unidentified picture show penguin tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-073.html">Unidentified picture show</a></h3>
+  
+  <p class="gx-place">Penguin, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-017" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="university arts lecture theatre hobart tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-017.html">University Arts Lecture Theatre</a></h3>
+  
+  <p class="gx-place">Hobart, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-111" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="upper derwent united hall bushy park tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-111.html">Upper Derwent United Hall</a></h3>
+  
+  <p class="gx-place">Bushy Park, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0060" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="valleyline drive in st agnes sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0060.html">Valleyline Drive-in</a></h3>
   
   <p class="gx-place">St Agnes, SA · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-007" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="variety theatrette hobart tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-007.html">Variety Theatrette</a></h3>
+  
+  <p class="gx-place">Hobart, TAS · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0005" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="victa cinema ozone theatre victor theatre 37 41 ocean street victor harbor sa south australia research lead not verified">
@@ -1305,6 +1941,42 @@
   <p class="gx-alias">Also recorded as Ozone Theatre; Victor Theatre</p>
   <p class="gx-place">Victor Harbor, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-042" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="village glenorchy tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-042.html">Village</a></h3>
+  
+  <p class="gx-place">Glenorchy, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-040" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="village hobart tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-040.html">Village</a></h3>
+  
+  <p class="gx-place">Hobart, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-041" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="village launceston tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-041.html">Village</a></h3>
+  
+  <p class="gx-place">Launceston, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-037" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="village drive in mowbray tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-037.html">Village Drive-in</a></h3>
+  
+  <p class="gx-place">Mowbray, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="badge b-conflict"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg></span>Open questions</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-043" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="village eastlands rosny tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-043.html">Village Eastlands</a></h3>
+  
+  <p class="gx-place">Rosny, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-071" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="vogue burnie tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-071.html">Vogue</a></h3>
+  
+  <p class="gx-place">Burnie, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0052" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="vogue theatre unley sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0052.html">Vogue Theatre</a></h3>
@@ -1348,10 +2020,28 @@
   <p class="gx-place">Adelaide, SA · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
+<li class="gx-item" data-id="tas-087" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="westbury pictures town hall westbury tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-087.html">Westbury Pictures</a></h3>
+  <p class="gx-alias">Also recorded as Town Hall</p>
+  <p class="gx-place">Westbury, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-096" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="wharf hotel theatre wynyard tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-096.html">Wharf Hotel Theatre</a></h3>
+  
+  <p class="gx-place">Wynyard, TAS · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
 <li class="gx-item" data-id="sa-r-0106" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="whyalla cinema whyalla norrie sa south australia research lead not verified">
   <h3 class="gx-name"><a href="leads/sa-r-0106.html">Whyalla Cinema</a></h3>
   
   <p class="gx-place">Whyalla Norrie, SA · Status not verified</p>
+  <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
+</li>
+<li class="gx-item" data-id="tas-088" data-state="tas" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="williamsford hall williamsford tas tasmania research lead not verified">
+  <h3 class="gx-name"><a href="leads/tas-088.html">Williamsford Hall</a></h3>
+  
+  <p class="gx-place">Williamsford, TAS · Status not verified</p>
   <p class="gx-badges"><span class="badge b-unverified"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.5-3 4.5M12 18h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Research lead, not verified</span><span class="gx-loc">Not on the map</span></p>
 </li>
 <li class="gx-item" data-id="sa-r-0112" data-state="sa" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="unknown" data-search="windsor theatre brighton sa south australia research lead not verified">
