@@ -1,0 +1,544 @@
+[
+ {
+  "aliases": [],
+  "address": "Manuka Circle",
+  "type": "cinema",
+  "facts": [
+   [
+    "Opened or trading by (as recorded)",
+    "1927-12-08"
+   ],
+   [
+    "Demolished (as recorded)",
+    "1980"
+   ]
+  ],
+  "notes": [
+   "Original building; over 1000 seats; successor on same site."
+  ],
+  "sources": [
+   {
+    "label": "NFSA",
+    "url": "https://www.nfsa.gov.au/stories/articles/cinecity-canberra"
+   },
+   {
+    "label": "NFSA Capitol",
+    "url": "https://www.nfsa.gov.au/collection/item/capitol-theatre-manuka"
+   },
+   {
+    "label": "NFSA opening",
+    "url": "https://www.nfsa.gov.au/collection/item/capitol-theatre-canberra"
+   }
+  ],
+  "conflicts": [
+   "Same site successive buildings",
+   "Capitol opening 1927-12-08 attributed to S03 labelled 'NFSA opening'; URL slug says capitol-theatre-canberra while S02 says capitol-theatre-manuka"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "ACT-R001-001"
+  ],
+  "id": "act-r001-001",
+  "state": "ACT",
+  "name": "Capitol Theatre",
+  "locality": "Manuka",
+  "basis": "Two or more institutional sources are cited by the researcher; Film Cinemas Australia has not yet checked each claim."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [
+   [
+    "Closed (as recorded)",
+    "2020-03"
+   ]
+  ],
+  "notes": [
+   "Closure announced May 2020; same site as original; opening needs verification."
+  ],
+  "sources": [
+   {
+    "label": "NFSA Capitol",
+    "url": "https://www.nfsa.gov.au/collection/item/capitol-theatre-manuka"
+   }
+  ],
+  "conflicts": [
+   "Same site successive buildings",
+   "Capitol successor: closing_date 2020-03 but note says closure announced May 2020"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "ACT-R001-002"
+  ],
+  "id": "act-r001-002",
+  "state": "ACT",
+  "name": "Capitol Cinema (successor)",
+  "locality": "Manuka",
+  "basis": "One institutional source, or a current operator listing, is cited; not yet checked by Film Cinemas Australia."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [
+   [
+    "Opened or trading by (as recorded)",
+    "1936"
+   ],
+   [
+    "Closed (as recorded)",
+    "1973"
+   ]
+  ],
+  "notes": [
+   "NFSA gives 1973 replacement; exact site transition needs research."
+  ],
+  "sources": [
+   {
+    "label": "NFSA",
+    "url": "https://www.nfsa.gov.au/stories/articles/cinecity-canberra"
+   },
+   {
+    "label": "ACT Heritage background",
+    "url": "https://www.environment.act.gov.au/__data/assets/pdf_file/0010/1737136/cinema-centre-background-information.pdf"
+   }
+  ],
+  "conflicts": [
+   "Civic succession, precise transition and footprints",
+   "Inner-north locality recorded four ways: Braddon, Civic, Canberra City, Canberra"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "ACT-R001-003"
+  ],
+  "id": "act-r001-003",
+  "state": "ACT",
+  "name": "Civic Theatre",
+  "locality": "Braddon",
+  "basis": "Two or more institutional sources are cited by the researcher; Film Cinemas Australia has not yet checked each claim."
+ },
+ {
+  "aliases": [
+   "Greater Union Civic"
+  ],
+  "address": "",
+  "type": "cinema",
+  "facts": [
+   [
+    "Closed (as recorded)",
+    "2007"
+   ]
+  ],
+  "notes": [
+   "Successor to Civic Theatre; do not assume same footprint."
+  ],
+  "sources": [
+   {
+    "label": "NFSA",
+    "url": "https://www.nfsa.gov.au/stories/articles/cinecity-canberra"
+   },
+   {
+    "label": "Canberra Museum and Gallery",
+    "url": "https://www.cmag.com.au/collection/items/rolls-of-admission-tickets-electric-printed-shadows/detail"
+   }
+  ],
+  "conflicts": [
+   "Civic succession, precise transition and footprints",
+   "Inner-north locality recorded four ways: Braddon, Civic, Canberra City, Canberra"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "ACT-R001-004"
+  ],
+  "id": "act-r001-004",
+  "state": "ACT",
+  "name": "Civic Twin",
+  "locality": "Civic",
+  "basis": "One institutional source, or a current operator listing, is cited; not yet checked by Film Cinemas Australia."
+ },
+ {
+  "aliases": [],
+  "address": "50 Bunda Street",
+  "type": "cinema",
+  "facts": [
+   [
+    "Opened or trading by (as recorded)",
+    "1966"
+   ],
+   [
+    "Closed (as recorded)",
+    "2003"
+   ]
+  ],
+  "notes": [
+   "seats; architect Enrico Taglietti; heritage registration."
+  ],
+  "sources": [
+   {
+    "label": "NFSA",
+    "url": "https://www.nfsa.gov.au/stories/articles/cinecity-canberra"
+   },
+   {
+    "label": "ACT Heritage background",
+    "url": "https://www.environment.act.gov.au/__data/assets/pdf_file/0010/1737136/cinema-centre-background-information.pdf"
+   },
+   {
+    "label": "ACT Heritage registration",
+    "url": "https://yoursayconversations.act.gov.au/preserving-our-heritage/heritage-register-cinema-center"
+   }
+  ],
+  "conflicts": [
+   "Inner-north locality recorded four ways: Braddon, Civic, Canberra City, Canberra",
+   "Heritage registration claimed from a consultation page (S05), not the register"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "ACT-R001-005"
+  ],
+  "id": "act-r001-005",
+  "state": "ACT",
+  "name": "Center Cinema",
+  "locality": "Civic",
+  "basis": "Two or more institutional sources are cited by the researcher; Film Cinemas Australia has not yet checked each claim."
+ },
+ {
+  "aliases": [
+   "Electric Shadows"
+  ],
+  "address": "",
+  "type": "cinema",
+  "facts": [
+   [
+    "Opened or trading by (as recorded)",
+    "1973"
+   ],
+   [
+    "Closed (as recorded)",
+    "2006"
+   ]
+  ],
+  "notes": [
+   "One venue with successive names."
+  ],
+  "sources": [
+   {
+    "label": "NFSA",
+    "url": "https://www.nfsa.gov.au/stories/articles/cinecity-canberra"
+   },
+   {
+    "label": "Canberra Museum and Gallery",
+    "url": "https://www.cmag.com.au/collection/items/rolls-of-admission-tickets-electric-printed-shadows/detail"
+   }
+  ],
+  "conflicts": [
+   "Inner-north locality recorded four ways: Braddon, Civic, Canberra City, Canberra"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "ACT-R001-006"
+  ],
+  "id": "act-r001-006",
+  "state": "ACT",
+  "name": "Boulevard Twin",
+  "locality": "Canberra",
+  "basis": "One institutional source, or a current operator listing, is cited; not yet checked by Film Cinemas Australia."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [
+   [
+    "Opened or trading by (as recorded)",
+    "1984"
+   ],
+   [
+    "Closed (as recorded)",
+    "2000"
+   ]
+  ],
+  "notes": [
+   "Exact address and successor relationship unresolved."
+  ],
+  "sources": [
+   {
+    "label": "Canberra Museum and Gallery",
+    "url": "https://www.cmag.com.au/collection/items/rolls-of-admission-tickets-electric-printed-shadows/detail"
+   }
+  ],
+  "conflicts": [
+   "Possible predecessor relationship",
+   "Cosmopolitan Twin rests only on a museum object record (S08)"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "ACT-R001-007"
+  ],
+  "id": "act-r001-007",
+  "state": "ACT",
+  "name": "Cosmopolitan Twin",
+  "locality": "Woden",
+  "basis": "Supported only by a single weak source (a museum object record)."
+ },
+ {
+  "aliases": [],
+  "address": "Federal Highway",
+  "type": "drive-in",
+  "facts": [
+   [
+    "Opened or trading by (as recorded)",
+    "1957"
+   ],
+   [
+    "Closed (as recorded)",
+    "1993"
+   ]
+  ],
+  "notes": [
+   "Drive-in; capacity 750 by 1962; sign survived redevelopment."
+  ],
+  "sources": [
+   {
+    "label": "ArchivesACT",
+    "url": "https://www.archives.act.gov.au/find_of_the_month/2022/december/previous-december-find-of-the-month"
+   },
+   {
+    "label": "NFSA Starlight",
+    "url": "https://www.nfsa.gov.au/collection/item/welcome-starlight-drive"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "ACT-R001-008"
+  ],
+  "id": "act-r001-008",
+  "state": "ACT",
+  "name": "Starlight Drive-in",
+  "locality": "Watson",
+  "basis": "Two or more institutional sources are cited by the researcher; Film Cinemas Australia has not yet checked each claim."
+ },
+ {
+  "aliases": [],
+  "address": "Jerrabomberra Avenue and Narrabundah Lane",
+  "type": "drive-in",
+  "facts": [
+   [
+    "Opened or trading by (as recorded)",
+    "1969-03"
+   ],
+   [
+    "Closed (as recorded)",
+    "1984-05"
+   ]
+  ],
+  "notes": [
+   "Trading by March 1969, not exact opening; 1000-car development requirement."
+  ],
+  "sources": [
+   {
+    "label": "ArchivesACT",
+    "url": "https://www.archives.act.gov.au/find_of_the_month/2022/december/previous-december-find-of-the-month"
+   }
+  ],
+  "conflicts": [
+   "Sundown opening 1969-03 is a trading-by attestation, not an opening date"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "ACT-R001-009"
+  ],
+  "id": "act-r001-009",
+  "state": "ACT",
+  "name": "Sundown Drive-in",
+  "locality": "Narrabundah",
+  "basis": "One institutional source, or a current operator listing, is cited; not yet checked by Film Cinemas Australia."
+ },
+ {
+  "aliases": [],
+  "address": "148 Bunda Street",
+  "type": "cinema",
+  "facts": [
+   [
+    "Current listing",
+    "Listed by its operator when researched; sessions not checked by us"
+   ]
+  ],
+  "notes": [
+   "Level 2 North Quarter Canberra Centre."
+  ],
+  "sources": [
+   {
+    "label": "Dendy operator",
+    "url": "https://canberra.dendy.com.au/cinemas/"
+   }
+  ],
+  "conflicts": [
+   "Inner-north locality recorded four ways: Braddon, Civic, Canberra City, Canberra"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "ACT-R001-010"
+  ],
+  "id": "act-r001-010",
+  "state": "ACT",
+  "name": "Dendy Canberra",
+  "locality": "Canberra City",
+  "basis": "One institutional source, or a current operator listing, is cited; not yet checked by Film Cinemas Australia."
+ },
+ {
+  "aliases": [],
+  "address": "Benjamin Way",
+  "type": "cinema",
+  "facts": [
+   [
+    "Current listing",
+    "Listed by its operator when researched; sessions not checked by us"
+   ]
+  ],
+  "notes": [
+   "Level 3; opening date unverified."
+  ],
+  "sources": [
+   {
+    "label": "Hoyts operator",
+    "url": "https://www.hoyts.com.au/cinemas/belconnen"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "ACT-R001-011"
+  ],
+  "id": "act-r001-011",
+  "state": "ACT",
+  "name": "Hoyts Belconnen",
+  "locality": "Belconnen",
+  "basis": "One institutional source, or a current operator listing, is cited; not yet checked by Film Cinemas Australia."
+ },
+ {
+  "aliases": [],
+  "address": "2 Phillip Law Street",
+  "type": "cinema",
+  "facts": [
+   [
+    "Current listing",
+    "Listed by its operator when researched; sessions not checked by us"
+   ]
+  ],
+  "notes": [
+   "Eight screens reported by operator."
+  ],
+  "sources": [
+   {
+    "label": "Palace operator",
+    "url": "https://www.palacecinemas.com.au/cinemas/palace-electric-cinema"
+   }
+  ],
+  "conflicts": [
+   "Inner-north locality recorded four ways: Braddon, Civic, Canberra City, Canberra"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "ACT-R001-012"
+  ],
+  "id": "act-r001-012",
+  "state": "ACT",
+  "name": "Palace Electric Cinema",
+  "locality": "Canberra",
+  "basis": "One institutional source, or a current operator listing, is cited; not yet checked by Film Cinemas Australia."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Discovery lead only; verify NFSA venue and formats."
+  ],
+  "sources": [
+   {
+    "label": "Cinema Treasures discovery lead",
+    "url": "https://cinematreasures.org/theaters/australia/australian-capital-territory?status=open"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "ACT-R001-013"
+  ],
+  "id": "act-r001-013",
+  "state": "ACT",
+  "name": "Arc Cinema",
+  "locality": "Acton",
+  "basis": "Discovery lead from a volunteer-edited directory only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Discovery lead only; verify operator and predecessor relationship."
+  ],
+  "sources": [
+   {
+    "label": "Cinema Treasures discovery lead",
+    "url": "https://cinematreasures.org/theaters/australia/australian-capital-territory?status=open"
+   }
+  ],
+  "conflicts": [
+   "Possible predecessor relationship"
+  ],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "ACT-R001-014"
+  ],
+  "id": "act-r001-014",
+  "state": "ACT",
+  "name": "Hoyts Woden",
+  "locality": "Phillip",
+  "basis": "Discovery lead from a volunteer-edited directory only."
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "cinema",
+  "facts": [],
+  "notes": [
+   "Discovery lead only; verify operator and historical names."
+  ],
+  "sources": [
+   {
+    "label": "Cinema Treasures discovery lead",
+    "url": "https://cinematreasures.org/theaters/australia/australian-capital-territory?status=open"
+   }
+  ],
+  "conflicts": [],
+  "related": [],
+  "nationalId": "",
+  "candidateIds": [
+   "ACT-R001-015"
+  ],
+  "id": "act-r001-015",
+  "state": "ACT",
+  "name": "Limelight Cinema",
+  "locality": "Greenway",
+  "basis": "Discovery lead from a volunteer-edited directory only."
+ }
+]
