@@ -207,7 +207,7 @@ for s in SITES:
   <section class="rec-notes" aria-labelledby="how-title">
     <h2 id="how-title" class="visually-hidden">How sure we are</h2>
     <div class="notice n-info"><p><strong>Evidence:</strong> {E(EVIDENCE_MEANING[s["evidence"]])}</p>
-    <p><strong>Location:</strong> {E(LOC_MEANING[k])}</p>
+    <p><strong>Location:</strong> {E(s["loc"]["note"] if k == "none" and s["loc"].get("note", "").startswith("Not on the map.") else LOC_MEANING[k])}</p>
     {"<p><strong>Sources disagree:</strong> both versions are kept below. Neither has been chosen.</p>" if s.get("conflicts") else ""}</div>
   </section>
   <article class="site-rec rec-article" aria-labelledby="rec-title" data-cinema-id="{E(sid)}">

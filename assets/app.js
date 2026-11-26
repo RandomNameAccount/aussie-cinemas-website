@@ -77,8 +77,9 @@
       var statuses = checked("status"), evid = checked("evidence");
       var shown = 0, ids = new Set();
       items.forEach(function (c) {
-        var hay = c.getAttribute("data-search");
-        var ok = words.every(function (w) { return hay.indexOf(w) !== -1; }) &&
+        var toks = (" " + c.getAttribute("data-search"));
+        // Whole-word prefix match: "wa" finds Western Australia and Waverley, not Nowra or Hawthorne.
+        var ok = words.every(function (w) { return toks.indexOf(" " + w) !== -1; }) &&
           (!st || c.getAttribute("data-state") === st) && (!loc || c.getAttribute("data-loc") === loc) && (!era || c.getAttribute("data-era") === era) &&
           statuses.indexOf(c.getAttribute("data-status")) !== -1 && evid.indexOf(c.getAttribute("data-evidence")) !== -1;
         c.hidden = !ok;
