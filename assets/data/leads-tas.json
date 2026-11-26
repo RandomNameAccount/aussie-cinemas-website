@@ -598,60 +598,6 @@
   "address": "",
   "type": "",
   "facts": [],
-  "notes": [
-   "academic account supports historical exhibition or locality"
-  ],
-  "sources": [
-   {
-    "label": "Academic history",
-    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
-   }
-  ],
-  "conflicts": [
-   "predecessor identity"
-  ],
-  "related": [],
-  "nationalId": "",
-  "candidateIds": [
-   "TAS-021"
-  ],
-  "id": "tas-021",
-  "state": "TAS",
-  "name": "Plaza",
-  "locality": "Launceston",
-  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
- },
- {
-  "aliases": [],
-  "address": "",
-  "type": "",
-  "facts": [],
-  "notes": [
-   "academic account supports historical exhibition or locality"
-  ],
-  "sources": [
-   {
-    "label": "Academic history",
-    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
-   }
-  ],
-  "conflicts": [],
-  "related": [],
-  "nationalId": "",
-  "candidateIds": [
-   "TAS-022"
-  ],
-  "id": "tas-022",
-  "state": "TAS",
-  "name": "Star",
-  "locality": "Invermay",
-  "basis": "Its existence is supported by an academic history the researcher read; names, dates and other details are not yet checked."
- },
- {
-  "aliases": [],
-  "address": "",
-  "type": "",
-  "facts": [],
   "notes": [],
   "sources": [],
   "conflicts": [],

@@ -290,45 +290,6 @@
  },
  {
   "aliases": [],
-  "address": "Federal Highway",
-  "type": "drive-in",
-  "facts": [
-   [
-    "Opened or trading by (as recorded)",
-    "1957"
-   ],
-   [
-    "Closed (as recorded)",
-    "1993"
-   ]
-  ],
-  "notes": [
-   "Drive-in; capacity 750 by 1962; sign survived redevelopment."
-  ],
-  "sources": [
-   {
-    "label": "ArchivesACT",
-    "url": "https://www.archives.act.gov.au/find_of_the_month/2022/december/previous-december-find-of-the-month"
-   },
-   {
-    "label": "NFSA Starlight",
-    "url": "https://www.nfsa.gov.au/collection/item/welcome-starlight-drive"
-   }
-  ],
-  "conflicts": [],
-  "related": [],
-  "nationalId": "",
-  "candidateIds": [
-   "ACT-R001-008"
-  ],
-  "id": "act-r001-008",
-  "state": "ACT",
-  "name": "Starlight Drive-in",
-  "locality": "Watson",
-  "basis": "Two or more institutional sources are cited by the researcher; Film Cinemas Australia has not yet checked each claim."
- },
- {
-  "aliases": [],
   "address": "Jerrabomberra Avenue and Narrabundah Lane",
   "type": "drive-in",
   "facts": [
@@ -426,39 +387,6 @@
   "state": "ACT",
   "name": "Hoyts Belconnen",
   "locality": "Belconnen",
-  "basis": "One institutional source, or a current operator listing, is cited; not yet checked by Film Cinemas Australia."
- },
- {
-  "aliases": [],
-  "address": "2 Phillip Law Street",
-  "type": "cinema",
-  "facts": [
-   [
-    "Current listing",
-    "Listed by its operator when researched; sessions not checked by us"
-   ]
-  ],
-  "notes": [
-   "Eight screens reported by operator."
-  ],
-  "sources": [
-   {
-    "label": "Palace operator",
-    "url": "https://www.palacecinemas.com.au/cinemas/palace-electric-cinema"
-   }
-  ],
-  "conflicts": [
-   "Inner-north locality recorded four ways: Braddon, Civic, Canberra City, Canberra"
-  ],
-  "related": [],
-  "nationalId": "",
-  "candidateIds": [
-   "ACT-R001-012"
-  ],
-  "id": "act-r001-012",
-  "state": "ACT",
-  "name": "Palace Electric Cinema",
-  "locality": "Canberra",
   "basis": "One institutional source, or a current operator listing, is cited; not yet checked by Film Cinemas Australia."
  },
  {

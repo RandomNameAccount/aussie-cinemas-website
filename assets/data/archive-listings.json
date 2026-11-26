@@ -1,0 +1,358 @@
+[
+ {
+  "id": "fca-b01-r014",
+  "name": "Alberton Ozone",
+  "locality": "Alberton",
+  "state": "SA",
+  "level": "C",
+  "notice": "Archive listing. The name and place are approved by an editor; the address is provisional and the exact property has not been verified.",
+  "summary": "The Alberton Ozone in Fussell Place opened on 25 August 1924 as the second picture house built for South Australia's Ozone circuit. It converted to sound films at Christmas 1930, passed to Hoyts in 1951 and was sold in 1964 to become a supermarket.",
+  "sources": [
+   {
+    "title": "CAARP (Cinema and Audience Research Project): Ozone, Alberton",
+    "url": "https://caarp.com.au/venue/view/5"
+   }
+  ]
+ },
+ {
+  "id": "fca-b01-r023",
+  "name": "Naracoorte Institute",
+  "locality": "Naracoorte",
+  "state": "SA",
+  "level": "D",
+  "notice": "Archive listing. The name and place are approved by an editor; no address is shown because it has not been verified.",
+  "summary": "The Naracoorte Institute has screened films under several names, including Austral Pictures and the Landmark Cinema, and has also been known as the Town Hall.",
+  "sources": [
+   {
+    "title": "CAThS: South Australian cinema and theatre venues list",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ]
+ },
+ {
+  "id": "fca-b01-r038",
+  "name": "Starlight Drive-in",
+  "locality": "Watson",
+  "state": "ACT",
+  "level": "D",
+  "notice": "Archive listing. The name and place are approved by an editor; no address is shown because it has not been verified.",
+  "summary": "The Starlight Drive-in at Watson operated from 1957 until 1993, when the site was redeveloped for motel accommodation. Its entrance sign survives and is on the ACT Heritage Register; it was conserved and reinstated close to its original position in 2015.",
+  "sources": [
+   {
+    "title": "ArchivesACT: Sundown and Starlight, Canberra's drive-in theatres (Find of the Month, December 2022)",
+    "url": "https://www.archives.act.gov.au/find_of_the_month/2022/december/previous-december-find-of-the-month"
+   },
+   {
+    "title": "ACT Legislation Register: Heritage (Further Registration Decision for the Starlight Drive-In Theatre Sign, Watson) Notice 2016, NI2016-173",
+    "url": "https://www.legislation.act.gov.au/DownloadFile/ni/2016-173/current/PDF/2016-173.PDF"
+   }
+  ]
+ },
+ {
+  "id": "fca-b01-r042",
+  "name": "Palace Electric Cinema",
+  "locality": "Canberra",
+  "state": "ACT",
+  "level": "C",
+  "notice": "Archive listing. The name and place are approved by an editor; the address is provisional and the exact property has not been verified.",
+  "summary": "Palace Electric Cinema is a cinema at 2 Phillip Law Street, Canberra, run by Palace Cinemas. Its operator listed it at this address when checked in November 2026.",
+  "sources": [
+   {
+    "title": "Palace Cinemas: Palace Electric Cinema",
+    "url": "https://www.palacecinemas.com.au/cinemas/palace-electric-cinema"
+   }
+  ],
+  "address": "2 Phillip Law Street",
+  "addressStatus": "provisional"
+ },
+ {
+  "id": "fca-b01-r043",
+  "name": "Cygnet Cinema (Como Theatre)",
+  "locality": "Como",
+  "state": "WA",
+  "level": "C",
+  "notice": "Archive listing. The name and place are approved by an editor; the address is provisional and the exact property has not been verified.",
+  "summary": "The Cygnet Cinema, first known as the Como Theatre, opened at 16 Preston Street, Como, on 4 March 1938. It has been on Western Australia's State Register of Heritage Places since 1995.",
+  "sources": [
+   {
+    "title": "inHerit (Heritage Council of WA): Cygnet Cinema, Place 02404",
+    "url": "https://inherit.dplh.wa.gov.au/public/inventory/details/d09aaed3-1334-4039-83da-06853d24aa5f"
+   }
+  ],
+  "address": "16 Preston Street",
+  "addressStatus": "provisional"
+ },
+ {
+  "id": "fca-b01-r045",
+  "name": "Central 70 Drive-in",
+  "locality": "Albany",
+  "state": "WA",
+  "level": "D",
+  "notice": "Archive listing. The name and place are approved by an editor; no address is shown because it has not been verified.",
+  "summary": "The Central 70 Drive-in at Albany opened on 26 December 1964. It closed in early 1983, soon after changing hands, and the land was later subdivided for industry.",
+  "sources": [
+   {
+    "title": "Pictures in Motion (AMMPT Western Region): Central 70 Drive-In, Albany",
+    "url": "https://picturesinmotion.com.au/agnew-augusta/"
+   }
+  ]
+ },
+ {
+  "id": "fca-b02-r003",
+  "name": "Salon Lumière",
+  "locality": "Sydney",
+  "state": "NSW",
+  "level": "C",
+  "notice": "Archive listing. The name and place are approved by an editor; the address is provisional and the exact property has not been verified.",
+  "summary": "The Salon Lumière at 237 Pitt Street, Sydney, showed films with the Lumière Cinématographe in 1896. The National Film and Sound Archive describes it as Australia's first cinema. After it closed, a new tenant reopened the rooms as the Salon Cinématographe.",
+  "sources": [
+   {
+    "title": "National Film and Sound Archive: Salon Lumière, Australia's first cinema",
+    "url": "https://www.nfsa.gov.au/stories/articles/salon-lumiere"
+   }
+  ],
+  "address": "237 Pitt Street",
+  "addressStatus": "provisional"
+ },
+ {
+  "id": "fca-b02-r014",
+  "name": "Temperance Hall (Everybody's Pictures; Empire)",
+  "locality": "Penrith",
+  "state": "NSW",
+  "level": "D",
+  "notice": "Archive listing. The name and place are approved by an editor; no address is shown because it has not been verified.",
+  "summary": "Penrith's Temperance Hall hosted film screenings from 1903 and became a permanent picture theatre, Everybody's Pictures, in 1918. It was renamed the Empire in 1922 and destroyed by fire the following year.",
+  "sources": [
+   {
+    "title": "Nepean District Historical Society Bulletin 56 (April 2023): Penrith Goes to the Movies, compiled by Steve Maggs",
+    "url": "https://www.armsofaustraliainn.org.au/NDHS56r.pdf"
+   }
+  ]
+ },
+ {
+  "id": "fca-b02-r015",
+  "name": "Nepean Open-Air",
+  "locality": "Penrith",
+  "state": "NSW",
+  "level": "D",
+  "notice": "Archive listing. The name and place are approved by an editor; no address is shown because it has not been verified.",
+  "summary": "The Nepean began as an open-air picture show on a vacant block in Penrith on 9 March 1911, with seats for about 1,000 people and screenings in summer only. Its owners later converted neighbouring buildings into the indoor Nepean Theatre.",
+  "sources": [
+   {
+    "title": "Nepean District Historical Society Bulletin 56 (April 2023): Penrith Goes to the Movies, compiled by Steve Maggs",
+    "url": "https://www.armsofaustraliainn.org.au/NDHS56r.pdf"
+   }
+  ]
+ },
+ {
+  "id": "fca-b02-r032",
+  "name": "Coffs City Centre Cinema 3",
+  "locality": "Coffs Harbour",
+  "state": "NSW",
+  "level": "C",
+  "notice": "Archive listing. The name and place are approved by an editor; the address is provisional and the exact property has not been verified.",
+  "summary": "Coffs City Centre Cinema 3 opened in Vernon Street, Coffs Harbour, beside the Cinema Walk Arcade on 5 May 1988 and closed on 30 October 2002. The building is now used for shops and offices.",
+  "sources": [
+   {
+    "title": "CAThS: New South Wales cinema and theatre venues list",
+    "url": "https://www.caths.org.au/venues/pdf/nswa.pdf"
+   },
+   {
+    "title": "Coffs Coast Heritage: Cinema in Coffs Harbour",
+    "url": "https://www.coffscoastheritage.info/page/7/"
+   }
+  ],
+  "address": "11 Vernon Street",
+  "addressStatus": "provisional"
+ },
+ {
+  "id": "fca-b05-r017",
+  "name": "Yatala Drive-In",
+  "locality": "Stapylton",
+  "state": "QLD",
+  "level": "D",
+  "notice": "Archive listing. The name and place are approved by an editor; no address is shown because it has not been verified.",
+  "summary": "The Yatala Drive-In is at Stapylton in south-east Queensland. The State Library of Queensland describes it as still operating and run by Peter and Stephen Sourris.",
+  "sources": [
+   {
+    "title": "State Library of Queensland: Drive in theatres in Queensland",
+    "url": "https://www.slq.qld.gov.au/blog/drive-theatres-queensland"
+   },
+   {
+    "title": "Carflix: Australian drive-ins directory",
+    "url": "https://carflixdrivein.com.au/australiandriveins/"
+   }
+  ]
+ },
+ {
+  "id": "fca-b05-r046",
+  "name": "Tatler Theatrette (Cinema One)",
+  "locality": "Hobart",
+  "state": "TAS",
+  "level": "C",
+  "notice": "Archive listing. The name and place are approved by an editor; the address is provisional and the exact property has not been verified.",
+  "summary": "The Tatler Theatrette at 86 Murray Street, Hobart, opened on 28 July 1955 as a continuous newsreel theatre. It was renamed Cinema One in 1972 and has since closed.",
+  "sources": [
+   {
+    "title": "The Companion to Tasmanian History (University of Tasmania): Picture Theatres, by Adrian Jacobson",
+    "url": "https://www.utas.edu.au/tasmanian-companion/biogs/E000767b.htm"
+   },
+   {
+    "title": "Cinema Treasures: Cinema One, Hobart (volunteer-edited)",
+    "url": "https://cinematreasures.org/theaters/54082"
+   }
+  ],
+  "address": "86 Murray Street",
+  "addressStatus": "provisional"
+ },
+ {
+  "id": "fca-b05-r053",
+  "name": "Plaza Theatre",
+  "locality": "Launceston",
+  "state": "TAS",
+  "level": "D",
+  "notice": "Archive listing. The name and place are approved by an editor; no address is shown because it has not been verified.",
+  "summary": "Launceston's Plaza Theatre began as the Academy of Music, which became a picture house and was remodelled as the Plaza in 1937. The source gives the building's years of use as 1886 to 1964.",
+  "sources": [
+   {
+    "title": "Australian Variety Theatre Archive (ozvta.com): Academy of Music, Launceston",
+    "url": "https://ozvta.com/theatres-tas/2/"
+   }
+  ]
+ },
+ {
+  "id": "fca-b05-r054",
+  "name": "Star Theatre",
+  "locality": "Invermay",
+  "state": "TAS",
+  "level": "C",
+  "notice": "Archive listing. The name and place are approved by an editor; the address is provisional and the exact property has not been verified.",
+  "summary": "The Star Theatre at 217B Invermay Road, Launceston, opened on 5 October 1937. After restoration it reopened in April 2018 as an independent cinema with a café and bar, and changed hands again in December 2021.",
+  "sources": [
+   {
+    "title": "CAThS: Star Theatre, Invermay",
+    "url": "https://www.caths.org.au/cinemas_tas/invermay_star.htm"
+   }
+  ],
+  "address": "217B Invermay Road",
+  "addressStatus": "provisional"
+ },
+ {
+  "id": "fca-b06-r005",
+  "name": "Kingaroy Drive-In",
+  "locality": "Kingaroy",
+  "state": "QLD",
+  "level": "C",
+  "notice": "Archive listing. The name and place are approved by an editor; the address is provisional and the exact property has not been verified.",
+  "summary": "The Kingaroy Drive-In was on Booie Crawford Road, Kingaroy. It was open by 1972 and still screening in 1992, and has since closed.",
+  "sources": [
+   {
+    "title": "Cinema Treasures: Kingaroy Drive-In (volunteer-edited)",
+    "url": "https://cinematreasures.org/theaters/53338"
+   }
+  ],
+  "address": "57 Booie Crawford Road",
+  "addressStatus": "provisional"
+ },
+ {
+  "id": "fca-b07-r003",
+  "name": "HOYTS Ipswich",
+  "locality": "Ipswich",
+  "state": "QLD",
+  "level": "C",
+  "notice": "Archive listing. The name and place are approved by an editor; the address is provisional and the exact property has not been verified.",
+  "summary": "HOYTS Ipswich is a cinema on the first level of the Nicholas Street Precinct in central Ipswich. Its operator listed it there when checked in November 2026; the street number comes from Ipswich's tourism listing.",
+  "sources": [
+   {
+    "title": "HOYTS: HOYTS Ipswich",
+    "url": "https://www.hoyts.com.au/cinemas/ipswich"
+   },
+   {
+    "title": "Visit Ipswich: HOYTS Cinemas Ipswich",
+    "url": "https://www.visitipswich.com.au/hoyts-cinemas-ipswich"
+   }
+  ],
+  "address": "37 Nicholas Street",
+  "addressStatus": "provisional"
+ },
+ {
+  "id": "fca-b08-r002",
+  "name": "Wintergarden Theatre",
+  "locality": "Bundaberg",
+  "state": "QLD",
+  "level": "C",
+  "notice": "Archive listing. The name and place are approved by an editor; the address is provisional and the exact property has not been verified.",
+  "summary": "Bundaberg's Wintergarden Theatre stands at 2 Maryborough Street, on the corner of Woongarra Street. It opened on 26 February 1929 and showed its last film on 22 June 1968. The building is now the Wintergarden Community Hub.",
+  "sources": [
+   {
+    "title": "Our Bundaberg Region: Wintergarden Community Hub",
+    "url": "https://www.ourbundabergregion.com.au/wintergarden-community-hub"
+   },
+   {
+    "title": "Bundaberg Regional Council, BRC Now (10 April 2022): Construction work peels back Wintergarden history",
+    "url": "https://www.brcnow.bundaberg.qld.gov.au/2022/04/10/construction-work-peels-back-wintergarden-history/"
+   }
+  ],
+  "address": "2 Maryborough Street",
+  "addressStatus": "provisional"
+ },
+ {
+  "id": "fca-b08-r021",
+  "name": "Mount Morgan School of Arts",
+  "locality": "Mount Morgan",
+  "state": "QLD",
+  "level": "C",
+  "notice": "Archive listing. The name and place are approved by an editor; the address is provisional and the exact property has not been verified.",
+  "summary": "The Mount Morgan School of Arts opened in 1924, replacing earlier halls lost to fire, and has been used for films as well as balls and stage shows since then. It reopened after refurbishment in 2011.",
+  "sources": [
+   {
+    "title": "Queensland Legislation: Heritage Buildings Protection Act 1990 (as made)",
+    "url": "https://www.legislation.qld.gov.au/view/pdf/asmade/act-1990-036"
+   },
+   {
+    "title": "Rockhampton Regional Council: Mount Morgan School of Arts",
+    "url": "https://www.rockhamptonregion.qld.gov.au/FacilitiesRecreation/Parks-Open-Spaces/Book-a-Park/Venues-and-Parks-for-Hire/Mount-Morgan-School-of-Arts"
+   }
+  ],
+  "address": "31 Morgan Street",
+  "addressStatus": "provisional"
+ },
+ {
+  "id": "fca-b09-r011",
+  "name": "Reading Cinemas Armadale (formerly Grand Cinemas)",
+  "locality": "Armadale",
+  "state": "WA",
+  "level": "C",
+  "notice": "Archive listing. The name and place are approved by an editor; the address is provisional and the exact property has not been verified.",
+  "summary": "This Armadale cinema opened as Grand Cinemas Armadale on 20 January 2005. It closed in November 2022 when the Grand chain stopped trading, and reopened under Reading Cinemas in 2023 at 193 Jull Street.",
+  "sources": [
+   {
+    "title": "City of Armadale: Reading Cinemas Armadale",
+    "url": "https://my.armadale.wa.gov.au/see-and-do/reading-cinemas-armadale/"
+   },
+   {
+    "title": "Cinema Treasures: Reading Cinemas Armadale (volunteer-edited)",
+    "url": "https://cinematreasures.org/theaters/49480"
+   }
+  ],
+  "address": "193 Jull Street",
+  "addressStatus": "provisional"
+ },
+ {
+  "id": "fca-b10-r009",
+  "name": "Port Augusta Town Hall (Enterprise; Town Hall Pictures; Chelsea)",
+  "locality": "Port Augusta",
+  "state": "SA",
+  "level": "C",
+  "notice": "Archive listing. The name and place are approved by an editor; the address is provisional and the exact property has not been verified.",
+  "summary": "Port Augusta's Town Hall at 54 Commercial Road, built in 1886, was also used as a picture theatre: as the Enterprise Picture Theatre from 1937, Town Hall Pictures from 1946 and the Chelsea Cinema from July 1972.",
+  "sources": [
+   {
+    "title": "CAThS: South Australian cinema and theatre venues list",
+    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
+   }
+  ],
+  "address": "54 Commercial Road",
+  "addressStatus": "provisional"
+ }
+]

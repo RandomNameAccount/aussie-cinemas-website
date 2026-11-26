@@ -56,42 +56,6 @@
  },
  {
   "aliases": [
-   "Cygnet",
-   "Como Theatre"
-  ],
-  "address": "",
-  "type": "picture-theatre",
-  "facts": [
-   [
-    "Opened (as recorded)",
-    "1938 (as cited by inHerit)"
-   ]
-  ],
-  "notes": [
-   "built 1938 heritage 02404 shared indoor outdoor projection",
-   "Revival House current 35mm and 16mm",
-   "16 Preston Street"
-  ],
-  "sources": [
-   {
-    "label": "Source reference inherit24807 (national catalogue; link to be added)",
-    "url": ""
-   }
-  ],
-  "conflicts": [],
-  "related": [],
-  "nationalId": "APA-WA-00002",
-  "candidateIds": [
-   "WA-003"
-  ],
-  "id": "apa-wa-00002",
-  "state": "WA",
-  "name": "Cygnet Cinema",
-  "locality": "Como",
-  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
- },
- {
-  "aliases": [
    "Astor",
    "Lyceum Theatre",
    "State Theatre",
@@ -3396,28 +3360,6 @@
   "id": "wa-165",
   "state": "WA",
   "name": "Boronia Drive-in",
-  "locality": "Albany",
-  "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
- },
- {
-  "aliases": [],
-  "address": "",
-  "type": "drive-in",
-  "facts": [],
-  "notes": [
-   "opened 26 Dec 1964 historical 70mm",
-   "Barker Street opposite Stead Road"
-  ],
-  "sources": [],
-  "conflicts": [],
-  "related": [],
-  "nationalId": "",
-  "candidateIds": [
-   "WA-166"
-  ],
-  "id": "wa-166",
-  "state": "WA",
-  "name": "Central 70 Drive-in",
   "locality": "Albany",
   "basis": "Reconstructed from earlier research passes; the original evidence has not been re-checked. Treat every detail as a lead only."
  },

@@ -46,3 +46,14 @@ Unverified research for SA, ACT, Queensland (round 2), Tasmania and WA is publis
 - Queensland round-2 leads that match an existing QLD record are not published, so no cinema appears twice
 
 Rebuild everything with `python3 tools/build_genuine.py` (it runs `tools/build_leads.py` at the end). To remove a state's leads, delete its JSON file and rebuild.
+
+## Archive listings (Phase C)
+
+Approved archive listings (verification levels C and D) sit between the genuine records and the research leads:
+
+- data: `assets/data/archive-listings.json`, exported from the editorial staging database after owner approval. Never edit it by hand.
+- pages: `archive/<id>.html`, listed in Explore with their own evidence filter.
+- level C may show its address, labelled provisional; level D never shows an address. No listing has a map pin, and only sources an editor has opened and checked are linked.
+- when a listing replaces a research lead, the lead is removed in the same commit.
+
+`python3 tools/build_genuine.py` rebuilds records, then leads (`build_leads.py`), then archive listings (`build_archive.py`). To roll back a release, `git revert` its commit.

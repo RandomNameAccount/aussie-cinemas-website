@@ -833,32 +833,6 @@
  },
  {
   "aliases": [
-   "Town Hall Pictures"
-  ],
-  "address": "",
-  "type": "cinema",
-  "facts": [],
-  "notes": [],
-  "sources": [
-   {
-    "label": "Source cited by the researcher (caths)",
-    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
-   }
-  ],
-  "conflicts": [],
-  "related": [],
-  "nationalId": "",
-  "candidateIds": [
-   "SA-R-0032"
-  ],
-  "id": "sa-r-0032",
-  "state": "SA",
-  "name": "Chelsea Cinema",
-  "locality": "Port Augusta",
-  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
- },
- {
-  "aliases": [
    "Brian Evans Theatre"
   ],
   "address": "",
@@ -1730,30 +1704,6 @@
  },
  {
   "aliases": [],
-  "address": "33 Fussell Place",
-  "type": "cinema",
-  "facts": [],
-  "notes": [],
-  "sources": [
-   {
-    "label": "Source cited by the researcher (caths)",
-    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
-   }
-  ],
-  "conflicts": [],
-  "related": [],
-  "nationalId": "",
-  "candidateIds": [
-   "SA-R-0068"
-  ],
-  "id": "sa-r-0068",
-  "state": "SA",
-  "name": "Alberton Ozone",
-  "locality": "Alberton",
-  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
- },
- {
-  "aliases": [],
   "address": "",
   "type": "cinema",
   "facts": [],
@@ -2284,60 +2234,6 @@
   "state": "SA",
   "name": "Former Picture Theatre",
   "locality": "Strathalbyn",
-  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
- },
- {
-  "aliases": [
-   "Landmark Cinema"
-  ],
-  "address": "95 Smith Street",
-  "type": "cinema",
-  "facts": [],
-  "notes": [
-   "Multi-use hall or institute: confirm regular film screenings before treating as a cinema"
-  ],
-  "sources": [
-   {
-    "label": "Source cited by the researcher (caths)",
-    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
-   }
-  ],
-  "conflicts": [],
-  "related": [],
-  "nationalId": "",
-  "candidateIds": [
-   "SA-R-0090"
-  ],
-  "id": "sa-r-0090",
-  "state": "SA",
-  "name": "Naracoorte Institute",
-  "locality": "Naracoorte",
-  "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
- },
- {
-  "aliases": [
-   "Rivoli"
-  ],
-  "address": "",
-  "type": "cinema",
-  "facts": [],
-  "notes": [],
-  "sources": [
-   {
-    "label": "Source cited by the researcher (caths)",
-    "url": "https://www.caths.org.au/venues/pdf/sa.pdf"
-   }
-  ],
-  "conflicts": [],
-  "related": [],
-  "nationalId": "",
-  "candidateIds": [
-   "SA-R-0091"
-  ],
-  "id": "sa-r-0091",
-  "state": "SA",
-  "name": "Austral Theatre",
-  "locality": "Naracoorte",
   "basis": "Listed in a single statewide venue list (CAThS); needs a source for this specific venue."
  },
  {

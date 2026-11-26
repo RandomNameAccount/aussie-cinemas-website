@@ -935,25 +935,6 @@
  {
   "aliases": [],
   "address": "",
-  "type": "drive-in",
-  "facts": [],
-  "notes": [],
-  "sources": [],
-  "conflicts": [],
-  "related": [],
-  "nationalId": "",
-  "candidateIds": [
-   "QLD-R2-V-0103"
-  ],
-  "id": "qld-r2-v-0103",
-  "state": "QLD",
-  "name": "Yatala Drive-in",
-  "locality": "Stapylton",
-  "basis": "Reconstructed from earlier research notes; no source has yet been checked. Treat the name and place as a lead only."
- },
- {
-  "aliases": [],
-  "address": "",
   "type": "",
   "facts": [],
   "notes": [],
@@ -2296,25 +2277,6 @@
   "state": "QLD",
   "name": "Victory",
   "locality": "Wandoan",
-  "basis": "Reconstructed from earlier research notes; no source has yet been checked. Treat the name and place as a lead only."
- },
- {
-  "aliases": [],
-  "address": "",
-  "type": "",
-  "facts": [],
-  "notes": [],
-  "sources": [],
-  "conflicts": [],
-  "related": [],
-  "nationalId": "",
-  "candidateIds": [
-   "QLD-R2-V-0179"
-  ],
-  "id": "qld-r2-v-0179",
-  "state": "QLD",
-  "name": "Wintergarden",
-  "locality": "Bundaberg",
   "basis": "Reconstructed from earlier research notes; no source has yet been checked. Treat the name and place as a lead only."
  },
  {

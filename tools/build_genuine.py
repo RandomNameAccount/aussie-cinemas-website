@@ -315,3 +315,4 @@ print(f"{len(SITES)} record pages written to cinemas/; {mapped} mapped, {withhel
 # ---------------------------------------------------------------- Research leads (kept separate from genuine records)
 import runpy
 runpy.run_path(os.path.join(ROOT, "tools", "build_leads.py"), run_name="__main__")
+runpy.run_path(os.path.join(ROOT, "tools", "build_archive.py"), run_name="__main__")
