@@ -1,0 +1,36 @@
+{
+ "checked": "27 November 2026",
+ "rule": "A chain is listed only where a current, dated source shows a public screening from a film print (35mm or 70mm) at one of its venues in 2026. Projectors kept in a booth do not count. Digital-only chains are not listed.",
+ "chains": [
+  {"chain": "Palace Cinemas", "venues": [
+    {"venue": "The Astor Theatre", "place": "St Kilda, VIC", "formats": "35mm, 70mm",
+     "evidence": "The Odyssey in 70mm from 16 July 2026; Marty Supreme 70mm from 22 January 2026",
+     "sources": [{"title": "Palace Cinemas: The Odyssey 70mm", "url": "https://palacecinemas.com.au/events/the-odyssey-70mm"},
+                 {"title": "The Curb: A24 announces 70mm presentations of Marty Supreme", "url": "https://www.thecurb.com.au/press-releases/a24-announces-70mm-special-presentations-of-marty-supreme-in-sydney-melbourne/"}]},
+    {"venue": "Palace James St", "place": "Fortitude Valley, QLD", "formats": "70mm",
+     "evidence": "One Battle After Another 70mm, 12 to 18 February; Marty Supreme 70mm, 19 to 25 February 2026 (Queensland exclusives)",
+     "sources": [{"title": "Palace Cinemas: Marty Supreme 70mm, Brisbane", "url": "https://www.palacecinemas.com.au/events/marty-supreme-70mm-brisbane"},
+                 {"title": "Palace Cinemas: One Battle After Another 70mm", "url": "https://www.palacecinemas.com.au/events/one-battle-after-another-70mm"}]}]},
+  {"chain": "Dendy Cinemas", "venues": [
+    {"venue": "Dendy Newtown", "place": "Newtown, NSW", "formats": "35mm",
+     "evidence": "Exclusive 35mm print of The Testament of Ann Lee from 26 February 2026; continuing Cells Out 35mm program",
+     "sources": [{"title": "Dendy Newtown: The Testament of Ann Lee, exclusive 35mm", "url": "https://newtown.dendy.com.au/the-testament-of-ann-lee--exclusive-35mm/"},
+                 {"title": "Dendy Newtown: Cells Out, the film project", "url": "https://newtown.dendy.com.au/cells-out---the-film-project"}]},
+    {"venue": "Dendy Canberra", "place": "Canberra, ACT", "formats": "35mm",
+     "evidence": "Cells Out 35mm program page live in November 2026; individual 35mm sessions not separately confirmed",
+     "sources": [{"title": "Dendy Canberra: Cells Out, the film project", "url": "https://canberra.dendy.com.au/cells-out---the-film-project"}], "flag": "check"}]},
+  {"chain": "Five Star Cinemas", "venues": [
+    {"venue": "Tower Cinemas", "place": "Newcastle, NSW", "formats": "35mm",
+     "evidence": "35mm screenings relaunched in May 2026 on Cinemeccanica Victoria 8 35/70mm projectors",
+     "sources": [{"title": "NBN News: 35mm film launching at Tower Cinemas Newcastle (27 May 2026)", "url": "https://www.nbnnews.com.au/2026/05/27/35mm-film-launching-at-tower-cinemas-newcastle/"}]}]},
+  {"chain": "Lido, Classic and Cameo Cinemas", "venues": [
+    {"venue": "Lido Cinemas", "place": "Hawthorn, VIC", "formats": "35mm, 70mm",
+     "evidence": "This Is Celluloid: a 2026 program of 35mm and 70mm screenings across almost 50 weeks",
+     "sources": [{"title": "Lido Cinemas: This Is Celluloid", "url": "https://www.lidocinemas.com.au/events/this-is-celluloid-a-year-of-35mm-and-70mm-screenings-1281"}]}]}
+ ],
+ "not_listed": [
+  "Event Cinemas, HOYTS, Village, Reading, Wallis, United, Majestic and other circuits: no 2026 film-print screening found; their IMAX and premium screens are digital.",
+  "Five Star New Farm: a screen is reported as equipped for 35mm, but no dated 2026 film screening was found, so it is not listed.",
+  "Independent single venues that run film (Ritz Randwick, Hayden Orpheum, IMAX Melbourne, Sun Yarraville, Mercury Adelaide, GOMA Cinémathèque and others) are not chains and are not on this list."
+ ]
+}

@@ -1558,3 +1558,12 @@ picture { display: contents; }
 .field select { background-repeat: no-repeat; background-position: right 0.75rem center; background-size: 1.1rem; padding-right: 2.5rem; }
 :root[data-theme="dark"] .field select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23F4E8D6' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E"); }
 .demo-pill { font-size: 0.75rem; }  /* L-02: at least 12 px */
+/* Film chains table (equipment.html): rows become stacked cards on narrow screens. */
+@media (max-width: 640px) {
+  .chains-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .chains-table, .chains-table tbody, .chains-table tr, .chains-table th, .chains-table td { display: block; width: 100%; }
+  .chains-table tr { border-top: 2px solid var(--brand-navy); padding: .5rem 0; }
+  .chains-table th, .chains-table td { border: 0; padding: .25rem .5rem; box-sizing: border-box; min-width: 0; max-width: 100%; white-space: normal; overflow-wrap: anywhere; }
+  .chains-table { table-layout: fixed; min-width: 0; }
+  .chains-table td::before { content: attr(data-label); display: block; font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; opacity: .7; }
+}
