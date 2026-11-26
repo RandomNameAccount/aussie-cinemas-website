@@ -802,6 +802,9 @@ h2 { font-size: clamp(2rem, 1.5rem + 2vw, 3rem); letter-spacing: -0.01em; }
 .rm-closed .rm-shape { background: var(--rm-closed); border-radius: 50%; border-style: double; border-width: 4px; }
 .rm-loc-suburb::before, .rm-loc-city::before { content: ""; position: absolute; inset: 0; border: 2px dashed var(--rm-label); border-radius: 50%; }
 .rm-loc-site::before { content: ""; position: absolute; inset: 3px; border: 2px solid var(--rm-label); border-radius: 50%; }
+/* Archive listing (level B): the address point today, a navy teardrop with a white ring; no status shape is claimed. */
+.rm-archive .rm-shape { background: var(--brand-navy); border-color: var(--brand-white); border-radius: 50% 50% 50% 0; transform: rotate(-45deg); width: 17px; height: 17px; }
+.rm-archive::before { content: ""; position: absolute; inset: 3px; border: 2px dotted var(--brand-navy); border-radius: 50%; }
 .leaflet-marker-icon.rm-marker:focus-visible { outline: 3px solid var(--gold); outline-offset: 0; border-radius: 50%; }
 .rm-cluster { background: none; border: 0; }
 .rm-cluster span { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; background: var(--gold); color: var(--navy); font-weight: 700; font-size: 1rem;

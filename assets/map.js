@@ -1,6 +1,8 @@
 /* Genuine cinema map. Leaflet with a self-hosted Natural Earth basemap, so the map makes no requests
    to any tile server. Site data comes from assets/map/cinema-sites.js. Sites whose location is "none" or "withheld"
    (licensing or provenance under review) are never placed on the map; they stay in search and the record pages.
+   Level B archive listings (assets/map/archive-pins.js) are added as address points: the point for the matched address
+   in the state's official address data today, labelled as such, never as the historic footprint.
    Public API on each map element: el._apaMap (Leaflet map), el._apaMarkers (id -> marker), el._apaFilter(idSet|null), el._apaFocus(id). */
 (function () {
   "use strict";
@@ -44,12 +46,24 @@
       '<p><a class="rm-record" href="' + RECORD_BASE + esc(s.id) + '.html">Open the full cinema record</a></p></div>';
   }
 
-  var RECORD_BASE = "cinemas/";
+  var ARCH = window.APA_ARCHIVE_PINS || [];
+  function archivePopupHtml(a) {
+    return '<div class="rm-pop">' +
+      '<p class="rm-kicker">Archive listing · address matched</p>' +
+      "<h3>" + esc(a.name) + "</h3>" +
+      '<p class="rm-addr">' + esc(a.address) + ", " + esc(a.locality) + " " + esc(a.state) + "</p>" +
+      "<p>" + esc(a.summary) + "</p>" +
+      '<p class="rm-locnote">The pin is this address today in ' + esc(a.source) + " (" + esc(a.licence) + "). It is not the historic cinema's footprint; the building may have changed or gone.</p>" +
+      '<p><a class="rm-record" href="' + ARCHIVE_BASE + esc(a.id) + '.html">Open the archive listing</a></p></div>';
+  }
+  var RECORD_BASE = "cinemas/", ARCHIVE_BASE = "archive/";
   function init(el) {
     RECORD_BASE = el.getAttribute("data-record-base") || "cinemas/";
+    ARCHIVE_BASE = RECORD_BASE.replace(/cinemas\/$/, "archive/");
     var map = L.map(el, { zoomSnap: 0.5, minZoom: 3, maxZoom: 16, attributionControl: true, worldCopyJump: false, scrollWheelZoom: false });
     map.attributionControl.setPrefix(false);
     map.attributionControl.addAttribution('Basemap: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a> (public domain), simplified. Not a street map. Map library: <a href="https://leafletjs.com/" target="_blank" rel="noopener">Leaflet</a>');
+    if (ARCH.length) map.attributionControl.addAttribution('Archive address points: Property Address Queensland (CC BY 4.0, © State of Queensland); the LIST (CC BY 3.0 AU, © State of Tasmania)');
     var r = L.svg({ padding: 0.5 });
     L.geoJSON(BASE.layers.land, { renderer: r, interactive: false, style: { className: "rm-land", weight: 1 } }).addTo(map);
     L.geoJSON(BASE.layers.states, { renderer: r, interactive: false, style: { className: "rm-state", weight: 1, dashArray: "4 4", fill: false } }).addTo(map);
@@ -99,6 +113,16 @@
       m.bindPopup(popupHtml(s), popOpts());
       m.on("add", function () { var ic = m.getElement(); if (ic) { ic.setAttribute("aria-label", s.name + ", " + s.suburb + ". " + s.statusLabel + approx + ". Open details"); ic.setAttribute("role", "button"); } });
       markers[s.id] = m;
+      cluster.addLayer(m);
+    });
+    ARCH.forEach(function (a) {
+      var m = L.marker([a.lat, a.lon], {
+        icon: L.divIcon({ className: "rm-marker", html: '<span class="rm-pin rm-archive" aria-hidden="true"><span class="rm-shape"></span></span>', iconSize: [30, 30], iconAnchor: [15, 15], popupAnchor: [0, -12] }),
+        title: a.name + " (archive listing, address point today)", alt: a.name, riseOnHover: true
+      });
+      m.bindPopup(archivePopupHtml(a), popOpts());
+      m.on("add", function () { var ic = m.getElement(); if (ic) { ic.setAttribute("aria-label", a.name + ", " + a.locality + ". Archive listing, address point today. Open details"); ic.setAttribute("role", "button"); } });
+      markers[a.id] = m;
       cluster.addLayer(m);
     });
     // Cluster icons need an accessible name too: they are focusable and open on Enter.
@@ -175,7 +199,7 @@
       return true;
     };
     var fq = (window.location.search.match(/[?&]focus=([a-z0-9-]+)/) || [])[1];
-    if (fq && el.hasAttribute("data-focus-from-url")) setTimeout(function () { if (el._apaFocus(fq)) { var s0 = DATA.sites.filter(function (s) { return s.id === fq; })[0]; say("Map shows " + s0.name + "."); } }, 200);
+    if (fq && el.hasAttribute("data-focus-from-url")) setTimeout(function () { if (el._apaFocus(fq)) { var s0 = DATA.sites.concat(ARCH).filter(function (s) { return s.id === fq; })[0]; say("Map shows " + s0.name + "."); } }, 200);
     // Maps inside a hidden panel (the Explore map view) need a size refresh when shown.
     var wasHidden = el.clientWidth === 0;
     if ("ResizeObserver" in window) new ResizeObserver(function () {

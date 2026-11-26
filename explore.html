@@ -14,7 +14,7 @@
 <link rel="preload" href="assets/fonts/manrope-variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/marcellus-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/theme.css?v=1795520000">
-<link rel="stylesheet" href="assets/styles.css?v=1795710000">
+<link rel="stylesheet" href="assets/styles.css?v=1795740000">
 <script>try{var t=localStorage.getItem("apa-theme");if(t==="dark"||t==="light")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 </head>
 <body data-page="explore">
@@ -37,7 +37,7 @@
     <div class="field"><label for="f-q">Cinema, former name, suburb or town</label><input id="f-q" type="search" name="q" autocomplete="off" aria-describedby="f-q-hint"><p class="hint" id="f-q-hint">For example Regent, Toowoomba or Hoyts.</p></div>
     <div class="field"><label for="f-state">State or territory</label><select id="f-state" name="state"><option value="">All of Australia</option><option value="qld">Queensland</option><option value="nsw">New South Wales</option><option value="vic">Victoria</option><option value="wa">Western Australia</option><option value="sa">South Australia</option><option value="tas">Tasmania</option><option value="nt" disabled>Northern Territory (no records yet)</option><option value="act">Australian Capital Territory</option></select></div>
     <fieldset class="field"><legend>Status today</legend><div class="choices"><label class="choice"><input type="checkbox" name="status" value="operating" checked> Operating cinema</label><label class="choice"><input type="checkbox" name="status" value="repurposed" checked> Building survives, other use</label><label class="choice"><input type="checkbox" name="status" value="demolished" checked> Demolished</label><label class="choice"><input type="checkbox" name="status" value="closed" checked> Closed or not stated</label></div></fieldset>
-    <fieldset class="field"><legend>Evidence</legend><div class="choices"><label class="choice"><input type="checkbox" name="evidence" value="confirmed" checked> Heritage register confirms name and address</label><label class="choice"><input type="checkbox" name="evidence" value="strong" checked> Two published sources agree</label><label class="choice"><input type="checkbox" name="evidence" value="prelim" checked> Single secondary source (preliminary)</label><label class="choice"><input type="checkbox" name="evidence" value="archive" checked> Archive listing (sources checked, address provisional or not shown)</label><label class="choice"><input type="checkbox" name="evidence" value="lead" checked> Research lead, not yet verified</label></div></fieldset>
+    <fieldset class="field"><legend>Evidence</legend><div class="choices"><label class="choice"><input type="checkbox" name="evidence" value="confirmed" checked> Heritage register confirms name and address</label><label class="choice"><input type="checkbox" name="evidence" value="strong" checked> Two published sources agree</label><label class="choice"><input type="checkbox" name="evidence" value="prelim" checked> Single secondary source (preliminary)</label><label class="choice"><input type="checkbox" name="evidence" value="archive" checked> Archive listing (sources checked; address matched, provisional or not shown)</label><label class="choice"><input type="checkbox" name="evidence" value="lead" checked> Research lead, not yet verified</label></div></fieldset>
     <div class="field"><label for="f-loc">Location</label><select id="f-loc" name="loc"><option value="">Any</option><option value="site">Published site point</option><option value="approx">Approximate (city centre)</option><option value="notmapped">Not on the map</option></select></div>
     <div class="field"><label for="f-era">Opened</label><select id="f-era" name="era"><option value="">Any time</option><option value="pre1930">Before 1930</option><option value="1930s40s">1930 to 1949</option><option value="1950s60s">1950 to 1969</option><option value="1970s80s">1970 to 1989</option><option value="1990on">1990 to today</option><option value="unknown">No opening date recorded</option></select></div>
     <button class="btn btn-secondary" type="reset"><span>Clear search and filters</span></button>
@@ -516,15 +516,15 @@
   <p class="gx-place">Como, WA · archive listing, level C</p>
   <p class="gx-badges"><span class="badge b-prelim"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 8v5M12 16.5h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Archive listing, address provisional</span><span class="gx-loc">Not on the map</span></p>
 </li>
-<li class="gx-item" data-id="fca-b07-r003" data-state="qld" data-status="closed" data-evidence="archive" data-loc="notmapped" data-era="1990on" data-search="hoyts ipswich 37 nicholas street ipswich qld queensland archive listing">
+<li class="gx-item" data-id="fca-b07-r003" data-state="qld" data-status="closed" data-evidence="archive" data-loc="site" data-era="1990on" data-search="hoyts ipswich 37 nicholas street ipswich qld queensland archive listing">
   <h3 class="gx-name"><a href="archive/fca-b07-r003.html">HOYTS Ipswich</a></h3>
-  <p class="gx-place">Ipswich, QLD · archive listing, level C</p>
-  <p class="gx-badges"><span class="badge b-prelim"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 8v5M12 16.5h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Archive listing, address provisional</span><span class="gx-loc">Not on the map</span></p>
+  <p class="gx-place">Ipswich, QLD · archive listing, level B</p>
+  <p class="gx-badges"><span class="badge b-strong"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 8v5M12 16.5h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Archive listing, address matched</span><span class="gx-loc">Address point on the map</span></p>
 </li>
-<li class="gx-item" data-id="fca-b06-r005" data-state="qld" data-status="closed" data-evidence="archive" data-loc="notmapped" data-era="1970s80s" data-search="kingaroy drive in 57 booie crawford road kingaroy qld queensland archive listing">
+<li class="gx-item" data-id="fca-b06-r005" data-state="qld" data-status="closed" data-evidence="archive" data-loc="site" data-era="1970s80s" data-search="kingaroy drive in 57 booie crawford road kingaroy qld queensland archive listing">
   <h3 class="gx-name"><a href="archive/fca-b06-r005.html">Kingaroy Drive-In</a></h3>
-  <p class="gx-place">Kingaroy, QLD · archive listing, level C</p>
-  <p class="gx-badges"><span class="badge b-prelim"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 8v5M12 16.5h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Archive listing, address provisional</span><span class="gx-loc">Not on the map</span></p>
+  <p class="gx-place">Kingaroy, QLD · archive listing, level B</p>
+  <p class="gx-badges"><span class="badge b-strong"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 8v5M12 16.5h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Archive listing, address matched</span><span class="gx-loc">Address point on the map</span></p>
 </li>
 <li class="gx-item" data-id="fca-b08-r021" data-state="qld" data-status="closed" data-evidence="archive" data-loc="notmapped" data-era="pre1930" data-search="mount morgan school of arts 31 morgan street mount morgan qld queensland archive listing">
   <h3 class="gx-name"><a href="archive/fca-b08-r021.html">Mount Morgan School of Arts</a></h3>
@@ -566,30 +566,30 @@
   <p class="gx-place">Sydney, NSW · archive listing, level C</p>
   <p class="gx-badges"><span class="badge b-prelim"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 8v5M12 16.5h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Archive listing, address provisional</span><span class="gx-loc">Not on the map</span></p>
 </li>
-<li class="gx-item" data-id="fca-b05-r054" data-state="tas" data-status="closed" data-evidence="archive" data-loc="notmapped" data-era="1930s40s" data-search="star theatre 217b invermay road invermay tas tasmania archive listing">
+<li class="gx-item" data-id="fca-b05-r054" data-state="tas" data-status="closed" data-evidence="archive" data-loc="site" data-era="1930s40s" data-search="star theatre 217b invermay road invermay tas tasmania archive listing">
   <h3 class="gx-name"><a href="archive/fca-b05-r054.html">Star Theatre</a></h3>
-  <p class="gx-place">Invermay, TAS · archive listing, level C</p>
-  <p class="gx-badges"><span class="badge b-prelim"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 8v5M12 16.5h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Archive listing, address provisional</span><span class="gx-loc">Not on the map</span></p>
+  <p class="gx-place">Invermay, TAS · archive listing, level B</p>
+  <p class="gx-badges"><span class="badge b-strong"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 8v5M12 16.5h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Archive listing, address matched</span><span class="gx-loc">Address point on the map</span></p>
 </li>
 <li class="gx-item" data-id="fca-b01-r038" data-state="act" data-status="closed" data-evidence="archive" data-loc="notmapped" data-era="1950s60s" data-search="starlight drive in watson act australian capital territory archive listing">
   <h3 class="gx-name"><a href="archive/fca-b01-r038.html">Starlight Drive-in</a></h3>
   <p class="gx-place">Watson, ACT · archive listing, level D</p>
   <p class="gx-badges"><span class="badge b-unknown"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 8v5M12 16.5h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Archive listing, place only</span><span class="gx-loc">Not on the map</span></p>
 </li>
-<li class="gx-item" data-id="fca-b05-r046" data-state="tas" data-status="closed" data-evidence="archive" data-loc="notmapped" data-era="1950s60s" data-search="tatler theatrette cinema one 86 murray street hobart tas tasmania archive listing">
+<li class="gx-item" data-id="fca-b05-r046" data-state="tas" data-status="closed" data-evidence="archive" data-loc="site" data-era="1950s60s" data-search="tatler theatrette cinema one 86 murray street hobart tas tasmania archive listing">
   <h3 class="gx-name"><a href="archive/fca-b05-r046.html">Tatler Theatrette (Cinema One)</a></h3>
-  <p class="gx-place">Hobart, TAS · archive listing, level C</p>
-  <p class="gx-badges"><span class="badge b-prelim"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 8v5M12 16.5h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Archive listing, address provisional</span><span class="gx-loc">Not on the map</span></p>
+  <p class="gx-place">Hobart, TAS · archive listing, level B</p>
+  <p class="gx-badges"><span class="badge b-strong"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 8v5M12 16.5h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Archive listing, address matched</span><span class="gx-loc">Address point on the map</span></p>
 </li>
 <li class="gx-item" data-id="fca-b02-r014" data-state="nsw" data-status="closed" data-evidence="archive" data-loc="notmapped" data-era="pre1930" data-search="temperance hall everybodys pictures empire penrith nsw new south wales archive listing">
   <h3 class="gx-name"><a href="archive/fca-b02-r014.html">Temperance Hall (Everybody&#x27;s Pictures; Empire)</a></h3>
   <p class="gx-place">Penrith, NSW · archive listing, level D</p>
   <p class="gx-badges"><span class="badge b-unknown"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 8v5M12 16.5h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Archive listing, place only</span><span class="gx-loc">Not on the map</span></p>
 </li>
-<li class="gx-item" data-id="fca-b08-r002" data-state="qld" data-status="closed" data-evidence="archive" data-loc="notmapped" data-era="pre1930" data-search="wintergarden theatre 2 maryborough street bundaberg qld queensland archive listing">
+<li class="gx-item" data-id="fca-b08-r002" data-state="qld" data-status="closed" data-evidence="archive" data-loc="site" data-era="pre1930" data-search="wintergarden theatre 2 maryborough street bundaberg qld queensland archive listing">
   <h3 class="gx-name"><a href="archive/fca-b08-r002.html">Wintergarden Theatre</a></h3>
-  <p class="gx-place">Bundaberg, QLD · archive listing, level C</p>
-  <p class="gx-badges"><span class="badge b-prelim"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 8v5M12 16.5h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Archive listing, address provisional</span><span class="gx-loc">Not on the map</span></p>
+  <p class="gx-place">Bundaberg, QLD · archive listing, level B</p>
+  <p class="gx-badges"><span class="badge b-strong"><span class="badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 8v5M12 16.5h.01"/><circle cx="12" cy="12" r="9.5"/></svg></span>Archive listing, address matched</span><span class="gx-loc">Address point on the map</span></p>
 </li>
 <li class="gx-item" data-id="fca-b05-r017" data-state="qld" data-status="closed" data-evidence="archive" data-loc="notmapped" data-era="unknown" data-search="yatala drive in stapylton qld queensland archive listing">
   <h3 class="gx-name"><a href="archive/fca-b05-r017.html">Yatala Drive-In</a></h3>
@@ -5317,7 +5317,8 @@
     <li><span class="rm-pin rm-closed" aria-hidden="true"><span class="rm-shape"></span></span>Closed or not stated</li></ul></div>
   <div><p class="rl-title">Location confidence</p><ul>
     <li><span class="rm-pin rm-operating rm-loc-site" aria-hidden="true"><span class="rm-shape"></span></span>Published site point</li>
-    <li><span class="rm-pin rm-operating rm-loc-suburb" aria-hidden="true"><span class="rm-shape"></span></span>Approximate: suburb or city centre only</li></ul></div>
+    <li><span class="rm-pin rm-operating rm-loc-suburb" aria-hidden="true"><span class="rm-shape"></span></span>Approximate: suburb or city centre only</li>
+    <li><span class="rm-pin rm-archive" aria-hidden="true"><span class="rm-shape"></span></span>Archive listing: the address point today, not the historic footprint</li></ul></div>
 </div>
     </div>
   </div>
@@ -5330,6 +5331,6 @@
   <div><h2>About</h2><ul><li><a href="community-guidelines.html">Community guidelines</a></li><li><a href="components.html">Design components</a></li></ul></div>
   <div class="footer-note"><span class="demo-pill">Demonstration prototype</span><p>The 73 cinema records, the map and the research table are genuine, with cited sources; preliminary research is labelled as such. Community, forum, cinema-account, equipment and What&#8217;s On examples are fictional samples. Accounts, forums, giveaways and advertising are not active.</p></div>
 </div><div class="footer-base"><div class="wrap"><p>&copy; Film Cinemas Australia &middot; filmcinemas.au</p><p>Map data: Natural Earth (public domain); site points cited on each record</p><button class="theme-toggle" type="button" role="switch" aria-checked="false" data-theme-toggle><span class="tt-track" aria-hidden="true"><span class="tt-knob"><svg class="tt-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></svg><svg class="tt-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></span></span><span class="tt-label">Dark mode</span></button></div></div></footer>
-<script src="assets/map-loader.js?v=1795700000"></script><script src="assets/app.js?v=1795700000"></script>
+<script src="assets/map-loader.js?v=1795740000"></script><script src="assets/app.js?v=1795700000"></script>
 </body>
 </html>

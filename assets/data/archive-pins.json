@@ -1,0 +1,42 @@
+[
+ {
+  "id": "fca-b05-r046",
+  "lat": -42.883099,
+  "lon": 147.326094,
+  "kind": "address",
+  "source": "LIST Address Geocodes (Land Tasmania)",
+  "licence": "CC BY 3.0 AU, © State of Tasmania (the LIST)"
+ },
+ {
+  "id": "fca-b05-r054",
+  "lat": -41.418231,
+  "lon": 147.134099,
+  "kind": "address",
+  "source": "LIST Address Geocodes (Land Tasmania)",
+  "licence": "CC BY 3.0 AU, © State of Tasmania (the LIST)"
+ },
+ {
+  "id": "fca-b06-r005",
+  "lat": -26.50183748,
+  "lon": 151.84498227,
+  "kind": "address",
+  "source": "Property Address Queensland",
+  "licence": "CC BY 4.0, © State of Queensland"
+ },
+ {
+  "id": "fca-b07-r003",
+  "lat": -27.6135517,
+  "lon": 152.75845765,
+  "kind": "address",
+  "source": "Property Address Queensland",
+  "licence": "CC BY 4.0, © State of Queensland"
+ },
+ {
+  "id": "fca-b08-r002",
+  "lat": -24.86806344,
+  "lon": 152.34746505,
+  "kind": "address",
+  "source": "Property Address Queensland",
+  "licence": "CC BY 4.0, © State of Queensland"
+ }
+]

@@ -7,8 +7,11 @@ and at least one source opened and checked. They sit between the genuine records
   output  archive/<id>.html                   one page per listing
           explore.html                        list between <!-- ARCHIVE-RESULTS:START --> and <!-- ARCHIVE-RESULTS:END -->
           index.html                          state tile counts (records, archive listings, research leads)
-Rules carried through: level C may show an address labelled provisional; level D never shows an address;
-no listing gets a map pin; only checked sources are linked; no excerpts or images.
+  input   assets/data/archive-pins.json      address points for level B listings (exported from staging; never edited by hand)
+  output  assets/map/archive-pins.js         map layer data for the B pins
+Rules carried through: level B shows its address and a pin at the address point from the state's official address
+data (labelled as the address today, not the historic footprint); level C may show an address labelled provisional
+and gets no pin; level D never shows an address; only checked sources are linked; no excerpts or images.
 Run after tools/build_leads.py (tools/build_genuine.py runs both).
 """
 import glob, html, json, os, re
@@ -24,19 +27,27 @@ raw = open("assets/map/cinema-sites.js", encoding="utf-8").read()
 SITES = json.loads(raw[raw.index("window.APA_SITES = ") + 19:].strip().rstrip(";"))["sites"]
 LEADS = [l for f in sorted(glob.glob("assets/data/leads-*.json")) for l in json.load(open(f, encoding="utf-8"))]
 ARCH = json.load(open("assets/data/archive-listings.json", encoding="utf-8")) if os.path.exists("assets/data/archive-listings.json") else []
+PINS = {p["id"]: p for p in json.load(open("assets/data/archive-pins.json", encoding="utf-8"))} if os.path.exists("assets/data/archive-pins.json") else {}
 ids = [a["id"] for a in ARCH]
 assert len(ids) == len(set(ids)), "duplicate archive ids"
 assert not set(ids) & ({s["id"] for s in SITES} | {l["id"] for l in LEADS}), "archive id clashes with a record or lead"
 for a in ARCH:
-    assert a["level"] in ("C", "D") and a["summary"] and a["sources"], a["id"]
-    assert a["level"] == "C" or "address" not in a, f"{a['id']}: level D must not carry an address"
-    assert not any(k in a for k in ("lat", "lon", "loc")), f"{a['id']}: archive listings have no coordinates"
+    assert a["level"] in ("B", "C", "D") and a["summary"] and a["sources"], a["id"]
+    assert a["level"] != "D" or "address" not in a, f"{a['id']}: level D must not carry an address"
+    assert not any(k in a for k in ("lat", "lon", "loc")), f"{a['id']}: coordinates live only in archive-pins.json"
+    # a pin exactly when the listing is level B, with a verified address and a named dataset and licence
+    assert (a["id"] in PINS) == (a["level"] == "B"), f"{a['id']}: level B and a pin go together"
+    if a["level"] == "B":
+        p = PINS[a["id"]]
+        assert a.get("address") and a.get("addressStatus") == "verified" and p["kind"] == "address" and p["source"] and p["licence"], a["id"]
+        assert -44.5 < p["lat"] < -9 and 112 < p["lon"] < 154.5, a["id"]
+assert set(PINS) <= set(ids), "pin without a listing"
 
 INFO = '<path d="M12 8v5M12 16.5h.01"/><circle cx="12" cy="12" r="9.5"/>'
 def svg(p):
     return ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" '
             'stroke-linejoin="round" aria-hidden="true" focusable="false">' + p + "</svg>")
-BADGE = {"C": ("b-prelim", "Archive listing, address provisional"), "D": ("b-unknown", "Archive listing, place only")}
+BADGE = {"B": ("b-strong", "Archive listing, address matched"), "C": ("b-prelim", "Archive listing, address provisional"), "D": ("b-unknown", "Archive listing, place only")}
 def badge(level):
     c, t = BADGE[level]
     return f'<span class="badge {c}"><span class="badge-ico">{svg(INFO)}</span>{t}</span>'
@@ -82,10 +93,15 @@ for a in ARCH:
     sn = STATE_NAME[a["state"]]
     where = ", ".join(x for x in (a["locality"], a["state"]) if x)
     p, q = shell(f"{a['name']}, {a['locality'] or sn} · Film Cinemas Australia", f"{a['name']} ({where}): an archive listing in Film Cinemas Australia, with its checked sources.")
-    lede = (f'<p class="lede">{E(a["address"])}, {E(where)}</p><p class="cite-meta">Address provisional: the exact property has not been verified.</p>'
+    pin = PINS.get(a["id"])
+    lede = (f'<p class="lede">{E(a["address"])}, {E(where)}</p><p class="cite-meta">Address matched in {E(pin["source"])}. The pin marks this address today, not the historic building.</p>' if pin else
+            f'<p class="lede">{E(a["address"])}, {E(where)}</p><p class="cite-meta">Address provisional: the exact property has not been verified.</p>'
             if a.get("address") else f'<p class="lede">{E(where)}</p>')
     srcs = "".join(f'<li><a href="{E(s["url"])}" rel="noopener">{E(s["title"])}</a></li>' for s in a["sources"])
-    detail = ("The address comes from the checked sources, but which property it was has not yet been confirmed, so treat it as provisional. "
+    detail = ("The checked sources give this street address, and the same number, street and locality appear in the state's official address data. "
+              "The map pin is that address point today. It is not a survey of the historic cinema's footprint, and the building may have changed or gone. "
+              if pin else
+              "The address comes from the checked sources, but which property it was has not yet been confirmed, so treat it as provisional. "
               if a["level"] == "C" and a.get("address") else
               "The checked sources confirm the venue and its town or suburb. Its street address has not been verified, so it is not shown. " if a["level"] == "D" else
               "The checked sources confirm the venue and its street; the street number has not been verified, so it is not shown. ")
@@ -98,7 +114,7 @@ for a in ARCH:
     {lede}
     <dl class="rec-keyfacts">
       <div><dt>Verification</dt><dd>{badge(a["level"])}</dd></div>
-      <div><dt>Location</dt><dd>Not on the map</dd></div>
+      <div><dt>Location</dt><dd>{f'<a href="../index.html?focus={E(a["id"])}#map">On the map</a> (address point today)' if pin else "Not on the map"}</dd></div>
     </dl>
     <div class="btn-row rec-actions"><a class="btn btn-secondary" href="../explore.html?state={a["state"].lower()}">More in {E(sn)}</a><a class="btn btn-secondary" href="../share.html">Share a memory or correction</a></div>
   </div>
@@ -107,7 +123,7 @@ for a in ARCH:
   <section class="rec-notes" aria-labelledby="how-title">
     <h2 id="how-title" class="visually-hidden">How sure we are</h2>
     <div class="notice n-info"><p><strong>{E(a["notice"])}</strong></p>
-    <p>{detail}Only verified properties get a map pin, so this listing is not on the map.</p></div>
+    <p>{detail}{"" if pin else "Only verified properties get a map pin, so this listing is not on the map."}</p>{f'<p class="cite-meta">Address point: {E(pin["source"])} ({E(pin["licence"])}).</p>' if pin else ""}</div>
   </section>
   <article class="site-rec rec-article" aria-labelledby="rec-title" data-archive-id="{E(a["id"])}">
     <h2>About this listing</h2>
@@ -126,10 +142,10 @@ items = []
 for a in sorted(ARCH, key=lambda x: (x["name"].lower(), x["locality"].lower())):
     y = year(a)
     search = norm(" ".join([a["name"], a.get("address", ""), a["locality"], a["state"], STATE_NAME[a["state"]], "archive listing"]))
-    items.append(f'''<li class="gx-item" data-id="{E(a["id"])}" data-state="{a["state"].lower()}" data-status="closed" data-evidence="archive" data-loc="notmapped" data-era="{era(y)}" data-search="{E(search)}">
+    items.append(f'''<li class="gx-item" data-id="{E(a["id"])}" data-state="{a["state"].lower()}" data-status="closed" data-evidence="archive" data-loc="{"site" if a["id"] in PINS else "notmapped"}" data-era="{era(y)}" data-search="{E(search)}">
   <h3 class="gx-name"><a href="archive/{E(a["id"])}.html">{E(a["name"])}</a></h3>
   <p class="gx-place">{E(a["locality"])}, {E(a["state"])} · archive listing, level {a["level"]}</p>
-  <p class="gx-badges">{badge(a["level"])}<span class="gx-loc">Not on the map</span></p>
+  <p class="gx-badges">{badge(a["level"])}<span class="gx-loc">{"Address point on the map" if a["id"] in PINS else "Not on the map"}</span></p>
 </li>''')
 block = "<!-- ARCHIVE-RESULTS:START -->\n<ul class=\"gx-list\" data-list>\n" + "\n".join(items) + "\n</ul>\n<!-- ARCHIVE-RESULTS:END -->"
 ex = open("explore.html", encoding="utf-8").read()
@@ -137,9 +153,10 @@ if "<!-- ARCHIVE-RESULTS:START -->" in ex:
     ex = re.sub(r"<!-- ARCHIVE-RESULTS:START -->.*?<!-- ARCHIVE-RESULTS:END -->", lambda m: block, ex, flags=re.S)
 else:
     ex = ex.replace("<!-- LEAD-RESULTS:START -->", block + "\n<!-- LEAD-RESULTS:START -->", 1)
+ex = ex.replace("Archive listing (sources checked, address provisional or not shown)", "Archive listing (sources checked; address matched, provisional or not shown)")
 if 'value="archive"' not in ex:
     ex = ex.replace('<label class="choice"><input type="checkbox" name="evidence" value="lead" checked>',
-                    '<label class="choice"><input type="checkbox" name="evidence" value="archive" checked> Archive listing (sources checked, address provisional or not shown)</label><label class="choice"><input type="checkbox" name="evidence" value="lead" checked>', 1)
+                    '<label class="choice"><input type="checkbox" name="evidence" value="archive" checked> Archive listing (sources checked; address matched, provisional or not shown)</label><label class="choice"><input type="checkbox" name="evidence" value="lead" checked>', 1)
 total = len(SITES) + len(ARCH) + len(LEADS)
 ex = re.sub(r'<p class="result-count" role="status" aria-live="polite" data-count>[^<]*</p>',
             f'<p class="result-count" role="status" aria-live="polite" data-count>{total} cinemas</p>', ex, count=1)
@@ -158,3 +175,13 @@ def tile(m):
 idx = re.sub(r'<(a|div) class="state-tile[^"]*"[^>]*>(.*?)</(?:a|div)>(?=<a class="state-tile|<div class="state-tile|</div>)', tile, idx, flags=re.S)
 open("index.html", "w", encoding="utf-8").write(idx)
 print(f"{len(ARCH)} archive listing pages written to archive/ (" + ", ".join(f"{k} {sum(1 for a in ARCH if a['state'] == k)}" for k in STATE_NAME if any(a['state'] == k for a in ARCH)) + ")")
+
+# ---------------------------------------------------------------- map layer for level B address pins
+layer = [{"id": a["id"], "name": a["name"], "address": a["address"], "locality": a["locality"], "state": a["state"],
+          "summary": a["summary"], "lat": PINS[a["id"]]["lat"], "lon": PINS[a["id"]]["lon"],
+          "source": PINS[a["id"]]["source"], "licence": PINS[a["id"]]["licence"]}
+         for a in sorted(ARCH, key=lambda x: x["id"]) if a["id"] in PINS]
+open("assets/map/archive-pins.js", "w", encoding="utf-8").write(
+    "/* Generated by tools/build_archive.py from assets/data/archive-listings.json and archive-pins.json. Do not edit. */\n"
+    "window.APA_ARCHIVE_PINS = " + json.dumps(layer, ensure_ascii=False, separators=(",", ":")) + ";\n")
+print(f"{len(layer)} archive address pins written to assets/map/archive-pins.js")

@@ -189,8 +189,8 @@
   "name": "Tatler Theatrette (Cinema One)",
   "locality": "Hobart",
   "state": "TAS",
-  "level": "C",
-  "notice": "Archive listing. The name and place are approved by an editor; the address is provisional and the exact property has not been verified.",
+  "level": "B",
+  "notice": "Archive listing. The street address matches the state's official address data; the map pin marks that address today, not the cinema's historic footprint.",
   "summary": "The Tatler Theatrette at 86 Murray Street, Hobart, opened on 28 July 1955 as a continuous newsreel theatre. It was renamed Cinema One in 1972 and has since closed.",
   "sources": [
    {
@@ -203,7 +203,7 @@
    }
   ],
   "address": "86 Murray Street",
-  "addressStatus": "provisional"
+  "addressStatus": "verified"
  },
  {
   "id": "fca-b05-r053",
@@ -225,8 +225,8 @@
   "name": "Star Theatre",
   "locality": "Invermay",
   "state": "TAS",
-  "level": "C",
-  "notice": "Archive listing. The name and place are approved by an editor; the address is provisional and the exact property has not been verified.",
+  "level": "B",
+  "notice": "Archive listing. The street address matches the state's official address data; the map pin marks that address today, not the cinema's historic footprint.",
   "summary": "The Star Theatre at 217B Invermay Road, Launceston, opened on 5 October 1937. After restoration it reopened in April 2018 as an independent cinema with a café and bar, and changed hands again in December 2021.",
   "sources": [
    {
@@ -235,15 +235,15 @@
    }
   ],
   "address": "217B Invermay Road",
-  "addressStatus": "provisional"
+  "addressStatus": "verified"
  },
  {
   "id": "fca-b06-r005",
   "name": "Kingaroy Drive-In",
   "locality": "Kingaroy",
   "state": "QLD",
-  "level": "C",
-  "notice": "Archive listing. The name and place are approved by an editor; the address is provisional and the exact property has not been verified.",
+  "level": "B",
+  "notice": "Archive listing. The street address matches the state's official address data; the map pin marks that address today, not the cinema's historic footprint.",
   "summary": "The Kingaroy Drive-In was on Booie Crawford Road, Kingaroy. It was open by 1972 and still screening in 1992, and has since closed.",
   "sources": [
    {
@@ -252,15 +252,15 @@
    }
   ],
   "address": "57 Booie Crawford Road",
-  "addressStatus": "provisional"
+  "addressStatus": "verified"
  },
  {
   "id": "fca-b07-r003",
   "name": "HOYTS Ipswich",
   "locality": "Ipswich",
   "state": "QLD",
-  "level": "C",
-  "notice": "Archive listing. The name and place are approved by an editor; the address is provisional and the exact property has not been verified.",
+  "level": "B",
+  "notice": "Archive listing. The street address matches the state's official address data; the map pin marks that address today, not the cinema's historic footprint.",
   "summary": "HOYTS Ipswich is a cinema on the first level of the Nicholas Street Precinct in central Ipswich. Its operator listed it there when checked in November 2026; the street number comes from Ipswich's tourism listing.",
   "sources": [
    {
@@ -273,15 +273,15 @@
    }
   ],
   "address": "37 Nicholas Street",
-  "addressStatus": "provisional"
+  "addressStatus": "verified"
  },
  {
   "id": "fca-b08-r002",
   "name": "Wintergarden Theatre",
   "locality": "Bundaberg",
   "state": "QLD",
-  "level": "C",
-  "notice": "Archive listing. The name and place are approved by an editor; the address is provisional and the exact property has not been verified.",
+  "level": "B",
+  "notice": "Archive listing. The street address matches the state's official address data; the map pin marks that address today, not the cinema's historic footprint.",
   "summary": "Bundaberg's Wintergarden Theatre stands at 2 Maryborough Street, on the corner of Woongarra Street. It opened on 26 February 1929 and showed its last film on 22 June 1968. The building is now the Wintergarden Community Hub.",
   "sources": [
    {
@@ -294,7 +294,7 @@
    }
   ],
   "address": "2 Maryborough Street",
-  "addressStatus": "provisional"
+  "addressStatus": "verified"
  },
  {
   "id": "fca-b08-r021",
