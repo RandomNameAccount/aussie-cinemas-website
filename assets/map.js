@@ -1,6 +1,6 @@
-/* Genuine cinema map. Leaflet over a CARTO street map (OpenStreetMap data), so visitors can zoom to street level.
-   CARTO "Positron" in light mode and "Dark Matter" in dark mode, following the reader's theme. The self-hosted
-   Natural Earth outline sits underneath as a fallback if the street tiles cannot load. Site data comes from assets/map/cinema-sites.js. Sites whose location is "none" or "withheld"
+/* Genuine cinema map. Leaflet over OpenStreetMap street tiles, so visitors can zoom to street level. The tiles are
+   softened to suit the site and inverted in dark mode (styles.css, .rm-tiles). The self-hosted Natural Earth outline
+   sits underneath as a fallback if the street tiles cannot load. Site data comes from assets/map/cinema-sites.js. Sites whose location is "none" or "withheld"
    (licensing or provenance under review) are never placed on the map; they stay in search and the record pages.
    Level B archive listings (assets/map/archive-pins.js) are added as address points: the point for the matched address
    in the state's official address data today, labelled as such, never as the historic footprint.
@@ -85,14 +85,9 @@
     ROOT_BASE = RECORD_BASE.replace(/cinemas\/$/, "");
     var map = L.map(el, { zoomSnap: 0.5, minZoom: 3, maxZoom: 19, attributionControl: true, worldCopyJump: false, scrollWheelZoom: false });
     map.attributionControl.setPrefix(false);
-    map.attributionControl.addAttribution('&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a>. Map library: <a href="https://leafletjs.com/" target="_blank" rel="noopener">Leaflet</a>');
-    // Street map tiles, swapped when the reader changes the light/dark theme.
-    var TILE = "https://{s}.basemaps.cartocdn.com/{style}/{z}/{x}/{y}{r}.png";
-    function tileStyle() { return document.documentElement.getAttribute("data-theme") === "dark" ? "dark_all" : "light_all"; }
-    var tiles = L.tileLayer(TILE, { style: tileStyle(), subdomains: "abcd", maxZoom: 19, detectRetina: false, crossOrigin: false }).addTo(map);
-    if ("MutationObserver" in window) new MutationObserver(function () {
-      var st = tileStyle(); if (tiles.options.style !== st) { tiles.options.style = st; tiles.redraw(); }
-    }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+    map.attributionControl.addAttribution('&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors. Map library: <a href="https://leafletjs.com/" target="_blank" rel="noopener">Leaflet</a>');
+    // OpenStreetMap street tiles (no key). Colours are softened in CSS (.rm-tiles), and inverted in dark mode.
+    var tiles = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, className: "rm-tiles" }).addTo(map);
     // Natural Earth outline under the tiles: only visible where street tiles fail to load.
     map.createPane("fallback"); map.getPane("fallback").style.zIndex = 150;
     if (APPROX.length) map.attributionControl.addAttribution('Approximate town and suburb centres: <a href="https://www.geonames.org/" target="_blank" rel="noopener">GeoNames</a> (CC BY 4.0)');

@@ -1572,3 +1572,7 @@ picture { display: contents; }
   .chains-table { table-layout: fixed; min-width: 0; }
   .chains-table td::before { content: attr(data-label); display: block; font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; opacity: .7; }
 }
+
+/* Street map tiles (OpenStreetMap): softened to sit with the White Art Deco palette; inverted for dark mode */
+.rm-tiles { filter: saturate(0.35) brightness(1.04) contrast(0.95); }
+:root[data-theme="dark"] .rm-tiles { filter: invert(1) hue-rotate(180deg) saturate(0.3) brightness(0.85) contrast(0.9); }
