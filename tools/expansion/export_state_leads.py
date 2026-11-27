@@ -43,16 +43,17 @@ def summary(r):
     s1 = f"{r['name']} was a {kind}{where}{', ' + loc if loc else ''}."
     if r["status"] == "operating":
         s1 = f"{r['name']} is a {kind}{where}{', ' + loc if loc else ''}, listed as operating."
-    bits = []
+    out_ = [s1]
     if r["first_listed"] and r["last_listed"]:
-        bits.append(f"CAARP lists it from {nice_date(r['first_listed'])} to {nice_date(r['last_listed'])}")
+        out_.append(f"CAARP lists it from {nice_date(r['first_listed'])} to {nice_date(r['last_listed'])}.")
     elif r["first_listed"]:
-        bits.append(f"CAARP first lists it in {nice_date(r['first_listed'])}")
+        out_.append(f"CAARP first lists it in {nice_date(r['first_listed'])}.")
     if r["capacity"]:
-        bits.append(f"with {r['capacity']}{'' if 'car' in r['capacity'] else ' seats'} recorded")
+        cap = r["capacity"]
+        out_.append(f"Recorded capacity: {cap}." if "car" in cap else f"Recorded capacity: {int(cap):,} seats." if cap.isdigit() else f"Recorded capacity: {cap}.")
     if r["aliases"]:
-        bits.append(f"it was also known as {', '.join(r['aliases'][:3])}")
-    return s1 + (" " + "; ".join(bits).capitalize() + "." if bits else "")
+        out_.append(f"Also known as {', '.join(r['aliases'][:3])}{' and others' if len(r['aliases']) > 3 else ''}.")
+    return " ".join(out_)
 
 out = []
 for r in M:

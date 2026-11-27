@@ -1,106 +1,248 @@
 kind,a,a_name,b,b_name,locality,reason
-merged source rows,caarp:741,Hoyts,b01:FCA-NSW-D01-001,Hoyts Cinema,ashfield,same name and locality (no address to compare)
+merged source rows,caarp:202,Petersham Picture Show,ct:32255,Odeon Petersham,2049,"same street number, street name spelt differently"
+merged source rows,caarp:262,Summer Hill Theatre,ct:35289,Summer Hill Theatre,2130,same street address
+merged source rows,caarp:714,Empire,ct:40784,Empire Theatre,2019,same street and name
+merged source rows,caarp:727,Olympia/West's Olympia/Odeon/Mandala/Academy,ct:1281,Academy Twin Cinemas,2021,same street address
+merged source rows,caarp:786,Five Ways,ct:43191,Five Ways Picture Palace,2021,"same street, nearby number, same name"
+merged source rows,ct:32283,Hoyts Entertainment Quarter,ct:61057,Outdoor Bed Cinema,2021,same street address
+merged source rows,caarp:731,Metro,ct:11400,Metro King's Cross,2011,same street address
+merged source rows,caarp:739,Annandale,ct:39513,Annandale Royal Theatre,2038,"same street number, street name spelt differently"
+merged source rows,caarp:1438,Kings,ct:35288,Ashfield Kings Theatre,2131,same street and name
+merged source rows,caarp:742,Hoyts Civic,ct:37774,Hoyts Civic Theatre,2144,same name and locality (no address to compare)
 merged source rows,caarp:742,Hoyts Civic,b01:FCA-NSW-D01-002,Civic Theatre,auburn,same name and locality (no address to compare)
+merged source rows,caarp:744,Olympic 1,ct:37782,Metro Bondi Junction,2022,same street address
+merged source rows,caarp:745,Olympic 2,ct:41068,Hoyts Bondi Road Theatre,2022,same street and name
+merged source rows,caarp:746,Star,ct:37778,Hoyts Star Theatre,2022,same street and name
+merged source rows,caarp:2182,Alfa Theatre,ct:46621,Odeon Rockdale,2216,"same street, nearby number, same name"
 merged source rows,caarp:748,Palatial,b01:FCA-NSW-D01-009,Palatial Cinema,burwood,same name and locality (no address to compare)
+merged source rows,ct:38062,Hoyts Astor Burwood,b01:FCA-NSW-D01-008,Astor Cinema,burwood,same name and locality (no address to compare)
+merged source rows,caarp:749,Carlton Theatre,ct:40473,Odeon Carlton,2218,same street address
+merged source rows,caarp:750,Hoyts Arcadia,ct:35299,Hoyts Arcadia Theatre,2057,same street and name
+merged source rows,caarp:753,Ritz,ct:32290,Hoyts Ritz Concord Central,2137,same street address
 merged source rows,caarp:753,Ritz,b01:FCA-NSW-D01-010,Ritz Cinema,concord,same name and locality (no address to compare)
-merged source rows,caarp:755,Hoyts,b01:FCA-NSW-D01-011,Hoyts Cinema,crows nest,same name and locality (no address to compare)
-merged source rows,caarp:757,Hoyts,b01:FCA-NSW-D01-012,Hoyts Cinema,double bay,same name and locality (no address to compare)
+merged source rows,caarp:754,Boomerang,ct:40504,Boomerang Theatre,2034,same name and locality (no address to compare)
+merged source rows,caarp:2180,Dendy Crow's Nest Theatre,ct:1283,Metro Crows Nest,2065,same street address
+merged source rows,caarp:756,De Luxe,ct:1276,De-Luxe Theatre,2132,same street address
+merged source rows,caarp:757,Hoyts,ct:1280,Hoyts Double Bay Theatre,2028,same street address
+merged source rows,caarp:2191,Village Twin Theatre,ct:37977,Village Twin Theatre,2028,same street address
+merged source rows,caarp:762,Victory,ct:22356,Ca'd'Or Cinema,2046,same street and name
+merged source rows,caarp:766,Homebush Cinema/ Vogue,ct:32256,Hoyts Vogue Theatre,2140,"same street, nearby number, same name"
 merged source rows,caarp:766,Homebush Cinema/ Vogue,b01:FCA-NSW-D01-023,Vogue Cinema,homebush,same name and locality (no address to compare)
+merged source rows,caarp:2186,Mecca Theatre,ct:32285,Mecca Theatre,2217,same street address
+merged source rows,caarp:770,Rio,ct:37747,Rio Theatre,2066,same street address
+merged source rows,caarp:772,Strand,ct:38427,Strand Theatre,2040,same street address
 merged source rows,caarp:773,Arcadia,b01:FCA-NSW-D01-028,Arcadia Cinema,lidcombe,same name and locality (no address to compare)
+merged source rows,caarp:1444,Lindfield Theatre,ct:37732,Lindfield Kings Theatre,2070,same street and name
+merged source rows,caarp:775,Addison Road,ct:40414,Addison Theatre,2204,same street address
+merged source rows,caarp:1030,Kings,ct:37818,Marrickville Kings Theatre,2204,same street address
+merged source rows,caarp:1143,Hoyts,ct:37864,Hoyts Marrickville Theatre,2204,same street address
+merged source rows,caarp:779,Australian,ct:32263,Greater Union Mosman Cinemas,2088,same street address
+merged source rows,caarp:779,Australian,ct:1274,New Kings Theatre,2088,same street address
+merged source rows,caarp:780,Kinema,ct:35297,Hoyts Kinema Theatre,2088,"same street, nearby number, same name"
+merged source rows,caarp:781,Anzac Memorial Hall,ct:35298,Rex Theatre,2088,"same street, nearby number, same name"
+merged source rows,caarp:782,Southern Cross,ct:37753,Hoyts Southern Cross Theatre,2089,same street address
+merged source rows,caarp:783,Hub,ct:32227,Hub Theatre,2042,same name and locality (no address to compare)
+merged source rows,caarp:1136,Majestic,ct:41276,Elizabethan Theatre,2042,same street and name
+merged source rows,caarp:785,Northbridge Theatre,ct:48976,Northbridge Theatre,2063,same street and name
 merged source rows,caarp:788,Roxy,b01:FCA-NSW-D01-039,Roxy Cinema,parramatta,same name and locality (no address to compare)
 merged source rows,caarp:2197,Astra Theatre,b01:FCA-NSW-D01-037,Astra Cinema,parramatta,same name and locality (no address to compare)
+merged source rows,caarp:793,Wintergarden,ct:1275,Wintergarden Theatre,2029,"same street, nearby number, same name"
+merged source rows,caarp:1443,Kings,ct:38261,Rose Bay North Kings Theatre,2029,same street and name
+merged source rows,ct:35281,Hoyts Melba Strathfield,b01:FCA-NSW-D01-041,Melba Cinema,strathfield,same name and locality (no address to compare)
+merged source rows,caarp:799,Royal,ct:37537,Royal Theatre,2068,same name and locality (no address to compare)
+merged source rows,caarp:803,Empress,ct:37927,Rapallo Theatre,2000,"same street, nearby number, same name"
+merged source rows,caarp:806,Regent,ct:6594,Regent Theatre,2000,same street address
+merged source rows,caarp:838,Capitol,ct:1284,Capitol Theatre,2000,same street address
+merged source rows,caarp:839,Haymarket,ct:37763,Barclay Theatre,2000,same street and name
+merged source rows,caarp:841,Grand,ct:40440,Liberty Theatre,2000,same street and name
+merged source rows,caarp:842,Lyceum,ct:37916,Lyceum Theatre,2000,same street and name
+merged source rows,caarp:843,Lyric,ct:37767,Forum Theatre,2000,same street and name
+merged source rows,caarp:844,Mayfair,ct:34474,Mayfair Theatre,2000,same street and name
+merged source rows,caarp:845,Atheneum Hall,ct:7065,Plaza Theatre,2000,same street and name
+merged source rows,caarp:846,Prince Edward,ct:4065,Prince Edward Theatre,2000,same street and name
+merged source rows,caarp:847,St James,ct:4510,St. James Theatre,2000,same street and name
+merged source rows,caarp:848,State Theatre,ct:1285,State Theatre,2000,same street and name
+merged source rows,caarp:850,Crystal Palace,ct:7071,Century Theatre,2000,same street and name
+merged source rows,caarp:852,Globe,ct:40430,Globe Newsreel Theatre,2000,same street and name
+merged source rows,caarp:854,Empire,ct:38094,Her Majesty's Theatre,2000,same street and name
+merged source rows,caarp:856,Savoy,ct:37760,Savoy Theatre,2000,same street address
+merged source rows,caarp:857,State Theatrette,ct:40423,State Newsreel Theatrette,2000,same street and name
+merged source rows,caarp:859,Variety,ct:45438,Variety Theatre,2000,same street and name
+merged source rows,caarp:861,World News,ct:40431,Lido Theatre,2000,same street and name
+merged source rows,caarp:862,Wynyard,ct:40432,Wynyard Newsreel Theatre,2000,same street and name
+merged source rows,caarp:858,Australian Picture Palace,ct:1282,Paris Theatre,2000,same street and name
+merged source rows,caarp:1447,Paramount,ct:44071,Paramount Theatre,2000,same street and name
+merged source rows,caarp:1449,Victoria,ct:54542,Apollo Theatre,2000,same street and name
+merged source rows,caarp:2175,Cinema City 1,ct:53386,Village Cinema City,2000,same street address
+merged source rows,caarp:2185,Mandarin Cinema,ct:35344,Mandolin Cinema,2000,same street address
+merged source rows,caarp:2198,Australia Cinema,ct:63712,Australia Theatre,2000,same street address
+merged source rows,ct:1285,State Theatre,ct:40423,State Newsreel Theatrette,2000,same street address
+merged source rows,ct:32254,Greater Union Pitt Centre,ct:40440,Liberty Theatre,2000,same street address
+merged source rows,ct:44071,Paramount Theatre,ct:37927,Rapallo Theatre,2000,same street address
 merged source rows,caarp:858,Australian Picture Palace,b01:FCA-NSW-D01-047,Park,sydney,same name and locality (no address to compare)
+merged source rows,ct:40254,Palace Theatre,b01:FCA-NSW-D01-046,Palace Theatre,sydney,same name and locality (no address to compare)
+merged source rows,ct:6594,Regent Theatre,b01:FCA-NSW-D01-048,Regent Theatre,sydney,same name and locality (no address to compare)
+merged source rows,ct:40432,Wynyard Newsreel Theatre,b01:FCA-NSW-D01-060,Wynyard Newsreel Theatre,sydney,same name and locality (no address to compare)
+merged source rows,caarp:807,Capitol,ct:32387,Capitol Theatre,2650,same street and name
 merged source rows,caarp:807,Capitol,b01:FCA-NSW-D01-050,Capitol Theatre,wagga wagga,same name and locality (no address to compare)
+merged source rows,ct:32385,Plaza Twin Cinema,b01:FCA-NSW-D01-051,Plaza Cinema,wagga wagga,same name and locality (no address to compare)
+merged source rows,ct:53378,Sturt Drive-In,b01:FCA-NSW-D01-073,Sturt Drive-in,wagga wagga,drive-in with the same name in the same locality
+merged source rows,caarp:875,Hoyts Enmore,ct:32315,Enmore Theatre,enmore,same name and locality (no address to compare)
+merged source rows,caarp:876,Marina,ct:32359,Rosebery Cinema,2018,"same street number, street name spelt differently"
+merged source rows,caarp:878,Chelsea,ct:35322,Atlas Theatre,2206,same street address
+merged source rows,ct:32257,Civic Theatre,b01:FCA-NSW-D01-034,Civic Theatre,newcastle,same name and locality (no address to compare)
+merged source rows,ct:68084,Strand Theatre,b01:FCA-NSW-D01-074,Strand Theatre,newcastle,same name and locality (no address to compare)
+merged source rows,ct:1512,Theatre Royal,b01:FCA-NSW-D01-035,Royal Cinema,newcastle,same name and locality (no address to compare)
+merged source rows,ct:13949,Victoria Theatre,b01:FCA-NSW-D01-036,Victoria Cinema,newcastle,same name and locality (no address to compare)
+merged source rows,caarp:880,Regent,ct:39567,Hoyts Bankstown,2200,same name and locality (no address to compare)
 merged source rows,caarp:2176,Civic Theatre,b01:FCA-NSW-D01-003,Civic Theatre,bankstown,same name and locality (no address to compare)
+merged source rows,caarp:881,Regent,ct:26994,Regent Cinemas,2640,same street address
+merged source rows,caarp:1195,Sussex Cinema,ct:63945,Inlet Cinema,2540,same street and name
+merged source rows,caarp:1180,Crown Theatre,ct:52925,West's Theatre,2541,same street and name
+merged source rows,caarp:1181,Roxy Theatre,ct:41680,Roxy Theatre,2541,same street address
+merged source rows,caarp:1182,Southline Drive-in Theatre/Starline Drive-in,ct:61023,Starline Drive-In,2541,drive-in with the same name in the same locality
 merged source rows,caarp:1178,West's Crown Theatre,b01:FCA-NSW-D01-065,West's Theatre,nowra,same name and locality (no address to compare)
+merged source rows,caarp:1197,Wollongong Town Hall (Annex),ct:42149,Civic Theatre,2500,same name and locality (no address to compare)
+merged source rows,caarp:1199,Savoy Theatre,ct:43207,Savoy Theatre,2500,same street and name
+merged source rows,caarp:1200,Regent Theatre,ct:2894,Regent Theatre,2500,same street and name
+merged source rows,caarp:1201,Greater Union Town,ct:32123,Event Cinemas Wollongong,2500,same street and name
+merged source rows,caarp:877,Whiteway,ct:55983,Whiteway Theatre,2505,same street and name
 merged source rows,caarp:877,Whiteway,b01:FCA-NSW-D01-062,Whiteway Theatre,port kembla,same name and locality (no address to compare)
+merged source rows,caarp:1193,Arcadia Twin Cinemas,ct:25933,Arcadia Twin Cinemas,2539,same street and name
+merged source rows,caarp:1191,Milton School of Arts,ct:28242,Milton Theatre,2538,same street and name
+merged source rows,caarp:1202,Odeon Theatre,ct:33616,Gala Cinema,2502,same street address
+merged source rows,caarp:2158,Hoyts 6 Cinecentre,ct:54376,Hoyts Warrawong,2502,same name and locality (no address to compare)
+merged source rows,caarp:1203,Empire Theatre,ct:20667,Empire Theatre,2508,same street and name
+merged source rows,caarp:1234,Panoramic Drive-In,ct:53409,Panoramic Drive-In,2549,drive-in with the same name in the same locality
+merged source rows,caarp:2070,Castle,ct:37817,Hoyts Castle Theatre,2142,same street and name
 merged source rows,caarp:2070,Castle,b01:FCA-NSW-D01-017,Castle Open Air Cinema,granville,same name and locality (no address to compare)
+merged source rows,caarp:1446,Orpheum,ct:848,Hayden Orpheum Picture Palace,2090,same street and name
+merged source rows,caarp:49,Johnsons,ct:56253,Silver City Cinema,2880,"same street, nearby number, same name"
+merged source rows,caarp:2060,Premier Theatre,ct:37908,Premier Theatre,2010,same street address
+merged source rows,caarp:1386,Roxy,ct:15628,Roxy Community Theatre,2705,same street address
 merged source rows,caarp:1386,Roxy,b01:FCA-NSW-D01-027,Roxy Cinema,leeton,same name and locality (no address to compare)
+merged source rows,caarp:2141,Strand Theatre,ct:55987,Strand Theatre,2518,same street and name
 merged source rows,caarp:2141,Strand Theatre,b01:FCA-NSW-D01-075,Strand Theatre,corrimal,same name and locality (no address to compare)
-already on the website,record:lead:fca-nsw-d01-001,Hoyts Cinema,CAARP:741; NSW discovery batch 01:FCA-NSW-D01-001,Hoyts,Ashfield,same name and locality
-already on the website,record:lead:fca-nsw-d01-002,Civic Theatre,CAARP:742; NSW discovery batch 01:FCA-NSW-D01-002,Hoyts Civic,Auburn,same name and locality
+merged source rows,caarp:2152,Southline Drive-In Theatre,ct:53125,Southline Drive-In,2519,drive-in with the same name in the same locality
+merged source rows,caarp:2157,Lakeline Drive-In Theatre,ct:53396,Lakeline Drive-In,2530,drive-in with the same name in the same locality
+merged source rows,caarp:2177,Cronulla Theatre,ct:35269,Hoyts Cinemas Cronulla,2230,same street address
+merged source rows,caarp:2184,Kingsford Odeon Theatre,ct:41651,Kingsford Odeon,2032,same street address
+merged source rows,caarp:2193,Amusu Theatre,ct:39559,Amusu Theatre,2035,"same street, nearby number, same name"
+merged source rows,caarp:2197,Astra Theatre,ct:35319,Astra Theatre,2150,same name and locality (no address to compare)
+merged source rows,ct:35319,Astra Theatre,ct:62036,Greater Union Movies 3,2150,same street address
+merged source rows,caarp:2190,St James Theatre,ct:35270,Event Cinemas GU Film House Sydney,2209,"same street number, street name spelt differently"
+merged source rows,ct:48700,Tasma Theatre,b01:FCA-NSW-D01-071,Tasma Theatre,coffs harbour,same name and locality (no address to compare)
+merged source rows,ct:41659,Hoyts Goulburn,b01:FCA-NSW-D01-016,Ritz Cinema,goulburn,same name and locality (no address to compare)
+merged source rows,ct:53128,Village Orange Drive-In,b01:FCA-NSW-D01-068,Village Orange Drive-in,orange,drive-in with the same name in the same locality
+merged source rows,ct:51977,Westview Drive-In,b01:FCA-NSW-D01-064,Westview Drive-in,dubbo,drive-in with the same name in the same locality
+merged source rows,ct:66739,Tivoli Cinema,b01:FCA-NSW-D01-070,Tivoli Theatre,west wyalong,same name and locality (no address to compare)
+merged source rows,ct:60971,Westway Drive-In,b01:FCA-NSW-D01-063,Westway Drive-in,west wyalong,drive-in with the same name in the same locality
+merged source rows,ct:51952,Warriewood Skyline Drive-In,b01:FCA-NSW-D01-067,Skyline Drive-in,warriewood,drive-in with the same name in the same locality
+merged source rows,ct:63404,Suttons Broadway Picture Theatre,b01:FCA-NSW-D01-072,Suttons Broadway Picture Theatre,drummoyne,same name and locality (no address to compare)
+merged source rows,ct:39536,Guildford Regent Theatre,b01:FCA-NSW-D01-021,Regent Cinema,guildford,same name and locality (no address to compare)
+merged source rows,ct:38056,Hoyts Crescent Fairfield,b01:FCA-NSW-D01-015,Crescent Cinema,fairfield,same name and locality (no address to compare)
+merged source rows,ct:32253,Manly Cinemas,ct:1277,Odeon Manly,2095,same street address
+merged source rows,ct:38104,Merrylands Hoyts Kinema,b01:FCA-NSW-D01-031,Kinema,merrylands,same name and locality (no address to compare)
+merged source rows,ct:1513,Hoyts Regent Theatre,b01:FCA-NSW-D01-024,Regent Cinema,islington,same name and locality (no address to compare)
+merged source rows,ct:39574,Hoyts Strand Theatre,b01:FCA-NSW-D01-052,Strand Cinema,young,same name and locality (no address to compare)
+merged source rows,ct:36440,New Rex Theatre,ct:37960,Village Cinema,2030,same street address
+merged source rows,ct:53404,Skyline Drive-In,b01:FCA-NSW-D01-025,Skyline Drive-in,lambton,drive-in with the same name in the same locality
+merged source rows,ct:35289,Summer Hill Theatre,b01:FCA-NSW-D01-042,Grosvenor Cinema,summer hill,same name and locality (no address to compare)
+merged source rows,ct:53385,Victory Drive-In,b01:FCA-NSW-D01-069,Victory Drive-in,alstonville,drive-in with the same name in the same locality
+merged source rows,ct:39577,Western Monarch Theatre,b01:FCA-NSW-D01-056,Western Monarch Theatre,gilgandra,same name and locality (no address to compare)
+merged source rows,ct:49534,Woy Woy Cinema,b01:FCA-NSW-D01-061,Woy Woy Cinema,woy woy,same name and locality (no address to compare)
+already on the website,record:lead:fca-nsw-d01-042,Grosvenor Cinema,CAARP:262; Cinema Treasures:35289; NSW discovery batch 01:FCA-NSW-D01-042,Grosvenor,Summer Hill,same name and locality
+already on the website,record:lead:fca-nsw-d01-002,Civic Theatre,CAARP:742; Cinema Treasures:37774; NSW discovery batch 01:FCA-NSW-D01-002,Hoyts Civic,Auburn,same name and locality
 already on the website,record:lead:fca-nsw-d01-009,Palatial Cinema,CAARP:748; NSW discovery batch 01:FCA-NSW-D01-009,Palatial,Burwood,same name and locality
-already on the website,record:lead:fca-nsw-d01-010,Ritz Cinema,CAARP:753; NSW discovery batch 01:FCA-NSW-D01-010,Ritz,Concord,same name and locality
-already on the website,record:lead:fca-nsw-d01-011,Hoyts Cinema,CAARP:755; NSW discovery batch 01:FCA-NSW-D01-011,Hoyts,Crows Nest,same name and locality
-already on the website,record:lead:fca-nsw-d01-012,Hoyts Cinema,CAARP:757; NSW discovery batch 01:FCA-NSW-D01-012,Hoyts,Double Bay,same name and locality
-already on the website,record:lead:fca-nsw-d01-023,Vogue Cinema,CAARP:766; NSW discovery batch 01:FCA-NSW-D01-023,Homebush Cinema/ Vogue,Homebush,same name and locality
+already on the website,record:lead:fca-nsw-d01-010,Ritz Cinema,CAARP:753; Cinema Treasures:32290; NSW discovery batch 01:FCA-NSW-D01-010,Ritz,Concord,same name and locality
+already on the website,record:lead:fca-nsw-d01-023,Vogue Cinema,CAARP:766; Cinema Treasures:32256; NSW discovery batch 01:FCA-NSW-D01-023,Homebush Cinema/ Vogue,Homebush,same name and locality
 already on the website,record:lead:fca-nsw-d01-028,Arcadia Cinema,CAARP:773; NSW discovery batch 01:FCA-NSW-D01-028,Arcadia,Lidcombe,same name and locality
 already on the website,record:roxy-parramatta,Roxy Theatre,CAARP:788; NSW discovery batch 01:FCA-NSW-D01-039,Roxy,Parramatta,same name and locality
-already on the website,record:lead:fca-nsw-d01-048,Regent Theatre,CAARP:806,Regent,Sydney,same name and locality
-already on the website,record:lead:fca-nsw-d01-050,Capitol Theatre,CAARP:807; NSW discovery batch 01:FCA-NSW-D01-050,Capitol,Wagga Wagga,same name and locality
-already on the website,record:capitol-sydney,Capitol Theatre,CAARP:838,Capitol,Sydney,same name and locality
+already on the website,record:lead:fca-nsw-d01-048,Regent Theatre,CAARP:806; Cinema Treasures:6594; NSW discovery batch 01:FCA-NSW-D01-048,Regent,Sydney,same name and locality
+already on the website,record:lead:fca-nsw-d01-050,Capitol Theatre,CAARP:807; Cinema Treasures:32387; NSW discovery batch 01:FCA-NSW-D01-050,Capitol,Wagga Wagga,same name and locality
+already on the website,record:capitol-sydney,Capitol Theatre,CAARP:838; Cinema Treasures:1284,Capitol,Sydney,same name and locality
 already on the website,record:lead:fca-nsw-d01-043,Embassy Cinema,CAARP:840,Embassy,Sydney,same name and locality
-already on the website,record:state-sydney,State Theatre,CAARP:848,State Theatre,Sydney,same name and locality
-already on the website,record:lead:fca-nsw-d01-045,News Luxe Theatrette,CAARP:853,News-Luxe,Sydney,same name and locality
-already on the website,record:state-sydney,State Theatre,CAARP:857,State Theatrette,Sydney,same name and locality
-already on the website,record:lead:fca-nsw-d01-045,News Luxe Theatrette,CAARP:861,World News,Sydney,same name and locality
-already on the website,record:lead:fca-nsw-d01-060,Wynyard Newsreel Theatre,CAARP:862,Wynyard,Sydney,same name and locality
+already on the website,record:state-sydney,State Theatre,CAARP:848; CAARP:857; Cinema Treasures:1285; Cinema Treasures:40423,State Theatre,Sydney,same name and locality
+already on the website,record:lead:fca-nsw-d01-060,Wynyard Newsreel Theatre,CAARP:862; Cinema Treasures:40432; NSW discovery batch 01:FCA-NSW-D01-060,Wynyard,Sydney,same name and locality
 already on the website,record:lead:fca-nsw-d01-065,West's Theatre,CAARP:1178; NSW discovery batch 01:FCA-NSW-D01-065,West's Crown Theatre,Nowra,same name and locality
-already on the website,record:lead:fca-nsw-d01-062,Whiteway Theatre,CAARP:877; NSW discovery batch 01:FCA-NSW-D01-062,Whiteway,Port Kembla,same name and locality
-already on the website,record:shr-01735,Regent Theatre,CAARP:1200,Regent Theatre,Wollongong,same name and locality
-already on the website,record:lead:fca-nsw-d01-047,Park / Paris Cinema,CAARP:858; NSW discovery batch 01:FCA-NSW-D01-047,Australian Picture Palace,Sydney,same name and locality
-already on the website,record:orpheum-cremorne,Hayden Orpheum Picture Palace,CAARP:1446,Orpheum,Cremorne,same name and locality
-already on the website,record:lead:fca-nsw-d01-017,Castle Open Air Cinema,CAARP:2070; NSW discovery batch 01:FCA-NSW-D01-017,Castle,Granville,same name and locality
-already on the website,record:shr-01747,Roxy Community Theatre,CAARP:1386; NSW discovery batch 01:FCA-NSW-D01-027,Roxy,Leeton,same name and locality
+already on the website,record:lead:fca-nsw-d01-062,Whiteway Theatre,CAARP:877; Cinema Treasures:55983; NSW discovery batch 01:FCA-NSW-D01-062,Whiteway,Port Kembla,same name and locality
+already on the website,record:shr-01735,Regent Theatre,CAARP:1200; Cinema Treasures:2894,Regent Theatre,Wollongong,same name and locality
+already on the website,record:lead:fca-nsw-d01-047,Park / Paris Cinema,CAARP:858; Cinema Treasures:1282; NSW discovery batch 01:FCA-NSW-D01-047,Australian Picture Palace,Sydney,same name and locality
+already on the website,record:orpheum-cremorne,Hayden Orpheum Picture Palace,CAARP:1446; Cinema Treasures:848,Orpheum,Cremorne,same name and locality
+already on the website,record:lead:fca-nsw-d01-017,Castle Open Air Cinema,CAARP:2070; Cinema Treasures:37817; NSW discovery batch 01:FCA-NSW-D01-017,Castle,Granville,same name and locality
+already on the website,record:shr-01747,Roxy Community Theatre,CAARP:1386; Cinema Treasures:15628; NSW discovery batch 01:FCA-NSW-D01-027,Roxy,Leeton,same name and locality
 already on the website,record:ritz-randwick,Ritz Theatre,CAARP:2133,Ritz,Randwick,same name and locality
-already on the website,record:lead:fca-nsw-d01-075,Strand Theatre,CAARP:2141; NSW discovery batch 01:FCA-NSW-D01-075,Strand Theatre,Corrimal,same name and locality
+already on the website,record:lead:fca-nsw-d01-075,Strand Theatre,CAARP:2141; Cinema Treasures:55987; NSW discovery batch 01:FCA-NSW-D01-075,Strand Theatre,Corrimal,same name and locality
 already on the website,record:lead:fca-nsw-d01-003,Civic Theatre,CAARP:2176; NSW discovery batch 01:FCA-NSW-D01-003,Civic Theatre,Bankstown,same name and locality
-already on the website,record:lead:fca-nsw-d01-037,Astra Cinema,CAARP:2197; NSW discovery batch 01:FCA-NSW-D01-037,Astra Theatre,Parramatta,same name and locality
+already on the website,record:lead:fca-nsw-d01-037,Astra Cinema,CAARP:2197; Cinema Treasures:35319; Cinema Treasures:62036; NSW discovery batch 01:FCA-NSW-D01-037,Astra Theatre,Parramatta,same name and locality
+already on the website,record:shr-01308,Amusu Theatre,Cinema Treasures:15554,Amusu Theatre,Manildra,same name and locality
+already on the website,record:lead:fca-nsw-d01-034,Civic Theatre,Cinema Treasures:32257; NSW discovery batch 01:FCA-NSW-D01-034,Civic Theatre,Newcastle,same name and locality
+already on the website,record:shr-01909,Montreal Community Theatre,Cinema Treasures:14339,Montreal Community Theatre,Tumut,same name and locality
+already on the website,record:shr-01990,Roxy Theatre and Peters Greek Cafe Complex,Cinema Treasures:38531,Roxy Theatre,Bingara,same name and locality
+already on the website,record:shr-01401,Saraton Theatre,Cinema Treasures:25930,Saraton Theatre,Grafton,same name and locality
+already on the website,record:lead:fca-nsw-d01-070,Tivoli Theatre,Cinema Treasures:66739; NSW discovery batch 01:FCA-NSW-D01-070,Tivoli Cinema,West Wyalong,same name and locality
+already on the website,record:shr-01660,Scone Civic Theatre,Cinema Treasures:49533,Civic Theatre,Scone,same name and locality
+already on the website,record:lead:fca-nsw-d01-038,Civic Theatre,Cinema Treasures:36470,Civic Theatre,Parramatta,same name and locality
+already on the website,record:lead:fca-nsw-d01-043,Embassy Cinema,Cinema Treasures:6603,Embassy Theatre,Sydney,same name and locality
+already on the website,record:lead:fca-nsw-d01-021,Regent Cinema,Cinema Treasures:39536; NSW discovery batch 01:FCA-NSW-D01-021,Guildford Regent Theatre,Guildford,same name and locality
+already on the website,record:lead:fca-nsw-d01-008,Astor Cinema,Cinema Treasures:38062; NSW discovery batch 01:FCA-NSW-D01-008,Hoyts Astor Burwood,Burwood,same name and locality
+already on the website,record:lead:fca-nsw-d01-015,Crescent Cinema,Cinema Treasures:38056; NSW discovery batch 01:FCA-NSW-D01-015,Hoyts Crescent Fairfield,Fairfield,same name and locality
+already on the website,record:lead:fca-nsw-d01-016,Ritz Cinema,Cinema Treasures:41659; NSW discovery batch 01:FCA-NSW-D01-016,Hoyts Goulburn,Goulburn,same name and locality
+already on the website,record:lead:fca-nsw-d01-041,Melba Cinema,Cinema Treasures:35281; NSW discovery batch 01:FCA-NSW-D01-041,Hoyts Melba Strathfield,Strathfield,same name and locality
+already on the website,record:lead:fca-nsw-d01-024,Regent Cinema,Cinema Treasures:1513; NSW discovery batch 01:FCA-NSW-D01-024,Hoyts Regent Theatre,Islington,same name and locality
+already on the website,record:lead:fca-nsw-d01-013,Savoy Cinema,Cinema Treasures:35280,Hoyts Savoy Theatre,Enfield,same name and locality
+already on the website,record:lead:fca-nsw-d01-052,Strand Cinema,Cinema Treasures:39574; NSW discovery batch 01:FCA-NSW-D01-052,Hoyts Strand Theatre,Young,same name and locality
+already on the website,record:lead:fca-nsw-d01-031,Kinema,Cinema Treasures:38104; NSW discovery batch 01:FCA-NSW-D01-031,Merrylands Hoyts Kinema,Merrylands,same name and locality
+already on the website,record:archive:fca-b02-r015,Nepean Open-Air,Cinema Treasures:38074,Nepean Theatre,Penrith,same name and locality
+already on the website,record:lead:fca-nsw-d01-046,Palace Theatre,Cinema Treasures:40254; NSW discovery batch 01:FCA-NSW-D01-046,Palace Theatre,Sydney,same name and locality
+already on the website,record:lead:fca-nsw-d01-009,Palatial Cinema,Cinema Treasures:22277,Palatial Cinema,Burwood,same name and locality
+already on the website,record:lead:fca-nsw-d01-051,Plaza Cinema,Cinema Treasures:32385; NSW discovery batch 01:FCA-NSW-D01-051,Plaza Twin Cinema,Wagga Wagga,same name and locality
+already on the website,record:shr-2035,Regent Theatre,Cinema Treasures:14054,Regent Theatre,Mudgee,same name and locality
+already on the website,record:archive:fca-b02-r003,Salon Lumière,Cinema Treasures:63633,Salon Cinematographe,Sydney,same name and locality
+already on the website,record:lead:fca-nsw-d01-025,Skyline Drive-in,Cinema Treasures:53404; NSW discovery batch 01:FCA-NSW-D01-025,Skyline Drive-In,Lambton,same name and locality
+already on the website,record:lead:fca-nsw-d01-074,Strand Theatre,Cinema Treasures:68084; NSW discovery batch 01:FCA-NSW-D01-074,Strand Theatre,Newcastle,same name and locality
+already on the website,record:lead:fca-nsw-d01-073,Sturt Drive-in,Cinema Treasures:53378; NSW discovery batch 01:FCA-NSW-D01-073,Sturt Drive-In,Wagga Wagga,same name and locality
+already on the website,record:lead:fca-nsw-d01-072,Suttons Broadway Picture Theatre,Cinema Treasures:63404; NSW discovery batch 01:FCA-NSW-D01-072,Suttons Broadway Picture Theatre,Drummoyne,same name and locality
+already on the website,record:lead:fca-nsw-d01-071,Tasma Theatre,Cinema Treasures:48700; NSW discovery batch 01:FCA-NSW-D01-071,Tasma Theatre,Coffs Harbour,same name and locality
+already on the website,record:lead:fca-nsw-d01-035,Royal Cinema,Cinema Treasures:1512; NSW discovery batch 01:FCA-NSW-D01-035,Theatre Royal,Newcastle,same name and locality
+already on the website,record:lead:fca-nsw-d01-070,Tivoli Theatre,Cinema Treasures:66740,Tivoli Theatre,West Wyalong,same name and locality
+already on the website,record:shr-01301,Victoria Theatre (former),Cinema Treasures:13949; NSW discovery batch 01:FCA-NSW-D01-036,Victoria Theatre,Newcastle,same name and locality
+already on the website,record:lead:fca-nsw-d01-069,Victory Drive-in,Cinema Treasures:53385; NSW discovery batch 01:FCA-NSW-D01-069,Victory Drive-In,Alstonville,same name and locality
+already on the website,record:lead:fca-nsw-d01-068,Village Orange Drive-in,Cinema Treasures:53128; NSW discovery batch 01:FCA-NSW-D01-068,Village Orange Drive-In,Orange,same name and locality
+already on the website,record:lead:fca-nsw-d01-067,Skyline Drive-in,Cinema Treasures:51952; NSW discovery batch 01:FCA-NSW-D01-067,Warriewood Skyline Drive-In,Warriewood,same name and locality
+already on the website,record:lead:fca-nsw-d01-056,Western Monarch Theatre,Cinema Treasures:39577; NSW discovery batch 01:FCA-NSW-D01-056,Western Monarch Theatre,Gilgandra,same name and locality
+already on the website,record:lead:fca-nsw-d01-064,Westview Drive-in,Cinema Treasures:51977; NSW discovery batch 01:FCA-NSW-D01-064,Westview Drive-In,Dubbo,same name and locality
+already on the website,record:lead:fca-nsw-d01-063,Westway Drive-in,Cinema Treasures:60971; NSW discovery batch 01:FCA-NSW-D01-063,Westway Drive-In,West Wyalong,same name and locality
+already on the website,record:lead:fca-nsw-d01-061,Woy Woy Cinema,Cinema Treasures:49534; NSW discovery batch 01:FCA-NSW-D01-061,Woy Woy Cinema,Woy Woy,same name and locality
+already on the website,record:lead:fca-nsw-d01-001,Hoyts Cinema,NSW discovery batch 01:FCA-NSW-D01-001,Hoyts Cinema,Ashfield,same name and locality
 already on the website,record:lead:fca-nsw-d01-004,Jewel Cinema,NSW discovery batch 01:FCA-NSW-D01-004,Jewel Cinema,Bankstown,same name and locality
 already on the website,record:lead:fca-nsw-d01-005,Coronet Cinema,NSW discovery batch 01:FCA-NSW-D01-005,Coronet Cinema,Bondi Junction,same name and locality
 already on the website,record:lead:fca-nsw-d01-006,Sixways Cinema,NSW discovery batch 01:FCA-NSW-D01-006,Sixways Cinema,Bondi,same name and locality
 already on the website,record:lead:fca-nsw-d01-007,Century Cinema,NSW discovery batch 01:FCA-NSW-D01-007,Century Cinema,Broadmeadow,same name and locality
-already on the website,record:lead:fca-nsw-d01-008,Astor Cinema,NSW discovery batch 01:FCA-NSW-D01-008,Astor Cinema,Burwood,same name and locality
+already on the website,record:lead:fca-nsw-d01-011,Hoyts Cinema,NSW discovery batch 01:FCA-NSW-D01-011,Hoyts Cinema,Crows Nest,same name and locality
+already on the website,record:lead:fca-nsw-d01-012,Hoyts Cinema,NSW discovery batch 01:FCA-NSW-D01-012,Hoyts Cinema,Double Bay,same name and locality
 already on the website,record:lead:fca-nsw-d01-013,Savoy Cinema,NSW discovery batch 01:FCA-NSW-D01-013,Savoy Cinema,Enfield,same name and locality
 already on the website,record:lead:fca-nsw-d01-014,Epping Cinema,NSW discovery batch 01:FCA-NSW-D01-014,Epping Cinema,Epping,same name and locality
-already on the website,record:lead:fca-nsw-d01-015,Crescent Cinema,NSW discovery batch 01:FCA-NSW-D01-015,Crescent Cinema,Fairfield,same name and locality
-already on the website,record:lead:fca-nsw-d01-016,Ritz Cinema,NSW discovery batch 01:FCA-NSW-D01-016,Ritz Cinema,Goulburn,same name and locality
-already on the website,record:lead:fca-nsw-d01-017,Castle Open Air Cinema,NSW discovery batch 01:FCA-NSW-D01-018,Castle Cinema,Granville,same name and locality
+already on the website,record:lead:fca-nsw-d01-018,Castle Cinema,NSW discovery batch 01:FCA-NSW-D01-018,Castle Cinema,Granville,same name and locality
 already on the website,record:lead:fca-nsw-d01-019,The Cinema,NSW discovery batch 01:FCA-NSW-D01-019,The Cinema,Granville,same name and locality
 already on the website,record:lead:fca-nsw-d01-020,Crest Cinema,NSW discovery batch 01:FCA-NSW-D01-020,Crest Cinema,South Granville,same name and locality
-already on the website,record:lead:fca-nsw-d01-021,Regent Cinema,NSW discovery batch 01:FCA-NSW-D01-021,Regent Cinema,Guildford,same name and locality
 already on the website,record:lead:fca-nsw-d01-022,Roxy Cinema,NSW discovery batch 01:FCA-NSW-D01-022,Roxy Cinema,Hamilton,same name and locality
-already on the website,record:lead:fca-nsw-d01-024,Regent Cinema,NSW discovery batch 01:FCA-NSW-D01-024,Regent Cinema,Islington,same name and locality
-already on the website,record:lead:fca-nsw-d01-025,Skyline Drive-in,NSW discovery batch 01:FCA-NSW-D01-025,Skyline Drive-in,Lambton,same name and locality
 already on the website,record:lead:fca-nsw-d01-026,Savoy Cinema,NSW discovery batch 01:FCA-NSW-D01-026,Savoy Cinema,Lambton,same name and locality
 already on the website,record:lead:fca-nsw-d01-029,Hoyts Cinema,NSW discovery batch 01:FCA-NSW-D01-029,Hoyts Cinema,Mayfield,same name and locality
 already on the website,record:lead:fca-nsw-d01-030,Star Cinema,NSW discovery batch 01:FCA-NSW-D01-030,Star Cinema,Merewether,same name and locality
-already on the website,record:lead:fca-nsw-d01-031,Kinema,NSW discovery batch 01:FCA-NSW-D01-031,Kinema,Merrylands,same name and locality
 already on the website,record:lead:fca-nsw-d01-032,Capitol Cinema,NSW discovery batch 01:FCA-NSW-D01-032,Capitol Cinema,Moree,same name and locality
-already on the website,record:lead:fca-nsw-d01-032,Capitol Cinema,NSW discovery batch 01:FCA-NSW-D01-033,Capitol Gardens,Moree,same name and locality
-already on the website,record:lead:fca-nsw-d01-034,Civic Theatre,NSW discovery batch 01:FCA-NSW-D01-034,Civic Theatre,Newcastle,same name and locality
-already on the website,record:lead:fca-nsw-d01-035,Royal Cinema,NSW discovery batch 01:FCA-NSW-D01-035,Royal Cinema,Newcastle,same name and locality
-already on the website,record:shr-01301,Victoria Theatre (former),NSW discovery batch 01:FCA-NSW-D01-036,Victoria Cinema,Newcastle,same name and locality
+already on the website,record:lead:fca-nsw-d01-033,Capitol Gardens,NSW discovery batch 01:FCA-NSW-D01-033,Capitol Gardens,Moree,same name and locality
 already on the website,record:lead:fca-nsw-d01-038,Civic Theatre,NSW discovery batch 01:FCA-NSW-D01-038,Civic Theatre,Parramatta,same name and locality
 already on the website,record:lead:fca-nsw-d01-040,Astoria Cinema,NSW discovery batch 01:FCA-NSW-D01-040,Astoria Cinema,Punchbowl,same name and locality
-already on the website,record:lead:fca-nsw-d01-041,Melba Cinema,NSW discovery batch 01:FCA-NSW-D01-041,Melba Cinema,Strathfield,same name and locality
-already on the website,record:lead:fca-nsw-d01-042,Grosvenor Cinema,NSW discovery batch 01:FCA-NSW-D01-042,Grosvenor Cinema,Summer Hill,same name and locality
 already on the website,record:lead:fca-nsw-d01-043,Embassy Cinema,NSW discovery batch 01:FCA-NSW-D01-043,Embassy Cinema,Sydney,same name and locality
 already on the website,record:lead:fca-nsw-d01-044,Liberty Cinema,NSW discovery batch 01:FCA-NSW-D01-044,Liberty Cinema,Sydney,same name and locality
 already on the website,record:lead:fca-nsw-d01-045,News Luxe Theatrette,NSW discovery batch 01:FCA-NSW-D01-045,News Luxe Theatrette,Sydney,same name and locality
-already on the website,record:lead:fca-nsw-d01-046,Palace Theatre,NSW discovery batch 01:FCA-NSW-D01-046,Palace Theatre,Sydney,same name and locality
-already on the website,record:lead:fca-nsw-d01-048,Regent Theatre,NSW discovery batch 01:FCA-NSW-D01-048,Regent Theatre,Sydney,same name and locality
 already on the website,record:lead:fca-nsw-d01-049,Jewel Cinema,NSW discovery batch 01:FCA-NSW-D01-049,Jewel Cinema,Terrigal,same name and locality
-already on the website,record:lead:fca-nsw-d01-051,Plaza Cinema,NSW discovery batch 01:FCA-NSW-D01-051,Plaza Cinema,Wagga Wagga,same name and locality
-already on the website,record:lead:fca-nsw-d01-052,Strand Cinema,NSW discovery batch 01:FCA-NSW-D01-052,Strand Cinema,Young,same name and locality
 already on the website,record:lead:fca-nsw-d01-053,Ozone Theatre / Pictureland,NSW discovery batch 01:FCA-NSW-D01-053,Ozone Theatre,Broken Hill,same name and locality
 already on the website,record:lead:fca-nsw-d01-054,Empire Picture Theatre,NSW discovery batch 01:FCA-NSW-D01-054,Empire Picture Theatre,Tweed Heads,same name and locality
 already on the website,record:lead:fca-nsw-d01-055,Twin Towns Drive-in,NSW discovery batch 01:FCA-NSW-D01-055,Twin Towns Drive-in,Tweed Heads,same name and locality
-already on the website,record:lead:fca-nsw-d01-056,Western Monarch Theatre,NSW discovery batch 01:FCA-NSW-D01-056,Western Monarch Theatre,Gilgandra,same name and locality
 already on the website,record:lead:fca-nsw-d01-057,New Australian Hall,NSW discovery batch 01:FCA-NSW-D01-057,New Australian Hall,Gilgandra,same name and locality
-already on the website,record:lead:fca-nsw-d01-057,New Australian Hall,NSW discovery batch 01:FCA-NSW-D01-058,Australian Pictures open air,Gilgandra,same name and locality
+already on the website,record:lead:fca-nsw-d01-058,Australian Pictures open air,NSW discovery batch 01:FCA-NSW-D01-058,Australian Pictures open air,Gilgandra,same name and locality
 already on the website,record:lead:fca-nsw-d01-059,Young Drive-in,NSW discovery batch 01:FCA-NSW-D01-059,Young Drive-in,Young,same name and locality
-already on the website,record:lead:fca-nsw-d01-060,Wynyard Newsreel Theatre,NSW discovery batch 01:FCA-NSW-D01-060,Wynyard Newsreel Theatre,Sydney,same name and locality
-already on the website,record:lead:fca-nsw-d01-061,Woy Woy Cinema,NSW discovery batch 01:FCA-NSW-D01-061,Woy Woy Cinema,Woy Woy,same name and locality
-already on the website,record:lead:fca-nsw-d01-063,Westway Drive-in,NSW discovery batch 01:FCA-NSW-D01-063,Westway Drive-in,West Wyalong,same name and locality
-already on the website,record:lead:fca-nsw-d01-064,Westview Drive-in,NSW discovery batch 01:FCA-NSW-D01-064,Westview Drive-in,Dubbo,same name and locality
 already on the website,record:lead:fca-nsw-d01-066,West's Pictures,NSW discovery batch 01:FCA-NSW-D01-066,West's Pictures,Sydney,same name and locality
-already on the website,record:lead:fca-nsw-d01-067,Skyline Drive-in,NSW discovery batch 01:FCA-NSW-D01-067,Skyline Drive-in,Warriewood,same name and locality
-already on the website,record:lead:fca-nsw-d01-068,Village Orange Drive-in,NSW discovery batch 01:FCA-NSW-D01-068,Village Orange Drive-in,Orange,same name and locality
-already on the website,record:lead:fca-nsw-d01-069,Victory Drive-in,NSW discovery batch 01:FCA-NSW-D01-069,Victory Drive-in,Alstonville,same name and locality
-already on the website,record:lead:fca-nsw-d01-070,Tivoli Theatre,NSW discovery batch 01:FCA-NSW-D01-070,Tivoli Theatre,West Wyalong,same name and locality
-already on the website,record:lead:fca-nsw-d01-071,Tasma Theatre,NSW discovery batch 01:FCA-NSW-D01-071,Tasma Theatre,Coffs Harbour,same name and locality
-already on the website,record:lead:fca-nsw-d01-072,Suttons Broadway Picture Theatre,NSW discovery batch 01:FCA-NSW-D01-072,Suttons Broadway Picture Theatre,Drummoyne,same name and locality
-already on the website,record:lead:fca-nsw-d01-073,Sturt Drive-in,NSW discovery batch 01:FCA-NSW-D01-073,Sturt Drive-in,Wagga Wagga,same name and locality
-already on the website,record:lead:fca-nsw-d01-074,Strand Theatre,NSW discovery batch 01:FCA-NSW-D01-074,Strand Theatre,Newcastle,same name and locality
 already on the website,record:lead:fca-nsw-d01-076,Bass Hill Drive-in,NSW discovery batch 01:FCA-NSW-D01-076,Bass Hill Drive-in,Bass Hill,same name and locality

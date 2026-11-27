@@ -2464,6 +2464,13 @@
 "Kaniva"
 ]
 ],
+"karingal|VIC": [
+[
+-38.148,
+145.1309,
+"Karingal"
+]
+],
 "karratha|WA": [
 [
 -20.7342,
@@ -2495,6 +2502,13 @@
 -34.92,
 138.6544,
 "Kensington Park"
+]
+],
+"kensington|VIC": [
+[
+-37.7938,
+144.9272,
+"Kensington"
 ]
 ],
 "kerang|VIC": [
@@ -5796,6 +5810,13 @@
 "Victor Harbor"
 ]
 ],
+"victoria gardens|VIC": [
+[
+-37.8265,
+145.0043,
+"Victoria Gardens"
+]
+],
 "victoria park|WA": [
 [
 -31.9761,
@@ -5958,6 +5979,13 @@
 -38.2098,
 144.3016,
 "Waurn Ponds"
+]
+],
+"waverley gardens|VIC": [
+[
+-37.9284,
+145.1771,
+"Waverley Gardens"
 ]
 ],
 "wellington point|QLD": [

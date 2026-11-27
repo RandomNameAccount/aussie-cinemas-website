@@ -32,9 +32,13 @@ def norm(s):
 
 GENERIC = set("the theatre theater theatres cinema cinemas picture pictures picturetheatre hall palace house theatrette "
               "complex centre center former and of de luxe deluxe new old photoplay photoplays drive in drivein open air "
-              "gardens garden pty ltd co".split())
+              "gardens garden pty ltd co hoyts village union greater news newsreel twin centre center event reading united".split())
 STREET_ABBR = {"st": "street", "rd": "road", "ave": "avenue", "av": "avenue", "pde": "parade", "hwy": "highway", "tce": "terrace",
                "cres": "crescent", "ct": "court", "pl": "place", "dr": "drive", "blvd": "boulevard", "hwy": "highway", "cnr": "corner"}
+
+def plain_name(name, locality=""):
+    loc = set(norm(locality).split())
+    return " ".join(w for w in norm(name).split() if w not in loc and w not in {"the", "theatre", "cinema", "pictures", "picture"})
 
 def core_tokens(name, locality=""):
     loc = set(norm(locality).split())
@@ -178,7 +182,9 @@ for t in CT:
         parts = parts[:-1]
     addr = ", ".join(parts)
     if pcm and METRO_CT(city, pcm.group(1)):
-        city = ""                                        # Cinema Treasures files metro venues under "Melbourne"; the postcode says where
+        places = sorted(set(PC2.get(pcm.group(1), [])))
+        hit = [x for x in places if norm(x) and re.search(r"\b" + re.escape(norm(x)) + r"\b", norm(t["name"] + " " + addr))]
+        city = max(hit, key=len) if hit else (places[0] if len(places) == 1 else "")   # Cinema Treasures files metro venues under the capital
     info = t.get("info") or ""
     prev = re.search(r"Previous Names: \| ([^|]+)", info)
     ops = re.search(r"(?:Previously operated by|Operated by): \| ([^|]+)", info)
@@ -241,6 +247,9 @@ for p in VHD:
 
 # ---------- matching ----------
 def same_place(a, b):
+    for x, y in ((a, b), (b, a)):                     # one side has only a postcode, the other only a locality
+        if x["postcode"] and not x["locality"] and y["locality"] and not y["postcode"]:
+            return norm(y["locality"]) in {norm(p) for p in PC2.get(x["postcode"], [])}
     if a["postcode"] and b["postcode"]:
         if a["postcode"] != b["postcode"]:
             return False
@@ -265,6 +274,9 @@ def match(a, b):
         return "drive-in with the same name in the same locality"
     if sa and sb:
         if sa != sb:
+            import difflib
+            if na and nb and na == nb and difflib.SequenceMatcher(None, sa, sb).ratio() >= 0.85:
+                return "same street number, street name spelt differently"
             return ""
         if na and nb and na != nb:
             return "same street, nearby number, same name" if name_hit and abs(int(na) - int(nb)) <= 10 else ""
@@ -370,6 +382,8 @@ for g in groups.values():
            "hall" if (ca and ca.get("purpose") in ("Hall", "Mechanics Institute", "Dance Hall")) or re.search(r"\bhall\b|institute", nm) else "cinema"
     if any(c.get("purpose") == "Live Theatre" for c in g) and kind == "cinema":
         kind = "theatre"
+    primary = next((n for n in names if norm(n) != norm(loc) and plain_name(n, loc)), names[0])
+    names = [primary] + [n for n in names if n != primary]
     rec = {
         "name": names[0], "aliases": names[1:], "locality": loc, "locality_note": loc_note, "postcode": pc, "state": STATE,
         "region": pc_region(pc) or pc_region(next((x[3] for x in GEO.get(norm(loc), [])), "")) or (f"Metropolitan {CAPITAL.title()}" if ca and ca.get("setting") in ("City", "Suburb") else f"Regional {STATE}" if ca and ca.get("setting") == "Country" else ""),
@@ -404,7 +418,9 @@ for g in groups.values():
     rec["review"] = "awaiting editorial review"
     # existing website record?
     hit = None; rec_possible = False
-    for s in SITES:
+    b01_own = {"lead:" + c["sid"].lower() for c in g if c["src"] == "b01"}
+    own = next((s for s in SITES if s["id"] in b01_own), None)
+    for s in ([own] if own else SITES):
         if norm(s["suburb"]) != norm(loc):
             continue
         st = core_tokens(s["name"], loc) | {t for a in s.get("aliases", []) for t in core_tokens(a, loc)}
@@ -430,6 +446,23 @@ for g in groups.values():
             rec["proposed_level"] = "E"; rec["level_reason"] = f"possible identity conflict with existing {hit['id']}"
     recs.append(rec)
 
+by_hit = defaultdict(list)
+for r in recs:
+    if r.get("existing_match") == "same venue":
+        by_hit[r["existing_record"]].append(r)
+for hid, rs in by_hit.items():
+    if len(rs) < 2:
+        continue
+    streets = {street_key(r["address"])[1] for r in rs if r["address"] and street_key(r["address"])[1]}
+    if len(streets) <= 1:
+        continue                                     # same street or no addresses: same venue under different names
+    keep = next((r for r in rs if any(s["source"] == "NSW discovery batch 01" for s in r["sources"])), rs[0])
+    keep_street = street_key(keep["address"])[1]
+    for r in rs:
+        if r is keep or not r["address"] or street_key(r["address"])[1] == keep_street:
+            continue
+        r["existing_match"] = "possible, check"; r["proposed_level"] = "E"
+        r["level_reason"] = f"same name as existing {hid} in this locality but a different address; may be a second venue"
 recs.sort(key=lambda r: (norm(r["locality"]), norm(r["name"])))
 # stable ids: keep any id already assigned to the same first source in a previous build
 prev = {}

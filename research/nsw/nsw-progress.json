@@ -100,10 +100,11 @@
   "lead:fca-nsw-d01-076"
  ],
  "source_rows": {
-  "caarp": 251,
+  "caarp": 253,
+  "ct": 516,
   "b01": 76
  },
- "caarp_details_collected": 0,
+ "caarp_details_collected": 2,
  "caarp_details_missing": [
   "202",
   "209",
@@ -357,37 +358,44 @@
   "2191",
   "2192"
  ],
- "merges_between_source_rows": 18,
- "matched_existing_records": 87,
- "unique_records": 309,
- "new_unique_records": 222,
+ "merges_between_source_rows": 152,
+ "matched_existing_records": 95,
+ "unique_records": 692,
+ "new_unique_records": 597,
  "by_region": {
-  "Eastern Suburbs": 22,
-  "Inner West": 28,
-  "Illawarra and South Coast": 94,
-  "Regional and rural NSW": 13,
-  "North Shore": 11,
-  "Western Sydney": 3,
-  "South-West Sydney": 2,
-  "St George and Sutherland": 13,
-  "Northern Beaches": 5,
-  "Newcastle and Hunter Valley": 2,
-  "Sydney CBD": 29
+  "Eastern Suburbs": 53,
+  "Inner West": 67,
+  "St George and Sutherland": 34,
+  "North Shore": 38,
+  "Northern Beaches": 17,
+  "Western Sydney": 39,
+  "South-West Sydney": 33,
+  "Illawarra and South Coast": 101,
+  "Regional and rural NSW": 125,
+  "Central Coast": 10,
+  "Newcastle and Hunter Valley": 23,
+  "Blue Mountains": 10,
+  "Sydney CBD": 47
  },
  "by_status": {
-  "closed": 222
+  "closed": 483,
+  "operating": 114
  },
  "by_type": {
-  "cinema": 169,
-  "hall": 44,
-  "open-air": 4,
-  "drive-in": 5
+  "cinema": 459,
+  "open-air": 18,
+  "drive-in": 47,
+  "hall": 72,
+  "theatre": 1
  },
  "by_proposed_level": {
-  "C": 216,
-  "D": 6
+  "C": 501,
+  "D": 27,
+  "B": 64,
+  "E": 5
  },
  "by_evidence": {
-  "single source": 222
+  "single source": 516,
+  "two independent sources agree": 81
  }
 }

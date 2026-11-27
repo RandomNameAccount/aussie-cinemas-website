@@ -176,7 +176,7 @@ for l in LEADS:
     <h2 id="sources-title">Sources</h2>
     {f"<ul>{srcs}</ul>" if srcs else "<p>No source has been attached to this lead yet.</p>"}
   </article>
-  <p class="cite-meta rec-meta">{ids_line} · {("staged " + str(date.today().strftime("%-d %B %Y")) + " for editorial review (proposed evidence level " + E(l.get("level", "")) + "); not yet approved for publication") if str(l.get("published", "")).startswith("staging") else ("published " + l.get("published", PUBLISHED) + " as unverified research with the owner's approval; details will change as each lead is checked")}.</p>
+  <p class="cite-meta rec-meta">{ids_line} · {("staged " + str(date.today().strftime("%-d %B %Y")) + " for editorial review (proposed verification level " + E(l.get("level", "")) + (": " + E(l["levelReason"]) if l.get("levelReason") else "") + "); not yet approved for publication") if str(l.get("published", "")).startswith("staging") else ("published " + l.get("published", PUBLISHED) + " as unverified research with the owner's approval; details will change as each lead is checked")}.</p>
 </div>
 </main>'''
     open(f"leads/{l['id']}.html", "w", encoding="utf-8").write(p + main + q)
