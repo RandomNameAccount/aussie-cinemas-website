@@ -75,3 +75,8 @@ Approved by Tony, relayed by Matt, 27 November 2026.
 - **Cinema chains still screening film** on the Equipment page (Palace, Dendy, Five Star, Lido group; Dendy Canberra still to confirm). Data: `assets/data/film-chains.json`, built by `tools/build_chains.py`.
 
 Member accounts and forums stay switched off until Supabase is connected; giveaways and payments stay off.
+
+## Street map and Google Maps links (staged 27 November 2026)
+
+- **Street map.** The map sits on CARTO street tiles (OpenStreetMap data): "Positron" in light mode and "Dark Matter" in dark mode, switching with the reader's theme. It zooms to street level (zoom 19). The Natural Earth outline stays underneath and shows if the tiles cannot load. Tile images come from `*.basemaps.cartocdn.com`, which is allowed in each page's `img-src` policy. CARTO's free basemaps are for non-commercial use within its usage limits; check the licence before advertising starts.
+- **Find on Google Maps** on every record, archive listing and lead page and in every map popup, so readers can check a place before suggesting an update. Records with an exact site also get a **Street View** button. These are plain links: no Google API key, account or charges. Records whose sources disagree on the address search by name and suburb only; level D listings never include an address.

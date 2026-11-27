@@ -1,5 +1,6 @@
-/* Genuine cinema map. Leaflet with a self-hosted Natural Earth basemap, so the map makes no requests
-   to any tile server. Site data comes from assets/map/cinema-sites.js. Sites whose location is "none" or "withheld"
+/* Genuine cinema map. Leaflet over a CARTO street map (OpenStreetMap data), so visitors can zoom to street level.
+   CARTO "Positron" in light mode and "Dark Matter" in dark mode, following the reader's theme. The self-hosted
+   Natural Earth outline sits underneath as a fallback if the street tiles cannot load. Site data comes from assets/map/cinema-sites.js. Sites whose location is "none" or "withheld"
    (licensing or provenance under review) are never placed on the map; they stay in search and the record pages.
    Level B archive listings (assets/map/archive-pins.js) are added as address points: the point for the matched address
    in the state's official address data today, labelled as such, never as the historic footprint.
@@ -24,6 +25,11 @@
 
   function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
 
+  // Google Maps search link (no API key), so readers can check a place and open Street View.
+  function gmaps(parts) {
+    var q = parts.filter(function (x) { return x; }).map(function (x) { return String(x).replace(/\s*\([^)]*\)/g, "").trim(); }).join(", ");
+    return '<a class="rm-gmaps" href="https://www.google.com/maps/search/?api=1&amp;query=' + encodeURIComponent(q) + '" target="_blank" rel="noopener">Find on Google Maps<span class="visually-hidden"> (opens in a new tab)</span></a>';
+  }
   function markerHtml(s) {
     return '<span class="rm-pin rm-' + s.status + ' rm-loc-' + s.loc.kind + '" aria-hidden="true"><span class="rm-shape"></span></span>';
   }
@@ -43,7 +49,8 @@
       '<dl class="rm-conf"><div><dt>Location</dt><dd>' + esc(s.locLabel) + "</dd></div><div><dt>Evidence</dt><dd>" + esc(s.evidenceLabel) + "</dd></div></dl>" +
       '<p class="rm-locnote">' + esc(s.loc.note) + "</p>" + conflict +
       '<p class="rm-srch">Sources</p><ul class="rm-sources">' + src + "</ul>" +
-      '<p><a class="rm-record" href="' + RECORD_BASE + esc(s.id) + '.html">Open the full cinema record</a></p></div>';
+      '<p><a class="rm-record" href="' + RECORD_BASE + esc(s.id) + '.html">Open the full cinema record</a></p>' +
+      "<p>" + gmaps([s.name, / or /.test(s.address) ? "" : s.address, s.suburb, s.state]) + "</p></div>";
   }
 
   var ARCH = window.APA_ARCHIVE_PINS || [];
@@ -58,7 +65,8 @@
       '<p class="rm-addr">' + esc(a.place) + "</p>" +
       '<p class="rm-locnote">This marker is at the centre of ' + esc(a.place) + ", not where the cinema stood. Its exact site has not been verified." +
       (a.kind === "lead" ? " This is a research lead: its details have not been checked yet." : "") + "</p>" +
-      '<p><a class="rm-record" href="' + ROOT_BASE + APPROX_DIR[a.kind] + esc(a.id) + '.html">Open the ' + (a.kind === "lead" ? "research lead" : a.kind === "archive" ? "archive listing" : "cinema record") + "</a></p></div>";
+      '<p><a class="rm-record" href="' + ROOT_BASE + APPROX_DIR[a.kind] + esc(a.id) + '.html">Open the ' + (a.kind === "lead" ? "research lead" : a.kind === "archive" ? "archive listing" : "cinema record") + "</a></p>" +
+      "<p>" + gmaps([a.name, a.place]) + "</p></div>";
   }
   function archivePopupHtml(a) {
     return '<div class="rm-pop">' +
@@ -67,22 +75,32 @@
       '<p class="rm-addr">' + esc(a.address) + ", " + esc(a.locality) + " " + esc(a.state) + "</p>" +
       "<p>" + esc(a.summary) + "</p>" +
       '<p class="rm-locnote">The pin is this address today in ' + esc(a.source) + " (" + esc(a.licence) + "). It is not the historic cinema's footprint; the building may have changed or gone.</p>" +
-      '<p><a class="rm-record" href="' + ARCHIVE_BASE + esc(a.id) + '.html">Open the archive listing</a></p></div>';
+      '<p><a class="rm-record" href="' + ARCHIVE_BASE + esc(a.id) + '.html">Open the archive listing</a></p>' +
+      "<p>" + gmaps([a.address, a.locality, a.state]) + "</p></div>";
   }
   var RECORD_BASE = "cinemas/", ARCHIVE_BASE = "archive/", ROOT_BASE = "";
   function init(el) {
     RECORD_BASE = el.getAttribute("data-record-base") || "cinemas/";
     ARCHIVE_BASE = RECORD_BASE.replace(/cinemas\/$/, "archive/");
     ROOT_BASE = RECORD_BASE.replace(/cinemas\/$/, "");
-    var map = L.map(el, { zoomSnap: 0.5, minZoom: 3, maxZoom: 16, attributionControl: true, worldCopyJump: false, scrollWheelZoom: false });
+    var map = L.map(el, { zoomSnap: 0.5, minZoom: 3, maxZoom: 19, attributionControl: true, worldCopyJump: false, scrollWheelZoom: false });
     map.attributionControl.setPrefix(false);
-    map.attributionControl.addAttribution('Basemap: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a> (public domain), simplified. Not a street map. Map library: <a href="https://leafletjs.com/" target="_blank" rel="noopener">Leaflet</a>');
+    map.attributionControl.addAttribution('&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a>. Map library: <a href="https://leafletjs.com/" target="_blank" rel="noopener">Leaflet</a>');
+    // Street map tiles, swapped when the reader changes the light/dark theme.
+    var TILE = "https://{s}.basemaps.cartocdn.com/{style}/{z}/{x}/{y}{r}.png";
+    function tileStyle() { return document.documentElement.getAttribute("data-theme") === "dark" ? "dark_all" : "light_all"; }
+    var tiles = L.tileLayer(TILE, { style: tileStyle(), subdomains: "abcd", maxZoom: 19, detectRetina: false, crossOrigin: false }).addTo(map);
+    if ("MutationObserver" in window) new MutationObserver(function () {
+      var st = tileStyle(); if (tiles.options.style !== st) { tiles.options.style = st; tiles.redraw(); }
+    }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+    // Natural Earth outline under the tiles: only visible where street tiles fail to load.
+    map.createPane("fallback"); map.getPane("fallback").style.zIndex = 150;
     if (APPROX.length) map.attributionControl.addAttribution('Approximate town and suburb centres: <a href="https://www.geonames.org/" target="_blank" rel="noopener">GeoNames</a> (CC BY 4.0)');
     if (ARCH.length) map.attributionControl.addAttribution('Archive address points: Property Address Queensland (CC BY 4.0, © State of Queensland); the LIST (CC BY 3.0 AU, © State of Tasmania)');
-    var r = L.svg({ padding: 0.5 });
-    L.geoJSON(BASE.layers.land, { renderer: r, interactive: false, style: { className: "rm-land", weight: 1 } }).addTo(map);
-    L.geoJSON(BASE.layers.states, { renderer: r, interactive: false, style: { className: "rm-state", weight: 1, dashArray: "4 4", fill: false } }).addTo(map);
-    L.geoJSON(BASE.layers.rivers, { renderer: r, interactive: false, style: { className: "rm-river", weight: 2, fill: false } }).addTo(map);
+    var r = L.svg({ padding: 0.5, pane: "fallback" });
+    L.geoJSON(BASE.layers.land, { renderer: r, pane: "fallback", interactive: false, style: { className: "rm-land", weight: 1 } }).addTo(map);
+    L.geoJSON(BASE.layers.states, { renderer: r, pane: "fallback", interactive: false, style: { className: "rm-state", weight: 1, dashArray: "4 4", fill: false } }).addTo(map);
+    L.geoJSON(BASE.layers.rivers, { renderer: r, pane: "fallback", interactive: false, style: { className: "rm-river", weight: 2, fill: false } }).addTo(map);
 
     var capitals = L.layerGroup(BASE.layers.places.map(function (f) {
       var c = f.geometry.coordinates;
@@ -97,9 +115,12 @@
       return L.marker([c[1], c[0]], { interactive: false, keyboard: false, icon: L.divIcon({ className: "rm-label rm-label-city rm-label-near", html: "<span>" + esc(f.properties.name) + "</span>", iconSize: [0, 0] }) });
     }));
     function show(layer, on) { if (on && !map.hasLayer(layer)) map.addLayer(layer); if (!on && map.hasLayer(layer)) map.removeLayer(layer); }
+    var tilesOk = true, tileErrors = 0;
+    tiles.on("tileerror", function () { if (++tileErrors >= 4 && tilesOk) { tilesOk = false; labels(); } });
     function labels() {
       var z = map.getZoom();
-      show(capitals, z < 10); show(cityNear, z >= 10); show(suburbs, z >= 12);
+      // The street map has its own place names, so the custom labels stay off (kept for the fallback outline).
+      if (!tilesOk) { show(capitals, z < 10); show(cityNear, z >= 10); show(suburbs, z >= 12); } else { show(capitals, false); show(cityNear, false); show(suburbs, false); }
     }
 
     // Popups fit small maps (phones): narrower than the map, scrolling inside when tall.

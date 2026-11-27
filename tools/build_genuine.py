@@ -145,6 +145,14 @@ def rebase(fragment):
         return f'{attr}={q}{url}{q}'
     return re.sub(r'\b(href|src)=(["\'])([^"\']*)\2', fix, fragment)
 
+def gmaps_url(*parts):
+    """Google Maps search link (no API key). Parenthetical source notes are dropped."""
+    q = ", ".join(re.sub(r"\s*\([^)]*\)", "", p).strip() for p in parts if p and p.strip())
+    return "https://www.google.com/maps/search/?api=1&query=" + quote(q)
+
+def gmaps_btn(*parts):
+    return f'<a class="btn btn-secondary" href="{E(gmaps_url(*parts))}" target="_blank" rel="noopener">Find on Google Maps<span class="visually-hidden"> (opens in a new tab)</span></a>'
+
 def page_shell(title, desc):
     p = pre
     p = re.sub(r"<title>.*?</title>", f"<title>{E(title)}</title>", p, count=1, flags=re.S)
@@ -188,6 +196,11 @@ for s in SITES:
         actions.append(f'<a class="btn btn-secondary" href="../index.html?focus={E(sid)}#map">Show on the map (approximate)</a>')
     if mappable(s):
         actions.append(f'<a class="btn btn-secondary" href="../index.html?focus={E(sid)}#map">Show on the map</a>')
+    addr = "" if " or " in s["address"] else s["address"]   # sources disagree: search by name and suburb only
+    actions.append(gmaps_btn(s["name"], addr, s["suburb"], s["state"]))
+    if k == "site":
+        sv = f'https://www.google.com/maps/@?api=1&map_action=pano&viewpoint={s["loc"]["lat"]},{s["loc"]["lon"]}'
+        actions.append(f'<a class="btn btn-secondary" href="{E(sv)}" target="_blank" rel="noopener">Street View<span class="visually-hidden"> (opens in a new tab)</span></a>')
     actions.append(f'<a class="btn btn-secondary" href="../research.html#site-{E(sid)}">Research table entry</a>')
     actions.append(f'<a class="btn btn-primary" href="../update.html?type=record&amp;id={E(sid)}&amp;name={E(quote(s["name"]))}">Suggest an update</a>')
     actions.append(f'<a class="btn btn-secondary" href="../share.html?cinema={E(sid)}">Share a memory</a>')

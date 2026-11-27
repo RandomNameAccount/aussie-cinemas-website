@@ -88,6 +88,14 @@ def shell(title, desc):
         q = re.sub(pat, "", q)
     return rebase(p), rebase(q)
 
+def gmaps_url(*parts):
+    """Google Maps search link (no API key). Parenthetical source notes are dropped."""
+    q = ", ".join(re.sub(r"\s*\([^)]*\)", "", p).strip() for p in parts if p and p.strip())
+    return "https://www.google.com/maps/search/?api=1&query=" + quote(q)
+
+def gmaps_btn(*parts):
+    return f'<a class="btn btn-secondary" href="{E(gmaps_url(*parts))}" target="_blank" rel="noopener">Find on Google Maps<span class="visually-hidden"> (opens in a new tab)</span></a>'
+
 os.makedirs("archive", exist_ok=True)
 for f in os.listdir("archive"):
     if f.endswith(".html"): os.remove(os.path.join("archive", f))
@@ -118,7 +126,7 @@ for a in ARCH:
       <div><dt>Verification</dt><dd>{badge(a["level"])}</dd></div>
       <div><dt>Location</dt><dd>{f'<a href="../index.html?focus={E(a["id"])}#map">On the map</a> (address point today)' if pin else f'<a href="../index.html?focus={E(a["id"])}#map">On the map, approximately</a> (centre of {E(APPROX[a["id"]]["place"])})' if a["id"] in APPROX else "Not on the map"}</dd></div>
     </dl>
-    <div class="btn-row rec-actions"><a class="btn btn-secondary" href="../explore.html?state={a["state"].lower()}">More in {E(sn)}</a><a class="btn btn-primary" href="../update.html?type=archive&amp;id={E(a["id"])}&amp;name={E(quote(a["name"]))}">Suggest an update</a><a class="btn btn-secondary" href="../share.html">Share a memory</a></div>
+    <div class="btn-row rec-actions"><a class="btn btn-secondary" href="../explore.html?state={a["state"].lower()}">More in {E(sn)}</a><a class="btn btn-primary" href="../update.html?type=archive&amp;id={E(a["id"])}&amp;name={E(quote(a["name"]))}">Suggest an update</a>{gmaps_btn(a["name"], a.get("address", "") if a["level"] != "D" else "", a["locality"], a["state"])}<a class="btn btn-secondary" href="../share.html">Share a memory</a></div>
   </div>
 </div></section>
 <div class="wrap rec-body">
