@@ -9,21 +9,21 @@ Status: **staging only** (branch `staging/vic-expansion`, alongside the Victoria
 | Original NSW cinema count | **94**: 17 records, 4 archive listings, 73 research leads (discovery batch 01) |
 | Batch 01 (76 candidates) | Imported and reconciled: all 73 published leads matched to their candidates; the other 3 are existing records (Roxy Parramatta, Roxy Leeton, Victoria Newcastle). Existing identifiers, sources and markers preserved. |
 | Additional candidates discovered | 843 source rows: CAARP 251, Cinema Treasures 516, batch 01 76 |
-| Duplicate identities identified | 151 merges between source rows; 92 groups matched to 88 existing NSW entries (not added again); 3 kept separate and flagged as possible second venues (level E) rather than merged |
-| **New unique records accepted into staging** | **600** (target 500) |
-| **Updated NSW cinema count (staging)** | **694** |
-| Records awaiting editorial review | All 600 |
-| Proposed verification level | B 64 · C 501 · D 27 · E 8 · A 0 (no land-title verification) |
-| Verified map locations | 0 new. As the brief requires, no approximate coordinates were created for the new NSW entries; the 43 existing verified record pins and the 70 batch-01 town markers are unchanged. All 600 are searchable in Explore. |
-| Status (as sources report it, not verified) | Operating 114 · closed or not stated 486 |
-| Type | Cinema 463 · hall with film screenings 72 · drive-in 47 · open-air 18 |
-| Field coverage | Address 573 · alternative names 304 · operators 211 · capacity 190 · architectural style 146 · opening/closing dates: pending (CAARP NSW venue pages being collected, see below) |
+| Duplicate identities identified | 153 merges between source rows; 92 groups matched to 88 existing NSW entries (not added again); 3 kept separate and flagged as possible second venues (level E) rather than merged |
+| **New unique records accepted into staging** | **599** (target 500) |
+| **Updated NSW cinema count (staging)** | **693** |
+| Records awaiting editorial review | All 599 |
+| Proposed verification level | B 65 · C 499 · D 27 · E 8 · A 0 (no land-title verification) |
+| Verified map locations | 0 new. As the brief requires, no approximate coordinates were created for the new NSW entries; the 43 existing verified record pins and the 70 batch-01 town markers are unchanged. All 599 are searchable in Explore. |
+| Status (as sources report it, not verified) | Operating 114 · closed or not stated 485 |
+| Type | Cinema 461 · hall with film screenings 72 · drive-in 47 · open-air 18 · theatre 1 |
+| Field coverage | Address 572 · alternative names 304 · operators 211 · capacity 190 · architectural style 146 · opening/closing dates: pending (CAARP NSW venue pages being collected, see below) |
 
 ## Regional coverage (new records; brief's indicative target in brackets)
 
 | Region | New | Target | |
 |---|---|---|---|
-| Sydney CBD | 47 | 40 | met |
+| Sydney CBD | 46 | 40 | met |
 | Inner West | 68 | 50 | met |
 | Eastern Suburbs | 53 | 30 | met |
 | Western Sydney | 40 | 50 | short 10 |
@@ -66,5 +66,5 @@ Searchable by name, former name, suburb, postcode and region; region filter with
 - CAARP NSW venue pages (251) are being collected; save them as `research/vic/caarp-part3.json` and rerun
   `FCA_STATE=NSW python3 tools/expansion/build_state_db.py && FCA_STATE=NSW python3 tools/expansion/export_state_leads.py && python3 tools/build_genuine.py`
   to add opening and closing dates and capacities. Ids stay stable.
-- Editorial review, starting with the 64 at level B and the 8 at level E.
+- Editorial review, starting with the 65 at level B and the 8 at level E.
 - 55 Sydney cinemas are known only by postcode (Cinema Treasures files them under "Sydney"); an editor should set the suburb.

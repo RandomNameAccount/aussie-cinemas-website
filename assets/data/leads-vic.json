@@ -1250,7 +1250,9 @@
  },
  {
   "aliases": [
-   "Paramount, Ascot Vale"
+   "Paramount, Ascot Vale",
+   "Paramount Theatre",
+   "Ascot Vale Theatre"
   ],
   "address": "130 Union Road",
   "type": "",
@@ -1262,6 +1264,14 @@
    [
     "Closed",
     "1924 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Architectural style",
+    "Neo-Classical (Cinema Treasures)"
+   ],
+   [
+    "Other addresses recorded",
+    "142 Union Road"
    ]
   ],
   "notes": [],
@@ -1269,28 +1279,35 @@
    {
     "label": "CAARP venue 287 (CC BY-NC-SA 3.0)",
     "url": "https://caarp.com.au/venue/view/287"
+   },
+   {
+    "label": "Cinema Treasures theatre 31893",
+    "url": "https://cinematreasures.org/theaters/31893"
    }
   ],
-  "conflicts": [],
+  "conflicts": [
+   "The sources give more than one address."
+  ],
   "related": [],
   "nationalId": "FCA-VIC-0049",
   "candidateIds": [
-   "CAARP:287"
+   "CAARP:287",
+   "Cinema Treasures:31893"
   ],
   "id": "fca-vic-0049",
   "state": "VIC",
   "name": "Paramount",
   "locality": "Ascot Vale",
-  "basis": "Recorded in the CAARP research database (Cinema and Audience Research Project), usually from directory and newspaper listings. Not yet checked against a second source.",
+  "basis": "Recorded independently by CAARP and Cinema Treasures, which agree on the name and place. Dates and other details are as those sources give them and are not yet checked.",
   "published": "staging, not published",
   "status": "closed",
-  "statusNote": "Closed or not stated (no source states the current status; not verified)",
+  "statusNote": "Closed or not stated (Cinema Treasures lists it as closed (it does not say whether the building survives); not verified)",
   "region": "Metropolitan Melbourne",
   "postcode": "3032",
-  "level": "C",
-  "levelReason": "provisional historical address from one source",
+  "level": "B",
+  "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Paramount was a cinema at 130 Union Road, Ascot Vale. CAARP lists it from 26 June 1909 to 1924. Also known as Paramount, Ascot Vale.",
+  "summary": "Paramount was a cinema at 130 Union Road, Ascot Vale. CAARP lists it from 26 June 1909 to 1924. Also known as Paramount, Ascot Vale, Paramount Theatre, Ascot Vale Theatre.",
   "noApprox": false
  },
  {
@@ -6034,6 +6051,10 @@
    [
     "Closed",
     "1937 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Other addresses recorded",
+    "450 Nepean Highway"
    ]
   ],
   "notes": [],
@@ -6041,26 +6062,33 @@
    {
     "label": "CAARP venue 825 (CC BY-NC-SA 3.0)",
     "url": "https://caarp.com.au/venue/view/825"
+   },
+   {
+    "label": "Cinema Treasures theatre 52719",
+    "url": "https://cinematreasures.org/theaters/52719"
    }
   ],
-  "conflicts": [],
+  "conflicts": [
+   "The sources give more than one address."
+  ],
   "related": [],
   "nationalId": "FCA-VIC-0138",
   "candidateIds": [
-   "CAARP:825"
+   "CAARP:825",
+   "Cinema Treasures:52719"
   ],
   "id": "fca-vic-0138",
   "state": "VIC",
   "name": "Fox Theatre",
   "locality": "Chelsea",
-  "basis": "Recorded in the CAARP research database (Cinema and Audience Research Project), usually from directory and newspaper listings. Not yet checked against a second source.",
+  "basis": "Recorded independently by CAARP and Cinema Treasures, which agree on the name and place. Dates and other details are as those sources give them and are not yet checked.",
   "published": "staging, not published",
   "status": "closed",
-  "statusNote": "Closed or not stated (no source states the current status; not verified)",
+  "statusNote": "Closed or not stated (Cinema Treasures lists it as closed (it does not say whether the building survives); not verified)",
   "region": "Metropolitan Melbourne",
   "postcode": "3196",
-  "level": "C",
-  "levelReason": "provisional historical address from one source",
+  "level": "B",
+  "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
   "summary": "Fox Theatre was a cinema at 437 Nepean Highway, Chelsea. CAARP lists it from 13 December 1923 to 1937.",
   "noApprox": false
@@ -10103,7 +10131,10 @@
  },
  {
   "aliases": [
-   "Lyric Fitzroy"
+   "Lyric Fitzroy",
+   "Lyric Theatre",
+   "Star Theatre",
+   "Theatre interior, former"
   ],
   "address": "261 Johnston Street",
   "type": "",
@@ -10115,6 +10146,22 @@
    [
     "Closed",
     "1938 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "500 seats (as recorded by CAARP)"
+   ],
+   [
+    "Architectural style",
+    "Art Nouveau (Cinema Treasures)"
+   ],
+   [
+    "Heritage listing",
+    "Local heritage listing HO334 (Victorian Heritage Database)"
+   ],
+   [
+    "Other addresses recorded",
+    "247 Johnston Street; 247A Johnston Street"
    ]
   ],
   "notes": [],
@@ -10122,28 +10169,40 @@
    {
     "label": "CAARP venue 372 (CC BY-NC-SA 3.0)",
     "url": "https://caarp.com.au/venue/view/372"
+   },
+   {
+    "label": "Cinema Treasures theatre 31535",
+    "url": "https://cinematreasures.org/theaters/31535"
+   },
+   {
+    "label": "Victorian Heritage Database place 96863",
+    "url": "https://vhd.heritagecouncil.vic.gov.au/places/96863"
    }
   ],
-  "conflicts": [],
+  "conflicts": [
+   "The sources give more than one address."
+  ],
   "related": [],
   "nationalId": "FCA-VIC-0219",
   "candidateIds": [
-   "CAARP:372"
+   "CAARP:372",
+   "Cinema Treasures:31535",
+   "Victorian Heritage Database:96863"
   ],
   "id": "fca-vic-0219",
   "state": "VIC",
   "name": "Star",
   "locality": "Fitzroy",
-  "basis": "Recorded in the CAARP research database (Cinema and Audience Research Project), usually from directory and newspaper listings. Not yet checked against a second source.",
+  "basis": "Recorded independently by CAARP and Cinema Treasures and Victorian Heritage Database, which agree on the name and place. Dates and other details are as those sources give them and are not yet checked.",
   "published": "staging, not published",
-  "status": "closed",
-  "statusNote": "Closed or not stated (no source states the current status; not verified)",
+  "status": "repurposed",
+  "statusNote": "Building survives (heritage-listed) (the building is heritage-listed (Victorian Heritage Database); current use not checked; not verified)",
   "region": "Metropolitan Melbourne",
   "postcode": "3065",
-  "level": "C",
-  "levelReason": "provisional historical address from one source",
+  "level": "B",
+  "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Star was a cinema at 261 Johnston Street, Fitzroy. CAARP lists it from 4 November 1911 to 1938. Also known as Lyric Fitzroy.",
+  "summary": "Star was a cinema at 261 Johnston Street, Fitzroy. CAARP lists it from 4 November 1911 to 1938. Recorded capacity: 500 seats. Also known as Lyric Fitzroy, Lyric Theatre, Star Theatre and others.",
   "noApprox": false
  },
  {
@@ -15962,49 +16021,6 @@
  },
  {
   "aliases": [],
-  "address": "267 Bourke Street",
-  "type": "",
-  "facts": [
-   [
-    "Architectural style",
-    "Neo-Classical (Cinema Treasures)"
-   ],
-   [
-    "Architects",
-    "Nahum Barnet (Cinema Treasures)"
-   ]
-  ],
-  "notes": [],
-  "sources": [
-   {
-    "label": "Cinema Treasures theatre 52931",
-    "url": "https://cinematreasures.org/theaters/52931"
-   }
-  ],
-  "conflicts": [],
-  "related": [],
-  "nationalId": "FCA-VIC-0351",
-  "candidateIds": [
-   "Cinema Treasures:52931"
-  ],
-  "id": "fca-vic-0351",
-  "state": "VIC",
-  "name": "Britannia Theatre",
-  "locality": "Melbourne",
-  "basis": "Listed on Cinema Treasures, a volunteer-edited directory. Needs a primary source for this venue.",
-  "published": "staging, not published",
-  "status": "closed",
-  "statusNote": "Closed or not stated (Cinema Treasures lists it as closed (it does not say whether the building survives); not verified)",
-  "region": "Melbourne CBD",
-  "postcode": "3000",
-  "level": "C",
-  "levelReason": "provisional historical address from one source",
-  "review": "awaiting editorial review",
-  "summary": "Britannia Theatre was a cinema at 267 Bourke Street, Melbourne.",
-  "noApprox": false
- },
- {
-  "aliases": [],
   "address": "510 Sydney Road",
   "type": "",
   "facts": [
@@ -16350,7 +16366,8 @@
   "aliases": [
    "Britannia",
    "Pavillion",
-   "Britannia, Melbourne"
+   "Britannia, Melbourne",
+   "Britannia Theatre"
   ],
   "address": "285 Bourke Street",
   "type": "",
@@ -16366,6 +16383,18 @@
    [
     "Capacity",
     "1000 seats (as recorded by CAARP)"
+   ],
+   [
+    "Architectural style",
+    "Neo-Classical (Cinema Treasures)"
+   ],
+   [
+    "Architects",
+    "Nahum Barnet (Cinema Treasures)"
+   ],
+   [
+    "Other addresses recorded",
+    "267 Bourke Street"
    ]
   ],
   "notes": [],
@@ -16373,28 +16402,35 @@
    {
     "label": "CAARP venue 616 (CC BY-NC-SA 3.0)",
     "url": "https://caarp.com.au/venue/view/616"
+   },
+   {
+    "label": "Cinema Treasures theatre 52931",
+    "url": "https://cinematreasures.org/theaters/52931"
    }
   ],
-  "conflicts": [],
+  "conflicts": [
+   "The sources give more than one address."
+  ],
   "related": [],
   "nationalId": "FCA-VIC-0366",
   "candidateIds": [
-   "CAARP:616"
+   "CAARP:616",
+   "Cinema Treasures:52931"
   ],
   "id": "fca-vic-0366",
   "state": "VIC",
   "name": "Columbia",
   "locality": "Melbourne",
-  "basis": "Recorded in the CAARP research database (Cinema and Audience Research Project), usually from directory and newspaper listings. Not yet checked against a second source.",
+  "basis": "Recorded independently by CAARP and Cinema Treasures, which agree on the name and place. Dates and other details are as those sources give them and are not yet checked.",
   "published": "staging, not published",
   "status": "closed",
-  "statusNote": "Closed or not stated (no source states the current status; not verified)",
+  "statusNote": "Closed or not stated (Cinema Treasures lists it as closed (it does not say whether the building survives); not verified)",
   "region": "Melbourne CBD",
   "postcode": "3000",
-  "level": "C",
-  "levelReason": "provisional historical address from one source",
+  "level": "B",
+  "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Columbia was a cinema at 285 Bourke Street, Melbourne. CAARP lists it from 27 June 1912 to 1933. Recorded capacity: 1,000 seats. Also known as Britannia, Pavillion, Britannia, Melbourne.",
+  "summary": "Columbia was a cinema at 285 Bourke Street, Melbourne. CAARP lists it from 27 June 1912 to 1933. Recorded capacity: 1,000 seats. Also known as Britannia, Pavillion, Britannia, Melbourne and others.",
   "noApprox": false
  },
  {
@@ -16425,8 +16461,16 @@
     "Marriner Theatres (Cinema Treasures)"
    ],
    [
+    "Heritage listing",
+    "Victorian Heritage Register H0641 (Victorian Heritage Database)"
+   ],
+   [
+    "Heritage listing",
+    "National Trust (Victorian Heritage Database)"
+   ],
+   [
     "Other addresses recorded",
-    "240 Exhibition Street"
+    "228 - 240 Exhibition Street; 228-240 Exhibition Street Melbourne; 240 Exhibition Street"
    ]
   ],
   "notes": [],
@@ -16438,6 +16482,14 @@
    {
     "label": "Cinema Treasures theatre 23471",
     "url": "https://cinematreasures.org/theaters/23471"
+   },
+   {
+    "label": "Victorian Heritage Database place 2665",
+    "url": "https://vhd.heritagecouncil.vic.gov.au/places/2665"
+   },
+   {
+    "label": "Victorian Heritage Database place 64875",
+    "url": "https://vhd.heritagecouncil.vic.gov.au/places/64875"
    }
   ],
   "conflicts": [
@@ -16447,13 +16499,15 @@
   "nationalId": "FCA-VIC-0367",
   "candidateIds": [
    "CAARP:449",
-   "Cinema Treasures:23471"
+   "Cinema Treasures:23471",
+   "Victorian Heritage Database:2665",
+   "Victorian Heritage Database:64875"
   ],
   "id": "fca-vic-0367",
   "state": "VIC",
   "name": "Comedy",
   "locality": "Melbourne",
-  "basis": "Recorded independently by CAARP and Cinema Treasures, which agree on the name and place. Dates and other details are as those sources give them and are not yet checked.",
+  "basis": "Recorded independently by CAARP and Cinema Treasures and Victorian Heritage Database, which agree on the name and place. Dates and other details are as those sources give them and are not yet checked.",
   "published": "staging, not published",
   "status": "operating",
   "statusNote": "Operating cinema (Cinema Treasures lists it as open; not verified)",
@@ -16686,40 +16740,6 @@
  },
  {
   "aliases": [],
-  "address": "450 Nepean Highway",
-  "type": "",
-  "facts": [],
-  "notes": [],
-  "sources": [
-   {
-    "label": "Cinema Treasures theatre 52719",
-    "url": "https://cinematreasures.org/theaters/52719"
-   }
-  ],
-  "conflicts": [],
-  "related": [],
-  "nationalId": "FCA-VIC-0380",
-  "candidateIds": [
-   "Cinema Treasures:52719"
-  ],
-  "id": "fca-vic-0380",
-  "state": "VIC",
-  "name": "Fox Theatre",
-  "locality": "Melbourne (postcode 3196)",
-  "basis": "Listed on Cinema Treasures, a volunteer-edited directory. Needs a primary source for this venue.",
-  "published": "staging, not published",
-  "status": "closed",
-  "statusNote": "Closed or not stated (Cinema Treasures lists it as closed (it does not say whether the building survives); not verified)",
-  "region": "Metropolitan Melbourne",
-  "postcode": "3196",
-  "level": "C",
-  "levelReason": "provisional historical address from one source",
-  "review": "awaiting editorial review",
-  "summary": "Fox Theatre was a cinema at 450 Nepean Highway, Melbourne (postcode 3196).",
-  "noApprox": false
- },
- {
-  "aliases": [],
   "address": "16 City Road",
   "type": "",
   "facts": [],
@@ -16924,7 +16944,8 @@
   "aliases": [
    "Alexandra",
    "The Queens",
-   "His Majesty's"
+   "His Majesty's",
+   "Her Majesty'S Theatre"
   ],
   "address": "219 Exhibition Street",
   "type": "theatre",
@@ -16932,6 +16953,18 @@
    [
     "Opened",
     "1886 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Heritage listing",
+    "Victorian Heritage Register H0024 (Victorian Heritage Database)"
+   ],
+   [
+    "Heritage listing",
+    "Victorian Heritage Inventory (Victorian Heritage Database)"
+   ],
+   [
+    "Other addresses recorded",
+    "199-219 Exhibition Street Melbourne; 199-227 Exhibition Street And 84-98 Little Bourke Street Melbourne"
    ]
   ],
   "notes": [],
@@ -16939,28 +16972,40 @@
    {
     "label": "CAARP venue 448 (CC BY-NC-SA 3.0)",
     "url": "https://caarp.com.au/venue/view/448"
+   },
+   {
+    "label": "Victorian Heritage Database place 746",
+    "url": "https://vhd.heritagecouncil.vic.gov.au/places/746"
+   },
+   {
+    "label": "Victorian Heritage Database place 9283",
+    "url": "https://vhd.heritagecouncil.vic.gov.au/places/9283"
    }
   ],
-  "conflicts": [],
+  "conflicts": [
+   "The sources give more than one address."
+  ],
   "related": [],
   "nationalId": "FCA-VIC-0391",
   "candidateIds": [
-   "CAARP:448"
+   "CAARP:448",
+   "Victorian Heritage Database:746",
+   "Victorian Heritage Database:9283"
   ],
   "id": "fca-vic-0391",
   "state": "VIC",
   "name": "Her Majesty's",
   "locality": "Melbourne",
-  "basis": "Recorded in the CAARP research database (Cinema and Audience Research Project), usually from directory and newspaper listings. Not yet checked against a second source.",
+  "basis": "Recorded independently by CAARP and Victorian Heritage Database, which agree on the name and place. Dates and other details are as those sources give them and are not yet checked.",
   "published": "staging, not published",
-  "status": "closed",
-  "statusNote": "Closed or not stated (no source states the current status; not verified)",
+  "status": "repurposed",
+  "statusNote": "Building survives (heritage-listed) (the building is heritage-listed (Victorian Heritage Database); current use not checked; not verified)",
   "region": "Melbourne CBD",
   "postcode": "3000",
-  "level": "C",
-  "levelReason": "provisional historical address from one source",
+  "level": "B",
+  "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Her Majesty's was a theatre that screened films at 219 Exhibition Street, Melbourne. CAARP first lists it in 1886. Also known as Alexandra, The Queens, His Majesty's.",
+  "summary": "Her Majesty's was a theatre that screened films at 219 Exhibition Street, Melbourne. CAARP first lists it in 1886. Also known as Alexandra, The Queens, His Majesty's and others.",
   "noApprox": false
  },
  {
@@ -17969,47 +18014,6 @@
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
   "summary": "Paramount Review was a cinema at 256 King Street, Melbourne. CAARP lists it from 1936 to 31 December 1940. Recorded capacity: 100 seats. Also known as Paramount Review Theatre.",
-  "noApprox": false
- },
- {
-  "aliases": [
-   "Ascot Vale Theatre"
-  ],
-  "address": "142 Union Road",
-  "type": "",
-  "facts": [
-   [
-    "Architectural style",
-    "Neo-Classical (Cinema Treasures)"
-   ]
-  ],
-  "notes": [],
-  "sources": [
-   {
-    "label": "Cinema Treasures theatre 31893",
-    "url": "https://cinematreasures.org/theaters/31893"
-   }
-  ],
-  "conflicts": [],
-  "related": [],
-  "nationalId": "FCA-VIC-0439",
-  "candidateIds": [
-   "Cinema Treasures:31893"
-  ],
-  "id": "fca-vic-0439",
-  "state": "VIC",
-  "name": "Paramount Theatre",
-  "locality": "Ascot Vale",
-  "basis": "Listed on Cinema Treasures, a volunteer-edited directory. Needs a primary source for this venue.",
-  "published": "staging, not published",
-  "status": "closed",
-  "statusNote": "Closed or not stated (Cinema Treasures lists it as closed (it does not say whether the building survives); not verified)",
-  "region": "Metropolitan Melbourne",
-  "postcode": "3032",
-  "level": "C",
-  "levelReason": "provisional historical address from one source",
-  "review": "awaiting editorial review",
-  "summary": "Paramount Theatre was a cinema at 142 Union Road, Ascot Vale. Also known as Ascot Vale Theatre.",
   "noApprox": false
  },
  {
@@ -23706,7 +23710,9 @@
   "noApprox": false
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Hoyts Circle Theatre"
+  ],
   "address": "499 High Street",
   "type": "",
   "facts": [
@@ -23721,6 +23727,22 @@
    [
     "Capacity",
     "933 seats (as recorded by CAARP)"
+   ],
+   [
+    "Architectural style",
+    "Streamline Moderne (Cinema Treasures)"
+   ],
+   [
+    "Architects",
+    "Reginald Appleford, Christopher A. Cowper, Gordon Murphy (Cinema Treasures)"
+   ],
+   [
+    "Operators",
+    "Hoyts Theatres (Cinema Treasures)"
+   ],
+   [
+    "Other addresses recorded",
+    "519 High Street"
    ]
   ],
   "notes": [],
@@ -23728,6 +23750,10 @@
    {
     "label": "CAARP venue 507 (CC BY-NC-SA 3.0)",
     "url": "https://caarp.com.au/venue/view/507"
+   },
+   {
+    "label": "Cinema Treasures theatre 27931",
+    "url": "https://cinematreasures.org/theaters/27931"
    },
    {
     "label": "Cited by CAARP: Cinema & Theatre Historical Society 1997, Cinema index : Melbourne cinemas, suburban cinemas, Victorian drive-ins. CATHS, Victoria.",
@@ -23746,26 +23772,29 @@
     "url": ""
    }
   ],
-  "conflicts": [],
+  "conflicts": [
+   "The sources give more than one address."
+  ],
   "related": [],
   "nationalId": "FCA-VIC-0601",
   "candidateIds": [
-   "CAARP:507"
+   "CAARP:507",
+   "Cinema Treasures:27931"
   ],
   "id": "fca-vic-0601",
   "state": "VIC",
   "name": "Circle Theatre",
   "locality": "Preston",
-  "basis": "Recorded in the CAARP research database (Cinema and Audience Research Project), usually from directory and newspaper listings. Not yet checked against a second source.",
+  "basis": "Recorded independently by CAARP and Cinema Treasures, which agree on the name and place. Dates and other details are as those sources give them and are not yet checked.",
   "published": "staging, not published",
   "status": "closed",
-  "statusNote": "Closed or not stated (no source states the current status; not verified)",
+  "statusNote": "Closed or not stated (Cinema Treasures lists it as closed (it does not say whether the building survives); not verified)",
   "region": "Metropolitan Melbourne",
   "postcode": "3072",
-  "level": "C",
-  "levelReason": "provisional historical address from one source",
+  "level": "B",
+  "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Circle Theatre was a cinema at 499 High Street, Preston. CAARP lists it from 26 November 1938 to 1961. Recorded capacity: 933 seats.",
+  "summary": "Circle Theatre was a cinema at 499 High Street, Preston. CAARP lists it from 26 November 1938 to 1961. Recorded capacity: 933 seats. Also known as Hoyts Circle Theatre.",
   "noApprox": false
  },
  {
@@ -31157,53 +31186,6 @@
  },
  {
   "aliases": [],
-  "address": "519 High Street",
-  "type": "",
-  "facts": [
-   [
-    "Architectural style",
-    "Streamline Moderne (Cinema Treasures)"
-   ],
-   [
-    "Architects",
-    "Reginald Appleford, Christopher A. Cowper, Gordon Murphy (Cinema Treasures)"
-   ],
-   [
-    "Operators",
-    "Hoyts Theatres (Cinema Treasures)"
-   ]
-  ],
-  "notes": [],
-  "sources": [
-   {
-    "label": "Cinema Treasures theatre 27931",
-    "url": "https://cinematreasures.org/theaters/27931"
-   }
-  ],
-  "conflicts": [],
-  "related": [],
-  "nationalId": "FCA-VIC-0760",
-  "candidateIds": [
-   "Cinema Treasures:27931"
-  ],
-  "id": "fca-vic-0760",
-  "state": "VIC",
-  "name": "Hoyts Circle Theatre",
-  "locality": "Melbourne (postcode 3072)",
-  "basis": "Listed on Cinema Treasures, a volunteer-edited directory. Needs a primary source for this venue.",
-  "published": "staging, not published",
-  "status": "closed",
-  "statusNote": "Closed or not stated (Cinema Treasures lists it as closed (it does not say whether the building survives); not verified)",
-  "region": "Metropolitan Melbourne",
-  "postcode": "3072",
-  "level": "C",
-  "levelReason": "provisional historical address from one source",
-  "review": "awaiting editorial review",
-  "summary": "Hoyts Circle Theatre was a cinema at 519 High Street, Melbourne (postcode 3072).",
-  "noApprox": false
- },
- {
-  "aliases": [],
   "address": "787 Glenhuntly Road",
   "type": "",
   "facts": [
@@ -32217,67 +32199,6 @@
   "levelReason": "sources give different addresses",
   "review": "awaiting editorial review",
   "summary": "Solway was a cinema at 84 Johnson Street, Fitzroy. CAARP lists it from 1 September 1911 to 1979. Recorded capacity: 399 seats. Also known as Regent, Regent, Fitzroy, H.S.V. Teletheatre and others.",
-  "noApprox": false
- },
- {
-  "aliases": [
-   "Star Theatre",
-   "Theatre interior, former"
-  ],
-  "address": "247 Johnston Street",
-  "type": "",
-  "facts": [
-   [
-    "Capacity",
-    "500 seats (as recorded by Cinema Treasures)"
-   ],
-   [
-    "Architectural style",
-    "Art Nouveau (Cinema Treasures)"
-   ],
-   [
-    "Heritage listing",
-    "Local heritage listing HO334 (Victorian Heritage Database)"
-   ],
-   [
-    "Other addresses recorded",
-    "247A Johnston Street"
-   ]
-  ],
-  "notes": [],
-  "sources": [
-   {
-    "label": "Cinema Treasures theatre 31535",
-    "url": "https://cinematreasures.org/theaters/31535"
-   },
-   {
-    "label": "Victorian Heritage Database place 96863",
-    "url": "https://vhd.heritagecouncil.vic.gov.au/places/96863"
-   }
-  ],
-  "conflicts": [
-   "The sources give more than one address."
-  ],
-  "related": [],
-  "nationalId": "FCA-VIC-0786",
-  "candidateIds": [
-   "Cinema Treasures:31535",
-   "Victorian Heritage Database:96863"
-  ],
-  "id": "fca-vic-0786",
-  "state": "VIC",
-  "name": "Lyric Theatre",
-  "locality": "Fitzroy",
-  "basis": "Recorded independently by Cinema Treasures and Victorian Heritage Database, which agree on the name and place. Dates and other details are as those sources give them and are not yet checked.",
-  "published": "staging, not published",
-  "status": "repurposed",
-  "statusNote": "Building survives (heritage-listed) (the building is heritage-listed (Victorian Heritage Database); current use not checked; not verified)",
-  "region": "Metropolitan Melbourne",
-  "postcode": "3065",
-  "level": "B",
-  "levelReason": "street address documented by a heritage listing or by two independent sources",
-  "review": "awaiting editorial review",
-  "summary": "Lyric Theatre was a cinema at 247 Johnston Street, Fitzroy. Recorded capacity: 500 seats. Also known as Star Theatre, Theatre interior, former.",
   "noApprox": false
  },
  {

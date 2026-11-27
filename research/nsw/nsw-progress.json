@@ -358,10 +358,10 @@
   "2191",
   "2192"
  ],
- "merges_between_source_rows": 152,
+ "merges_between_source_rows": 153,
  "matched_existing_records": 95,
- "unique_records": 692,
- "new_unique_records": 597,
+ "unique_records": 691,
+ "new_unique_records": 596,
  "by_region": {
   "Eastern Suburbs": 53,
   "Inner West": 67,
@@ -375,27 +375,27 @@
   "Central Coast": 10,
   "Newcastle and Hunter Valley": 23,
   "Blue Mountains": 10,
-  "Sydney CBD": 47
+  "Sydney CBD": 46
  },
  "by_status": {
-  "closed": 483,
+  "closed": 482,
   "operating": 114
  },
  "by_type": {
-  "cinema": 459,
+  "cinema": 458,
   "open-air": 18,
   "drive-in": 47,
   "hall": 72,
   "theatre": 1
  },
  "by_proposed_level": {
-  "C": 501,
+  "C": 499,
   "D": 27,
-  "B": 64,
+  "B": 65,
   "E": 5
  },
  "by_evidence": {
-  "single source": 516,
-  "two independent sources agree": 81
+  "single source": 514,
+  "two independent sources agree": 82
  }
 }

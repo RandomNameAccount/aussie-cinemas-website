@@ -39,12 +39,12 @@
    "2073",
    "2074"
   ],
-  "merges_between_source_rows": 377,
+  "merges_between_source_rows": 384,
   "matched_existing_records": 6,
-  "unique_records": 746,
-  "new_unique_records": 740,
+  "unique_records": 741,
+  "new_unique_records": 735,
   "by_region": {
-   "Metropolitan Melbourne": 427,
+   "Metropolitan Melbourne": 423,
    "North East": 13,
    "Ballarat and Central Highlands": 24,
    "Gippsland": 29,
@@ -54,29 +54,29 @@
    "Macedon Ranges and Central Victoria": 12,
    "Western District": 31,
    "Wimmera": 7,
-   "Melbourne CBD": 104
+   "Melbourne CBD": 103
   },
   "by_status": {
-   "closed": 582,
+   "closed": 576,
    "operating": 135,
-   "repurposed": 23
+   "repurposed": 24
   },
   "by_type": {
-   "cinema": 471,
+   "cinema": 466,
    "drive-in": 76,
    "hall": 150,
    "open-air": 28,
    "theatre": 15
   },
   "by_proposed_level": {
-   "C": 452,
+   "C": 442,
    "D": 28,
-   "B": 244,
+   "B": 249,
    "E": 16
   },
   "by_evidence": {
-   "single source": 459,
-   "two independent sources agree": 253,
+   "single source": 449,
+   "two independent sources agree": 258,
    "heritage register names the place": 28
   }
  },
@@ -512,90 +512,6 @@
    "level_reason": "provisional historical address from one source",
    "review": "awaiting editorial review",
    "fca_id": "FCA-VIC-0379"
-  },
-  {
-   "name": "Fox Theatre",
-   "aliases": [],
-   "locality": "",
-   "locality_note": "Melbourne (postcode 3196)",
-   "postcode": "3196",
-   "state": "VIC",
-   "region": "Metropolitan Melbourne",
-   "address": "450 Nepean Highway",
-   "other_addresses": [],
-   "type": "cinema",
-   "first_listed": "",
-   "last_listed": "",
-   "dates_basis": "",
-   "status": "closed",
-   "status_label": "Closed or not stated",
-   "status_basis": "Cinema Treasures lists it as closed (it does not say whether the building survives)",
-   "capacity": "",
-   "screens": "1",
-   "operators": [],
-   "heritage": [],
-   "geocode_unverified": null,
-   "sources": [
-    {
-     "source": "Cinema Treasures",
-     "id": "52719",
-     "url": "https://cinematreasures.org/theaters/52719"
-    }
-   ],
-   "style": "",
-   "architects": "",
-   "photographs": "none cleared for use",
-   "caarp_note": "",
-   "caarp_refs": [],
-   "detail_collected": null,
-   "evidence": "single source",
-   "proposed_level": "C",
-   "level_reason": "provisional historical address from one source",
-   "review": "awaiting editorial review",
-   "fca_id": "FCA-VIC-0380"
-  },
-  {
-   "name": "Hoyts Circle Theatre",
-   "aliases": [],
-   "locality": "",
-   "locality_note": "Melbourne (postcode 3072)",
-   "postcode": "3072",
-   "state": "VIC",
-   "region": "Metropolitan Melbourne",
-   "address": "519 High Street",
-   "other_addresses": [],
-   "type": "cinema",
-   "first_listed": "",
-   "last_listed": "",
-   "dates_basis": "",
-   "status": "closed",
-   "status_label": "Closed or not stated",
-   "status_basis": "Cinema Treasures lists it as closed (it does not say whether the building survives)",
-   "capacity": "",
-   "screens": "1",
-   "operators": [
-    "Hoyts Theatres"
-   ],
-   "heritage": [],
-   "geocode_unverified": null,
-   "sources": [
-    {
-     "source": "Cinema Treasures",
-     "id": "27931",
-     "url": "https://cinematreasures.org/theaters/27931"
-    }
-   ],
-   "style": "Streamline Moderne",
-   "architects": "Reginald Appleford, Christopher A. Cowper, Gordon Murphy",
-   "photographs": "none cleared for use",
-   "caarp_note": "",
-   "caarp_refs": [],
-   "detail_collected": null,
-   "evidence": "single source",
-   "proposed_level": "C",
-   "level_reason": "provisional historical address from one source",
-   "review": "awaiting editorial review",
-   "fca_id": "FCA-VIC-0760"
   },
   {
    "name": "Hoyts Eastland",
@@ -3053,7 +2969,9 @@
   {
    "name": "Paramount",
    "aliases": [
-    "Paramount, Ascot Vale"
+    "Paramount, Ascot Vale",
+    "Paramount Theatre",
+    "Ascot Vale Theatre"
    ],
    "locality": "Ascot Vale",
    "locality_note": "",
@@ -3061,14 +2979,16 @@
    "state": "VIC",
    "region": "Metropolitan Melbourne",
    "address": "130 Union Road",
-   "other_addresses": [],
+   "other_addresses": [
+    "142 Union Road"
+   ],
    "type": "cinema",
    "first_listed": "1909-06-26",
    "last_listed": "1924-01-01",
    "dates_basis": "CAARP operation dates (usually first and last directory or newspaper listing)",
    "status": "closed",
    "status_label": "Closed or not stated",
-   "status_basis": "No source states the current status",
+   "status_basis": "Cinema Treasures lists it as closed (it does not say whether the building survives)",
    "capacity": "",
    "screens": "1",
    "operators": [],
@@ -3082,45 +3002,7 @@
      "source": "CAARP",
      "id": "287",
      "url": "https://caarp.com.au/venue/view/287"
-    }
-   ],
-   "style": "",
-   "architects": "",
-   "photographs": "none cleared for use",
-   "caarp_note": "Opened 1890 by the Hon. Alfred Deakin and was named the Union Hall. Re-named St. George hall in 1911. Paramount Pictures acquired the lease on October 9 1919 and the theatre name was changed once again to the Paramount Theatre. Listed address changes for Paramount Theatre can be found in the Bertrand I, \"cinema file: Ascot Vale\" (unpublished research). Article in the \"Flemington Spectator\" (9/10/1918) lists Mr. Harold Jones as the proprietor. (Bertrand, I \"cinema file: Ascot Vale\" unpublished research). References Smith, T 1994, 'Centenary of Union Hall - Ascot Vale 1890-1990', CinemaRecord, no. 4 p.19. Other Information Also named the Ascot Vale References Cinema & Theatre Historical Society 1997, Cinema index : Melbourne cinemas, suburban cinemas, Victorian drive-ins. CATHS, Victoria. Lambert, R, 'Who knows about our theatres?'. (Bertand, I \"cinema file: Ascot Vale\" (unpublished research)) 'Cinema talk revived memories', \"Gazette\", Wednesday, 19/12/1973. Aldous, 'The stop over that stayed- a history of Essendon', pp.87-89.",
-   "caarp_refs": [],
-   "detail_collected": true,
-   "evidence": "single source",
-   "proposed_level": "C",
-   "level_reason": "provisional historical address from one source",
-   "review": "awaiting editorial review",
-   "fca_id": "FCA-VIC-0049"
-  },
-  {
-   "name": "Paramount Theatre",
-   "aliases": [
-    "Ascot Vale Theatre"
-   ],
-   "locality": "Ascot Vale",
-   "locality_note": "",
-   "postcode": "3032",
-   "state": "VIC",
-   "region": "Metropolitan Melbourne",
-   "address": "142 Union Road",
-   "other_addresses": [],
-   "type": "cinema",
-   "first_listed": "",
-   "last_listed": "",
-   "dates_basis": "",
-   "status": "closed",
-   "status_label": "Closed or not stated",
-   "status_basis": "Cinema Treasures lists it as closed (it does not say whether the building survives)",
-   "capacity": "",
-   "screens": "1",
-   "operators": [],
-   "heritage": [],
-   "geocode_unverified": null,
-   "sources": [
+    },
     {
      "source": "Cinema Treasures",
      "id": "31893",
@@ -3130,14 +3012,14 @@
    "style": "Neo-Classical",
    "architects": "",
    "photographs": "none cleared for use",
-   "caarp_note": "",
+   "caarp_note": "Opened 1890 by the Hon. Alfred Deakin and was named the Union Hall. Re-named St. George hall in 1911. Paramount Pictures acquired the lease on October 9 1919 and the theatre name was changed once again to the Paramount Theatre. Listed address changes for Paramount Theatre can be found in the Bertrand I, \"cinema file: Ascot Vale\" (unpublished research). Article in the \"Flemington Spectator\" (9/10/1918) lists Mr. Harold Jones as the proprietor. (Bertrand, I \"cinema file: Ascot Vale\" unpublished research). References Smith, T 1994, 'Centenary of Union Hall - Ascot Vale 1890-1990', CinemaRecord, no. 4 p.19. Other Information Also named the Ascot Vale References Cinema & Theatre Historical Society 1997, Cinema index : Melbourne cinemas, suburban cinemas, Victorian drive-ins. CATHS, Victoria. Lambert, R, 'Who knows about our theatres?'. (Bertand, I \"cinema file: Ascot Vale\" (unpublished research)) 'Cinema talk revived memories', \"Gazette\", Wednesday, 19/12/1973. Aldous, 'The stop over that stayed- a history of Essendon', pp.87-89.",
    "caarp_refs": [],
-   "detail_collected": null,
-   "evidence": "single source",
-   "proposed_level": "C",
-   "level_reason": "provisional historical address from one source",
+   "detail_collected": true,
+   "evidence": "two independent sources agree",
+   "proposed_level": "B",
+   "level_reason": "street address documented by a heritage listing or by two independent sources",
    "review": "awaiting editorial review",
-   "fca_id": "FCA-VIC-0439"
+   "fca_id": "FCA-VIC-0049"
   },
   {
    "name": "Sangston's Open Air",
@@ -8399,16 +8281,18 @@
    "state": "VIC",
    "region": "Metropolitan Melbourne",
    "address": "437 Nepean Highway",
-   "other_addresses": [],
+   "other_addresses": [
+    "450 Nepean Highway"
+   ],
    "type": "cinema",
    "first_listed": "1923-12-13",
    "last_listed": "1937-01-01",
    "dates_basis": "CAARP operation dates (usually first and last directory or newspaper listing)",
    "status": "closed",
    "status_label": "Closed or not stated",
-   "status_basis": "No source states the current status",
+   "status_basis": "Cinema Treasures lists it as closed (it does not say whether the building survives)",
    "capacity": "",
-   "screens": "",
+   "screens": "1",
    "operators": [],
    "heritage": [],
    "geocode_unverified": null,
@@ -8417,6 +8301,11 @@
      "source": "CAARP",
      "id": "825",
      "url": "https://caarp.com.au/venue/view/825"
+    },
+    {
+     "source": "Cinema Treasures",
+     "id": "52719",
+     "url": "https://cinematreasures.org/theaters/52719"
     }
    ],
    "style": "",
@@ -8425,9 +8314,9 @@
    "caarp_note": "References Catrice, D. 1991, Cinemas in Melbourne 1896-1942. Thesis (M.A.) Monash University, 1991.",
    "caarp_refs": [],
    "detail_collected": true,
-   "evidence": "single source",
-   "proposed_level": "C",
-   "level_reason": "provisional historical address from one source",
+   "evidence": "two independent sources agree",
+   "proposed_level": "B",
+   "level_reason": "street address documented by a heritage listing or by two independent sources",
    "review": "awaiting editorial review",
    "fca_id": "FCA-VIC-0138"
   },
@@ -12865,64 +12754,6 @@
    "fca_id": "FCA-VIC-0216"
   },
   {
-   "name": "Lyric Theatre",
-   "aliases": [
-    "Star Theatre",
-    "Theatre interior, former"
-   ],
-   "locality": "Fitzroy",
-   "locality_note": "",
-   "postcode": "3065",
-   "state": "VIC",
-   "region": "Metropolitan Melbourne",
-   "address": "247 Johnston Street",
-   "other_addresses": [
-    "247A Johnston Street"
-   ],
-   "type": "cinema",
-   "first_listed": "",
-   "last_listed": "",
-   "dates_basis": "",
-   "status": "repurposed",
-   "status_label": "Building survives, other use",
-   "status_basis": "The building is heritage-listed (Victorian Heritage Database); current use not checked",
-   "capacity": "500",
-   "screens": "1",
-   "operators": [],
-   "heritage": [
-    {
-     "listing": "Local heritage listing",
-     "vhr": "",
-     "ho": "HO334",
-     "url": "https://vhd.heritagecouncil.vic.gov.au/places/96863"
-    }
-   ],
-   "geocode_unverified": null,
-   "sources": [
-    {
-     "source": "Cinema Treasures",
-     "id": "31535",
-     "url": "https://cinematreasures.org/theaters/31535"
-    },
-    {
-     "source": "Victorian Heritage Database",
-     "id": "96863",
-     "url": "https://vhd.heritagecouncil.vic.gov.au/places/96863"
-    }
-   ],
-   "style": "Art Nouveau",
-   "architects": "",
-   "photographs": "none cleared for use",
-   "caarp_note": "",
-   "caarp_refs": [],
-   "detail_collected": null,
-   "evidence": "two independent sources agree",
-   "proposed_level": "B",
-   "level_reason": "street address documented by a heritage listing or by two independent sources",
-   "review": "awaiting editorial review",
-   "fca_id": "FCA-VIC-0786"
-  },
-  {
    "name": "Panorama Twin",
    "aliases": [],
    "locality": "Fitzroy",
@@ -13093,7 +12924,10 @@
   {
    "name": "Star",
    "aliases": [
-    "Lyric Fitzroy"
+    "Lyric Fitzroy",
+    "Lyric Theatre",
+    "Star Theatre",
+    "Theatre interior, former"
    ],
    "locality": "Fitzroy",
    "locality_note": "",
@@ -13101,18 +12935,28 @@
    "state": "VIC",
    "region": "Metropolitan Melbourne",
    "address": "261 Johnston Street",
-   "other_addresses": [],
+   "other_addresses": [
+    "247 Johnston Street",
+    "247A Johnston Street"
+   ],
    "type": "cinema",
    "first_listed": "1911-11-04",
    "last_listed": "1938-01-01",
    "dates_basis": "CAARP operation dates (usually first and last directory or newspaper listing)",
-   "status": "closed",
-   "status_label": "Closed or not stated",
-   "status_basis": "No source states the current status",
-   "capacity": "",
+   "status": "repurposed",
+   "status_label": "Building survives, other use",
+   "status_basis": "The building is heritage-listed (Victorian Heritage Database); current use not checked",
+   "capacity": "500",
    "screens": "1",
    "operators": [],
-   "heritage": [],
+   "heritage": [
+    {
+     "listing": "Local heritage listing",
+     "vhr": "",
+     "ho": "HO334",
+     "url": "https://vhd.heritagecouncil.vic.gov.au/places/96863"
+    }
+   ],
    "geocode_unverified": [
     -37.8000532,
     144.9951057
@@ -13122,17 +12966,27 @@
      "source": "CAARP",
      "id": "372",
      "url": "https://caarp.com.au/venue/view/372"
+    },
+    {
+     "source": "Cinema Treasures",
+     "id": "31535",
+     "url": "https://cinematreasures.org/theaters/31535"
+    },
+    {
+     "source": "Victorian Heritage Database",
+     "id": "96863",
+     "url": "https://vhd.heritagecouncil.vic.gov.au/places/96863"
     }
    ],
-   "style": "",
+   "style": "Art Nouveau",
    "architects": "",
    "photographs": "none cleared for use",
    "caarp_note": "According to CATHS, operation dates are 1922-52. No listing is given in Film Weekly motion picture directory for this period. References Catrice, D. 1991. Cinemas in Melbourne 1896-1942. Thesis (M.A.) Monash University, 1991. Cinema & Theatre Historical Society 1997, Cinema index : Melbourne cinemas, suburban cinemas, Victorian drive-ins. CATHS, Victoria.",
    "caarp_refs": [],
    "detail_collected": true,
-   "evidence": "single source",
-   "proposed_level": "C",
-   "level_reason": "provisional historical address from one source",
+   "evidence": "two independent sources agree",
+   "proposed_level": "B",
+   "level_reason": "street address documented by a heritage listing or by two independent sources",
    "review": "awaiting editorial review",
    "fca_id": "FCA-VIC-0219"
   },
@@ -19623,47 +19477,6 @@
    "fca_id": "FCA-VIC-0350"
   },
   {
-   "name": "Britannia Theatre",
-   "aliases": [],
-   "locality": "Melbourne",
-   "locality_note": "",
-   "postcode": "3000",
-   "state": "VIC",
-   "region": "Melbourne CBD",
-   "address": "267 Bourke Street",
-   "other_addresses": [],
-   "type": "cinema",
-   "first_listed": "",
-   "last_listed": "",
-   "dates_basis": "",
-   "status": "closed",
-   "status_label": "Closed or not stated",
-   "status_basis": "Cinema Treasures lists it as closed (it does not say whether the building survives)",
-   "capacity": "",
-   "screens": "1",
-   "operators": [],
-   "heritage": [],
-   "geocode_unverified": null,
-   "sources": [
-    {
-     "source": "Cinema Treasures",
-     "id": "52931",
-     "url": "https://cinematreasures.org/theaters/52931"
-    }
-   ],
-   "style": "Neo-Classical",
-   "architects": "Nahum Barnet",
-   "photographs": "none cleared for use",
-   "caarp_note": "",
-   "caarp_refs": [],
-   "detail_collected": null,
-   "evidence": "single source",
-   "proposed_level": "C",
-   "level_reason": "provisional historical address from one source",
-   "review": "awaiting editorial review",
-   "fca_id": "FCA-VIC-0351"
-  },
-  {
    "name": "Capitol",
    "aliases": [
     "Capitol Theatre",
@@ -20218,7 +20031,8 @@
    "aliases": [
     "Britannia",
     "Pavillion",
-    "Britannia, Melbourne"
+    "Britannia, Melbourne",
+    "Britannia Theatre"
    ],
    "locality": "Melbourne",
    "locality_note": "",
@@ -20226,14 +20040,16 @@
    "state": "VIC",
    "region": "Melbourne CBD",
    "address": "285 Bourke Street",
-   "other_addresses": [],
+   "other_addresses": [
+    "267 Bourke Street"
+   ],
    "type": "cinema",
    "first_listed": "1912-06-27",
    "last_listed": "1933-01-01",
    "dates_basis": "CAARP operation dates (usually first and last directory or newspaper listing)",
    "status": "closed",
    "status_label": "Closed or not stated",
-   "status_basis": "No source states the current status",
+   "status_basis": "Cinema Treasures lists it as closed (it does not say whether the building survives)",
    "capacity": "1000",
    "screens": "1",
    "operators": [],
@@ -20247,17 +20063,22 @@
      "source": "CAARP",
      "id": "616",
      "url": "https://caarp.com.au/venue/view/616"
+    },
+    {
+     "source": "Cinema Treasures",
+     "id": "52931",
+     "url": "https://cinematreasures.org/theaters/52931"
     }
    ],
-   "style": "",
-   "architects": "",
+   "style": "Neo-Classical",
+   "architects": "Nahum Barnet",
    "photographs": "none cleared for use",
    "caarp_note": "Opening and closing dates based on data supplied by Catrice (1991) Opened: 27/6/1912 Architect: Nahum Barnet and owned by Phillips Bros Built next door to the Royal Colosseum Theatre/ Victoria Music Hall/ Melba / Liberty / Odeon, Melbourne by J. D. Williams. References Catrice, D 1991. Cinemas in Melbourne 1896 -1942. Thesis (M.A.), Monash University, 1991 Page, F 2001, 'No. 283 Bourke Street: the Melba, Times, Liberty and Odeon' CinemaRecord Cinema and Theatre Historical Society, no. 33, Winter, pp.10-13. Thorne, R 1981, Cinemas of Australia via USA, pp.92-93. Everyones 16 February, 1927 p. 8 lists Britannia with 1000 seats under Union Theatres. Argus 'Britannia theatre: to be demolished' February 23, 1932 (references opening date, reviews the history of the venue)",
    "caarp_refs": [],
    "detail_collected": true,
-   "evidence": "single source",
-   "proposed_level": "C",
-   "level_reason": "provisional historical address from one source",
+   "evidence": "two independent sources agree",
+   "proposed_level": "B",
+   "level_reason": "street address documented by a heritage listing or by two independent sources",
    "review": "awaiting editorial review",
    "fca_id": "FCA-VIC-0366"
   },
@@ -20273,6 +20094,8 @@
    "region": "Melbourne CBD",
    "address": "242 Exhibition Street",
    "other_addresses": [
+    "228 - 240 Exhibition Street",
+    "228-240 Exhibition Street Melbourne",
     "240 Exhibition Street"
    ],
    "type": "cinema",
@@ -20287,7 +20110,20 @@
    "operators": [
     "Marriner Theatres"
    ],
-   "heritage": [],
+   "heritage": [
+    {
+     "listing": "Victorian Heritage Register",
+     "vhr": "H0641",
+     "ho": "HO632",
+     "url": "https://vhd.heritagecouncil.vic.gov.au/places/2665"
+    },
+    {
+     "listing": "National Trust",
+     "vhr": "",
+     "ho": "",
+     "url": "https://vhd.heritagecouncil.vic.gov.au/places/64875"
+    }
+   ],
    "geocode_unverified": [
     -37.809818,
     144.96983
@@ -20302,6 +20138,16 @@
      "source": "Cinema Treasures",
      "id": "23471",
      "url": "https://cinematreasures.org/theaters/23471"
+    },
+    {
+     "source": "Victorian Heritage Database",
+     "id": "2665",
+     "url": "https://vhd.heritagecouncil.vic.gov.au/places/2665"
+    },
+    {
+     "source": "Victorian Heritage Database",
+     "id": "64875",
+     "url": "https://vhd.heritagecouncil.vic.gov.au/places/64875"
     }
    ],
    "style": "Spanish Renaissance",
@@ -20955,7 +20801,8 @@
    "aliases": [
     "Alexandra",
     "The Queens",
-    "His Majesty's"
+    "His Majesty's",
+    "Her Majesty'S Theatre"
    ],
    "locality": "Melbourne",
    "locality_note": "",
@@ -20963,18 +20810,34 @@
    "state": "VIC",
    "region": "Melbourne CBD",
    "address": "219 Exhibition Street",
-   "other_addresses": [],
+   "other_addresses": [
+    "199-219 Exhibition Street Melbourne",
+    "199-227 Exhibition Street And 84-98 Little Bourke Street Melbourne"
+   ],
    "type": "theatre",
    "first_listed": "1886-01-01",
    "last_listed": "",
    "dates_basis": "CAARP operation dates (usually first and last directory or newspaper listing)",
-   "status": "closed",
-   "status_label": "Closed or not stated",
-   "status_basis": "No source states the current status",
+   "status": "repurposed",
+   "status_label": "Building survives, other use",
+   "status_basis": "The building is heritage-listed (Victorian Heritage Database); current use not checked",
    "capacity": "",
    "screens": "",
    "operators": [],
-   "heritage": [],
+   "heritage": [
+    {
+     "listing": "Victorian Heritage Register",
+     "vhr": "H0024",
+     "ho": "HO631",
+     "url": "https://vhd.heritagecouncil.vic.gov.au/places/746"
+    },
+    {
+     "listing": "Victorian Heritage Inventory",
+     "vhr": "",
+     "ho": "",
+     "url": "https://vhd.heritagecouncil.vic.gov.au/places/9283"
+    }
+   ],
    "geocode_unverified": [
     -37.810916,
     144.969755
@@ -20984,6 +20847,16 @@
      "source": "CAARP",
      "id": "448",
      "url": "https://caarp.com.au/venue/view/448"
+    },
+    {
+     "source": "Victorian Heritage Database",
+     "id": "746",
+     "url": "https://vhd.heritagecouncil.vic.gov.au/places/746"
+    },
+    {
+     "source": "Victorian Heritage Database",
+     "id": "9283",
+     "url": "https://vhd.heritagecouncil.vic.gov.au/places/9283"
     }
    ],
    "style": "",
@@ -20992,9 +20865,9 @@
    "caarp_note": "Her Majesty's had been the 'Alexandra' until 1900 (briefly renamed The Queens in 1897) and was built by Jules Jaubent in the 1870s. It was leased by James Williamson in 1900 as His Majesty's he died in 1913. Management of His Majesty's continued under the Tait brothers. 'The Firm' owned the venue from 1915 until 1976. A major fire in 1932 closed the theatre but the stage area was used as a movie studio by Frank Thring for his Eftee Film Productions. The theatre was redesigned and opened in 1934. (Miller & Wolfenden, 2003) Name change occurred in 1954 in honour of the Queen. Venue: Other Information (Argus, 1934) (Bertrand I Cinema file: 205-219 Exhibition St. unpublished research) 'Her Majesty's' closed and renovated, reopening as 'His Majesty's' in July 1934 (Bertrand, I Cinema file: 205-219 Exhibition St. unpublished research). References Cinema & Theatre Historical Society 1997, Cinema index : Melbourne cinemas, suburban cinemas, Victorian drive-ins. CATHS, Victoria. Hill-Douglas, O 2002, 'Melbourne's artistic elite bow before Her Majesty's', The Age, May 06. Miller, B & Wolfenden, P. 2003 'Caths vists Her Majesty's' Cinema Record no. 40, p. 9. Usher, R 2002, 'British actors to crown relaunch of Her Majesty's', The Age, February 13 p.3. Usher, R 2002, 'King of Her Majesty's', The Age: The Culture, 26 April, p.1, p.3. 'A new era of magic', 8 page lift-out in The Age, Sunday 18 April 2010.",
    "caarp_refs": [],
    "detail_collected": true,
-   "evidence": "single source",
-   "proposed_level": "C",
-   "level_reason": "provisional historical address from one source",
+   "evidence": "two independent sources agree",
+   "proposed_level": "B",
+   "level_reason": "street address documented by a heritage listing or by two independent sources",
    "review": "awaiting editorial review",
    "fca_id": "FCA-VIC-0391"
   },
@@ -28755,24 +28628,30 @@
   },
   {
    "name": "Circle Theatre",
-   "aliases": [],
+   "aliases": [
+    "Hoyts Circle Theatre"
+   ],
    "locality": "Preston",
    "locality_note": "",
    "postcode": "3072",
    "state": "VIC",
    "region": "Metropolitan Melbourne",
    "address": "499 High Street",
-   "other_addresses": [],
+   "other_addresses": [
+    "519 High Street"
+   ],
    "type": "cinema",
    "first_listed": "1938-11-26",
    "last_listed": "1961-01-01",
    "dates_basis": "CAARP operation dates (usually first and last directory or newspaper listing)",
    "status": "closed",
    "status_label": "Closed or not stated",
-   "status_basis": "No source states the current status",
+   "status_basis": "Cinema Treasures lists it as closed (it does not say whether the building survives)",
    "capacity": "933",
    "screens": "1",
-   "operators": [],
+   "operators": [
+    "Hoyts Theatres"
+   ],
    "heritage": [],
    "geocode_unverified": [
     -37.7372346,
@@ -28783,10 +28662,15 @@
      "source": "CAARP",
      "id": "507",
      "url": "https://caarp.com.au/venue/view/507"
+    },
+    {
+     "source": "Cinema Treasures",
+     "id": "27931",
+     "url": "https://cinematreasures.org/theaters/27931"
     }
    ],
-   "style": "",
-   "architects": "",
+   "style": "Streamline Moderne",
+   "architects": "Reginald Appleford, Christopher A. Cowper, Gordon Murphy",
    "photographs": "none cleared for use",
    "caarp_note": "\"The \"Circle Theatre\" was one of several cinemas which opened in Preston during the movie boom time from the late 1930s, through World War 2 into the 1950s, when drive-in cinemas and television became popular. In 1938, Hoyts commissioned architects Cowper, Murphy and Applegate to design the Circle Theatre at around the same time as an independent operator had The Sun Theatre in Yarraville built in a very similar design. It opened in November 1938 and continued into the early 1960s. Hoyts sold it for use as a dance studio, and the occasional wedding reception was held there in the mid 1970s. It was eventually demolished in1 976 to make way for the Circle Arcade\" (Darebin Historical Encyclopedia) Film Weekly records the following changes in capacity: 1946/47-1949/50 = 914 1950/51-1951/52 = 923 1952/52-1961/62 = 933",
    "caarp_refs": [
@@ -28797,9 +28681,9 @@
     "'New Preston theatre'. The Argus. November 26, 1938. p.10 ... The Circle, a new brick theatre added to the circuit of Hoytes Theatres Ltd, was officially opened by the Mayor of Preston (Councillor F G Pike) in the presence of 600 guests... Thorne, R 1981, 'Cinema of Australia via US', pp.121-123."
    ],
    "detail_collected": true,
-   "evidence": "single source",
-   "proposed_level": "C",
-   "level_reason": "provisional historical address from one source",
+   "evidence": "two independent sources agree",
+   "proposed_level": "B",
+   "level_reason": "street address documented by a heritage listing or by two independent sources",
    "review": "awaiting editorial review",
    "fca_id": "FCA-VIC-0601"
   },

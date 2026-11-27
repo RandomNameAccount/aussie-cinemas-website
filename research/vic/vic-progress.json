@@ -37,12 +37,12 @@
   "2073",
   "2074"
  ],
- "merges_between_source_rows": 377,
+ "merges_between_source_rows": 384,
  "matched_existing_records": 6,
- "unique_records": 746,
- "new_unique_records": 740,
+ "unique_records": 741,
+ "new_unique_records": 735,
  "by_region": {
-  "Metropolitan Melbourne": 427,
+  "Metropolitan Melbourne": 423,
   "North East": 13,
   "Ballarat and Central Highlands": 24,
   "Gippsland": 29,
@@ -52,29 +52,29 @@
   "Macedon Ranges and Central Victoria": 12,
   "Western District": 31,
   "Wimmera": 7,
-  "Melbourne CBD": 104
+  "Melbourne CBD": 103
  },
  "by_status": {
-  "closed": 582,
+  "closed": 576,
   "operating": 135,
-  "repurposed": 23
+  "repurposed": 24
  },
  "by_type": {
-  "cinema": 471,
+  "cinema": 466,
   "drive-in": 76,
   "hall": 150,
   "open-air": 28,
   "theatre": 15
  },
  "by_proposed_level": {
-  "C": 452,
+  "C": 442,
   "D": 28,
-  "B": 244,
+  "B": 249,
   "E": 16
  },
  "by_evidence": {
-  "single source": 459,
-  "two independent sources agree": 253,
+  "single source": 449,
+  "two independent sources agree": 258,
   "heritage register names the place": 28
  }
 }

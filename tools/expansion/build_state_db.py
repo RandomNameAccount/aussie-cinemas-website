@@ -279,7 +279,7 @@ def match(a, b):
                 return "same street number, street name spelt differently"
             return ""
         if na and nb and na != nb:
-            return "same street, nearby number, same name" if name_hit and abs(int(na) - int(nb)) <= 10 else ""
+            return "same street, nearby number, same name" if name_hit and abs(int(na) - int(nb)) <= 20 else ""
         return "same street address" if (na and nb) else ("same street and name" if name_hit else "")
     if name_hit:
         cbd = {a["postcode"], b["postcode"]} & CBD or norm(a["locality"]) == CAPITAL

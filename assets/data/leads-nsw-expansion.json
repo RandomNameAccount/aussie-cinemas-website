@@ -7015,32 +7015,48 @@
   "aliases": [],
   "address": "254 Pitt St",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Operators",
+    "Village Theatres (Cinema Treasures)"
+   ],
+   [
+    "Other addresses recorded",
+    "242 Pitt Street"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
     "label": "CAARP venue 2196 (CC BY-NC-SA 3.0)",
     "url": "https://caarp.com.au/venue/view/2196"
+   },
+   {
+    "label": "Cinema Treasures theatre 40246",
+    "url": "https://cinematreasures.org/theaters/40246"
    }
   ],
-  "conflicts": [],
+  "conflicts": [
+   "The sources give more than one address."
+  ],
   "related": [],
   "nationalId": "FCA-NSW-0227",
   "candidateIds": [
-   "CAARP:2196"
+   "CAARP:2196",
+   "Cinema Treasures:40246"
   ],
   "id": "fca-nsw-0227",
   "state": "NSW",
   "name": "Ascot Theatre",
   "locality": "Sydney",
-  "basis": "Recorded in the CAARP research database (Cinema and Audience Research Project), usually from directory and newspaper listings. Not yet checked against a second source.",
+  "basis": "Recorded independently by CAARP and Cinema Treasures, which agree on the name and place. Dates and other details are as those sources give them and are not yet checked.",
   "published": "staging, not published",
   "status": "closed",
-  "statusNote": "Closed or not stated (no source states the current status; not verified)",
+  "statusNote": "Closed or not stated (Cinema Treasures lists it as closed (it does not say whether the building survives); not verified)",
   "region": "Sydney CBD",
   "postcode": "2000",
-  "level": "C",
-  "levelReason": "provisional historical address from one source",
+  "level": "B",
+  "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
   "summary": "Ascot Theatre was a cinema at 254 Pitt St, Sydney.",
   "noApprox": true
@@ -22902,45 +22918,6 @@
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
   "summary": "Rex Theatre was a cinema at 47 Unwins Bridge Road, Sydenham. Recorded capacity: 1,090 seats. Also known as Sydenham Picture Palace.",
-  "noApprox": true
- },
- {
-  "aliases": [],
-  "address": "242 Pitt Street",
-  "type": "",
-  "facts": [
-   [
-    "Operators",
-    "Village Theatres (Cinema Treasures)"
-   ]
-  ],
-  "notes": [],
-  "sources": [
-   {
-    "label": "Cinema Treasures theatre 40246",
-    "url": "https://cinematreasures.org/theaters/40246"
-   }
-  ],
-  "conflicts": [],
-  "related": [],
-  "nationalId": "FCA-NSW-0640",
-  "candidateIds": [
-   "Cinema Treasures:40246"
-  ],
-  "id": "fca-nsw-0640",
-  "state": "NSW",
-  "name": "Ascot Theatre",
-  "locality": "Sydney",
-  "basis": "Listed on Cinema Treasures, a volunteer-edited directory. Needs a primary source for this venue.",
-  "published": "staging, not published",
-  "status": "closed",
-  "statusNote": "Closed or not stated (Cinema Treasures lists it as closed (it does not say whether the building survives); not verified)",
-  "region": "Sydney CBD",
-  "postcode": "2000",
-  "level": "C",
-  "levelReason": "provisional historical address from one source",
-  "review": "awaiting editorial review",
-  "summary": "Ascot Theatre was a cinema at 242 Pitt Street, Sydney.",
   "noApprox": true
  },
  {

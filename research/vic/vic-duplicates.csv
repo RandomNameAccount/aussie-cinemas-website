@@ -2,6 +2,7 @@ kind,a,a_name,b,b_name,locality,reason
 merged source rows,caarp:152,Nicholas Hall,ct:72074,Nicholas Hall,3000,"same street, nearby number, same name"
 merged source rows,caarp:275,Cinema Australia,ct:52939,Australia Twin Theatre,3000,same street address
 merged source rows,caarp:449,Comedy,ct:23471,Comedy Theatre,3000,"same street, nearby number, same name"
+merged source rows,caarp:449,Comedy,vhd:64875,Comedy Theatre,3000,"same street, nearby number, same name"
 merged source rows,caarp:450,Childrens Picture Theatre,ct:52942,Childrens Picture Theatre,3000,same street address
 merged source rows,caarp:451,Video Theatrette,ct:52943,Video Theatrette,3000,same street address
 merged source rows,caarp:457,Golden Fleece Theatrette,ct:54444,Golden Fleece Theatrette,3000,same street address
@@ -21,6 +22,7 @@ merged source rows,caarp:423,Empire,ct:52922,Empire Theatre,3000,same street add
 merged source rows,caarp:431,Paramount,ct:10732,Paris Theatre,3000,"same street, nearby number, same name"
 merged source rows,caarp:453,Majestic,ct:10731,Chelsea Theatre,3000,same street address
 merged source rows,caarp:470,Guild Hall,ct:52969,Storey Hall,3000,same street address
+merged source rows,caarp:616,Columbia,ct:52931,Britannia Theatre,3000,"same street, nearby number, same name"
 merged source rows,caarp:428,Strand,ct:52928,Strand Theatre,3000,same street address
 merged source rows,caarp:441,Regent,ct:4507,Plaza Ballroom,3000,same street address
 merged source rows,caarp:441,Regent,ct:1287,Regent Theatre,3000,same street address
@@ -62,6 +64,9 @@ merged source rows,ct:30653,Mid City Chinatown Cinema,vhd:64467,Midcity Cinema A
 merged source rows,ct:54453,Outside-In Cinema,ct:54452,Village Roadshow Theatrette,3000,same street address
 merged source rows,ct:23469,Princess Theatre,vhd:65603,Princess Theatre,3000,same street address
 merged source rows,ct:52962,Savoy Theatre,ct:52964,Total Theatre,3000,same street address
+merged source rows,caarp:449,Comedy,vhd:2665,Comedy Theatre,melbourne,"same street, nearby number, same name"
+merged source rows,caarp:448,Her Majesty's,vhd:746,Her Majesty'S Theatre,melbourne,"same street, nearby number, same name"
+merged source rows,caarp:448,Her Majesty's,vhd:9283,Her Majesty'S Theatre,melbourne,"same street, nearby number, same name"
 merged source rows,caarp:441,Regent,vhd:727,Regent Theatre,melbourne,same street address
 merged source rows,caarp:145,Central,ct:52953,Grosvenor Theatre,melbourne,same name and locality (no address to compare)
 merged source rows,caarp:422,Hoyts Cinema Centre,vhd:196067,Hoyts Cinema Centre,melbourne,"same street, nearby number, same name"
@@ -70,8 +75,6 @@ merged source rows,ct:9330,Forum 1 & 2 Theatres,vhd:753,State Theatre,melbourne,
 merged source rows,ct:23469,Princess Theatre,vhd:805,Princess Theatre,melbourne,same street address
 merged source rows,ct:52857,Garrick Theatre,ct:52860,Hoyts Lyceum South Melbourne,melbourne,same street address
 merged source rows,ct:52857,Garrick Theatre,ct:52859,Spencer's Pictures,melbourne,same street address
-merged source rows,vhd:746,Her Majesty'S Theatre,vhd:9283,Her Majesty'S Theatre,melbourne,same street address
-merged source rows,vhd:2665,Comedy Theatre,vhd:64875,Comedy Theatre,melbourne,same street address
 merged source rows,caarp:261,Pix,ct:52817,Pix Theatre,3174,same street address
 merged source rows,caarp:733,Noble Park Hall,ct:52817,Pix Theatre,3174,same street address
 merged source rows,caarp:310,St. Ambrose Hall,ct:52703,St. Ambrose's Hall,3056,same street address
@@ -112,6 +115,7 @@ merged source rows,caarp:337,Plaza,ct:52723,Plaza Theatre,3058,same street addre
 merged source rows,ct:36417,Progress Theatre,vhd:59082,West Coburg Progress Association Hall & Cinema,3058,"same street, nearby number, same name"
 merged source rows,caarp:605,Olympic Twin,ct:35414,Hoyts Northland,3072,same street and name
 merged source rows,caarp:506,Star,ct:27929,St. James Theatre,3072,same street address
+merged source rows,caarp:507,Circle Theatre,ct:27931,Hoyts Circle Theatre,3072,"same street, nearby number, same name"
 merged source rows,caarp:508,Gowerville,ct:27932,Gowerville Theatre,3072,same street address
 merged source rows,caarp:509,Rivoli,ct:31896,Rivoli Theatre,3072,same street address
 merged source rows,caarp:505,Planet,ct:22335,Planet Cinema,3072,same street address
@@ -132,9 +136,11 @@ merged source rows,caarp:553,Rio,ct:22334,Rio Cinema,3071,same street address
 merged source rows,caarp:284,Armadale Theatre,ct:32010,Armadale Theatre,3143,same street address
 merged source rows,caarp:284,Armadale Theatre,vhd:71741,Armadale Cinema,3143,same street address
 merged source rows,caarp:284,Armadale Theatre,vhd:139396,Armadale Cinema,armadale,same street address
+merged source rows,caarp:287,Paramount,ct:31893,Paramount Theatre,3032,"same street, nearby number, same name"
 merged source rows,caarp:643,Maribyrnong Sunset/ Hoyts Drive-in,ct:52152,Maribyrnong Hoyts Drive-In,3032,drive-in with the same name in the same locality
 merged source rows,caarp:300,Rialto Theatre,ct:28872,Rialto Theatre,3128,same street address
 merged source rows,caarp:369,Solway,ct:7064,Hoyts Regent Fitzroy,fitzroy,"same street number, street name spelt differently"
+merged source rows,caarp:372,Star,ct:31535,Lyric Theatre,fitzroy,"same street, nearby number, same name"
 merged source rows,caarp:370,Pavilion,ct:52753,Pavilion Theatre,fitzroy,same street address
 merged source rows,caarp:139,Fitzroy Cathedral Hall,ct:72070,Cathedral Hall,fitzroy,same street address
 merged source rows,caarp:162,Universal,ct:52755,Universal Cinema,fitzroy,same street address
@@ -259,6 +265,7 @@ merged source rows,caarp:316,Western,ct:36418,Western Theatre,3055,same street a
 merged source rows,caarp:316,Western,vhd:59062,Western Theatre,3055,"same street, nearby number, same name"
 merged source rows,caarp:316,Western,vhd:66215,Western Theatre,3055,"same street, nearby number, same name"
 merged source rows,caarp:353,Unity Theatre,ct:31912,Unity Theatre,3196,"same street, nearby number, same name"
+merged source rows,caarp:825,Fox Theatre,ct:52719,Fox Theatre,3196,"same street, nearby number, same name"
 merged source rows,caarp:359,Southern Cross,ct:52744,Regal Theatre,3040,same street address
 merged source rows,caarp:388,Palais Picture Theatre,ct:52768,Frankston Plaza Theatre,3199,same street and name
 merged source rows,caarp:389,Frankston Picture Theatre,ct:35417,Village 1 & 2,3199,same name and locality (no address to compare)

@@ -2411,12 +2411,6 @@
 "lon": 144.967,
 "place": "Melbourne, VIC"
 },
-"fca-vic-0351": {
-"kind": "lead",
-"lat": -37.8232,
-"lon": 144.967,
-"place": "Melbourne, VIC"
-},
 "fca-vic-0352": {
 "kind": "lead",
 "lat": -37.767,
@@ -2602,12 +2596,6 @@
 "lat": -37.8232,
 "lon": 144.967,
 "place": "Melbourne, VIC"
-},
-"fca-vic-0439": {
-"kind": "lead",
-"lat": -37.7771,
-"lon": 144.916,
-"place": "Ascot Vale, VIC"
 },
 "fca-vic-0442": {
 "kind": "lead",
@@ -4152,12 +4140,6 @@
 "place": "Echuca, VIC"
 },
 "fca-vic-0785": {
-"kind": "lead",
-"lat": -37.8011,
-"lon": 144.9793,
-"place": "Fitzroy, VIC"
-},
-"fca-vic-0786": {
 "kind": "lead",
 "lat": -37.8011,
 "lon": 144.9793,
