@@ -148,7 +148,7 @@ a:hover { text-decoration-thickness: 0.14em; }
 .frame { margin: 0; display: grid; gap: 0.5rem; }
 .frame-img { position: relative; background: var(--surface-2); border: 1px solid var(--rule); padding: 10px; box-shadow: var(--shadow); }
 .on-dark .frame-img { background: var(--navy-2); border-color: var(--gold); }
-.frame-img svg { display: block; width: 100%; height: auto; }
+.frame-img svg, .frame-img img { display: block; width: 100%; height: auto; }
 .frame figcaption { font-size: var(--step--1); color: var(--muted); }
 .on-dark .frame figcaption { color: var(--on-dark-muted); }
 .frame figcaption b { font-weight: 700; }
@@ -338,6 +338,7 @@ fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
 .entry { display: grid; grid-template-columns: minmax(0, 14rem) minmax(0, 1fr); gap: 1.5rem; background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); padding: 1.25rem; }
 @media (max-width: 680px) { .entry { grid-template-columns: 1fr; } }
 .entry .frame-img { padding: 6px; }
+.entry .frame { align-self: start; align-content: start; }
 
 /* Share form */
 .form-layout { display: grid; grid-template-columns: minmax(0, 1fr) 20rem; gap: 2.5rem; padding-block: 2rem 3rem; align-items: start; }
