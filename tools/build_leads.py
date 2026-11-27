@@ -23,6 +23,7 @@ PUBLISHED = "26 November 2026"
 
 raw = open("assets/map/cinema-sites.js", encoding="utf-8").read()
 SITES = json.loads(raw[raw.index("window.APA_SITES = ") + 19:].strip().rstrip(";"))["sites"]
+APPROX = json.load(open("assets/data/approx-placements.json", encoding="utf-8")) if os.path.exists("assets/data/approx-placements.json") else {}
 LEADS = []
 for f in sorted(glob.glob("assets/data/leads-*.json")):
     LEADS += json.load(open(f, encoding="utf-8"))
@@ -106,7 +107,7 @@ for l in LEADS:
       <div><dt>Status today</dt><dd>Not verified</dd></div>
       <div><dt>Opened</dt><dd>{E(str(year(l))) + " (as recorded, not verified)" if year(l) else "Not recorded"}</dd></div>
       <div><dt>Evidence</dt><dd>{LEAD_BADGE} {OPEN_BADGE if oq else ""}</dd></div>
-      <div><dt>Location</dt><dd>Not on the map</dd></div>
+      <div><dt>Location</dt><dd>{f'<a href="../index.html?focus={E(l["id"])}#map">On the map, approximately</a> (centre of {E(APPROX[l["id"]]["place"])}; the exact site is not known)' if l["id"] in APPROX else "Not on the map"}</dd></div>
     </dl>
     <div class="btn-row rec-actions"><a class="btn btn-secondary" href="../explore.html?state={l["state"].lower()}">More in {E(sn)}</a><a class="btn btn-primary" href="../update.html?type=lead&amp;id={E(l["id"])}&amp;name={E(quote(l["name"]))}">Suggest an update</a><a class="btn btn-secondary" href="../share.html">Share a memory</a></div>
   </div>
@@ -135,11 +136,11 @@ items = []
 for l in sorted(LEADS, key=lambda x: (x["name"].lower(), x["locality"].lower())):
     y = year(l)
     search = norm(" ".join([l["name"], " ".join(l["aliases"]), l["address"], l["locality"], l["state"], STATE_NAME[l["state"]], "research lead not verified"]))
-    items.append(f'''<li class="gx-item" data-id="{E(l["id"])}" data-state="{l["state"].lower()}" data-status="closed" data-evidence="lead" data-loc="notmapped" data-era="{era(y)}" data-search="{E(search)}">
+    items.append(f'''<li class="gx-item" data-id="{E(l["id"])}" data-state="{l["state"].lower()}" data-status="closed" data-evidence="lead" data-loc="{"approx" if l["id"] in APPROX else "notmapped"}" data-era="{era(y)}" data-search="{E(search)}">
   <h3 class="gx-name"><a href="leads/{E(l["id"])}.html">{E(l["name"])}</a></h3>
   {f'<p class="gx-alias">Also recorded as {E("; ".join(l["aliases"]))}</p>' if l["aliases"] else ""}
   <p class="gx-place">{E(l["locality"])}, {E(l["state"])} · Status not verified{f" · opened {y} (as recorded)" if y else ""}</p>
-  <p class="gx-badges">{LEAD_BADGE}{OPEN_BADGE if (l["conflicts"] or l["related"]) else ""}<span class="gx-loc">Not on the map</span></p>
+  <p class="gx-badges">{LEAD_BADGE}{OPEN_BADGE if (l["conflicts"] or l["related"]) else ""}<span class="gx-loc">{E("Approximate: " + APPROX[l["id"]]["place"]) if l["id"] in APPROX else "Not on the map"}</span></p>
 </li>''')
 block = "<!-- LEAD-RESULTS:START -->\n<ul class=\"gx-list\" data-list>\n" + "\n".join(items) + "\n</ul>\n<!-- LEAD-RESULTS:END -->"
 ex = open("explore.html", encoding="utf-8").read()

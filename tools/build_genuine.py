@@ -25,6 +25,9 @@ def load_sites():
     return json.loads(j)
 
 DATA = load_sites()
+import runpy
+runpy.run_path(os.path.join(ROOT, "tools", "build_approx.py"), run_name="__main__")
+APPROX = json.load(open("assets/data/approx-placements.json", encoding="utf-8"))
 SITES = DATA["sites"]
 STATE_NAME = {"QLD": "Queensland", "NSW": "New South Wales", "VIC": "Victoria", "WA": "Western Australia", "SA": "South Australia", "TAS": "Tasmania", "NT": "Northern Territory", "ACT": "Australian Capital Territory"}
 E = html.escape
@@ -181,6 +184,8 @@ for s in SITES:
     p, q = page_shell(title, desc)
     k = s["loc"]["kind"]
     actions = []
+    if not mappable(s) and sid in APPROX:
+        actions.append(f'<a class="btn btn-secondary" href="../index.html?focus={E(sid)}#map">Show on the map (approximate)</a>')
     if mappable(s):
         actions.append(f'<a class="btn btn-secondary" href="../index.html?focus={E(sid)}#map">Show on the map</a>')
     actions.append(f'<a class="btn btn-secondary" href="../research.html#site-{E(sid)}">Research table entry</a>')
@@ -209,7 +214,7 @@ for s in SITES:
   <section class="rec-notes" aria-labelledby="how-title">
     <h2 id="how-title" class="visually-hidden">How sure we are</h2>
     <div class="notice n-info"><p><strong>Evidence:</strong> {E(EVIDENCE_MEANING[s["evidence"]])}</p>
-    <p><strong>Location:</strong> {E(s["loc"]["note"] if k == "none" and s["loc"].get("note", "").startswith("Not on the map.") else LOC_MEANING[k])}</p>
+    <p><strong>Location:</strong> {E(("Approximate. The map shows this cinema at the centre of " + APPROX[sid]["place"] + ", not where the building stood: its exact site has not been verified.") if k == "none" and sid in APPROX else s["loc"]["note"] if k == "none" and s["loc"].get("note", "").startswith("Not on the map.") else LOC_MEANING[k])}</p>
     {"<p><strong>Sources disagree:</strong> both versions are kept below. Neither has been chosen.</p>" if s.get("conflicts") else ""}</div>
   </section>
   <article class="site-rec rec-article" aria-labelledby="rec-title" data-cinema-id="{E(sid)}">
@@ -227,7 +232,7 @@ def search_text(s):
 
 def loc_group(s):
     k = s["loc"]["kind"]
-    return "site" if k == "site" else ("approx" if k in ("city", "suburb") else "notmapped")
+    return "site" if k == "site" else ("approx" if k in ("city", "suburb") or (k == "none" and s["id"] in APPROX) else "notmapped")
 
 items = []
 for s in sorted(SITES, key=lambda x: (x["name"].lower(), x["suburb"].lower())):
@@ -236,7 +241,7 @@ for s in sorted(SITES, key=lambda x: (x["name"].lower(), x["suburb"].lower())):
   <h3 class="gx-name"><a href="cinemas/{E(s["id"])}.html">{E(s["name"])}</a></h3>
   {f'<p class="gx-alias">Also known as {E("; ".join(s["aliases"]))}</p>' if s.get("aliases") else ""}
   <p class="gx-place">{E(s["suburb"])}, {E(s["state"])} · {E(s["statusLabel"])}{f" · opened {y}" if y else ""}</p>
-  <p class="gx-badges">{badge(s["evidence"], s["evidenceLabel"])}{badge("conflict", "Sources disagree") if s.get("conflicts") else ""}<span class="gx-loc">{E(s["locLabel"])}</span></p>
+  <p class="gx-badges">{badge(s["evidence"], s["evidenceLabel"])}{badge("conflict", "Sources disagree") if s.get("conflicts") else ""}<span class="gx-loc">{E("Approximate: " + APPROX[s["id"]]["place"] if s["loc"]["kind"] == "none" and s["id"] in APPROX else s["locLabel"])}</span></p>
 </li>''')
 block = '<!-- GENUINE-RESULTS:START -->\n<ul class="gx-list" data-list>\n' + "\n".join(items) + "\n</ul>\n<!-- GENUINE-RESULTS:END -->"
 ex = open("explore.html", encoding="utf-8").read()

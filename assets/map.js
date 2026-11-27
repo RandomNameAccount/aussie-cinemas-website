@@ -47,6 +47,19 @@
   }
 
   var ARCH = window.APA_ARCHIVE_PINS || [];
+  // Approximate placements (assets/map/approx-points.js): town or suburb centre only, never the building.
+  var APPROX = window.APA_APPROX || [];
+  var APPROX_KIND = { record: "Cinema record", archive: "Archive listing", lead: "Research lead, not verified" };
+  var APPROX_DIR = { record: "cinemas/", archive: "archive/", lead: "leads/" };
+  function approxPopupHtml(a) {
+    return '<div class="rm-pop">' +
+      '<p class="rm-kicker">' + esc(APPROX_KIND[a.kind]) + " · approximate location</p>" +
+      "<h3>" + esc(a.name) + "</h3>" +
+      '<p class="rm-addr">' + esc(a.place) + "</p>" +
+      '<p class="rm-locnote">This marker is at the centre of ' + esc(a.place) + ", not where the cinema stood. Its exact site has not been verified." +
+      (a.kind === "lead" ? " This is a research lead: its details have not been checked yet." : "") + "</p>" +
+      '<p><a class="rm-record" href="' + ROOT_BASE + APPROX_DIR[a.kind] + esc(a.id) + '.html">Open the ' + (a.kind === "lead" ? "research lead" : a.kind === "archive" ? "archive listing" : "cinema record") + "</a></p></div>";
+  }
   function archivePopupHtml(a) {
     return '<div class="rm-pop">' +
       '<p class="rm-kicker">Archive listing · address matched</p>' +
@@ -56,13 +69,15 @@
       '<p class="rm-locnote">The pin is this address today in ' + esc(a.source) + " (" + esc(a.licence) + "). It is not the historic cinema's footprint; the building may have changed or gone.</p>" +
       '<p><a class="rm-record" href="' + ARCHIVE_BASE + esc(a.id) + '.html">Open the archive listing</a></p></div>';
   }
-  var RECORD_BASE = "cinemas/", ARCHIVE_BASE = "archive/";
+  var RECORD_BASE = "cinemas/", ARCHIVE_BASE = "archive/", ROOT_BASE = "";
   function init(el) {
     RECORD_BASE = el.getAttribute("data-record-base") || "cinemas/";
     ARCHIVE_BASE = RECORD_BASE.replace(/cinemas\/$/, "archive/");
+    ROOT_BASE = RECORD_BASE.replace(/cinemas\/$/, "");
     var map = L.map(el, { zoomSnap: 0.5, minZoom: 3, maxZoom: 16, attributionControl: true, worldCopyJump: false, scrollWheelZoom: false });
     map.attributionControl.setPrefix(false);
     map.attributionControl.addAttribution('Basemap: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a> (public domain), simplified. Not a street map. Map library: <a href="https://leafletjs.com/" target="_blank" rel="noopener">Leaflet</a>');
+    if (APPROX.length) map.attributionControl.addAttribution('Approximate town and suburb centres: <a href="https://www.geonames.org/" target="_blank" rel="noopener">GeoNames</a> (CC BY 4.0)');
     if (ARCH.length) map.attributionControl.addAttribution('Archive address points: Property Address Queensland (CC BY 4.0, © State of Queensland); the LIST (CC BY 3.0 AU, © State of Tasmania)');
     var r = L.svg({ padding: 0.5 });
     L.geoJSON(BASE.layers.land, { renderer: r, interactive: false, style: { className: "rm-land", weight: 1 } }).addTo(map);
@@ -125,6 +140,35 @@
       markers[a.id] = m;
       cluster.addLayer(m);
     });
+    var approxIds = {};
+    APPROX.forEach(function (a) {
+      var cls = a.kind === "lead" ? "rm-pin rm-lead rm-loc-suburb" : "rm-pin rm-closed rm-loc-suburb";
+      var m = L.marker([a.lat, a.lon], {
+        icon: L.divIcon({ className: "rm-marker", html: '<span class="' + cls + '" aria-hidden="true"><span class="rm-shape"></span></span>', iconSize: [30, 30], iconAnchor: [15, 15], popupAnchor: [0, -12] }),
+        title: a.name + " (approximate: " + a.place + ")", alt: a.name, riseOnHover: true
+      });
+      m.bindPopup(approxPopupHtml(a), popOpts());
+      m.on("add", function () { var ic = m.getElement(); if (ic) { ic.setAttribute("aria-label", a.name + ". " + APPROX_KIND[a.kind] + ", approximate location in " + a.place + ". Open details"); ic.setAttribute("role", "button"); } });
+      markers[a.id] = m; approxIds[a.id] = a.kind;
+      cluster.addLayer(m);
+    });
+    // Visitors can hide the approximate markers and the unverified research leads.
+    var shown = { approx: true, lead: true }, lastIds = null;
+    function visible(id) { var k = approxIds[id]; return !k || (shown.approx && (k !== "lead" || shown.lead)); }
+    if (APPROX.length) {
+      var Toggle = L.Control.extend({ options: { position: "topright" }, onAdd: function () {
+        var box = L.DomUtil.create("div", "rm-toggle");
+        box.innerHTML = '<label><input type="checkbox" data-t="approx" checked> Approximate locations</label><label><input type="checkbox" data-t="lead" checked> Research leads (not verified)</label>';
+        L.DomEvent.disableClickPropagation(box);
+        box.addEventListener("change", function (e) {
+          var t = e.target.getAttribute("data-t"); shown[t] = e.target.checked;
+          if (t === "approx") box.querySelector('[data-t="lead"]').disabled = !shown.approx;
+          el._apaFilter(lastIds, true);
+        });
+        return box;
+      } });
+      map.addControl(new Toggle());
+    }
     // Cluster icons need an accessible name too: they are focusable and open on Enter.
     cluster.on("animationend spiderfied", nameClusters);
     map.on("zoomend moveend", function () { labels(); setTimeout(nameClusters, 0); });
@@ -179,12 +223,13 @@
     el._apaMap = map;
     el._apaMarkers = markers;
     // Filtering (used by Explore): show only the given site ids; null shows every mapped site.
-    el._apaFilter = function (ids) {
+    el._apaFilter = function (ids, keepView) {
+      lastIds = ids;
       map.closePopup(); cluster.clearLayers();
-      var list = Object.keys(markers).filter(function (id) { return !ids || ids.has(id); }).map(function (id) { return markers[id]; });
+      var list = Object.keys(markers).filter(function (id) { return (!ids || ids.has(id)) && visible(id); }).map(function (id) { return markers[id]; });
       cluster.addLayers(list);
       // Fit the view to the matching cinemas (only when the map is visible, otherwise Leaflet measures zero size).
-      if (ids && list.length && el.offsetWidth) {
+      if (ids && list.length && el.offsetWidth && !keepView) {
         map.invalidateSize();
         map.fitBounds(L.latLngBounds(list.map(function (m) { return m.getLatLng(); })).pad(0.15), { maxZoom: 14 });
       }
@@ -199,7 +244,7 @@
       return true;
     };
     var fq = (window.location.search.match(/[?&]focus=([a-z0-9-]+)/) || [])[1];
-    if (fq && el.hasAttribute("data-focus-from-url")) setTimeout(function () { if (el._apaFocus(fq)) { var s0 = DATA.sites.concat(ARCH).filter(function (s) { return s.id === fq; })[0]; say("Map shows " + s0.name + "."); } }, 200);
+    if (fq && el.hasAttribute("data-focus-from-url")) setTimeout(function () { if (el._apaFocus(fq)) { var s0 = DATA.sites.concat(ARCH, APPROX).filter(function (s) { return s.id === fq; })[0]; say("Map shows " + s0.name + "."); } }, 200);
     // Maps inside a hidden panel (the Explore map view) need a size refresh when shown.
     var wasHidden = el.clientWidth === 0;
     if ("ResizeObserver" in window) new ResizeObserver(function () {

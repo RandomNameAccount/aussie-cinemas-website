@@ -1558,3 +1558,8 @@ picture { display: contents; }
 .field select { background-repeat: no-repeat; background-position: right 0.75rem center; background-size: 1.1rem; padding-right: 2.5rem; }
 :root[data-theme="dark"] .field select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23F4E8D6' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E"); }
 .demo-pill { font-size: 0.75rem; }  /* L-02: at least 12 px */
+
+/* Approximate markers (town or suburb centre): dashed halo. Research leads are hollow. Map toggles sit top right. */
+.rm-lead .rm-shape { background: var(--brand-white); border: 2.5px dashed var(--brand-navy); border-radius: 50%; }
+.rm-toggle { background: var(--brand-white); border: 1px solid var(--brand-navy); padding: .4rem .6rem; display: grid; gap: .25rem; font-size: .85rem; }
+.rm-toggle label { display: flex; gap: .4rem; align-items: center; cursor: pointer; }

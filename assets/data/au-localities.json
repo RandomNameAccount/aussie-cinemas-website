@@ -1,0 +1,3961 @@
+{
+"acton|ACT": [
+[
+-35.2816,
+149.1189,
+"Acton"
+]
+],
+"adelaide|SA": [
+[
+-34.928,
+138.601,
+"Adelaide"
+],
+[
+-34.9287,
+138.5986,
+"Adelaide"
+],
+[
+-34.9287,
+138.5986,
+"Adelaide"
+],
+[
+-34.9287,
+138.5986,
+"Adelaide"
+],
+[
+-34.9287,
+138.5986,
+"Adelaide"
+],
+[
+-34.9287,
+138.5986,
+"Adelaide"
+]
+],
+"albany|WA": [
+[
+-35.0297,
+117.8856,
+"Albany"
+],
+[
+-35.0031,
+117.866,
+"Albany"
+]
+],
+"alberton|SA": [
+[
+-34.8609,
+138.5225,
+"Alberton"
+]
+],
+"andergrove|QLD": [
+[
+-21.0945,
+149.1842,
+"Andergrove"
+]
+],
+"annerley|QLD": [
+[
+-27.5121,
+153.0323,
+"Annerley"
+]
+],
+"applecross|WA": [
+[
+-32.0141,
+115.8384,
+"Applecross"
+],
+[
+-32.0167,
+115.8333,
+"Applecross"
+]
+],
+"aramac|QLD": [
+[
+-22.9725,
+145.2416,
+"Aramac"
+]
+],
+"armadale|WA": [
+[
+-32.1498,
+116.007,
+"Armadale"
+],
+[
+-32.1461,
+116.0093,
+"Armadale"
+]
+],
+"atherton|QLD": [
+[
+-17.265,
+145.4833,
+"Atherton"
+]
+],
+"ayr|QLD": [
+[
+-19.5704,
+147.4086,
+"Ayr"
+]
+],
+"babinda|QLD": [
+[
+-17.3422,
+145.9216,
+"Babinda"
+]
+],
+"balga|WA": [
+[
+-31.8549,
+115.8397,
+"Balga"
+]
+],
+"barcaldine|QLD": [
+[
+-23.556,
+145.2941,
+"Barcaldine"
+]
+],
+"barmera|SA": [
+[
+-34.2523,
+140.4662,
+"Barmera"
+]
+],
+"bassendean|WA": [
+[
+-31.9045,
+115.9468,
+"Bassendean"
+],
+[
+-31.9091,
+115.9437,
+"Bassendean"
+]
+],
+"beaconsfield|TAS": [
+[
+-41.1988,
+146.8165,
+"Beaconsfield"
+]
+],
+"beckenham|WA": [
+[
+-32.0219,
+115.9606,
+"Beckenham"
+]
+],
+"beechboro|WA": [
+[
+-31.8683,
+115.9385,
+"Beechboro"
+]
+],
+"belconnen|ACT": [
+[
+-35.2167,
+149.0833,
+"Belconnen"
+],
+[
+-35.2397,
+149.0677,
+"Belconnen"
+]
+],
+"bellerive|TAS": [
+[
+-42.8743,
+147.3763,
+"Bellerive"
+]
+],
+"belmont|WA": [
+[
+-31.9486,
+115.9327,
+"Belmont"
+],
+[
+-31.9435,
+115.9255,
+"Belmont"
+]
+],
+"bentley|WA": [
+[
+-32.0075,
+115.9138,
+"Bentley"
+],
+[
+-32.0,
+115.9167,
+"Bentley"
+]
+],
+"berriedale|TAS": [
+[
+-42.8089,
+147.2484,
+"Berriedale"
+]
+],
+"berri|SA": [
+[
+-34.2782,
+140.6019,
+"Berri"
+]
+],
+"biggera waters|QLD": [
+[
+-27.9376,
+153.4075,
+"Biggera Waters"
+]
+],
+"biloela|QLD": [
+[
+-24.3959,
+150.5151,
+"Biloela"
+]
+],
+"bluff|QLD": [
+[
+-23.5755,
+149.0694,
+"Bluff"
+]
+],
+"bollon|QLD": [
+[
+-28.0894,
+147.4455,
+"Bollon"
+]
+],
+"boonah|QLD": [
+[
+-27.9949,
+152.6861,
+"Boonah"
+]
+],
+"booragoon|WA": [
+[
+-32.0391,
+115.8328,
+"Booragoon"
+],
+[
+-32.0395,
+115.8337,
+"Booragoon"
+]
+],
+"booval|QLD": [
+[
+-27.6136,
+152.7913,
+"Booval"
+]
+],
+"bothwell|TAS": [
+[
+-42.3727,
+147.0052,
+"Bothwell"
+]
+],
+"boulder|WA": [
+[
+-30.7791,
+121.4832,
+"Boulder"
+]
+],
+"boulia|QLD": [
+[
+-22.9082,
+139.9119,
+"Boulia"
+]
+],
+"bowen|QLD": [
+[
+-20.0175,
+148.2282,
+"Bowen"
+]
+],
+"braddon|ACT": [
+[
+-35.2712,
+149.1335,
+"Braddon"
+]
+],
+"branxholm|TAS": [
+[
+-41.1666,
+147.7401,
+"Branxholm"
+]
+],
+"breadalbane|TAS": [
+[
+-41.5216,
+147.1839,
+"Breadalbane"
+]
+],
+"bribie island|QLD": [
+[
+-27.0149,
+153.1446,
+"Bribie Island"
+]
+],
+"brighton|SA": [
+[
+-35.0186,
+138.5221,
+"Brighton"
+]
+],
+"brisbane city|QLD": [
+[
+-27.4681,
+153.0265,
+"Brisbane City"
+]
+],
+"broadbeach|QLD": [
+[
+-28.0285,
+153.4321,
+"Broadbeach"
+]
+],
+"broome|WA": [
+[
+-17.9629,
+122.232,
+"Broome"
+]
+],
+"bunbury|WA": [
+[
+-33.3115,
+115.6429,
+"Bunbury"
+],
+[
+-33.3271,
+115.6414,
+"Bunbury"
+]
+],
+"bundaberg|QLD": [
+[
+-24.8662,
+152.3479,
+"Bundaberg"
+]
+],
+"burleigh|QLD": [
+[
+-20.4532,
+143.0257,
+"Burleigh"
+]
+],
+"burnie|TAS": [
+[
+-41.0522,
+145.9037,
+"Burnie"
+],
+[
+-41.0558,
+145.9037,
+"Burnie"
+]
+],
+"burswood|WA": [
+[
+-31.9624,
+115.8973,
+"Burswood"
+]
+],
+"bushy park|TAS": [
+[
+-42.7117,
+146.8944,
+"Bushy Park"
+]
+],
+"busselton|WA": [
+[
+-33.6315,
+115.339,
+"Busselton"
+]
+],
+"bute|SA": [
+[
+-33.86,
+138.0058,
+"Bute"
+]
+],
+"caboolture|QLD": [
+[
+-27.072,
+152.9537,
+"Caboolture"
+]
+],
+"cairns|QLD": [
+[
+-16.923,
+145.7663,
+"Cairns"
+]
+],
+"caloundra|QLD": [
+[
+-26.8036,
+153.1311,
+"Caloundra"
+]
+],
+"campbell town|TAS": [
+[
+-41.9281,
+147.484,
+"Campbell Town"
+]
+],
+"canberra|ACT": [
+[
+-35.2835,
+149.1281,
+"Canberra"
+],
+[
+-35.2835,
+149.1281,
+"Canberra"
+]
+],
+"cannington|WA": [
+[
+-32.0159,
+115.9367,
+"Cannington"
+],
+[
+-32.0167,
+115.95,
+"Cannington"
+],
+[
+-32.0167,
+115.95,
+"Cannington"
+]
+],
+"capalaba|QLD": [
+[
+-27.5346,
+153.1995,
+"Capalaba"
+]
+],
+"capella|QLD": [
+[
+-23.0839,
+148.0253,
+"Capella"
+]
+],
+"carnarvon|WA": [
+[
+-24.8829,
+113.6597,
+"Carnarvon"
+]
+],
+"charters towers|QLD": [
+[
+-20.0767,
+146.2635,
+"Charters Towers"
+]
+],
+"chermside|QLD": [
+[
+-27.3861,
+153.0313,
+"Chermside"
+]
+],
+"childers|QLD": [
+[
+-25.2357,
+152.2757,
+"Childers"
+]
+],
+"christies beach|SA": [
+[
+-35.1357,
+138.477,
+"Christies Beach"
+]
+],
+"city|ACT": [
+[
+-35.2812,
+149.1292,
+"City"
+]
+],
+"claremont|TAS": [
+[
+-42.7774,
+147.193,
+"Claremont"
+]
+],
+"claremont|WA": [
+[
+-31.9855,
+115.7705,
+"Claremont"
+],
+[
+-31.9796,
+115.7823,
+"Claremont"
+]
+],
+"clare|SA": [
+[
+-33.8357,
+138.6118,
+"Clare"
+]
+],
+"clayfield|QLD": [
+[
+-27.4193,
+153.0541,
+"Clayfield"
+]
+],
+"cleveland|QLD": [
+[
+-27.5237,
+153.2851,
+"Cleveland"
+]
+],
+"cloncurry|QLD": [
+[
+-20.699,
+140.5043,
+"Cloncurry"
+]
+],
+"coffs harbour|NSW": [
+[
+-30.2909,
+153.118,
+"Coffs Harbour"
+]
+],
+"collie|WA": [
+[
+-33.3535,
+116.1566,
+"Collie"
+]
+],
+"colonel light gardens|SA": [
+[
+-34.9835,
+138.5942,
+"Colonel Light Gardens"
+]
+],
+"como|WA": [
+[
+-31.9985,
+115.8638,
+"Como"
+],
+[
+-31.9912,
+115.8634,
+"Como"
+]
+],
+"coober pedy|SA": [
+[
+-29.0103,
+134.7575,
+"Coober Pedy"
+]
+],
+"coolangatta|QLD": [
+[
+-28.1687,
+153.5352,
+"Coolangatta"
+]
+],
+"coomera|QLD": [
+[
+-27.8486,
+153.3379,
+"Coomera"
+]
+],
+"cottesloe|WA": [
+[
+-31.994,
+115.7582,
+"Cottesloe"
+],
+[
+-32.0,
+115.7667,
+"Cottesloe"
+]
+],
+"cotton tree|QLD": [
+[
+-26.6535,
+153.1012,
+"Cotton Tree"
+]
+],
+"crawley|WA": [
+[
+-31.9725,
+115.8252,
+"Crawley"
+]
+],
+"cue|WA": [
+[
+-27.4298,
+117.8942,
+"Cue"
+]
+],
+"currambine|WA": [
+[
+-31.7329,
+115.745,
+"Currambine"
+]
+],
+"cygnet|TAS": [
+[
+-43.1568,
+147.0756,
+"Cygnet"
+]
+],
+"dalkeith|WA": [
+[
+-31.9934,
+115.7872,
+"Dalkeith"
+]
+],
+"darlington|WA": [
+[
+-31.9151,
+116.0772,
+"Darlington"
+]
+],
+"darra|QLD": [
+[
+-27.5669,
+152.953,
+"Darra"
+]
+],
+"deloraine|TAS": [
+[
+-41.5243,
+146.6537,
+"Deloraine"
+]
+],
+"derby|TAS": [
+[
+-41.1442,
+147.8002,
+"Derby"
+]
+],
+"derby|WA": [
+[
+-17.3154,
+123.643,
+"Derby"
+]
+],
+"devonport|TAS": [
+[
+-41.178,
+146.3469,
+"Devonport"
+]
+],
+"dongara|WA": [
+[
+-29.2473,
+114.9296,
+"Dongara"
+]
+],
+"dulwich|SA": [
+[
+-34.9368,
+138.6286,
+"Dulwich"
+]
+],
+"dunsborough|WA": [
+[
+-33.6166,
+115.1047,
+"Dunsborough"
+]
+],
+"dunwich|QLD": [
+[
+-27.5022,
+153.4008,
+"Dunwich"
+]
+],
+"eaglehawk neck|TAS": [
+[
+-43.0208,
+147.9191,
+"Eaglehawk Neck"
+]
+],
+"east devonport|TAS": [
+[
+-41.187,
+146.4047,
+"East Devonport"
+]
+],
+"east fremantle|WA": [
+[
+-32.0381,
+115.7761,
+"East Fremantle"
+]
+],
+"east perth|WA": [
+[
+-31.9426,
+115.8791,
+"East Perth"
+],
+[
+-31.9587,
+115.8711,
+"East Perth"
+]
+],
+"east victoria park|WA": [
+[
+-31.9883,
+115.905,
+"East Victoria Park"
+],
+[
+-31.9889,
+115.9039,
+"East Victoria Park"
+]
+],
+"edmonton|QLD": [
+[
+-17.0233,
+145.7347,
+"Edmonton"
+]
+],
+"elizabeth|SA": [
+[
+-34.7192,
+138.6703,
+"Elizabeth"
+]
+],
+"ellendale|TAS": [
+[
+-42.6112,
+146.7141,
+"Ellendale"
+]
+],
+"emerald|QLD": [
+[
+-23.529,
+148.1601,
+"Emerald"
+]
+],
+"esperance|WA": [
+[
+-33.8603,
+121.8901,
+"Esperance"
+]
+],
+"eumundi|QLD": [
+[
+-26.4672,
+152.9546,
+"Eumundi"
+]
+],
+"everard park|SA": [
+[
+-34.9546,
+138.5745,
+"Everard Park"
+]
+],
+"exmouth|WA": [
+[
+-21.9467,
+114.1394,
+"Exmouth"
+]
+],
+"floreat|WA": [
+[
+-31.9459,
+115.7978,
+"Floreat"
+]
+],
+"forrestfield|WA": [
+[
+-31.9846,
+116.0075,
+"Forrestfield"
+]
+],
+"franklin|TAS": [
+[
+-43.0891,
+146.9978,
+"Franklin"
+]
+],
+"fremantle|WA": [
+[
+-32.0537,
+115.7553,
+"Fremantle"
+],
+[
+-32.05,
+115.7667,
+"Fremantle"
+]
+],
+"fullarton|SA": [
+[
+-34.9537,
+138.6269,
+"Fullarton"
+]
+],
+"gawler|SA": [
+[
+-34.5978,
+138.7466,
+"Gawler"
+]
+],
+"geeveston|TAS": [
+[
+-43.1644,
+146.9188,
+"Geeveston"
+]
+],
+"george town|TAS": [
+[
+-41.1057,
+146.8275,
+"George Town"
+]
+],
+"gepps cross|SA": [
+[
+-34.8445,
+138.6004,
+"Gepps Cross"
+]
+],
+"geraldton|WA": [
+[
+-28.7763,
+114.6146,
+"Geraldton"
+],
+[
+-28.779,
+114.6146,
+"Geraldton"
+]
+],
+"gilles plains|SA": [
+[
+-34.8515,
+138.6577,
+"Gilles Plains"
+]
+],
+"gladstone|QLD": [
+[
+-23.8485,
+151.2577,
+"Gladstone"
+]
+],
+"gladstone|TAS": [
+[
+-40.9595,
+148.0097,
+"Gladstone"
+]
+],
+"glenelg|SA": [
+[
+-34.98,
+138.5139,
+"Glenelg"
+]
+],
+"glenorchy|TAS": [
+[
+-42.84,
+147.2681,
+"Glenorchy"
+]
+],
+"glenside|SA": [
+[
+-34.9421,
+138.6365,
+"Glenside"
+]
+],
+"goodna|QLD": [
+[
+-27.6121,
+152.8912,
+"Goodna"
+]
+],
+"goodwood|SA": [
+[
+-34.9509,
+138.5927,
+"Goodwood"
+]
+],
+"goomeri|QLD": [
+[
+-26.1822,
+152.0692,
+"Goomeri"
+]
+],
+"gordonvale|QLD": [
+[
+-17.0921,
+145.7771,
+"Gordonvale"
+]
+],
+"gormanston|TAS": [
+[
+-42.0734,
+145.5989,
+"Gormanston"
+]
+],
+"gosnells|WA": [
+[
+-32.0787,
+115.9926,
+"Gosnells"
+],
+[
+-32.081,
+116.0054,
+"Gosnells"
+]
+],
+"grange|QLD": [
+[
+-27.4239,
+153.0155,
+"Grange"
+]
+],
+"greenslopes|QLD": [
+[
+-27.5063,
+153.0482,
+"Greenslopes"
+]
+],
+"greenway|ACT": [
+[
+-35.4142,
+149.069,
+"Greenway"
+]
+],
+"guildford|WA": [
+[
+-31.8988,
+115.9746,
+"Guildford"
+],
+[
+-31.9,
+115.9667,
+"Guildford"
+]
+],
+"gwelup|WA": [
+[
+-31.8706,
+115.7954,
+"Gwelup"
+]
+],
+"gympie|QLD": [
+[
+-26.1846,
+152.6665,
+"Gympie"
+]
+],
+"halifax|QLD": [
+[
+-18.5796,
+146.2883,
+"Halifax"
+]
+],
+"hamilton hill|WA": [
+[
+-32.0834,
+115.7797,
+"Hamilton Hill"
+],
+[
+-32.0845,
+115.7795,
+"Hamilton Hill"
+]
+],
+"hectorville|SA": [
+[
+-34.8934,
+138.6651,
+"Hectorville"
+]
+],
+"henley beach|SA": [
+[
+-34.9197,
+138.492,
+"Henley Beach"
+]
+],
+"hervey bay|QLD": [
+[
+-25.2894,
+152.8288,
+"Hervey Bay"
+]
+],
+"hillarys|WA": [
+[
+-31.8084,
+115.7452,
+"Hillarys"
+],
+[
+-31.807,
+115.7405,
+"Hillarys"
+]
+],
+"hilton|SA": [
+[
+-34.9321,
+138.5659,
+"Hilton"
+]
+],
+"hilton|WA": [
+[
+-32.0681,
+115.7854,
+"Hilton"
+]
+],
+"hindmarsh|SA": [
+[
+-34.9063,
+138.5694,
+"Hindmarsh"
+]
+],
+"hobart|TAS": [
+[
+-42.8848,
+147.3328,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+],
+[
+-42.8794,
+147.3294,
+"Hobart"
+]
+],
+"huonville|TAS": [
+[
+-43.0274,
+147.0518,
+"Huonville"
+]
+],
+"ingham|QLD": [
+[
+-18.6511,
+146.161,
+"Ingham"
+]
+],
+"inglewood|WA": [
+[
+-31.9193,
+115.8847,
+"Inglewood"
+],
+[
+-31.9166,
+115.8798,
+"Inglewood"
+]
+],
+"innaloo|WA": [
+[
+-31.892,
+115.7942,
+"Innaloo"
+],
+[
+-31.8927,
+115.7951,
+"Innaloo"
+]
+],
+"invermay|TAS": [
+[
+-41.4218,
+147.1344,
+"Invermay"
+]
+],
+"ipswich|QLD": [
+[
+-27.6196,
+152.7601,
+"Ipswich"
+]
+],
+"jandowae|QLD": [
+[
+-26.7722,
+151.1197,
+"Jandowae"
+]
+],
+"jericho|QLD": [
+[
+-23.6019,
+146.1266,
+"Jericho"
+]
+],
+"joondalup|WA": [
+[
+-31.7373,
+115.767,
+"Joondalup"
+]
+],
+"kadina|SA": [
+[
+-33.9635,
+137.7169,
+"Kadina"
+]
+],
+"kalgoorlie|WA": [
+[
+-30.751,
+121.4705,
+"Kalgoorlie"
+],
+[
+-30.7461,
+121.4742,
+"Kalgoorlie"
+]
+],
+"karratha|WA": [
+[
+-20.7342,
+116.8458,
+"Karratha"
+]
+],
+"karrinyup|WA": [
+[
+-31.8748,
+115.7775,
+"Karrinyup"
+],
+[
+-31.8723,
+115.7768,
+"Karrinyup"
+]
+],
+"katanning|WA": [
+[
+-33.6892,
+117.5573,
+"Katanning"
+]
+],
+"kensington park|SA": [
+[
+-34.92,
+138.6544,
+"Kensington Park"
+]
+],
+"kilkenny|SA": [
+[
+-34.8722,
+138.5527,
+"Kilkenny"
+]
+],
+"kingaroy|QLD": [
+[
+-26.538,
+151.8425,
+"Kingaroy"
+]
+],
+"kingsley|WA": [
+[
+-31.8105,
+115.7985,
+"Kingsley"
+]
+],
+"kingston beach|TAS": [
+[
+-42.9836,
+147.3216,
+"Kingston Beach"
+]
+],
+"kingston|TAS": [
+[
+-42.9321,
+147.3055,
+"Kingston"
+],
+[
+-42.9764,
+147.3035,
+"Kingston"
+]
+],
+"koorda|WA": [
+[
+-30.8257,
+117.485,
+"Koorda"
+]
+],
+"kununurra|WA": [
+[
+-15.7739,
+128.7408,
+"Kununurra"
+]
+],
+"kwinana beach|WA": [
+[
+-32.2501,
+115.7764,
+"Kwinana Beach"
+]
+],
+"labrador|QLD": [
+[
+-27.9461,
+153.4006,
+"Labrador"
+]
+],
+"latrobe|TAS": [
+[
+-41.2376,
+146.42,
+"Latrobe"
+]
+],
+"launceston|TAS": [
+[
+-41.4389,
+147.1405,
+"Launceston"
+],
+[
+-41.4388,
+147.1347,
+"Launceston"
+],
+[
+-41.4388,
+147.1347,
+"Launceston"
+],
+[
+-41.4388,
+147.1347,
+"Launceston"
+],
+[
+-41.4388,
+147.1347,
+"Launceston"
+],
+[
+-41.4388,
+147.1347,
+"Launceston"
+],
+[
+-41.4388,
+147.1347,
+"Launceston"
+],
+[
+-41.4388,
+147.1347,
+"Launceston"
+],
+[
+-41.4388,
+147.1347,
+"Launceston"
+],
+[
+-41.4388,
+147.1347,
+"Launceston"
+],
+[
+-41.4388,
+147.1347,
+"Launceston"
+],
+[
+-41.4388,
+147.1347,
+"Launceston"
+],
+[
+-41.4388,
+147.1347,
+"Launceston"
+],
+[
+-41.4388,
+147.1347,
+"Launceston"
+],
+[
+-41.4388,
+147.1347,
+"Launceston"
+],
+[
+-41.4388,
+147.1347,
+"Launceston"
+],
+[
+-41.4388,
+147.1347,
+"Launceston"
+]
+],
+"leederville|WA": [
+[
+-31.9325,
+115.8417,
+"Leederville"
+],
+[
+-31.9363,
+115.8419,
+"Leederville"
+],
+[
+-31.9363,
+115.8419,
+"Leederville"
+],
+[
+-31.9363,
+115.8419,
+"Leederville"
+]
+],
+"lilydale|TAS": [
+[
+-41.2488,
+147.221,
+"Lilydale"
+]
+],
+"lindisfarne|TAS": [
+[
+-42.8487,
+147.3608,
+"Lindisfarne"
+]
+],
+"littlehampton|SA": [
+[
+-35.0286,
+138.8538,
+"Littlehampton"
+]
+],
+"lobethal|SA": [
+[
+-34.9026,
+138.8756,
+"Lobethal"
+]
+],
+"lockleys|SA": [
+[
+-34.924,
+138.5318,
+"Lockleys"
+]
+],
+"longford|TAS": [
+[
+-41.5996,
+147.1185,
+"Longford"
+]
+],
+"longreach|QLD": [
+[
+-23.4391,
+144.2524,
+"Longreach"
+]
+],
+"loxton|SA": [
+[
+-34.4542,
+140.5767,
+"Loxton"
+]
+],
+"mackay|QLD": [
+[
+-21.1449,
+149.1846,
+"Mackay"
+],
+[
+-21.1534,
+149.1655,
+"Mackay"
+]
+],
+"maddington|WA": [
+[
+-32.0505,
+115.9948,
+"Maddington"
+],
+[
+-32.05,
+115.9833,
+"Maddington"
+]
+],
+"magnetic island|QLD": [
+[
+-19.1551,
+146.8485,
+"Magnetic Island"
+]
+],
+"mandurah|WA": [
+[
+-32.5274,
+115.7294,
+"Mandurah"
+]
+],
+"manuka|ACT": [
+[
+-35.3126,
+149.1278,
+"Manuka"
+]
+],
+"mareeba|QLD": [
+[
+-17.0024,
+145.4296,
+"Mareeba"
+]
+],
+"margaret river|WA": [
+[
+-33.9581,
+115.0704,
+"Margaret River"
+]
+],
+"marion|SA": [
+[
+-35.0071,
+138.5541,
+"Marion"
+]
+],
+"marleston|SA": [
+[
+-34.9454,
+138.5621,
+"Marleston"
+]
+],
+"marmion|WA": [
+[
+-31.8415,
+115.7567,
+"Marmion"
+]
+],
+"maroochydore|QLD": [
+[
+-26.6548,
+153.0861,
+"Maroochydore"
+]
+],
+"maryborough|QLD": [
+[
+-25.5293,
+152.6966,
+"Maryborough"
+]
+],
+"maylands|WA": [
+[
+-31.9327,
+115.8979,
+"Maylands"
+],
+[
+-31.931,
+115.8949,
+"Maylands"
+]
+],
+"meekatharra|WA": [
+[
+-26.5916,
+118.5054,
+"Meekatharra"
+]
+],
+"melville|WA": [
+[
+-32.0398,
+115.801,
+"Melville"
+],
+[
+-32.0404,
+115.8012,
+"Melville"
+]
+],
+"menora|WA": [
+[
+-31.9174,
+115.8632,
+"Menora"
+]
+],
+"mermaid beach|QLD": [
+[
+-28.0486,
+153.4365,
+"Mermaid Beach"
+]
+],
+"merredin|WA": [
+[
+-31.4836,
+118.279,
+"Merredin"
+]
+],
+"midland|WA": [
+[
+-31.8867,
+116.0107,
+"Midland"
+]
+],
+"mile end|SA": [
+[
+-34.9259,
+138.5703,
+"Mile End"
+]
+],
+"miles|QLD": [
+[
+-26.6599,
+150.1874,
+"Miles"
+]
+],
+"mitchell park|SA": [
+[
+-35.0049,
+138.5622,
+"Mitchell Park"
+]
+],
+"modbury|SA": [
+[
+-34.8341,
+138.6854,
+"Modbury"
+]
+],
+"moffat beach|QLD": [
+[
+-26.7925,
+153.1387,
+"Moffat Beach"
+]
+],
+"mooloolaba|QLD": [
+[
+-26.682,
+153.1149,
+"Mooloolaba"
+]
+],
+"moonah|TAS": [
+[
+-42.8452,
+147.2948,
+"Moonah"
+]
+],
+"moonta|SA": [
+[
+-34.0672,
+137.5906,
+"Moonta"
+]
+],
+"moranbah|QLD": [
+[
+-22.0024,
+148.0524,
+"Moranbah"
+]
+],
+"morayfield|QLD": [
+[
+-27.1175,
+152.9463,
+"Morayfield"
+]
+],
+"morley|WA": [
+[
+-31.8878,
+115.9085,
+"Morley"
+],
+[
+-31.8877,
+115.9099,
+"Morley"
+]
+],
+"morven|QLD": [
+[
+-26.4215,
+147.1191,
+"Morven"
+]
+],
+"mosman park|WA": [
+[
+-32.0128,
+115.7622,
+"Mosman Park"
+],
+[
+-32.0054,
+115.7638,
+"Mosman Park"
+]
+],
+"mossman|QLD": [
+[
+-16.4654,
+145.3731,
+"Mossman"
+]
+],
+"mount barker|SA": [
+[
+-35.0758,
+138.8655,
+"Mount Barker"
+]
+],
+"mount gambier|SA": [
+[
+-37.817,
+140.7529,
+"Mount Gambier"
+],
+[
+-37.8491,
+140.7905,
+"Mount Gambier"
+]
+],
+"mount isa|QLD": [
+[
+-20.7219,
+139.4894,
+"Mount Isa"
+]
+],
+"mount lawley|WA": [
+[
+-31.9294,
+115.877,
+"Mount Lawley"
+],
+[
+-31.9344,
+115.8716,
+"Mount Lawley"
+]
+],
+"mount morgan|QLD": [
+[
+-23.6442,
+150.3897,
+"Mount Morgan"
+]
+],
+"mowbray|TAS": [
+[
+-41.4056,
+147.1364,
+"Mowbray"
+]
+],
+"mukinbudin|WA": [
+[
+-30.9132,
+118.2094,
+"Mukinbudin"
+]
+],
+"murdoch|WA": [
+[
+-32.0658,
+115.8356,
+"Murdoch"
+]
+],
+"murgon|QLD": [
+[
+-26.2397,
+151.9429,
+"Murgon"
+]
+],
+"murray bridge|SA": [
+[
+-35.1304,
+139.2715,
+"Murray Bridge"
+],
+[
+-35.1199,
+139.2735,
+"Murray Bridge"
+]
+],
+"nambour|QLD": [
+[
+-26.6249,
+152.9561,
+"Nambour"
+]
+],
+"nanango|QLD": [
+[
+-26.6747,
+151.9949,
+"Nanango"
+]
+],
+"naracoorte|SA": [
+[
+-36.9587,
+140.7434,
+"Naracoorte"
+]
+],
+"narrabundah|ACT": [
+[
+-35.3344,
+149.1473,
+"Narrabundah"
+]
+],
+"narrogin|WA": [
+[
+-32.9352,
+117.176,
+"Narrogin"
+]
+],
+"nebo|QLD": [
+[
+-21.6909,
+148.7003,
+"Nebo"
+]
+],
+"nedlands|WA": [
+[
+-31.9794,
+115.8049,
+"Nedlands"
+],
+[
+-31.9818,
+115.8073,
+"Nedlands"
+],
+[
+-31.9818,
+115.8073,
+"Nedlands"
+]
+],
+"nerang|QLD": [
+[
+-27.997,
+153.3283,
+"Nerang"
+]
+],
+"new norfolk|TAS": [
+[
+-42.779,
+147.0577,
+"New Norfolk"
+]
+],
+"new town|TAS": [
+[
+-42.845,
+147.3298,
+"New Town"
+]
+],
+"noarlunga centre|SA": [
+[
+-35.1416,
+138.4969,
+"Noarlunga Centre"
+]
+],
+"north adelaide|SA": [
+[
+-34.9073,
+138.5977,
+"North Adelaide"
+]
+],
+"north fremantle|WA": [
+[
+-32.0326,
+115.7544,
+"North Fremantle"
+]
+],
+"north hobart|TAS": [
+[
+-42.8725,
+147.3167,
+"North Hobart"
+],
+[
+-42.8741,
+147.316,
+"North Hobart"
+]
+],
+"north lakes|QLD": [
+[
+-27.2225,
+153.0136,
+"North Lakes"
+]
+],
+"north mackay|QLD": [
+[
+-21.1214,
+149.1807,
+"North Mackay"
+]
+],
+"north perth|WA": [
+[
+-31.9204,
+115.8557,
+"North Perth"
+],
+[
+-31.9272,
+115.8528,
+"North Perth"
+]
+],
+"northam|WA": [
+[
+-31.6544,
+116.6712,
+"Northam"
+]
+],
+"northbridge|WA": [
+[
+-31.9461,
+115.8559,
+"Northbridge"
+],
+[
+-31.9478,
+115.8588,
+"Northbridge"
+],
+[
+-31.9478,
+115.8588,
+"Northbridge"
+]
+],
+"norwood|SA": [
+[
+-34.9216,
+138.6317,
+"Norwood"
+]
+],
+"nuriootpa|SA": [
+[
+-34.4686,
+138.9942,
+"Nuriootpa"
+]
+],
+"o halloran hill|SA": [
+[
+-35.0727,
+138.5481,
+"O'Halloran Hill"
+]
+],
+"oaklands park|SA": [
+[
+-35.0081,
+138.5444,
+"Oaklands Park"
+]
+],
+"oatlands|TAS": [
+[
+-42.3031,
+147.3692,
+"Oatlands"
+]
+],
+"one mile|QLD": [
+[
+-27.6329,
+152.7405,
+"One Mile"
+]
+],
+"palm beach|QLD": [
+[
+-28.1151,
+153.4659,
+"Palm Beach"
+]
+],
+"pannawonica|WA": [
+[
+-21.6349,
+116.3352,
+"Pannawonica"
+]
+],
+"panorama|SA": [
+[
+-34.9975,
+138.5976,
+"Panorama"
+]
+],
+"pearsall|WA": [
+[
+-31.7817,
+115.8184,
+"Pearsall"
+]
+],
+"pemberton|WA": [
+[
+-34.4454,
+116.0409,
+"Pemberton"
+]
+],
+"penguin|TAS": [
+[
+-41.1201,
+146.069,
+"Penguin"
+]
+],
+"penrith|NSW": [
+[
+-33.7521,
+150.7004,
+"Penrith"
+],
+[
+-33.75,
+150.7,
+"Penrith"
+]
+],
+"perth|WA": [
+[
+-31.9543,
+115.8587,
+"Perth"
+],
+[
+-31.9522,
+115.8614,
+"Perth"
+],
+[
+-31.9522,
+115.8614,
+"Perth"
+],
+[
+-31.9522,
+115.8614,
+"Perth"
+],
+[
+-31.9522,
+115.8614,
+"Perth"
+],
+[
+-31.9522,
+115.8614,
+"Perth"
+],
+[
+-31.9522,
+115.8614,
+"Perth"
+],
+[
+-31.9522,
+115.8614,
+"Perth"
+],
+[
+-31.9522,
+115.8614,
+"Perth"
+],
+[
+-31.9522,
+115.8614,
+"Perth"
+],
+[
+-31.9522,
+115.8614,
+"Perth"
+],
+[
+-31.9522,
+115.8614,
+"Perth"
+],
+[
+-31.9522,
+115.8614,
+"Perth"
+],
+[
+-31.9522,
+115.8614,
+"Perth"
+],
+[
+-31.9522,
+115.8614,
+"Perth"
+],
+[
+-31.9522,
+115.8614,
+"Perth"
+],
+[
+-31.9522,
+115.8614,
+"Perth"
+],
+[
+-31.9522,
+115.8614,
+"Perth"
+],
+[
+-31.9522,
+115.8614,
+"Perth"
+],
+[
+-31.9522,
+115.8614,
+"Perth"
+]
+],
+"peterborough|SA": [
+[
+-32.9745,
+138.8341,
+"Peterborough"
+]
+],
+"phillip|ACT": [
+[
+-35.348,
+149.0913,
+"Phillip"
+]
+],
+"port adelaide|SA": [
+[
+-34.8465,
+138.5059,
+"Port Adelaide"
+]
+],
+"port augusta|SA": [
+[
+-32.4957,
+137.7768,
+"Port Augusta"
+],
+[
+-32.496,
+137.7728,
+"Port Augusta"
+],
+[
+-32.4926,
+137.7927,
+"Port Augusta"
+]
+],
+"port denison|WA": [
+[
+-29.2661,
+114.9265,
+"Port Denison"
+]
+],
+"port elliot|SA": [
+[
+-35.5286,
+138.6776,
+"Port Elliot"
+]
+],
+"port hedland|WA": [
+[
+-20.3282,
+118.609,
+"Port Hedland"
+]
+],
+"port lincoln|SA": [
+[
+-34.7266,
+135.8829,
+"Port Lincoln"
+],
+[
+-34.7129,
+135.8239,
+"Port Lincoln"
+]
+],
+"port pirie|SA": [
+[
+-33.178,
+138.009,
+"Port Pirie"
+]
+],
+"proserpine|QLD": [
+[
+-20.4047,
+148.582,
+"Proserpine"
+]
+],
+"prospect|SA": [
+[
+-34.8832,
+138.5928,
+"Prospect"
+]
+],
+"queenstown|TAS": [
+[
+-42.0824,
+145.5534,
+"Queenstown"
+]
+],
+"raceview|QLD": [
+[
+-27.6392,
+152.7766,
+"Raceview"
+]
+],
+"railton|TAS": [
+[
+-41.3462,
+146.4192,
+"Railton"
+]
+],
+"ranelagh|TAS": [
+[
+-43.009,
+147.0331,
+"Ranelagh"
+]
+],
+"redbank|QLD": [
+[
+-27.6104,
+152.8711,
+"Redbank"
+]
+],
+"redcliffe|QLD": [
+[
+-27.2277,
+153.1096,
+"Redcliffe"
+]
+],
+"renmark|SA": [
+[
+-34.1741,
+140.7447,
+"Renmark"
+]
+],
+"richmond|TAS": [
+[
+-42.7364,
+147.4309,
+"Richmond"
+]
+],
+"riverton|WA": [
+[
+-32.0346,
+115.8963,
+"Riverton"
+]
+],
+"rivervale|WA": [
+[
+-31.9593,
+115.9138,
+"Rivervale"
+]
+],
+"robe|SA": [
+[
+-37.1676,
+139.7691,
+"Robe"
+]
+],
+"robina|QLD": [
+[
+-28.0721,
+153.3952,
+"Robina"
+]
+],
+"rockhampton|QLD": [
+[
+-23.3803,
+150.506,
+"Rockhampton"
+]
+],
+"rockingham|WA": [
+[
+-32.2823,
+115.7369,
+"Rockingham"
+],
+[
+-32.2768,
+115.7298,
+"Rockingham"
+]
+],
+"roleystone|WA": [
+[
+-32.0982,
+116.0714,
+"Roleystone"
+]
+],
+"roma|QLD": [
+[
+-26.5706,
+148.7861,
+"Roma"
+]
+],
+"rosebery|TAS": [
+[
+-41.778,
+145.5359,
+"Rosebery"
+]
+],
+"rosewood|QLD": [
+[
+-27.6362,
+152.5937,
+"Rosewood"
+]
+],
+"rosny|TAS": [
+[
+-42.8706,
+147.3572,
+"Rosny"
+]
+],
+"rottnest island|WA": [
+[
+-31.9883,
+115.5541,
+"Rottnest Island"
+]
+],
+"roxby downs|SA": [
+[
+-30.5625,
+136.9012,
+"Roxby Downs"
+]
+],
+"safety bay|WA": [
+[
+-32.3044,
+115.7307,
+"Safety Bay"
+]
+],
+"saint agnes|SA": [
+[
+-34.83,
+138.7107,
+"St Agnes"
+]
+],
+"saint helens|TAS": [
+[
+-41.3239,
+148.2476,
+"St Helens"
+]
+],
+"saint marys|TAS": [
+[
+-41.5775,
+148.1885,
+"St Marys"
+]
+],
+"salisbury downs|SA": [
+[
+-34.7717,
+138.6244,
+"Salisbury Downs"
+]
+],
+"salisbury|SA": [
+[
+-34.7644,
+138.6419,
+"Salisbury"
+]
+],
+"sandgate|QLD": [
+[
+-27.3169,
+153.0663,
+"Sandgate"
+]
+],
+"sandstone|WA": [
+[
+-28.4,
+119.0183,
+"Sandstone"
+]
+],
+"scottsdale|TAS": [
+[
+-41.1605,
+147.5154,
+"Scottsdale"
+]
+],
+"semaphore|SA": [
+[
+-34.8374,
+138.4759,
+"Semaphore"
+]
+],
+"sheffield|TAS": [
+[
+-41.385,
+146.3275,
+"Sheffield"
+]
+],
+"shenton park|WA": [
+[
+-31.9568,
+115.8005,
+"Shenton Park"
+]
+],
+"shorncliffe|QLD": [
+[
+-27.3264,
+153.0812,
+"Shorncliffe"
+]
+],
+"smithton|TAS": [
+[
+-40.8448,
+145.1231,
+"Smithton"
+]
+],
+"snowtown|SA": [
+[
+-33.781,
+138.2131,
+"Snowtown"
+]
+],
+"somerset|TAS": [
+[
+-41.0444,
+145.8226,
+"Somerset"
+]
+],
+"sorell|TAS": [
+[
+-42.7808,
+147.5619,
+"Sorell"
+]
+],
+"south brisbane|QLD": [
+[
+-27.4737,
+153.0169,
+"South Brisbane"
+]
+],
+"south fremantle|WA": [
+[
+-32.0712,
+115.7548,
+"South Fremantle"
+]
+],
+"south perth|WA": [
+[
+-31.977,
+115.861,
+"South Perth"
+],
+[
+-31.9833,
+115.8667,
+"South Perth"
+]
+],
+"southport|QLD": [
+[
+-27.9717,
+153.4072,
+"Southport"
+]
+],
+"stanley|TAS": [
+[
+-40.7625,
+145.2907,
+"Stanley"
+]
+],
+"stanthorpe|QLD": [
+[
+-28.6565,
+151.9346,
+"Stanthorpe"
+]
+],
+"stapylton|QLD": [
+[
+-27.7337,
+153.2386,
+"Stapylton"
+]
+],
+"strahan|TAS": [
+[
+-42.152,
+145.3245,
+"Strahan"
+]
+],
+"strathalbyn|SA": [
+[
+-35.2566,
+138.8933,
+"Strathalbyn"
+]
+],
+"subiaco|WA": [
+[
+-31.9417,
+115.8263,
+"Subiaco"
+],
+[
+-31.9485,
+115.8268,
+"Subiaco"
+]
+],
+"surfers paradise|QLD": [
+[
+-28.0027,
+153.4275,
+"Surfers Paradise"
+]
+],
+"swanbourne|WA": [
+[
+-31.9769,
+115.7637,
+"Swanbourne"
+]
+],
+"swansea|TAS": [
+[
+-42.1284,
+148.0706,
+"Swansea"
+]
+],
+"sydney|NSW": [
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+],
+[
+-33.8718,
+151.2002,
+"Sydney"
+],
+[
+-33.8678,
+151.2073,
+"Sydney"
+]
+],
+"tanunda|SA": [
+[
+-34.5196,
+138.9412,
+"Tanunda"
+]
+],
+"taringa|QLD": [
+[
+-27.4938,
+152.9823,
+"Taringa"
+]
+],
+"tewantin|QLD": [
+[
+-26.3928,
+153.0276,
+"Tewantin"
+]
+],
+"thebarton|SA": [
+[
+-34.9162,
+138.572,
+"Thebarton"
+]
+],
+"thursday island|QLD": [
+[
+-10.5809,
+142.2232,
+"Thursday Island"
+]
+],
+"toombul|QLD": [
+[
+-27.4096,
+153.0584,
+"Toombul"
+]
+],
+"toorak gardens|SA": [
+[
+-34.9338,
+138.6377,
+"Toorak Gardens"
+]
+],
+"toowoomba|QLD": [
+[
+-27.5606,
+151.9539,
+"Toowoomba"
+]
+],
+"torrens park|SA": [
+[
+-34.9842,
+138.6133,
+"Torrens Park"
+]
+],
+"torrensville|SA": [
+[
+-34.9213,
+138.5595,
+"Torrensville"
+]
+],
+"townsville|QLD": [
+[
+-19.2664,
+146.8057,
+"Townsville"
+]
+],
+"tullah|TAS": [
+[
+-41.7377,
+145.6167,
+"Tullah"
+]
+],
+"ulverstone|TAS": [
+[
+-41.161,
+146.1777,
+"Ulverstone"
+]
+],
+"unley|SA": [
+[
+-34.9481,
+138.6057,
+"Unley"
+]
+],
+"utakarra|WA": [
+[
+-28.7833,
+114.6454,
+"Utakarra"
+]
+],
+"victor harbor|SA": [
+[
+-35.5515,
+138.6159,
+"Victor Harbor"
+]
+],
+"victoria park|WA": [
+[
+-31.9761,
+115.8932,
+"Victoria Park"
+],
+[
+-31.9762,
+115.9052,
+"Victoria Park"
+]
+],
+"victoria point|QLD": [
+[
+-27.5876,
+153.2927,
+"Victoria Point"
+]
+],
+"wagerup|WA": [
+[
+-32.9111,
+115.8892,
+"Wagerup"
+]
+],
+"wagin|WA": [
+[
+-33.3097,
+117.3426,
+"Wagin"
+]
+],
+"wallangarra|QLD": [
+[
+-28.9162,
+151.9304,
+"Wallangarra"
+]
+],
+"wallumbilla|QLD": [
+[
+-26.587,
+149.1861,
+"Wallumbilla"
+]
+],
+"wandoan|QLD": [
+[
+-26.1209,
+149.9548,
+"Wandoan"
+]
+],
+"waratah|TAS": [
+[
+-41.4453,
+145.53,
+"Waratah"
+]
+],
+"warrane|TAS": [
+[
+-42.8586,
+147.3814,
+"Warrane"
+]
+],
+"warwick|QLD": [
+[
+-28.2174,
+152.0285,
+"Warwick"
+]
+],
+"warwick|WA": [
+[
+-31.8399,
+115.8057,
+"Warwick"
+]
+],
+"watson|ACT": [
+[
+-35.2344,
+149.1577,
+"Watson"
+]
+],
+"wellington point|QLD": [
+[
+-27.4741,
+153.2376,
+"Wellington Point"
+]
+],
+"wembley|WA": [
+[
+-31.937,
+115.8145,
+"Wembley"
+],
+[
+-31.9333,
+115.8,
+"Wembley"
+]
+],
+"west beach|SA": [
+[
+-34.9405,
+138.512,
+"West Beach"
+]
+],
+"west lakes|SA": [
+[
+-34.8749,
+138.4939,
+"West Lakes"
+]
+],
+"west leederville|WA": [
+[
+-31.9396,
+115.8344,
+"West Leederville"
+],
+[
+-31.9414,
+115.8312,
+"West Leederville"
+]
+],
+"westbury|TAS": [
+[
+-41.5304,
+146.8364,
+"Westbury"
+]
+],
+"whyalla norrie|SA": [
+[
+-33.0115,
+137.5355,
+"Whyalla Norrie"
+]
+],
+"whyalla|SA": [
+[
+-33.0413,
+137.591,
+"Whyalla"
+]
+],
+"wickham|WA": [
+[
+-20.6769,
+117.1387,
+"Wickham"
+]
+],
+"willetton|WA": [
+[
+-32.0551,
+115.8726,
+"Willetton"
+],
+[
+-32.0525,
+115.8878,
+"Willetton"
+]
+],
+"willunga|SA": [
+[
+-35.2713,
+138.5546,
+"Willunga"
+]
+],
+"wiluna|WA": [
+[
+-26.593,
+120.2291,
+"Wiluna"
+]
+],
+"windsor|QLD": [
+[
+-27.4337,
+153.0307,
+"Windsor"
+]
+],
+"winton|QLD": [
+[
+-22.3853,
+143.0408,
+"Winton"
+]
+],
+"woden|ACT": [
+[
+-35.3481,
+149.0905,
+"Woden"
+]
+],
+"wondai|QLD": [
+[
+-26.3173,
+151.8695,
+"Wondai"
+]
+],
+"wongan hills|WA": [
+[
+-30.891,
+116.7223,
+"Wongan Hills"
+]
+],
+"woodbridge|TAS": [
+[
+-43.1603,
+147.2302,
+"Woodbridge"
+]
+],
+"woodford|QLD": [
+[
+-26.9558,
+152.7745,
+"Woodford"
+]
+],
+"woodville|SA": [
+[
+-34.8781,
+138.5401,
+"Woodville"
+]
+],
+"woolloongabba|QLD": [
+[
+-27.4932,
+153.0369,
+"Woolloongabba"
+]
+],
+"wynyard|TAS": [
+[
+-40.9911,
+145.7239,
+"Wynyard"
+]
+],
+"zeehan|TAS": [
+[
+-41.8878,
+145.3387,
+"Zeehan"
+]
+]
+}

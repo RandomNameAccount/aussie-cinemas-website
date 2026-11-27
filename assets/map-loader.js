@@ -7,11 +7,11 @@
   "use strict";
   var maps = document.querySelectorAll("[data-real-map]");
   if (!maps.length) return;
-  var V = "1795740000";
+  var V = "1795760000";
   var base = (document.currentScript && document.currentScript.src || "").replace(/assets\/map-loader\.js.*$/, "");
   var CSS = ["assets/vendor/leaflet/leaflet.css", "assets/vendor/leaflet/MarkerCluster.css"];
   var JS = ["assets/vendor/leaflet/leaflet.js", "assets/vendor/leaflet/leaflet.markercluster.js", "assets/map/basemap-au.js",
-            "assets/map/cinema-sites.js?v=" + V, "assets/map/archive-pins.js?v=" + V, "assets/map.js?v=" + V];
+            "assets/map/cinema-sites.js?v=" + V, "assets/map/archive-pins.js?v=" + V, "assets/map/approx-points.js?v=" + V, "assets/map.js?v=" + V];
   var started = false;
 
   function css(href) {

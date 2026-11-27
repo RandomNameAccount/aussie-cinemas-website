@@ -27,6 +27,7 @@ APPROVED = "26 November 2026"
 raw = open("assets/map/cinema-sites.js", encoding="utf-8").read()
 SITES = json.loads(raw[raw.index("window.APA_SITES = ") + 19:].strip().rstrip(";"))["sites"]
 LEADS = [l for f in sorted(glob.glob("assets/data/leads-*.json")) for l in json.load(open(f, encoding="utf-8"))]
+APPROX = json.load(open("assets/data/approx-placements.json", encoding="utf-8")) if os.path.exists("assets/data/approx-placements.json") else {}
 ARCH = json.load(open("assets/data/archive-listings.json", encoding="utf-8")) if os.path.exists("assets/data/archive-listings.json") else []
 PINS = {p["id"]: p for p in json.load(open("assets/data/archive-pins.json", encoding="utf-8"))} if os.path.exists("assets/data/archive-pins.json") else {}
 ids = [a["id"] for a in ARCH]
@@ -115,7 +116,7 @@ for a in ARCH:
     {lede}
     <dl class="rec-keyfacts">
       <div><dt>Verification</dt><dd>{badge(a["level"])}</dd></div>
-      <div><dt>Location</dt><dd>{f'<a href="../index.html?focus={E(a["id"])}#map">On the map</a> (address point today)' if pin else "Not on the map"}</dd></div>
+      <div><dt>Location</dt><dd>{f'<a href="../index.html?focus={E(a["id"])}#map">On the map</a> (address point today)' if pin else f'<a href="../index.html?focus={E(a["id"])}#map">On the map, approximately</a> (centre of {E(APPROX[a["id"]]["place"])})' if a["id"] in APPROX else "Not on the map"}</dd></div>
     </dl>
     <div class="btn-row rec-actions"><a class="btn btn-secondary" href="../explore.html?state={a["state"].lower()}">More in {E(sn)}</a><a class="btn btn-primary" href="../update.html?type=archive&amp;id={E(a["id"])}&amp;name={E(quote(a["name"]))}">Suggest an update</a><a class="btn btn-secondary" href="../share.html">Share a memory</a></div>
   </div>
@@ -124,7 +125,7 @@ for a in ARCH:
   <section class="rec-notes" aria-labelledby="how-title">
     <h2 id="how-title" class="visually-hidden">How sure we are</h2>
     <div class="notice n-info"><p><strong>{E(a["notice"])}</strong></p>
-    <p>{detail}{"" if pin else "Only verified properties get a map pin, so this listing is not on the map."}</p>{f'<p class="cite-meta">Address point: {E(pin["source"])} ({E(pin["licence"])}).</p>' if pin else ""}</div>
+    <p>{detail}{"" if pin else "Only verified properties get an exact pin. This listing is shown on the map at the centre of its town or suburb, not where the building stood." if a["id"] in APPROX else "Only verified properties get a map pin, so this listing is not on the map."}</p>{f'<p class="cite-meta">Address point: {E(pin["source"])} ({E(pin["licence"])}).</p>' if pin else ""}</div>
   </section>
   <article class="site-rec rec-article" aria-labelledby="rec-title" data-archive-id="{E(a["id"])}">
     <h2>About this listing</h2>
@@ -143,10 +144,10 @@ items = []
 for a in sorted(ARCH, key=lambda x: (x["name"].lower(), x["locality"].lower())):
     y = year(a)
     search = norm(" ".join([a["name"], a.get("address", ""), a["locality"], a["state"], STATE_NAME[a["state"]], "archive listing"]))
-    items.append(f'''<li class="gx-item" data-id="{E(a["id"])}" data-state="{a["state"].lower()}" data-status="closed" data-evidence="archive" data-loc="{"site" if a["id"] in PINS else "notmapped"}" data-era="{era(y)}" data-search="{E(search)}">
+    items.append(f'''<li class="gx-item" data-id="{E(a["id"])}" data-state="{a["state"].lower()}" data-status="closed" data-evidence="archive" data-loc="{"site" if a["id"] in PINS else "approx" if a["id"] in APPROX else "notmapped"}" data-era="{era(y)}" data-search="{E(search)}">
   <h3 class="gx-name"><a href="archive/{E(a["id"])}.html">{E(a["name"])}</a></h3>
   <p class="gx-place">{E(a["locality"])}, {E(a["state"])} · archive listing, level {a["level"]}</p>
-  <p class="gx-badges">{badge(a["level"])}<span class="gx-loc">{"Address point on the map" if a["id"] in PINS else "Not on the map"}</span></p>
+  <p class="gx-badges">{badge(a["level"])}<span class="gx-loc">{"Address point on the map" if a["id"] in PINS else E("Approximate: " + APPROX[a["id"]]["place"]) if a["id"] in APPROX else "Not on the map"}</span></p>
 </li>''')
 block = "<!-- ARCHIVE-RESULTS:START -->\n<ul class=\"gx-list\" data-list>\n" + "\n".join(items) + "\n</ul>\n<!-- ARCHIVE-RESULTS:END -->"
 ex = open("explore.html", encoding="utf-8").read()

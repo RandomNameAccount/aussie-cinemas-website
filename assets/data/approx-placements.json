@@ -1,0 +1,4772 @@
+{
+"act-r001-001": {
+"kind": "lead",
+"lat": -35.3126,
+"lon": 149.1278,
+"place": "Manuka, ACT"
+},
+"act-r001-002": {
+"kind": "lead",
+"lat": -35.3126,
+"lon": 149.1278,
+"place": "Manuka, ACT"
+},
+"act-r001-003": {
+"kind": "lead",
+"lat": -35.2712,
+"lon": 149.1335,
+"place": "Braddon, ACT"
+},
+"act-r001-004": {
+"kind": "lead",
+"lat": -35.2812,
+"lon": 149.1292,
+"place": "City, ACT"
+},
+"act-r001-005": {
+"kind": "lead",
+"lat": -35.2812,
+"lon": 149.1292,
+"place": "City, ACT"
+},
+"act-r001-006": {
+"kind": "lead",
+"lat": -35.2835,
+"lon": 149.1281,
+"place": "Canberra, ACT"
+},
+"act-r001-007": {
+"kind": "lead",
+"lat": -35.3481,
+"lon": 149.0905,
+"place": "Woden, ACT"
+},
+"act-r001-009": {
+"kind": "lead",
+"lat": -35.3344,
+"lon": 149.1473,
+"place": "Narrabundah, ACT"
+},
+"act-r001-010": {
+"kind": "lead",
+"lat": -35.2812,
+"lon": 149.1292,
+"place": "City, ACT"
+},
+"act-r001-011": {
+"kind": "lead",
+"lat": -35.2282,
+"lon": 149.0755,
+"place": "Belconnen, ACT"
+},
+"act-r001-013": {
+"kind": "lead",
+"lat": -35.2816,
+"lon": 149.1189,
+"place": "Acton, ACT"
+},
+"act-r001-014": {
+"kind": "lead",
+"lat": -35.348,
+"lon": 149.0913,
+"place": "Phillip, ACT"
+},
+"act-r001-015": {
+"kind": "lead",
+"lat": -35.4142,
+"lon": 149.069,
+"place": "Greenway, ACT"
+},
+"apa-sa-00001": {
+"kind": "lead",
+"lat": -34.9509,
+"lon": 138.5927,
+"place": "Goodwood, SA"
+},
+"apa-sa-00002": {
+"kind": "lead",
+"lat": -34.9835,
+"lon": 138.5942,
+"place": "Colonel Light Gardens, SA"
+},
+"apa-sa-00003": {
+"kind": "lead",
+"lat": -34.9073,
+"lon": 138.5977,
+"place": "North Adelaide, SA"
+},
+"apa-sa-00004": {
+"kind": "lead",
+"lat": -34.92,
+"lon": 138.6544,
+"place": "Kensington Park, SA"
+},
+"apa-sa-00005": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"apa-tas-00001": {
+"kind": "lead",
+"lat": -42.8796,
+"lon": 147.3295,
+"place": "Hobart, TAS"
+},
+"apa-tas-00002": {
+"kind": "lead",
+"lat": -41.4388,
+"lon": 147.135,
+"place": "Launceston, TAS"
+},
+"apa-tas-00003": {
+"kind": "lead",
+"lat": -42.8743,
+"lon": 147.3763,
+"place": "Bellerive, TAS"
+},
+"apa-tas-00004": {
+"kind": "lead",
+"lat": -42.8733,
+"lon": 147.3163,
+"place": "North Hobart, TAS"
+},
+"apa-tas-00005": {
+"kind": "lead",
+"lat": -42.8796,
+"lon": 147.3295,
+"place": "Hobart, TAS"
+},
+"apa-wa-00001": {
+"kind": "lead",
+"lat": -31.9319,
+"lon": 115.8743,
+"place": "Mount Lawley, WA"
+},
+"apa-wa-00003": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"apa-wa-00004": {
+"kind": "lead",
+"lat": -31.9451,
+"lon": 115.8265,
+"place": "Subiaco, WA"
+},
+"apa-wa-00005": {
+"kind": "lead",
+"lat": -17.9629,
+"lon": 122.232,
+"place": "Broome, WA"
+},
+"apa-wa-00006": {
+"kind": "lead",
+"lat": -31.981,
+"lon": 115.8065,
+"place": "Nedlands, WA"
+},
+"carlton": {
+"kind": "record",
+"lat": -27.4681,
+"lon": 153.0265,
+"place": "Brisbane City, QLD"
+},
+"elizabeth": {
+"kind": "record",
+"lat": -27.4681,
+"lon": 153.0265,
+"place": "Brisbane City, QLD"
+},
+"fca-b01-r014": {
+"kind": "archive",
+"lat": -34.8609,
+"lon": 138.5225,
+"place": "Alberton, SA"
+},
+"fca-b01-r023": {
+"kind": "archive",
+"lat": -36.9587,
+"lon": 140.7434,
+"place": "Naracoorte, SA"
+},
+"fca-b01-r038": {
+"kind": "archive",
+"lat": -35.2344,
+"lon": 149.1577,
+"place": "Watson, ACT"
+},
+"fca-b01-r042": {
+"kind": "archive",
+"lat": -35.2835,
+"lon": 149.1281,
+"place": "Canberra, ACT"
+},
+"fca-b01-r043": {
+"kind": "archive",
+"lat": -31.9948,
+"lon": 115.8636,
+"place": "Como, WA"
+},
+"fca-b01-r045": {
+"kind": "archive",
+"lat": -35.0164,
+"lon": 117.8758,
+"place": "Albany, WA"
+},
+"fca-b02-r003": {
+"kind": "archive",
+"lat": -33.8678,
+"lon": 151.2073,
+"place": "Sydney, NSW"
+},
+"fca-b02-r014": {
+"kind": "archive",
+"lat": -33.751,
+"lon": 150.7002,
+"place": "Penrith, NSW"
+},
+"fca-b02-r015": {
+"kind": "archive",
+"lat": -33.751,
+"lon": 150.7002,
+"place": "Penrith, NSW"
+},
+"fca-b02-r032": {
+"kind": "archive",
+"lat": -30.2909,
+"lon": 153.118,
+"place": "Coffs Harbour, NSW"
+},
+"fca-b05-r017": {
+"kind": "archive",
+"lat": -27.7337,
+"lon": 153.2386,
+"place": "Stapylton, QLD"
+},
+"fca-b05-r053": {
+"kind": "archive",
+"lat": -41.4388,
+"lon": 147.135,
+"place": "Launceston, TAS"
+},
+"fca-b08-r021": {
+"kind": "archive",
+"lat": -23.6442,
+"lon": 150.3897,
+"place": "Mount Morgan, QLD"
+},
+"fca-b09-r011": {
+"kind": "archive",
+"lat": -32.1479,
+"lon": 116.0082,
+"place": "Armadale, WA"
+},
+"fca-b10-r009": {
+"kind": "archive",
+"lat": -32.4948,
+"lon": 137.7808,
+"place": "Port Augusta, SA"
+},
+"forum": {
+"kind": "record",
+"lat": -27.4681,
+"lon": 153.0265,
+"place": "Brisbane City, QLD"
+},
+"majestic-odeon": {
+"kind": "record",
+"lat": -27.4681,
+"lon": 153.0265,
+"place": "Brisbane City, QLD"
+},
+"metro": {
+"kind": "record",
+"lat": -27.4681,
+"lon": 153.0265,
+"place": "Brisbane City, QLD"
+},
+"odeon-annerley": {
+"kind": "record",
+"lat": -27.5121,
+"lon": 153.0323,
+"place": "Annerley, QLD"
+},
+"paris": {
+"kind": "record",
+"lat": -27.4681,
+"lon": 153.0265,
+"place": "Brisbane City, QLD"
+},
+"pavilion": {
+"kind": "record",
+"lat": -27.4681,
+"lon": 153.0265,
+"place": "Brisbane City, QLD"
+},
+"qhr-600641": {
+"kind": "record",
+"lat": -26.1822,
+"lon": 152.0692,
+"place": "Goomeri, QLD"
+},
+"qhr-600749": {
+"kind": "record",
+"lat": -23.6442,
+"lon": 150.3897,
+"place": "Mount Morgan, QLD"
+},
+"qhr-600849": {
+"kind": "record",
+"lat": -27.5606,
+"lon": 151.9539,
+"place": "Toowoomba, QLD"
+},
+"qhr-601689": {
+"kind": "record",
+"lat": -26.5706,
+"lon": 148.7861,
+"place": "Roma, QLD"
+},
+"qhr-602378": {
+"kind": "record",
+"lat": -26.587,
+"lon": 149.1861,
+"place": "Wallumbilla, QLD"
+},
+"qld-r2-v-0006": {
+"kind": "lead",
+"lat": -27.4681,
+"lon": 153.0265,
+"place": "Brisbane City, QLD"
+},
+"qld-r2-v-0007": {
+"kind": "lead",
+"lat": -27.4681,
+"lon": 153.0265,
+"place": "Brisbane City, QLD"
+},
+"qld-r2-v-0009": {
+"kind": "lead",
+"lat": -27.4681,
+"lon": 153.0265,
+"place": "Brisbane City, QLD"
+},
+"qld-r2-v-0014": {
+"kind": "lead",
+"lat": -27.4681,
+"lon": 153.0265,
+"place": "Brisbane City, QLD"
+},
+"qld-r2-v-0015": {
+"kind": "lead",
+"lat": -27.4681,
+"lon": 153.0265,
+"place": "Brisbane City, QLD"
+},
+"qld-r2-v-0017": {
+"kind": "lead",
+"lat": -27.4681,
+"lon": 153.0265,
+"place": "Brisbane City, QLD"
+},
+"qld-r2-v-0020": {
+"kind": "lead",
+"lat": -27.4193,
+"lon": 153.0541,
+"place": "Clayfield, QLD"
+},
+"qld-r2-v-0026": {
+"kind": "lead",
+"lat": -27.3861,
+"lon": 153.0313,
+"place": "Chermside, QLD"
+},
+"qld-r2-v-0027": {
+"kind": "lead",
+"lat": -27.3169,
+"lon": 153.0663,
+"place": "Sandgate, QLD"
+},
+"qld-r2-v-0028": {
+"kind": "lead",
+"lat": -27.3169,
+"lon": 153.0663,
+"place": "Sandgate, QLD"
+},
+"qld-r2-v-0029": {
+"kind": "lead",
+"lat": -27.3169,
+"lon": 153.0663,
+"place": "Sandgate, QLD"
+},
+"qld-r2-v-0030": {
+"kind": "lead",
+"lat": -27.3169,
+"lon": 153.0663,
+"place": "Sandgate, QLD"
+},
+"qld-r2-v-0031": {
+"kind": "lead",
+"lat": -27.3169,
+"lon": 153.0663,
+"place": "Sandgate, QLD"
+},
+"qld-r2-v-0032": {
+"kind": "lead",
+"lat": -27.3264,
+"lon": 153.0812,
+"place": "Shorncliffe, QLD"
+},
+"qld-r2-v-0033": {
+"kind": "lead",
+"lat": -27.3264,
+"lon": 153.0812,
+"place": "Shorncliffe, QLD"
+},
+"qld-r2-v-0034": {
+"kind": "lead",
+"lat": -27.3264,
+"lon": 153.0812,
+"place": "Shorncliffe, QLD"
+},
+"qld-r2-v-0038": {
+"kind": "lead",
+"lat": -27.2277,
+"lon": 153.1096,
+"place": "Redcliffe, QLD"
+},
+"qld-r2-v-0043": {
+"kind": "lead",
+"lat": -27.072,
+"lon": 152.9537,
+"place": "Caboolture, QLD"
+},
+"qld-r2-v-0044": {
+"kind": "lead",
+"lat": -27.072,
+"lon": 152.9537,
+"place": "Caboolture, QLD"
+},
+"qld-r2-v-0045": {
+"kind": "lead",
+"lat": -27.072,
+"lon": 152.9537,
+"place": "Caboolture, QLD"
+},
+"qld-r2-v-0046": {
+"kind": "lead",
+"lat": -26.9558,
+"lon": 152.7745,
+"place": "Woodford, QLD"
+},
+"qld-r2-v-0047": {
+"kind": "lead",
+"lat": -27.4096,
+"lon": 153.0584,
+"place": "Toombul, QLD"
+},
+"qld-r2-v-0048": {
+"kind": "lead",
+"lat": -27.0149,
+"lon": 153.1446,
+"place": "Bribie Island, QLD"
+},
+"qld-r2-v-0049": {
+"kind": "lead",
+"lat": -27.1175,
+"lon": 152.9463,
+"place": "Morayfield, QLD"
+},
+"qld-r2-v-0050": {
+"kind": "lead",
+"lat": -27.2225,
+"lon": 153.0136,
+"place": "North Lakes, QLD"
+},
+"qld-r2-v-0054": {
+"kind": "lead",
+"lat": -27.5063,
+"lon": 153.0482,
+"place": "Greenslopes, QLD"
+},
+"qld-r2-v-0057": {
+"kind": "lead",
+"lat": -27.4932,
+"lon": 153.0369,
+"place": "Woolloongabba, QLD"
+},
+"qld-r2-v-0058": {
+"kind": "lead",
+"lat": -27.4932,
+"lon": 153.0369,
+"place": "Woolloongabba, QLD"
+},
+"qld-r2-v-0059": {
+"kind": "lead",
+"lat": -27.4932,
+"lon": 153.0369,
+"place": "Woolloongabba, QLD"
+},
+"qld-r2-v-0073": {
+"kind": "lead",
+"lat": -27.5669,
+"lon": 152.953,
+"place": "Darra, QLD"
+},
+"qld-r2-v-0074": {
+"kind": "lead",
+"lat": -27.4938,
+"lon": 152.9823,
+"place": "Taringa, QLD"
+},
+"qld-r2-v-0076": {
+"kind": "lead",
+"lat": -27.4239,
+"lon": 153.0155,
+"place": "Grange, QLD"
+},
+"qld-r2-v-0077": {
+"kind": "lead",
+"lat": -27.4337,
+"lon": 153.0307,
+"place": "Windsor, QLD"
+},
+"qld-r2-v-0083": {
+"kind": "lead",
+"lat": -27.6196,
+"lon": 152.7601,
+"place": "Ipswich, QLD"
+},
+"qld-r2-v-0084": {
+"kind": "lead",
+"lat": -27.6196,
+"lon": 152.7601,
+"place": "Ipswich, QLD"
+},
+"qld-r2-v-0085": {
+"kind": "lead",
+"lat": -27.6196,
+"lon": 152.7601,
+"place": "Ipswich, QLD"
+},
+"qld-r2-v-0086": {
+"kind": "lead",
+"lat": -27.6362,
+"lon": 152.5937,
+"place": "Rosewood, QLD"
+},
+"qld-r2-v-0087": {
+"kind": "lead",
+"lat": -27.6362,
+"lon": 152.5937,
+"place": "Rosewood, QLD"
+},
+"qld-r2-v-0088": {
+"kind": "lead",
+"lat": -27.6136,
+"lon": 152.7913,
+"place": "Booval, QLD"
+},
+"qld-r2-v-0089": {
+"kind": "lead",
+"lat": -27.6136,
+"lon": 152.7913,
+"place": "Booval, QLD"
+},
+"qld-r2-v-0090": {
+"kind": "lead",
+"lat": -27.6121,
+"lon": 152.8912,
+"place": "Goodna, QLD"
+},
+"qld-r2-v-0091": {
+"kind": "lead",
+"lat": -27.6121,
+"lon": 152.8912,
+"place": "Goodna, QLD"
+},
+"qld-r2-v-0092": {
+"kind": "lead",
+"lat": -27.6121,
+"lon": 152.8912,
+"place": "Goodna, QLD"
+},
+"qld-r2-v-0093": {
+"kind": "lead",
+"lat": -27.6329,
+"lon": 152.7405,
+"place": "One Mile, QLD"
+},
+"qld-r2-v-0094": {
+"kind": "lead",
+"lat": -27.6392,
+"lon": 152.7766,
+"place": "Raceview, QLD"
+},
+"qld-r2-v-0096": {
+"kind": "lead",
+"lat": -27.6104,
+"lon": 152.8711,
+"place": "Redbank, QLD"
+},
+"qld-r2-v-0097": {
+"kind": "lead",
+"lat": -27.6104,
+"lon": 152.8711,
+"place": "Redbank, QLD"
+},
+"qld-r2-v-0098": {
+"kind": "lead",
+"lat": -27.6104,
+"lon": 152.8711,
+"place": "Redbank, QLD"
+},
+"qld-r2-v-0102": {
+"kind": "lead",
+"lat": -27.5346,
+"lon": 153.1995,
+"place": "Capalaba, QLD"
+},
+"qld-r2-v-0104": {
+"kind": "lead",
+"lat": -27.5237,
+"lon": 153.2851,
+"place": "Cleveland, QLD"
+},
+"qld-r2-v-0105": {
+"kind": "lead",
+"lat": -27.5876,
+"lon": 153.2927,
+"place": "Victoria Point, QLD"
+},
+"qld-r2-v-0106": {
+"kind": "lead",
+"lat": -27.5876,
+"lon": 153.2927,
+"place": "Victoria Point, QLD"
+},
+"qld-r2-v-0107": {
+"kind": "lead",
+"lat": -27.4741,
+"lon": 153.2376,
+"place": "Wellington Point, QLD"
+},
+"qld-r2-v-0108": {
+"kind": "lead",
+"lat": -27.5022,
+"lon": 153.4008,
+"place": "Dunwich, QLD"
+},
+"qld-r2-v-0109": {
+"kind": "lead",
+"lat": -27.9717,
+"lon": 153.4072,
+"place": "Southport, QLD"
+},
+"qld-r2-v-0110": {
+"kind": "lead",
+"lat": -27.9717,
+"lon": 153.4072,
+"place": "Southport, QLD"
+},
+"qld-r2-v-0111": {
+"kind": "lead",
+"lat": -27.9717,
+"lon": 153.4072,
+"place": "Southport, QLD"
+},
+"qld-r2-v-0112": {
+"kind": "lead",
+"lat": -27.9717,
+"lon": 153.4072,
+"place": "Southport, QLD"
+},
+"qld-r2-v-0113": {
+"kind": "lead",
+"lat": -27.9717,
+"lon": 153.4072,
+"place": "Southport, QLD"
+},
+"qld-r2-v-0114": {
+"kind": "lead",
+"lat": -27.9717,
+"lon": 153.4072,
+"place": "Southport, QLD"
+},
+"qld-r2-v-0115": {
+"kind": "lead",
+"lat": -27.9461,
+"lon": 153.4006,
+"place": "Labrador, QLD"
+},
+"qld-r2-v-0116": {
+"kind": "lead",
+"lat": -20.4532,
+"lon": 143.0257,
+"place": "Burleigh, QLD"
+},
+"qld-r2-v-0117": {
+"kind": "lead",
+"lat": -20.4532,
+"lon": 143.0257,
+"place": "Burleigh, QLD"
+},
+"qld-r2-v-0118": {
+"kind": "lead",
+"lat": -20.4532,
+"lon": 143.0257,
+"place": "Burleigh, QLD"
+},
+"qld-r2-v-0119": {
+"kind": "lead",
+"lat": -28.1151,
+"lon": 153.4659,
+"place": "Palm Beach, QLD"
+},
+"qld-r2-v-0120": {
+"kind": "lead",
+"lat": -28.1687,
+"lon": 153.5352,
+"place": "Coolangatta, QLD"
+},
+"qld-r2-v-0121": {
+"kind": "lead",
+"lat": -28.1687,
+"lon": 153.5352,
+"place": "Coolangatta, QLD"
+},
+"qld-r2-v-0122": {
+"kind": "lead",
+"lat": -28.1687,
+"lon": 153.5352,
+"place": "Coolangatta, QLD"
+},
+"qld-r2-v-0123": {
+"kind": "lead",
+"lat": -28.1687,
+"lon": 153.5352,
+"place": "Coolangatta, QLD"
+},
+"qld-r2-v-0124": {
+"kind": "lead",
+"lat": -28.0486,
+"lon": 153.4365,
+"place": "Mermaid Beach, QLD"
+},
+"qld-r2-v-0125": {
+"kind": "lead",
+"lat": -28.0027,
+"lon": 153.4275,
+"place": "Surfers Paradise, QLD"
+},
+"qld-r2-v-0126": {
+"kind": "lead",
+"lat": -28.0285,
+"lon": 153.4321,
+"place": "Broadbeach, QLD"
+},
+"qld-r2-v-0127": {
+"kind": "lead",
+"lat": -28.0721,
+"lon": 153.3952,
+"place": "Robina, QLD"
+},
+"qld-r2-v-0128": {
+"kind": "lead",
+"lat": -27.9376,
+"lon": 153.4075,
+"place": "Biggera Waters, QLD"
+},
+"qld-r2-v-0129": {
+"kind": "lead",
+"lat": -27.8486,
+"lon": 153.3379,
+"place": "Coomera, QLD"
+},
+"qld-r2-v-0132": {
+"kind": "lead",
+"lat": -27.997,
+"lon": 153.3283,
+"place": "Nerang, QLD"
+},
+"qld-r2-v-0134": {
+"kind": "lead",
+"lat": -26.6249,
+"lon": 152.9561,
+"place": "Nambour, QLD"
+},
+"qld-r2-v-0135": {
+"kind": "lead",
+"lat": -26.6249,
+"lon": 152.9561,
+"place": "Nambour, QLD"
+},
+"qld-r2-v-0136": {
+"kind": "lead",
+"lat": -26.6249,
+"lon": 152.9561,
+"place": "Nambour, QLD"
+},
+"qld-r2-v-0137": {
+"kind": "lead",
+"lat": -26.6249,
+"lon": 152.9561,
+"place": "Nambour, QLD"
+},
+"qld-r2-v-0138": {
+"kind": "lead",
+"lat": -26.6249,
+"lon": 152.9561,
+"place": "Nambour, QLD"
+},
+"qld-r2-v-0139": {
+"kind": "lead",
+"lat": -26.6249,
+"lon": 152.9561,
+"place": "Nambour, QLD"
+},
+"qld-r2-v-0140": {
+"kind": "lead",
+"lat": -26.6249,
+"lon": 152.9561,
+"place": "Nambour, QLD"
+},
+"qld-r2-v-0141": {
+"kind": "lead",
+"lat": -26.6249,
+"lon": 152.9561,
+"place": "Nambour, QLD"
+},
+"qld-r2-v-0143": {
+"kind": "lead",
+"lat": -26.6548,
+"lon": 153.0861,
+"place": "Maroochydore, QLD"
+},
+"qld-r2-v-0144": {
+"kind": "lead",
+"lat": -26.6548,
+"lon": 153.0861,
+"place": "Maroochydore, QLD"
+},
+"qld-r2-v-0145": {
+"kind": "lead",
+"lat": -26.6548,
+"lon": 153.0861,
+"place": "Maroochydore, QLD"
+},
+"qld-r2-v-0146": {
+"kind": "lead",
+"lat": -26.6535,
+"lon": 153.1012,
+"place": "Cotton Tree, QLD"
+},
+"qld-r2-v-0147": {
+"kind": "lead",
+"lat": -26.6535,
+"lon": 153.1012,
+"place": "Cotton Tree, QLD"
+},
+"qld-r2-v-0148": {
+"kind": "lead",
+"lat": -26.682,
+"lon": 153.1149,
+"place": "Mooloolaba, QLD"
+},
+"qld-r2-v-0149": {
+"kind": "lead",
+"lat": -26.8036,
+"lon": 153.1311,
+"place": "Caloundra, QLD"
+},
+"qld-r2-v-0150": {
+"kind": "lead",
+"lat": -26.8036,
+"lon": 153.1311,
+"place": "Caloundra, QLD"
+},
+"qld-r2-v-0151": {
+"kind": "lead",
+"lat": -26.8036,
+"lon": 153.1311,
+"place": "Caloundra, QLD"
+},
+"qld-r2-v-0152": {
+"kind": "lead",
+"lat": -26.7925,
+"lon": 153.1387,
+"place": "Moffat Beach, QLD"
+},
+"qld-r2-v-0153": {
+"kind": "lead",
+"lat": -26.4672,
+"lon": 152.9546,
+"place": "Eumundi, QLD"
+},
+"qld-r2-v-0154": {
+"kind": "lead",
+"lat": -26.3928,
+"lon": 153.0276,
+"place": "Tewantin, QLD"
+},
+"qld-r2-v-0155": {
+"kind": "lead",
+"lat": -26.3928,
+"lon": 153.0276,
+"place": "Tewantin, QLD"
+},
+"qld-r2-v-0157": {
+"kind": "lead",
+"lat": -27.5606,
+"lon": 151.9539,
+"place": "Toowoomba, QLD"
+},
+"qld-r2-v-0161": {
+"kind": "lead",
+"lat": -27.5606,
+"lon": 151.9539,
+"place": "Toowoomba, QLD"
+},
+"qld-r2-v-0162": {
+"kind": "lead",
+"lat": -28.2174,
+"lon": 152.0285,
+"place": "Warwick, QLD"
+},
+"qld-r2-v-0163": {
+"kind": "lead",
+"lat": -28.2174,
+"lon": 152.0285,
+"place": "Warwick, QLD"
+},
+"qld-r2-v-0164": {
+"kind": "lead",
+"lat": -28.2174,
+"lon": 152.0285,
+"place": "Warwick, QLD"
+},
+"qld-r2-v-0165": {
+"kind": "lead",
+"lat": -28.2174,
+"lon": 152.0285,
+"place": "Warwick, QLD"
+},
+"qld-r2-v-0167": {
+"kind": "lead",
+"lat": -28.2174,
+"lon": 152.0285,
+"place": "Warwick, QLD"
+},
+"qld-r2-v-0168": {
+"kind": "lead",
+"lat": -28.2174,
+"lon": 152.0285,
+"place": "Warwick, QLD"
+},
+"qld-r2-v-0169": {
+"kind": "lead",
+"lat": -28.6565,
+"lon": 151.9346,
+"place": "Stanthorpe, QLD"
+},
+"qld-r2-v-0170": {
+"kind": "lead",
+"lat": -26.2397,
+"lon": 151.9429,
+"place": "Murgon, QLD"
+},
+"qld-r2-v-0171": {
+"kind": "lead",
+"lat": -26.2397,
+"lon": 151.9429,
+"place": "Murgon, QLD"
+},
+"qld-r2-v-0172": {
+"kind": "lead",
+"lat": -26.538,
+"lon": 151.8425,
+"place": "Kingaroy, QLD"
+},
+"qld-r2-v-0173": {
+"kind": "lead",
+"lat": -26.3173,
+"lon": 151.8695,
+"place": "Wondai, QLD"
+},
+"qld-r2-v-0174": {
+"kind": "lead",
+"lat": -26.6599,
+"lon": 150.1874,
+"place": "Miles, QLD"
+},
+"qld-r2-v-0175": {
+"kind": "lead",
+"lat": -26.6747,
+"lon": 151.9949,
+"place": "Nanango, QLD"
+},
+"qld-r2-v-0176": {
+"kind": "lead",
+"lat": -26.7722,
+"lon": 151.1197,
+"place": "Jandowae, QLD"
+},
+"qld-r2-v-0177": {
+"kind": "lead",
+"lat": -28.9162,
+"lon": 151.9304,
+"place": "Wallangarra, QLD"
+},
+"qld-r2-v-0178": {
+"kind": "lead",
+"lat": -26.1209,
+"lon": 149.9548,
+"place": "Wandoan, QLD"
+},
+"qld-r2-v-0180": {
+"kind": "lead",
+"lat": -24.8662,
+"lon": 152.3479,
+"place": "Bundaberg, QLD"
+},
+"qld-r2-v-0181": {
+"kind": "lead",
+"lat": -24.8662,
+"lon": 152.3479,
+"place": "Bundaberg, QLD"
+},
+"qld-r2-v-0182": {
+"kind": "lead",
+"lat": -24.8662,
+"lon": 152.3479,
+"place": "Bundaberg, QLD"
+},
+"qld-r2-v-0183": {
+"kind": "lead",
+"lat": -24.8662,
+"lon": 152.3479,
+"place": "Bundaberg, QLD"
+},
+"qld-r2-v-0184": {
+"kind": "lead",
+"lat": -24.8662,
+"lon": 152.3479,
+"place": "Bundaberg, QLD"
+},
+"qld-r2-v-0185": {
+"kind": "lead",
+"lat": -25.5293,
+"lon": 152.6966,
+"place": "Maryborough, QLD"
+},
+"qld-r2-v-0186": {
+"kind": "lead",
+"lat": -25.5293,
+"lon": 152.6966,
+"place": "Maryborough, QLD"
+},
+"qld-r2-v-0187": {
+"kind": "lead",
+"lat": -25.5293,
+"lon": 152.6966,
+"place": "Maryborough, QLD"
+},
+"qld-r2-v-0188": {
+"kind": "lead",
+"lat": -25.5293,
+"lon": 152.6966,
+"place": "Maryborough, QLD"
+},
+"qld-r2-v-0189": {
+"kind": "lead",
+"lat": -25.5293,
+"lon": 152.6966,
+"place": "Maryborough, QLD"
+},
+"qld-r2-v-0190": {
+"kind": "lead",
+"lat": -25.5293,
+"lon": 152.6966,
+"place": "Maryborough, QLD"
+},
+"qld-r2-v-0191": {
+"kind": "lead",
+"lat": -25.5293,
+"lon": 152.6966,
+"place": "Maryborough, QLD"
+},
+"qld-r2-v-0192": {
+"kind": "lead",
+"lat": -25.5293,
+"lon": 152.6966,
+"place": "Maryborough, QLD"
+},
+"qld-r2-v-0194": {
+"kind": "lead",
+"lat": -25.2357,
+"lon": 152.2757,
+"place": "Childers, QLD"
+},
+"qld-r2-v-0195": {
+"kind": "lead",
+"lat": -25.2357,
+"lon": 152.2757,
+"place": "Childers, QLD"
+},
+"qld-r2-v-0196": {
+"kind": "lead",
+"lat": -26.1846,
+"lon": 152.6665,
+"place": "Gympie, QLD"
+},
+"qld-r2-v-0197": {
+"kind": "lead",
+"lat": -26.1846,
+"lon": 152.6665,
+"place": "Gympie, QLD"
+},
+"qld-r2-v-0198": {
+"kind": "lead",
+"lat": -25.2894,
+"lon": 152.8288,
+"place": "Hervey Bay, QLD"
+},
+"qld-r2-v-0200": {
+"kind": "lead",
+"lat": -23.3803,
+"lon": 150.506,
+"place": "Rockhampton, QLD"
+},
+"qld-r2-v-0201": {
+"kind": "lead",
+"lat": -23.3803,
+"lon": 150.506,
+"place": "Rockhampton, QLD"
+},
+"qld-r2-v-0202": {
+"kind": "lead",
+"lat": -23.3803,
+"lon": 150.506,
+"place": "Rockhampton, QLD"
+},
+"qld-r2-v-0203": {
+"kind": "lead",
+"lat": -23.3803,
+"lon": 150.506,
+"place": "Rockhampton, QLD"
+},
+"qld-r2-v-0204": {
+"kind": "lead",
+"lat": -23.3803,
+"lon": 150.506,
+"place": "Rockhampton, QLD"
+},
+"qld-r2-v-0205": {
+"kind": "lead",
+"lat": -23.3803,
+"lon": 150.506,
+"place": "Rockhampton, QLD"
+},
+"qld-r2-v-0206": {
+"kind": "lead",
+"lat": -23.3803,
+"lon": 150.506,
+"place": "Rockhampton, QLD"
+},
+"qld-r2-v-0207": {
+"kind": "lead",
+"lat": -23.3803,
+"lon": 150.506,
+"place": "Rockhampton, QLD"
+},
+"qld-r2-v-0208": {
+"kind": "lead",
+"lat": -23.3803,
+"lon": 150.506,
+"place": "Rockhampton, QLD"
+},
+"qld-r2-v-0209": {
+"kind": "lead",
+"lat": -23.3803,
+"lon": 150.506,
+"place": "Rockhampton, QLD"
+},
+"qld-r2-v-0210": {
+"kind": "lead",
+"lat": -23.3803,
+"lon": 150.506,
+"place": "Rockhampton, QLD"
+},
+"qld-r2-v-0211": {
+"kind": "lead",
+"lat": -23.3803,
+"lon": 150.506,
+"place": "Rockhampton, QLD"
+},
+"qld-r2-v-0212": {
+"kind": "lead",
+"lat": -23.3803,
+"lon": 150.506,
+"place": "Rockhampton, QLD"
+},
+"qld-r2-v-0213": {
+"kind": "lead",
+"lat": -23.3803,
+"lon": 150.506,
+"place": "Rockhampton, QLD"
+},
+"qld-r2-v-0214": {
+"kind": "lead",
+"lat": -23.6442,
+"lon": 150.3897,
+"place": "Mount Morgan, QLD"
+},
+"qld-r2-v-0215": {
+"kind": "lead",
+"lat": -23.8485,
+"lon": 151.2577,
+"place": "Gladstone, QLD"
+},
+"qld-r2-v-0216": {
+"kind": "lead",
+"lat": -23.8485,
+"lon": 151.2577,
+"place": "Gladstone, QLD"
+},
+"qld-r2-v-0217": {
+"kind": "lead",
+"lat": -23.8485,
+"lon": 151.2577,
+"place": "Gladstone, QLD"
+},
+"qld-r2-v-0218": {
+"kind": "lead",
+"lat": -23.8485,
+"lon": 151.2577,
+"place": "Gladstone, QLD"
+},
+"qld-r2-v-0219": {
+"kind": "lead",
+"lat": -23.8485,
+"lon": 151.2577,
+"place": "Gladstone, QLD"
+},
+"qld-r2-v-0220": {
+"kind": "lead",
+"lat": -23.8485,
+"lon": 151.2577,
+"place": "Gladstone, QLD"
+},
+"qld-r2-v-0221": {
+"kind": "lead",
+"lat": -23.8485,
+"lon": 151.2577,
+"place": "Gladstone, QLD"
+},
+"qld-r2-v-0222": {
+"kind": "lead",
+"lat": -23.8485,
+"lon": 151.2577,
+"place": "Gladstone, QLD"
+},
+"qld-r2-v-0223": {
+"kind": "lead",
+"lat": -23.8485,
+"lon": 151.2577,
+"place": "Gladstone, QLD"
+},
+"qld-r2-v-0224": {
+"kind": "lead",
+"lat": -23.8485,
+"lon": 151.2577,
+"place": "Gladstone, QLD"
+},
+"qld-r2-v-0225": {
+"kind": "lead",
+"lat": -23.8485,
+"lon": 151.2577,
+"place": "Gladstone, QLD"
+},
+"qld-r2-v-0226": {
+"kind": "lead",
+"lat": -24.3959,
+"lon": 150.5151,
+"place": "Biloela, QLD"
+},
+"qld-r2-v-0227": {
+"kind": "lead",
+"lat": -23.529,
+"lon": 148.1601,
+"place": "Emerald, QLD"
+},
+"qld-r2-v-0228": {
+"kind": "lead",
+"lat": -23.529,
+"lon": 148.1601,
+"place": "Emerald, QLD"
+},
+"qld-r2-v-0229": {
+"kind": "lead",
+"lat": -23.529,
+"lon": 148.1601,
+"place": "Emerald, QLD"
+},
+"qld-r2-v-0230": {
+"kind": "lead",
+"lat": -23.0839,
+"lon": 148.0253,
+"place": "Capella, QLD"
+},
+"qld-r2-v-0231": {
+"kind": "lead",
+"lat": -21.1491,
+"lon": 149.175,
+"place": "Mackay, QLD"
+},
+"qld-r2-v-0232": {
+"kind": "lead",
+"lat": -21.1491,
+"lon": 149.175,
+"place": "Mackay, QLD"
+},
+"qld-r2-v-0233": {
+"kind": "lead",
+"lat": -21.1491,
+"lon": 149.175,
+"place": "Mackay, QLD"
+},
+"qld-r2-v-0234": {
+"kind": "lead",
+"lat": -21.1491,
+"lon": 149.175,
+"place": "Mackay, QLD"
+},
+"qld-r2-v-0235": {
+"kind": "lead",
+"lat": -21.1491,
+"lon": 149.175,
+"place": "Mackay, QLD"
+},
+"qld-r2-v-0236": {
+"kind": "lead",
+"lat": -21.1491,
+"lon": 149.175,
+"place": "Mackay, QLD"
+},
+"qld-r2-v-0237": {
+"kind": "lead",
+"lat": -21.1491,
+"lon": 149.175,
+"place": "Mackay, QLD"
+},
+"qld-r2-v-0238": {
+"kind": "lead",
+"lat": -21.1491,
+"lon": 149.175,
+"place": "Mackay, QLD"
+},
+"qld-r2-v-0239": {
+"kind": "lead",
+"lat": -21.1214,
+"lon": 149.1807,
+"place": "North Mackay, QLD"
+},
+"qld-r2-v-0240": {
+"kind": "lead",
+"lat": -21.0945,
+"lon": 149.1842,
+"place": "Andergrove, QLD"
+},
+"qld-r2-v-0242": {
+"kind": "lead",
+"lat": -20.0175,
+"lon": 148.2282,
+"place": "Bowen, QLD"
+},
+"qld-r2-v-0243": {
+"kind": "lead",
+"lat": -20.0175,
+"lon": 148.2282,
+"place": "Bowen, QLD"
+},
+"qld-r2-v-0244": {
+"kind": "lead",
+"lat": -20.0175,
+"lon": 148.2282,
+"place": "Bowen, QLD"
+},
+"qld-r2-v-0245": {
+"kind": "lead",
+"lat": -20.4047,
+"lon": 148.582,
+"place": "Proserpine, QLD"
+},
+"qld-r2-v-0246": {
+"kind": "lead",
+"lat": -20.4047,
+"lon": 148.582,
+"place": "Proserpine, QLD"
+},
+"qld-r2-v-0247": {
+"kind": "lead",
+"lat": -20.4047,
+"lon": 148.582,
+"place": "Proserpine, QLD"
+},
+"qld-r2-v-0248": {
+"kind": "lead",
+"lat": -20.4047,
+"lon": 148.582,
+"place": "Proserpine, QLD"
+},
+"qld-r2-v-0249": {
+"kind": "lead",
+"lat": -22.0024,
+"lon": 148.0524,
+"place": "Moranbah, QLD"
+},
+"qld-r2-v-0250": {
+"kind": "lead",
+"lat": -21.6909,
+"lon": 148.7003,
+"place": "Nebo, QLD"
+},
+"qld-r2-v-0251": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0252": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0253": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0254": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0255": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0256": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0257": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0258": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0259": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0260": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0261": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0262": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0263": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0264": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0265": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0266": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0267": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0268": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0269": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0270": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0271": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0272": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0273": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0274": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0275": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0276": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0277": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0278": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0279": {
+"kind": "lead",
+"lat": -19.2664,
+"lon": 146.8057,
+"place": "Townsville, QLD"
+},
+"qld-r2-v-0280": {
+"kind": "lead",
+"lat": -20.0767,
+"lon": 146.2635,
+"place": "Charters Towers, QLD"
+},
+"qld-r2-v-0281": {
+"kind": "lead",
+"lat": -20.0767,
+"lon": 146.2635,
+"place": "Charters Towers, QLD"
+},
+"qld-r2-v-0282": {
+"kind": "lead",
+"lat": -20.0767,
+"lon": 146.2635,
+"place": "Charters Towers, QLD"
+},
+"qld-r2-v-0283": {
+"kind": "lead",
+"lat": -20.0767,
+"lon": 146.2635,
+"place": "Charters Towers, QLD"
+},
+"qld-r2-v-0285": {
+"kind": "lead",
+"lat": -19.5704,
+"lon": 147.4086,
+"place": "Ayr, QLD"
+},
+"qld-r2-v-0286": {
+"kind": "lead",
+"lat": -19.5704,
+"lon": 147.4086,
+"place": "Ayr, QLD"
+},
+"qld-r2-v-0287": {
+"kind": "lead",
+"lat": -19.5704,
+"lon": 147.4086,
+"place": "Ayr, QLD"
+},
+"qld-r2-v-0288": {
+"kind": "lead",
+"lat": -19.5704,
+"lon": 147.4086,
+"place": "Ayr, QLD"
+},
+"qld-r2-v-0289": {
+"kind": "lead",
+"lat": -19.5704,
+"lon": 147.4086,
+"place": "Ayr, QLD"
+},
+"qld-r2-v-0290": {
+"kind": "lead",
+"lat": -19.5704,
+"lon": 147.4086,
+"place": "Ayr, QLD"
+},
+"qld-r2-v-0291": {
+"kind": "lead",
+"lat": -19.1551,
+"lon": 146.8485,
+"place": "Magnetic Island, QLD"
+},
+"qld-r2-v-0292": {
+"kind": "lead",
+"lat": -16.923,
+"lon": 145.7663,
+"place": "Cairns, QLD"
+},
+"qld-r2-v-0293": {
+"kind": "lead",
+"lat": -16.923,
+"lon": 145.7663,
+"place": "Cairns, QLD"
+},
+"qld-r2-v-0294": {
+"kind": "lead",
+"lat": -16.923,
+"lon": 145.7663,
+"place": "Cairns, QLD"
+},
+"qld-r2-v-0295": {
+"kind": "lead",
+"lat": -16.923,
+"lon": 145.7663,
+"place": "Cairns, QLD"
+},
+"qld-r2-v-0296": {
+"kind": "lead",
+"lat": -16.923,
+"lon": 145.7663,
+"place": "Cairns, QLD"
+},
+"qld-r2-v-0297": {
+"kind": "lead",
+"lat": -16.923,
+"lon": 145.7663,
+"place": "Cairns, QLD"
+},
+"qld-r2-v-0298": {
+"kind": "lead",
+"lat": -16.923,
+"lon": 145.7663,
+"place": "Cairns, QLD"
+},
+"qld-r2-v-0299": {
+"kind": "lead",
+"lat": -16.923,
+"lon": 145.7663,
+"place": "Cairns, QLD"
+},
+"qld-r2-v-0301": {
+"kind": "lead",
+"lat": -17.0024,
+"lon": 145.4296,
+"place": "Mareeba, QLD"
+},
+"qld-r2-v-0302": {
+"kind": "lead",
+"lat": -17.0024,
+"lon": 145.4296,
+"place": "Mareeba, QLD"
+},
+"qld-r2-v-0303": {
+"kind": "lead",
+"lat": -17.0024,
+"lon": 145.4296,
+"place": "Mareeba, QLD"
+},
+"qld-r2-v-0304": {
+"kind": "lead",
+"lat": -17.0024,
+"lon": 145.4296,
+"place": "Mareeba, QLD"
+},
+"qld-r2-v-0305": {
+"kind": "lead",
+"lat": -17.0024,
+"lon": 145.4296,
+"place": "Mareeba, QLD"
+},
+"qld-r2-v-0306": {
+"kind": "lead",
+"lat": -17.0024,
+"lon": 145.4296,
+"place": "Mareeba, QLD"
+},
+"qld-r2-v-0307": {
+"kind": "lead",
+"lat": -16.4654,
+"lon": 145.3731,
+"place": "Mossman, QLD"
+},
+"qld-r2-v-0308": {
+"kind": "lead",
+"lat": -16.4654,
+"lon": 145.3731,
+"place": "Mossman, QLD"
+},
+"qld-r2-v-0309": {
+"kind": "lead",
+"lat": -17.3422,
+"lon": 145.9216,
+"place": "Babinda, QLD"
+},
+"qld-r2-v-0310": {
+"kind": "lead",
+"lat": -17.3422,
+"lon": 145.9216,
+"place": "Babinda, QLD"
+},
+"qld-r2-v-0311": {
+"kind": "lead",
+"lat": -17.3422,
+"lon": 145.9216,
+"place": "Babinda, QLD"
+},
+"qld-r2-v-0312": {
+"kind": "lead",
+"lat": -17.3422,
+"lon": 145.9216,
+"place": "Babinda, QLD"
+},
+"qld-r2-v-0313": {
+"kind": "lead",
+"lat": -17.265,
+"lon": 145.4833,
+"place": "Atherton, QLD"
+},
+"qld-r2-v-0314": {
+"kind": "lead",
+"lat": -17.265,
+"lon": 145.4833,
+"place": "Atherton, QLD"
+},
+"qld-r2-v-0315": {
+"kind": "lead",
+"lat": -17.0921,
+"lon": 145.7771,
+"place": "Gordonvale, QLD"
+},
+"qld-r2-v-0316": {
+"kind": "lead",
+"lat": -17.0921,
+"lon": 145.7771,
+"place": "Gordonvale, QLD"
+},
+"qld-r2-v-0317": {
+"kind": "lead",
+"lat": -18.6511,
+"lon": 146.161,
+"place": "Ingham, QLD"
+},
+"qld-r2-v-0318": {
+"kind": "lead",
+"lat": -18.6511,
+"lon": 146.161,
+"place": "Ingham, QLD"
+},
+"qld-r2-v-0319": {
+"kind": "lead",
+"lat": -18.5796,
+"lon": 146.2883,
+"place": "Halifax, QLD"
+},
+"qld-r2-v-0320": {
+"kind": "lead",
+"lat": -10.5809,
+"lon": 142.2232,
+"place": "Thursday Island, QLD"
+},
+"qld-r2-v-0321": {
+"kind": "lead",
+"lat": -10.5809,
+"lon": 142.2232,
+"place": "Thursday Island, QLD"
+},
+"qld-r2-v-0322": {
+"kind": "lead",
+"lat": -17.0233,
+"lon": 145.7347,
+"place": "Edmonton, QLD"
+},
+"qld-r2-v-0323": {
+"kind": "lead",
+"lat": -22.3853,
+"lon": 143.0408,
+"place": "Winton, QLD"
+},
+"qld-r2-v-0324": {
+"kind": "lead",
+"lat": -22.3853,
+"lon": 143.0408,
+"place": "Winton, QLD"
+},
+"qld-r2-v-0325": {
+"kind": "lead",
+"lat": -22.3853,
+"lon": 143.0408,
+"place": "Winton, QLD"
+},
+"qld-r2-v-0326": {
+"kind": "lead",
+"lat": -23.4391,
+"lon": 144.2524,
+"place": "Longreach, QLD"
+},
+"qld-r2-v-0327": {
+"kind": "lead",
+"lat": -23.4391,
+"lon": 144.2524,
+"place": "Longreach, QLD"
+},
+"qld-r2-v-0328": {
+"kind": "lead",
+"lat": -22.9725,
+"lon": 145.2416,
+"place": "Aramac, QLD"
+},
+"qld-r2-v-0329": {
+"kind": "lead",
+"lat": -23.6019,
+"lon": 146.1266,
+"place": "Jericho, QLD"
+},
+"qld-r2-v-0330": {
+"kind": "lead",
+"lat": -23.6019,
+"lon": 146.1266,
+"place": "Jericho, QLD"
+},
+"qld-r2-v-0331": {
+"kind": "lead",
+"lat": -23.556,
+"lon": 145.2941,
+"place": "Barcaldine, QLD"
+},
+"qld-r2-v-0332": {
+"kind": "lead",
+"lat": -23.556,
+"lon": 145.2941,
+"place": "Barcaldine, QLD"
+},
+"qld-r2-v-0333": {
+"kind": "lead",
+"lat": -23.556,
+"lon": 145.2941,
+"place": "Barcaldine, QLD"
+},
+"qld-r2-v-0334": {
+"kind": "lead",
+"lat": -23.556,
+"lon": 145.2941,
+"place": "Barcaldine, QLD"
+},
+"qld-r2-v-0335": {
+"kind": "lead",
+"lat": -23.556,
+"lon": 145.2941,
+"place": "Barcaldine, QLD"
+},
+"qld-r2-v-0336": {
+"kind": "lead",
+"lat": -20.7219,
+"lon": 139.4894,
+"place": "Mount Isa, QLD"
+},
+"qld-r2-v-0337": {
+"kind": "lead",
+"lat": -20.7219,
+"lon": 139.4894,
+"place": "Mount Isa, QLD"
+},
+"qld-r2-v-0338": {
+"kind": "lead",
+"lat": -20.7219,
+"lon": 139.4894,
+"place": "Mount Isa, QLD"
+},
+"qld-r2-v-0339": {
+"kind": "lead",
+"lat": -20.7219,
+"lon": 139.4894,
+"place": "Mount Isa, QLD"
+},
+"qld-r2-v-0340": {
+"kind": "lead",
+"lat": -20.699,
+"lon": 140.5043,
+"place": "Cloncurry, QLD"
+},
+"qld-r2-v-0341": {
+"kind": "lead",
+"lat": -26.4215,
+"lon": 147.1191,
+"place": "Morven, QLD"
+},
+"qld-r2-v-0342": {
+"kind": "lead",
+"lat": -28.0894,
+"lon": 147.4455,
+"place": "Bollon, QLD"
+},
+"qld-r2-v-0343": {
+"kind": "lead",
+"lat": -22.9082,
+"lon": 139.9119,
+"place": "Boulia, QLD"
+},
+"qld-r2-v-0344": {
+"kind": "lead",
+"lat": -27.9949,
+"lon": 152.6861,
+"place": "Boonah, QLD"
+},
+"qld-r2-v-0345": {
+"kind": "lead",
+"lat": -23.5755,
+"lon": 149.0694,
+"place": "Bluff, QLD"
+},
+"qld-r2-v-0346": {
+"kind": "lead",
+"lat": -27.4737,
+"lon": 153.0169,
+"place": "South Brisbane, QLD"
+},
+"sa-r-0005": {
+"kind": "lead",
+"lat": -35.5515,
+"lon": 138.6159,
+"place": "Victor Harbor, SA"
+},
+"sa-r-0006": {
+"kind": "lead",
+"lat": -34.8374,
+"lon": 138.4759,
+"place": "Semaphore, SA"
+},
+"sa-r-0007": {
+"kind": "lead",
+"lat": -34.8374,
+"lon": 138.4759,
+"place": "Semaphore, SA"
+},
+"sa-r-0008": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0009": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0010": {
+"kind": "lead",
+"lat": -34.9368,
+"lon": 138.6286,
+"place": "Dulwich, SA"
+},
+"sa-r-0011": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0012": {
+"kind": "lead",
+"lat": -34.98,
+"lon": 138.5139,
+"place": "Glenelg, SA"
+},
+"sa-r-0013": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0014": {
+"kind": "lead",
+"lat": -34.8722,
+"lon": 138.5527,
+"place": "Kilkenny, SA"
+},
+"sa-r-0015": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0016": {
+"kind": "lead",
+"lat": -35.1252,
+"lon": 139.2725,
+"place": "Murray Bridge, SA"
+},
+"sa-r-0017": {
+"kind": "lead",
+"lat": -29.0103,
+"lon": 134.7575,
+"place": "Coober Pedy, SA"
+},
+"sa-r-0018": {
+"kind": "lead",
+"lat": -34.8515,
+"lon": 138.6577,
+"place": "Gilles Plains, SA"
+},
+"sa-r-0019": {
+"kind": "lead",
+"lat": -34.7717,
+"lon": 138.6244,
+"place": "Salisbury Downs, SA"
+},
+"sa-r-0020": {
+"kind": "lead",
+"lat": -35.0727,
+"lon": 138.5481,
+"place": "O'Halloran Hill, SA"
+},
+"sa-r-0021": {
+"kind": "lead",
+"lat": -37.8331,
+"lon": 140.7717,
+"place": "Mount Gambier, SA"
+},
+"sa-r-0022": {
+"kind": "lead",
+"lat": -37.8331,
+"lon": 140.7717,
+"place": "Mount Gambier, SA"
+},
+"sa-r-0023": {
+"kind": "lead",
+"lat": -33.0413,
+"lon": 137.591,
+"place": "Whyalla, SA"
+},
+"sa-r-0024": {
+"kind": "lead",
+"lat": -33.0413,
+"lon": 137.591,
+"place": "Whyalla, SA"
+},
+"sa-r-0025": {
+"kind": "lead",
+"lat": -34.1741,
+"lon": 140.7447,
+"place": "Renmark, SA"
+},
+"sa-r-0026": {
+"kind": "lead",
+"lat": -34.1741,
+"lon": 140.7447,
+"place": "Renmark, SA"
+},
+"sa-r-0027": {
+"kind": "lead",
+"lat": -34.1741,
+"lon": 140.7447,
+"place": "Renmark, SA"
+},
+"sa-r-0028": {
+"kind": "lead",
+"lat": -34.1741,
+"lon": 140.7447,
+"place": "Renmark, SA"
+},
+"sa-r-0029": {
+"kind": "lead",
+"lat": -34.1741,
+"lon": 140.7447,
+"place": "Renmark, SA"
+},
+"sa-r-0030": {
+"kind": "lead",
+"lat": -34.1741,
+"lon": 140.7447,
+"place": "Renmark, SA"
+},
+"sa-r-0031": {
+"kind": "lead",
+"lat": -32.4948,
+"lon": 137.7808,
+"place": "Port Augusta, SA"
+},
+"sa-r-0033": {
+"kind": "lead",
+"lat": -32.4948,
+"lon": 137.7808,
+"place": "Port Augusta, SA"
+},
+"sa-r-0034": {
+"kind": "lead",
+"lat": -34.7197,
+"lon": 135.8534,
+"place": "Port Lincoln, SA"
+},
+"sa-r-0035": {
+"kind": "lead",
+"lat": -34.7197,
+"lon": 135.8534,
+"place": "Port Lincoln, SA"
+},
+"sa-r-0036": {
+"kind": "lead",
+"lat": -33.178,
+"lon": 138.009,
+"place": "Port Pirie, SA"
+},
+"sa-r-0037": {
+"kind": "lead",
+"lat": -33.178,
+"lon": 138.009,
+"place": "Port Pirie, SA"
+},
+"sa-r-0038": {
+"kind": "lead",
+"lat": -35.5286,
+"lon": 138.6776,
+"place": "Port Elliot, SA"
+},
+"sa-r-0039": {
+"kind": "lead",
+"lat": -37.1676,
+"lon": 139.7691,
+"place": "Robe, SA"
+},
+"sa-r-0040": {
+"kind": "lead",
+"lat": -30.5625,
+"lon": 136.9012,
+"place": "Roxby Downs, SA"
+},
+"sa-r-0041": {
+"kind": "lead",
+"lat": -33.9635,
+"lon": 137.7169,
+"place": "Kadina, SA"
+},
+"sa-r-0042": {
+"kind": "lead",
+"lat": -33.9635,
+"lon": 137.7169,
+"place": "Kadina, SA"
+},
+"sa-r-0043": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0044": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0045": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0046": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0047": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0048": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0049": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0050": {
+"kind": "lead",
+"lat": -34.8781,
+"lon": 138.5401,
+"place": "Woodville, SA"
+},
+"sa-r-0051": {
+"kind": "lead",
+"lat": -34.9162,
+"lon": 138.572,
+"place": "Thebarton, SA"
+},
+"sa-r-0052": {
+"kind": "lead",
+"lat": -34.9481,
+"lon": 138.6057,
+"place": "Unley, SA"
+},
+"sa-r-0053": {
+"kind": "lead",
+"lat": -34.9063,
+"lon": 138.5694,
+"place": "Hindmarsh, SA"
+},
+"sa-r-0054": {
+"kind": "lead",
+"lat": -34.9405,
+"lon": 138.512,
+"place": "West Beach, SA"
+},
+"sa-r-0055": {
+"kind": "lead",
+"lat": -34.8445,
+"lon": 138.6004,
+"place": "Gepps Cross, SA"
+},
+"sa-r-0056": {
+"kind": "lead",
+"lat": -34.9975,
+"lon": 138.5976,
+"place": "Panorama, SA"
+},
+"sa-r-0058": {
+"kind": "lead",
+"lat": -35.1357,
+"lon": 138.477,
+"place": "Christies Beach, SA"
+},
+"sa-r-0059": {
+"kind": "lead",
+"lat": -35.0049,
+"lon": 138.5622,
+"place": "Mitchell Park, SA"
+},
+"sa-r-0060": {
+"kind": "lead",
+"lat": -34.83,
+"lon": 138.7107,
+"place": "St Agnes, SA"
+},
+"sa-r-0061": {
+"kind": "lead",
+"lat": -35.0071,
+"lon": 138.5541,
+"place": "Marion, SA"
+},
+"sa-r-0062": {
+"kind": "lead",
+"lat": -34.2782,
+"lon": 140.6019,
+"place": "Berri, SA"
+},
+"sa-r-0063": {
+"kind": "lead",
+"lat": -34.5196,
+"lon": 138.9412,
+"place": "Tanunda, SA"
+},
+"sa-r-0064": {
+"kind": "lead",
+"lat": -34.4542,
+"lon": 140.5767,
+"place": "Loxton, SA"
+},
+"sa-r-0065": {
+"kind": "lead",
+"lat": -34.2523,
+"lon": 140.4662,
+"place": "Barmera, SA"
+},
+"sa-r-0066": {
+"kind": "lead",
+"lat": -33.8357,
+"lon": 138.6118,
+"place": "Clare, SA"
+},
+"sa-r-0067": {
+"kind": "lead",
+"lat": -34.9421,
+"lon": 138.6365,
+"place": "Glenside, SA"
+},
+"sa-r-0069": {
+"kind": "lead",
+"lat": -34.8465,
+"lon": 138.5059,
+"place": "Port Adelaide, SA"
+},
+"sa-r-0070": {
+"kind": "lead",
+"lat": -34.8465,
+"lon": 138.5059,
+"place": "Port Adelaide, SA"
+},
+"sa-r-0071": {
+"kind": "lead",
+"lat": -34.9197,
+"lon": 138.492,
+"place": "Henley Beach, SA"
+},
+"sa-r-0072": {
+"kind": "lead",
+"lat": -34.9216,
+"lon": 138.6317,
+"place": "Norwood, SA"
+},
+"sa-r-0073": {
+"kind": "lead",
+"lat": -34.9216,
+"lon": 138.6317,
+"place": "Norwood, SA"
+},
+"sa-r-0074": {
+"kind": "lead",
+"lat": -34.9216,
+"lon": 138.6317,
+"place": "Norwood, SA"
+},
+"sa-r-0075": {
+"kind": "lead",
+"lat": -34.9216,
+"lon": 138.6317,
+"place": "Norwood, SA"
+},
+"sa-r-0076": {
+"kind": "lead",
+"lat": -34.9073,
+"lon": 138.5977,
+"place": "North Adelaide, SA"
+},
+"sa-r-0077": {
+"kind": "lead",
+"lat": -34.9073,
+"lon": 138.5977,
+"place": "North Adelaide, SA"
+},
+"sa-r-0078": {
+"kind": "lead",
+"lat": -34.9259,
+"lon": 138.5703,
+"place": "Mile End, SA"
+},
+"sa-r-0079": {
+"kind": "lead",
+"lat": -34.9162,
+"lon": 138.572,
+"place": "Thebarton, SA"
+},
+"sa-r-0080": {
+"kind": "lead",
+"lat": -34.924,
+"lon": 138.5318,
+"place": "Lockleys, SA"
+},
+"sa-r-0081": {
+"kind": "lead",
+"lat": -34.9454,
+"lon": 138.5621,
+"place": "Marleston, SA"
+},
+"sa-r-0082": {
+"kind": "lead",
+"lat": -34.9321,
+"lon": 138.5659,
+"place": "Hilton, SA"
+},
+"sa-r-0083": {
+"kind": "lead",
+"lat": -34.9546,
+"lon": 138.5745,
+"place": "Everard Park, SA"
+},
+"sa-r-0084": {
+"kind": "lead",
+"lat": -34.9213,
+"lon": 138.5595,
+"place": "Torrensville, SA"
+},
+"sa-r-0086": {
+"kind": "lead",
+"lat": -34.9162,
+"lon": 138.572,
+"place": "Thebarton, SA"
+},
+"sa-r-0087": {
+"kind": "lead",
+"lat": -34.9321,
+"lon": 138.5659,
+"place": "Hilton, SA"
+},
+"sa-r-0088": {
+"kind": "lead",
+"lat": -34.5978,
+"lon": 138.7466,
+"place": "Gawler, SA"
+},
+"sa-r-0089": {
+"kind": "lead",
+"lat": -35.2566,
+"lon": 138.8933,
+"place": "Strathalbyn, SA"
+},
+"sa-r-0092": {
+"kind": "lead",
+"lat": -34.4686,
+"lon": 138.9942,
+"place": "Nuriootpa, SA"
+},
+"sa-r-0093": {
+"kind": "lead",
+"lat": -35.1416,
+"lon": 138.4969,
+"place": "Noarlunga Centre, SA"
+},
+"sa-r-0094": {
+"kind": "lead",
+"lat": -35.1416,
+"lon": 138.4969,
+"place": "Noarlunga Centre, SA"
+},
+"sa-r-0095": {
+"kind": "lead",
+"lat": -34.9842,
+"lon": 138.6133,
+"place": "Torrens Park, SA"
+},
+"sa-r-0096": {
+"kind": "lead",
+"lat": -35.0758,
+"lon": 138.8655,
+"place": "Mount Barker, SA"
+},
+"sa-r-0097": {
+"kind": "lead",
+"lat": -34.98,
+"lon": 138.5139,
+"place": "Glenelg, SA"
+},
+"sa-r-0098": {
+"kind": "lead",
+"lat": -34.7644,
+"lon": 138.6419,
+"place": "Salisbury, SA"
+},
+"sa-r-0099": {
+"kind": "lead",
+"lat": -34.8341,
+"lon": 138.6854,
+"place": "Modbury, SA"
+},
+"sa-r-0100": {
+"kind": "lead",
+"lat": -35.0081,
+"lon": 138.5444,
+"place": "Oaklands Park, SA"
+},
+"sa-r-0101": {
+"kind": "lead",
+"lat": -34.7192,
+"lon": 138.6703,
+"place": "Elizabeth, SA"
+},
+"sa-r-0102": {
+"kind": "lead",
+"lat": -34.8749,
+"lon": 138.4939,
+"place": "West Lakes, SA"
+},
+"sa-r-0103": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0104": {
+"kind": "lead",
+"lat": -34.8832,
+"lon": 138.5928,
+"place": "Prospect, SA"
+},
+"sa-r-0105": {
+"kind": "lead",
+"lat": -34.5978,
+"lon": 138.7466,
+"place": "Gawler, SA"
+},
+"sa-r-0106": {
+"kind": "lead",
+"lat": -33.0115,
+"lon": 137.5355,
+"place": "Whyalla Norrie, SA"
+},
+"sa-r-0107": {
+"kind": "lead",
+"lat": -33.9635,
+"lon": 137.7169,
+"place": "Kadina, SA"
+},
+"sa-r-0108": {
+"kind": "lead",
+"lat": -34.7197,
+"lon": 135.8534,
+"place": "Port Lincoln, SA"
+},
+"sa-r-0109": {
+"kind": "lead",
+"lat": -33.178,
+"lon": 138.009,
+"place": "Port Pirie, SA"
+},
+"sa-r-0110": {
+"kind": "lead",
+"lat": -34.0672,
+"lon": 137.5906,
+"place": "Moonta, SA"
+},
+"sa-r-0111": {
+"kind": "lead",
+"lat": -35.2713,
+"lon": 138.5546,
+"place": "Willunga, SA"
+},
+"sa-r-0112": {
+"kind": "lead",
+"lat": -35.0186,
+"lon": 138.5221,
+"place": "Brighton, SA"
+},
+"sa-r-0113": {
+"kind": "lead",
+"lat": -34.9338,
+"lon": 138.6377,
+"place": "Toorak Gardens, SA"
+},
+"sa-r-0114": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0115": {
+"kind": "lead",
+"lat": -35.0286,
+"lon": 138.8538,
+"place": "Littlehampton, SA"
+},
+"sa-r-0116": {
+"kind": "lead",
+"lat": -34.9537,
+"lon": 138.6269,
+"place": "Fullarton, SA"
+},
+"sa-r-0117": {
+"kind": "lead",
+"lat": -33.86,
+"lon": 138.0058,
+"place": "Bute, SA"
+},
+"sa-r-0118": {
+"kind": "lead",
+"lat": -33.781,
+"lon": 138.2131,
+"place": "Snowtown, SA"
+},
+"sa-r-0119": {
+"kind": "lead",
+"lat": -34.8934,
+"lon": 138.6651,
+"place": "Hectorville, SA"
+},
+"sa-r-0120": {
+"kind": "lead",
+"lat": -35.0071,
+"lon": 138.5541,
+"place": "Marion, SA"
+},
+"sa-r-0121": {
+"kind": "lead",
+"lat": -34.7192,
+"lon": 138.6703,
+"place": "Elizabeth, SA"
+},
+"sa-r-0122": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0123": {
+"kind": "lead",
+"lat": -37.8331,
+"lon": 140.7717,
+"place": "Mount Gambier, SA"
+},
+"sa-r-0124": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0125": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0126": {
+"kind": "lead",
+"lat": -35.5515,
+"lon": 138.6159,
+"place": "Victor Harbor, SA"
+},
+"sa-r-0127": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0128": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0129": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0130": {
+"kind": "lead",
+"lat": -34.9286,
+"lon": 138.599,
+"place": "Adelaide, SA"
+},
+"sa-r-0131": {
+"kind": "lead",
+"lat": -34.2523,
+"lon": 140.4662,
+"place": "Barmera, SA"
+},
+"sa-r-0132": {
+"kind": "lead",
+"lat": -34.9026,
+"lon": 138.8756,
+"place": "Lobethal, SA"
+},
+"sa-r-0133": {
+"kind": "lead",
+"lat": -32.9745,
+"lon": 138.8341,
+"place": "Peterborough, SA"
+},
+"tas-004": {
+"kind": "lead",
+"lat": -42.8796,
+"lon": 147.3295,
+"place": "Hobart, TAS"
+},
+"tas-005": {
+"kind": "lead",
+"lat": -42.8796,
+"lon": 147.3295,
+"place": "Hobart, TAS"
+},
+"tas-006": {
+"kind": "lead",
+"lat": -42.8796,
+"lon": 147.3295,
+"place": "Hobart, TAS"
+},
+"tas-007": {
+"kind": "lead",
+"lat": -42.8796,
+"lon": 147.3295,
+"place": "Hobart, TAS"
+},
+"tas-008": {
+"kind": "lead",
+"lat": -42.8796,
+"lon": 147.3295,
+"place": "Hobart, TAS"
+},
+"tas-009": {
+"kind": "lead",
+"lat": -42.8796,
+"lon": 147.3295,
+"place": "Hobart, TAS"
+},
+"tas-010": {
+"kind": "lead",
+"lat": -42.8796,
+"lon": 147.3295,
+"place": "Hobart, TAS"
+},
+"tas-011": {
+"kind": "lead",
+"lat": -42.84,
+"lon": 147.2681,
+"place": "Glenorchy, TAS"
+},
+"tas-013": {
+"kind": "lead",
+"lat": -42.779,
+"lon": 147.0577,
+"place": "New Norfolk, TAS"
+},
+"tas-014": {
+"kind": "lead",
+"lat": -43.009,
+"lon": 147.0331,
+"place": "Ranelagh, TAS"
+},
+"tas-015": {
+"kind": "lead",
+"lat": -43.0274,
+"lon": 147.0518,
+"place": "Huonville, TAS"
+},
+"tas-016": {
+"kind": "lead",
+"lat": -42.9543,
+"lon": 147.3045,
+"place": "Kingston, TAS"
+},
+"tas-017": {
+"kind": "lead",
+"lat": -42.8796,
+"lon": 147.3295,
+"place": "Hobart, TAS"
+},
+"tas-018": {
+"kind": "lead",
+"lat": -42.845,
+"lon": 147.3298,
+"place": "New Town, TAS"
+},
+"tas-020": {
+"kind": "lead",
+"lat": -41.4388,
+"lon": 147.135,
+"place": "Launceston, TAS"
+},
+"tas-023": {
+"kind": "lead",
+"lat": -41.4388,
+"lon": 147.135,
+"place": "Launceston, TAS"
+},
+"tas-024": {
+"kind": "lead",
+"lat": -41.4388,
+"lon": 147.135,
+"place": "Launceston, TAS"
+},
+"tas-025": {
+"kind": "lead",
+"lat": -41.1605,
+"lon": 147.5154,
+"place": "Scottsdale, TAS"
+},
+"tas-026": {
+"kind": "lead",
+"lat": -42.0824,
+"lon": 145.5534,
+"place": "Queenstown, TAS"
+},
+"tas-027": {
+"kind": "lead",
+"lat": -42.0824,
+"lon": 145.5534,
+"place": "Queenstown, TAS"
+},
+"tas-028": {
+"kind": "lead",
+"lat": -41.8878,
+"lon": 145.3387,
+"place": "Zeehan, TAS"
+},
+"tas-031": {
+"kind": "lead",
+"lat": -41.2376,
+"lon": 146.42,
+"place": "Latrobe, TAS"
+},
+"tas-032": {
+"kind": "lead",
+"lat": -42.84,
+"lon": 147.2681,
+"place": "Glenorchy, TAS"
+},
+"tas-033": {
+"kind": "lead",
+"lat": -42.9836,
+"lon": 147.3216,
+"place": "Kingston Beach, TAS"
+},
+"tas-034": {
+"kind": "lead",
+"lat": -41.4388,
+"lon": 147.135,
+"place": "Launceston, TAS"
+},
+"tas-035": {
+"kind": "lead",
+"lat": -42.84,
+"lon": 147.2681,
+"place": "Glenorchy, TAS"
+},
+"tas-036": {
+"kind": "lead",
+"lat": -42.8586,
+"lon": 147.3814,
+"place": "Warrane, TAS"
+},
+"tas-037": {
+"kind": "lead",
+"lat": -41.4056,
+"lon": 147.1364,
+"place": "Mowbray, TAS"
+},
+"tas-038": {
+"kind": "lead",
+"lat": -41.187,
+"lon": 146.4047,
+"place": "East Devonport, TAS"
+},
+"tas-039": {
+"kind": "lead",
+"lat": -41.0444,
+"lon": 145.8226,
+"place": "Somerset, TAS"
+},
+"tas-040": {
+"kind": "lead",
+"lat": -42.8796,
+"lon": 147.3295,
+"place": "Hobart, TAS"
+},
+"tas-041": {
+"kind": "lead",
+"lat": -41.4388,
+"lon": 147.135,
+"place": "Launceston, TAS"
+},
+"tas-042": {
+"kind": "lead",
+"lat": -42.84,
+"lon": 147.2681,
+"place": "Glenorchy, TAS"
+},
+"tas-043": {
+"kind": "lead",
+"lat": -42.8706,
+"lon": 147.3572,
+"place": "Rosny, TAS"
+},
+"tas-044": {
+"kind": "lead",
+"lat": -41.178,
+"lon": 146.3469,
+"place": "Devonport, TAS"
+},
+"tas-045": {
+"kind": "lead",
+"lat": -41.054,
+"lon": 145.9037,
+"place": "Burnie, TAS"
+},
+"tas-046": {
+"kind": "lead",
+"lat": -41.054,
+"lon": 145.9037,
+"place": "Burnie, TAS"
+},
+"tas-047": {
+"kind": "lead",
+"lat": -42.8733,
+"lon": 147.3163,
+"place": "North Hobart, TAS"
+},
+"tas-048": {
+"kind": "lead",
+"lat": -42.8796,
+"lon": 147.3295,
+"place": "Hobart, TAS"
+},
+"tas-049": {
+"kind": "lead",
+"lat": -42.8796,
+"lon": 147.3295,
+"place": "Hobart, TAS"
+},
+"tas-050": {
+"kind": "lead",
+"lat": -42.8796,
+"lon": 147.3295,
+"place": "Hobart, TAS"
+},
+"tas-051": {
+"kind": "lead",
+"lat": -42.8796,
+"lon": 147.3295,
+"place": "Hobart, TAS"
+},
+"tas-052": {
+"kind": "lead",
+"lat": -42.8796,
+"lon": 147.3295,
+"place": "Hobart, TAS"
+},
+"tas-053": {
+"kind": "lead",
+"lat": -42.8452,
+"lon": 147.2948,
+"place": "Moonah, TAS"
+},
+"tas-054": {
+"kind": "lead",
+"lat": -42.8487,
+"lon": 147.3608,
+"place": "Lindisfarne, TAS"
+},
+"tas-055": {
+"kind": "lead",
+"lat": -42.84,
+"lon": 147.2681,
+"place": "Glenorchy, TAS"
+},
+"tas-056": {
+"kind": "lead",
+"lat": -42.84,
+"lon": 147.2681,
+"place": "Glenorchy, TAS"
+},
+"tas-057": {
+"kind": "lead",
+"lat": -43.0891,
+"lon": 146.9978,
+"place": "Franklin, TAS"
+},
+"tas-058": {
+"kind": "lead",
+"lat": -43.1644,
+"lon": 146.9188,
+"place": "Geeveston, TAS"
+},
+"tas-059": {
+"kind": "lead",
+"lat": -43.1568,
+"lon": 147.0756,
+"place": "Cygnet, TAS"
+},
+"tas-060": {
+"kind": "lead",
+"lat": -43.1568,
+"lon": 147.0756,
+"place": "Cygnet, TAS"
+},
+"tas-061": {
+"kind": "lead",
+"lat": -41.1988,
+"lon": 146.8165,
+"place": "Beaconsfield, TAS"
+},
+"tas-062": {
+"kind": "lead",
+"lat": -41.4388,
+"lon": 147.135,
+"place": "Launceston, TAS"
+},
+"tas-063": {
+"kind": "lead",
+"lat": -41.5996,
+"lon": 147.1185,
+"place": "Longford, TAS"
+},
+"tas-064": {
+"kind": "lead",
+"lat": -41.2488,
+"lon": 147.221,
+"place": "Lilydale, TAS"
+},
+"tas-065": {
+"kind": "lead",
+"lat": -41.9281,
+"lon": 147.484,
+"place": "Campbell Town, TAS"
+},
+"tas-066": {
+"kind": "lead",
+"lat": -41.9281,
+"lon": 147.484,
+"place": "Campbell Town, TAS"
+},
+"tas-067": {
+"kind": "lead",
+"lat": -41.4218,
+"lon": 147.1344,
+"place": "Invermay, TAS"
+},
+"tas-068": {
+"kind": "lead",
+"lat": -41.054,
+"lon": 145.9037,
+"place": "Burnie, TAS"
+},
+"tas-069": {
+"kind": "lead",
+"lat": -41.178,
+"lon": 146.3469,
+"place": "Devonport, TAS"
+},
+"tas-070": {
+"kind": "lead",
+"lat": -41.054,
+"lon": 145.9037,
+"place": "Burnie, TAS"
+},
+"tas-071": {
+"kind": "lead",
+"lat": -41.054,
+"lon": 145.9037,
+"place": "Burnie, TAS"
+},
+"tas-072": {
+"kind": "lead",
+"lat": -41.1201,
+"lon": 146.069,
+"place": "Penguin, TAS"
+},
+"tas-073": {
+"kind": "lead",
+"lat": -41.1201,
+"lon": 146.069,
+"place": "Penguin, TAS"
+},
+"tas-074": {
+"kind": "lead",
+"lat": -40.8448,
+"lon": 145.1231,
+"place": "Smithton, TAS"
+},
+"tas-075": {
+"kind": "lead",
+"lat": -41.778,
+"lon": 145.5359,
+"place": "Rosebery, TAS"
+},
+"tas-076": {
+"kind": "lead",
+"lat": -41.3462,
+"lon": 146.4192,
+"place": "Railton, TAS"
+},
+"tas-077": {
+"kind": "lead",
+"lat": -41.385,
+"lon": 146.3275,
+"place": "Sheffield, TAS"
+},
+"tas-079": {
+"kind": "lead",
+"lat": -41.5243,
+"lon": 146.6537,
+"place": "Deloraine, TAS"
+},
+"tas-080": {
+"kind": "lead",
+"lat": -41.4453,
+"lon": 145.53,
+"place": "Waratah, TAS"
+},
+"tas-081": {
+"kind": "lead",
+"lat": -41.3239,
+"lon": 148.2476,
+"place": "St Helens, TAS"
+},
+"tas-082": {
+"kind": "lead",
+"lat": -40.7625,
+"lon": 145.2907,
+"place": "Stanley, TAS"
+},
+"tas-084": {
+"kind": "lead",
+"lat": -40.9911,
+"lon": 145.7239,
+"place": "Wynyard, TAS"
+},
+"tas-085": {
+"kind": "lead",
+"lat": -42.152,
+"lon": 145.3245,
+"place": "Strahan, TAS"
+},
+"tas-086": {
+"kind": "lead",
+"lat": -42.6112,
+"lon": 146.7141,
+"place": "Ellendale, TAS"
+},
+"tas-087": {
+"kind": "lead",
+"lat": -41.5304,
+"lon": 146.8364,
+"place": "Westbury, TAS"
+},
+"tas-089": {
+"kind": "lead",
+"lat": -43.1603,
+"lon": 147.2302,
+"place": "Woodbridge, TAS"
+},
+"tas-090": {
+"kind": "lead",
+"lat": -40.9911,
+"lon": 145.7239,
+"place": "Wynyard, TAS"
+},
+"tas-091": {
+"kind": "lead",
+"lat": -41.161,
+"lon": 146.1777,
+"place": "Ulverstone, TAS"
+},
+"tas-092": {
+"kind": "lead",
+"lat": -41.8878,
+"lon": 145.3387,
+"place": "Zeehan, TAS"
+},
+"tas-093": {
+"kind": "lead",
+"lat": -42.1284,
+"lon": 148.0706,
+"place": "Swansea, TAS"
+},
+"tas-094": {
+"kind": "lead",
+"lat": -41.5243,
+"lon": 146.6537,
+"place": "Deloraine, TAS"
+},
+"tas-096": {
+"kind": "lead",
+"lat": -40.9911,
+"lon": 145.7239,
+"place": "Wynyard, TAS"
+},
+"tas-097": {
+"kind": "lead",
+"lat": -42.3727,
+"lon": 147.0052,
+"place": "Bothwell, TAS"
+},
+"tas-098": {
+"kind": "lead",
+"lat": -42.7364,
+"lon": 147.4309,
+"place": "Richmond, TAS"
+},
+"tas-099": {
+"kind": "lead",
+"lat": -41.5216,
+"lon": 147.1839,
+"place": "Breadalbane, TAS"
+},
+"tas-100": {
+"kind": "lead",
+"lat": -42.8796,
+"lon": 147.3295,
+"place": "Hobart, TAS"
+},
+"tas-101": {
+"kind": "lead",
+"lat": -42.7774,
+"lon": 147.193,
+"place": "Claremont, TAS"
+},
+"tas-102": {
+"kind": "lead",
+"lat": -42.7808,
+"lon": 147.5619,
+"place": "Sorell, TAS"
+},
+"tas-103": {
+"kind": "lead",
+"lat": -41.7377,
+"lon": 145.6167,
+"place": "Tullah, TAS"
+},
+"tas-104": {
+"kind": "lead",
+"lat": -41.5775,
+"lon": 148.1885,
+"place": "St Marys, TAS"
+},
+"tas-105": {
+"kind": "lead",
+"lat": -41.1666,
+"lon": 147.7401,
+"place": "Branxholm, TAS"
+},
+"tas-106": {
+"kind": "lead",
+"lat": -41.1442,
+"lon": 147.8002,
+"place": "Derby, TAS"
+},
+"tas-107": {
+"kind": "lead",
+"lat": -40.9595,
+"lon": 148.0097,
+"place": "Gladstone, TAS"
+},
+"tas-108": {
+"kind": "lead",
+"lat": -43.0208,
+"lon": 147.9191,
+"place": "Eaglehawk Neck, TAS"
+},
+"tas-110": {
+"kind": "lead",
+"lat": -42.8089,
+"lon": 147.2484,
+"place": "Berriedale, TAS"
+},
+"tas-111": {
+"kind": "lead",
+"lat": -42.7117,
+"lon": 146.8944,
+"place": "Bushy Park, TAS"
+},
+"tas-112": {
+"kind": "lead",
+"lat": -41.178,
+"lon": 146.3469,
+"place": "Devonport, TAS"
+},
+"tas-113": {
+"kind": "lead",
+"lat": -41.1057,
+"lon": 146.8275,
+"place": "George Town, TAS"
+},
+"tas-114": {
+"kind": "lead",
+"lat": -42.3031,
+"lon": 147.3692,
+"place": "Oatlands, TAS"
+},
+"tas-115": {
+"kind": "lead",
+"lat": -42.0734,
+"lon": 145.5989,
+"place": "Gormanston, TAS"
+},
+"tribal": {
+"kind": "record",
+"lat": -27.4681,
+"lon": 153.0265,
+"place": "Brisbane City, QLD"
+},
+"wa-001": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-007": {
+"kind": "lead",
+"lat": -32.0712,
+"lon": 115.7548,
+"place": "South Fremantle, WA"
+},
+"wa-008": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-009": {
+"kind": "lead",
+"lat": -32.0091,
+"lon": 115.763,
+"place": "Mosman Park, WA"
+},
+"wa-010": {
+"kind": "lead",
+"lat": -31.9761,
+"lon": 115.8992,
+"place": "Victoria Park, WA"
+},
+"wa-011": {
+"kind": "lead",
+"lat": -31.9761,
+"lon": 115.8992,
+"place": "Victoria Park, WA"
+},
+"wa-012": {
+"kind": "lead",
+"lat": -31.9886,
+"lon": 115.9044,
+"place": "East Victoria Park, WA"
+},
+"wa-013": {
+"kind": "lead",
+"lat": -31.9802,
+"lon": 115.8638,
+"place": "South Perth, WA"
+},
+"wa-014": {
+"kind": "lead",
+"lat": -31.9825,
+"lon": 115.7764,
+"place": "Claremont, WA"
+},
+"wa-015": {
+"kind": "lead",
+"lat": -31.9934,
+"lon": 115.7872,
+"place": "Dalkeith, WA"
+},
+"wa-016": {
+"kind": "lead",
+"lat": -31.981,
+"lon": 115.8065,
+"place": "Nedlands, WA"
+},
+"wa-017": {
+"kind": "lead",
+"lat": -31.9506,
+"lon": 115.8751,
+"place": "East Perth, WA"
+},
+"wa-018": {
+"kind": "lead",
+"lat": -31.9506,
+"lon": 115.8751,
+"place": "East Perth, WA"
+},
+"wa-019": {
+"kind": "lead",
+"lat": -31.9506,
+"lon": 115.8751,
+"place": "East Perth, WA"
+},
+"wa-020": {
+"kind": "lead",
+"lat": -31.9568,
+"lon": 115.8005,
+"place": "Shenton Park, WA"
+},
+"wa-021": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-022": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-023": {
+"kind": "lead",
+"lat": -32.0037,
+"lon": 115.9153,
+"place": "Bentley, WA"
+},
+"wa-024": {
+"kind": "lead",
+"lat": -31.9459,
+"lon": 115.7978,
+"place": "Floreat, WA"
+},
+"wa-025": {
+"kind": "lead",
+"lat": -32.0799,
+"lon": 115.999,
+"place": "Gosnells, WA"
+},
+"wa-026": {
+"kind": "lead",
+"lat": -32.0982,
+"lon": 116.0714,
+"place": "Roleystone, WA"
+},
+"wa-027": {
+"kind": "lead",
+"lat": -31.8924,
+"lon": 115.7947,
+"place": "Innaloo, WA"
+},
+"wa-028": {
+"kind": "lead",
+"lat": -31.9769,
+"lon": 115.7637,
+"place": "Swanbourne, WA"
+},
+"wa-029": {
+"kind": "lead",
+"lat": -32.0401,
+"lon": 115.8011,
+"place": "Melville, WA"
+},
+"wa-030": {
+"kind": "lead",
+"lat": -31.8877,
+"lon": 115.9092,
+"place": "Morley, WA"
+},
+"wa-031": {
+"kind": "lead",
+"lat": -31.946,
+"lon": 115.9291,
+"place": "Belmont, WA"
+},
+"wa-032": {
+"kind": "lead",
+"lat": -31.8877,
+"lon": 115.9092,
+"place": "Morley, WA"
+},
+"wa-033": {
+"kind": "lead",
+"lat": -31.8105,
+"lon": 115.7985,
+"place": "Kingsley, WA"
+},
+"wa-034": {
+"kind": "lead",
+"lat": -31.7817,
+"lon": 115.8184,
+"place": "Pearsall, WA"
+},
+"wa-035": {
+"kind": "lead",
+"lat": -31.9846,
+"lon": 116.0075,
+"place": "Forrestfield, WA"
+},
+"wa-036": {
+"kind": "lead",
+"lat": -28.7777,
+"lon": 114.6146,
+"place": "Geraldton, WA"
+},
+"wa-037": {
+"kind": "lead",
+"lat": -33.3193,
+"lon": 115.6422,
+"place": "Bunbury, WA"
+},
+"wa-038": {
+"kind": "lead",
+"lat": -31.6544,
+"lon": 116.6712,
+"place": "Northam, WA"
+},
+"wa-039": {
+"kind": "lead",
+"lat": -30.891,
+"lon": 116.7223,
+"place": "Wongan Hills, WA"
+},
+"wa-040": {
+"kind": "lead",
+"lat": -33.8603,
+"lon": 121.8901,
+"place": "Esperance, WA"
+},
+"wa-041": {
+"kind": "lead",
+"lat": -21.9467,
+"lon": 114.1394,
+"place": "Exmouth, WA"
+},
+"wa-042": {
+"kind": "lead",
+"lat": -33.6315,
+"lon": 115.339,
+"place": "Busselton, WA"
+},
+"wa-043": {
+"kind": "lead",
+"lat": -30.8257,
+"lon": 117.485,
+"place": "Koorda, WA"
+},
+"wa-044": {
+"kind": "lead",
+"lat": -29.2661,
+"lon": 114.9265,
+"place": "Port Denison, WA"
+},
+"wa-045": {
+"kind": "lead",
+"lat": -24.8829,
+"lon": 113.6597,
+"place": "Carnarvon, WA"
+},
+"wa-046": {
+"kind": "lead",
+"lat": -32.1479,
+"lon": 116.0082,
+"place": "Armadale, WA"
+},
+"wa-048": {
+"kind": "lead",
+"lat": -33.3193,
+"lon": 115.6422,
+"place": "Bunbury, WA"
+},
+"wa-049": {
+"kind": "lead",
+"lat": -33.3193,
+"lon": 115.6422,
+"place": "Bunbury, WA"
+},
+"wa-050": {
+"kind": "lead",
+"lat": -33.6892,
+"lon": 117.5573,
+"place": "Katanning, WA"
+},
+"wa-051": {
+"kind": "lead",
+"lat": -26.5916,
+"lon": 118.5054,
+"place": "Meekatharra, WA"
+},
+"wa-052": {
+"kind": "lead",
+"lat": -27.4298,
+"lon": 117.8942,
+"place": "Cue, WA"
+},
+"wa-053": {
+"kind": "lead",
+"lat": -24.8829,
+"lon": 113.6597,
+"place": "Carnarvon, WA"
+},
+"wa-054": {
+"kind": "lead",
+"lat": -24.8829,
+"lon": 113.6597,
+"place": "Carnarvon, WA"
+},
+"wa-055": {
+"kind": "lead",
+"lat": -21.9467,
+"lon": 114.1394,
+"place": "Exmouth, WA"
+},
+"wa-057": {
+"kind": "lead",
+"lat": -15.7739,
+"lon": 128.7408,
+"place": "Kununurra, WA"
+},
+"wa-058": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-059": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-060": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-061": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-062": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-063": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-064": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-065": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-066": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-067": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-068": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-069": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-070": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-071": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-072": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-073": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-074": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-075": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-076": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-077": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-078": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-079": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-080": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-081": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-082": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-083": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-084": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-085": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-086": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-087": {
+"kind": "lead",
+"lat": -31.9802,
+"lon": 115.8638,
+"place": "South Perth, WA"
+},
+"wa-088": {
+"kind": "lead",
+"lat": -31.9802,
+"lon": 115.8638,
+"place": "South Perth, WA"
+},
+"wa-089": {
+"kind": "lead",
+"lat": -31.9353,
+"lon": 115.8418,
+"place": "Leederville, WA"
+},
+"wa-090": {
+"kind": "lead",
+"lat": -31.9353,
+"lon": 115.8418,
+"place": "Leederville, WA"
+},
+"wa-091": {
+"kind": "lead",
+"lat": -31.9353,
+"lon": 115.8418,
+"place": "Leederville, WA"
+},
+"wa-092": {
+"kind": "lead",
+"lat": -31.9353,
+"lon": 115.8418,
+"place": "Leederville, WA"
+},
+"wa-093": {
+"kind": "lead",
+"lat": -31.9238,
+"lon": 115.8543,
+"place": "North Perth, WA"
+},
+"wa-094": {
+"kind": "lead",
+"lat": -31.9238,
+"lon": 115.8543,
+"place": "North Perth, WA"
+},
+"wa-095": {
+"kind": "lead",
+"lat": -31.9238,
+"lon": 115.8543,
+"place": "North Perth, WA"
+},
+"wa-096": {
+"kind": "lead",
+"lat": -31.9238,
+"lon": 115.8543,
+"place": "North Perth, WA"
+},
+"wa-097": {
+"kind": "lead",
+"lat": -31.9319,
+"lon": 115.8964,
+"place": "Maylands, WA"
+},
+"wa-098": {
+"kind": "lead",
+"lat": -31.9319,
+"lon": 115.8964,
+"place": "Maylands, WA"
+},
+"wa-099": {
+"kind": "lead",
+"lat": -31.9451,
+"lon": 115.8265,
+"place": "Subiaco, WA"
+},
+"wa-100": {
+"kind": "lead",
+"lat": -31.9451,
+"lon": 115.8265,
+"place": "Subiaco, WA"
+},
+"wa-101": {
+"kind": "lead",
+"lat": -31.9451,
+"lon": 115.8265,
+"place": "Subiaco, WA"
+},
+"wa-102": {
+"kind": "lead",
+"lat": -31.9319,
+"lon": 115.8743,
+"place": "Mount Lawley, WA"
+},
+"wa-103": {
+"kind": "lead",
+"lat": -31.981,
+"lon": 115.8065,
+"place": "Nedlands, WA"
+},
+"wa-104": {
+"kind": "lead",
+"lat": -31.9179,
+"lon": 115.8822,
+"place": "Inglewood, WA"
+},
+"wa-105": {
+"kind": "lead",
+"lat": -31.9179,
+"lon": 115.8822,
+"place": "Inglewood, WA"
+},
+"wa-106": {
+"kind": "lead",
+"lat": -31.9352,
+"lon": 115.8072,
+"place": "Wembley, WA"
+},
+"wa-107": {
+"kind": "lead",
+"lat": -31.9352,
+"lon": 115.8072,
+"place": "Wembley, WA"
+},
+"wa-108": {
+"kind": "lead",
+"lat": -31.9352,
+"lon": 115.8072,
+"place": "Wembley, WA"
+},
+"wa-109": {
+"kind": "lead",
+"lat": -31.9405,
+"lon": 115.8328,
+"place": "West Leederville, WA"
+},
+"wa-110": {
+"kind": "lead",
+"lat": -31.8994,
+"lon": 115.9707,
+"place": "Guildford, WA"
+},
+"wa-111": {
+"kind": "lead",
+"lat": -31.9593,
+"lon": 115.9138,
+"place": "Rivervale, WA"
+},
+"wa-112": {
+"kind": "lead",
+"lat": -31.9068,
+"lon": 115.9453,
+"place": "Bassendean, WA"
+},
+"wa-113": {
+"kind": "lead",
+"lat": -31.8994,
+"lon": 115.9707,
+"place": "Guildford, WA"
+},
+"wa-114": {
+"kind": "lead",
+"lat": -31.8924,
+"lon": 115.7947,
+"place": "Innaloo, WA"
+},
+"wa-115": {
+"kind": "lead",
+"lat": -31.8924,
+"lon": 115.7947,
+"place": "Innaloo, WA"
+},
+"wa-116": {
+"kind": "lead",
+"lat": -31.8924,
+"lon": 115.7947,
+"place": "Innaloo, WA"
+},
+"wa-117": {
+"kind": "lead",
+"lat": -31.8077,
+"lon": 115.7429,
+"place": "Hillarys, WA"
+},
+"wa-118": {
+"kind": "lead",
+"lat": -32.084,
+"lon": 115.7796,
+"place": "Hamilton Hill, WA"
+},
+"wa-119": {
+"kind": "lead",
+"lat": -31.9725,
+"lon": 115.8252,
+"place": "Crawley, WA"
+},
+"wa-120": {
+"kind": "lead",
+"lat": -31.9802,
+"lon": 115.8638,
+"place": "South Perth, WA"
+},
+"wa-121": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-122": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-123": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-124": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-125": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-126": {
+"kind": "lead",
+"lat": -32.0712,
+"lon": 115.7548,
+"place": "South Fremantle, WA"
+},
+"wa-127": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-128": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-129": {
+"kind": "lead",
+"lat": -32.0326,
+"lon": 115.7544,
+"place": "North Fremantle, WA"
+},
+"wa-130": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-131": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-132": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-133": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-134": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-135": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-136": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-137": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-138": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-139": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-140": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-141": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-142": {
+"kind": "lead",
+"lat": -32.0519,
+"lon": 115.761,
+"place": "Fremantle, WA"
+},
+"wa-143": {
+"kind": "lead",
+"lat": -32.0381,
+"lon": 115.7761,
+"place": "East Fremantle, WA"
+},
+"wa-144": {
+"kind": "lead",
+"lat": -32.0091,
+"lon": 115.763,
+"place": "Mosman Park, WA"
+},
+"wa-145": {
+"kind": "lead",
+"lat": -31.997,
+"lon": 115.7625,
+"place": "Cottesloe, WA"
+},
+"wa-146": {
+"kind": "lead",
+"lat": -32.2796,
+"lon": 115.7334,
+"place": "Rockingham, WA"
+},
+"wa-147": {
+"kind": "lead",
+"lat": -32.3044,
+"lon": 115.7307,
+"place": "Safety Bay, WA"
+},
+"wa-148": {
+"kind": "lead",
+"lat": -32.2796,
+"lon": 115.7334,
+"place": "Rockingham, WA"
+},
+"wa-149": {
+"kind": "lead",
+"lat": -32.2796,
+"lon": 115.7334,
+"place": "Rockingham, WA"
+},
+"wa-150": {
+"kind": "lead",
+"lat": -32.2796,
+"lon": 115.7334,
+"place": "Rockingham, WA"
+},
+"wa-151": {
+"kind": "lead",
+"lat": -32.2796,
+"lon": 115.7334,
+"place": "Rockingham, WA"
+},
+"wa-152": {
+"kind": "lead",
+"lat": -32.2796,
+"lon": 115.7334,
+"place": "Rockingham, WA"
+},
+"wa-153": {
+"kind": "lead",
+"lat": -32.2796,
+"lon": 115.7334,
+"place": "Rockingham, WA"
+},
+"wa-154": {
+"kind": "lead",
+"lat": -32.2501,
+"lon": 115.7764,
+"place": "Kwinana Beach, WA"
+},
+"wa-155": {
+"kind": "lead",
+"lat": -28.7777,
+"lon": 114.6146,
+"place": "Geraldton, WA"
+},
+"wa-156": {
+"kind": "lead",
+"lat": -28.7777,
+"lon": 114.6146,
+"place": "Geraldton, WA"
+},
+"wa-157": {
+"kind": "lead",
+"lat": -17.3154,
+"lon": 123.643,
+"place": "Derby, WA"
+},
+"wa-158": {
+"kind": "lead",
+"lat": -20.3282,
+"lon": 118.609,
+"place": "Port Hedland, WA"
+},
+"wa-159": {
+"kind": "lead",
+"lat": -35.0164,
+"lon": 117.8758,
+"place": "Albany, WA"
+},
+"wa-160": {
+"kind": "lead",
+"lat": -35.0164,
+"lon": 117.8758,
+"place": "Albany, WA"
+},
+"wa-161": {
+"kind": "lead",
+"lat": -35.0164,
+"lon": 117.8758,
+"place": "Albany, WA"
+},
+"wa-162": {
+"kind": "lead",
+"lat": -35.0164,
+"lon": 117.8758,
+"place": "Albany, WA"
+},
+"wa-163": {
+"kind": "lead",
+"lat": -35.0164,
+"lon": 117.8758,
+"place": "Albany, WA"
+},
+"wa-164": {
+"kind": "lead",
+"lat": -35.0164,
+"lon": 117.8758,
+"place": "Albany, WA"
+},
+"wa-165": {
+"kind": "lead",
+"lat": -35.0164,
+"lon": 117.8758,
+"place": "Albany, WA"
+},
+"wa-167": {
+"kind": "lead",
+"lat": -35.0164,
+"lon": 117.8758,
+"place": "Albany, WA"
+},
+"wa-168": {
+"kind": "lead",
+"lat": -34.4454,
+"lon": 116.0409,
+"place": "Pemberton, WA"
+},
+"wa-169": {
+"kind": "lead",
+"lat": -34.4454,
+"lon": 116.0409,
+"place": "Pemberton, WA"
+},
+"wa-170": {
+"kind": "lead",
+"lat": -33.3535,
+"lon": 116.1566,
+"place": "Collie, WA"
+},
+"wa-171": {
+"kind": "lead",
+"lat": -32.9352,
+"lon": 117.176,
+"place": "Narrogin, WA"
+},
+"wa-172": {
+"kind": "lead",
+"lat": -31.4836,
+"lon": 118.279,
+"place": "Merredin, WA"
+},
+"wa-173": {
+"kind": "lead",
+"lat": -30.7486,
+"lon": 121.4724,
+"place": "Kalgoorlie, WA"
+},
+"wa-174": {
+"kind": "lead",
+"lat": -30.7791,
+"lon": 121.4832,
+"place": "Boulder, WA"
+},
+"wa-176": {
+"kind": "lead",
+"lat": -26.593,
+"lon": 120.2291,
+"place": "Wiluna, WA"
+},
+"wa-177": {
+"kind": "lead",
+"lat": -26.593,
+"lon": 120.2291,
+"place": "Wiluna, WA"
+},
+"wa-178": {
+"kind": "lead",
+"lat": -20.6769,
+"lon": 117.1387,
+"place": "Wickham, WA"
+},
+"wa-179": {
+"kind": "lead",
+"lat": -21.6349,
+"lon": 116.3352,
+"place": "Pannawonica, WA"
+},
+"wa-182": {
+"kind": "lead",
+"lat": -20.7342,
+"lon": 116.8458,
+"place": "Karratha, WA"
+},
+"wa-183": {
+"kind": "lead",
+"lat": -33.3097,
+"lon": 117.3426,
+"place": "Wagin, WA"
+},
+"wa-184": {
+"kind": "lead",
+"lat": -32.9111,
+"lon": 115.8892,
+"place": "Wagerup, WA"
+},
+"wa-185": {
+"kind": "lead",
+"lat": -17.9629,
+"lon": 122.232,
+"place": "Broome, WA"
+},
+"wa-186": {
+"kind": "lead",
+"lat": -17.9629,
+"lon": 122.232,
+"place": "Broome, WA"
+},
+"wa-187": {
+"kind": "lead",
+"lat": -33.8603,
+"lon": 121.8901,
+"place": "Esperance, WA"
+},
+"wa-188": {
+"kind": "lead",
+"lat": -28.7777,
+"lon": 114.6146,
+"place": "Geraldton, WA"
+},
+"wa-189": {
+"kind": "lead",
+"lat": -28.7777,
+"lon": 114.6146,
+"place": "Geraldton, WA"
+},
+"wa-190": {
+"kind": "lead",
+"lat": -28.7833,
+"lon": 114.6454,
+"place": "Utakarra, WA"
+},
+"wa-191": {
+"kind": "lead",
+"lat": -29.2473,
+"lon": 114.9296,
+"place": "Dongara, WA"
+},
+"wa-192": {
+"kind": "lead",
+"lat": -31.8683,
+"lon": 115.9385,
+"place": "Beechboro, WA"
+},
+"wa-193": {
+"kind": "lead",
+"lat": -31.8549,
+"lon": 115.8397,
+"place": "Balga, WA"
+},
+"wa-194": {
+"kind": "lead",
+"lat": -31.8706,
+"lon": 115.7954,
+"place": "Gwelup, WA"
+},
+"wa-195": {
+"kind": "lead",
+"lat": -32.0346,
+"lon": 115.8963,
+"place": "Riverton, WA"
+},
+"wa-196": {
+"kind": "lead",
+"lat": -32.0681,
+"lon": 115.7854,
+"place": "Hilton, WA"
+},
+"wa-197": {
+"kind": "lead",
+"lat": -31.8867,
+"lon": 116.0107,
+"place": "Midland, WA"
+},
+"wa-198": {
+"kind": "lead",
+"lat": -32.0502,
+"lon": 115.989,
+"place": "Maddington, WA"
+},
+"wa-199": {
+"kind": "lead",
+"lat": -32.0219,
+"lon": 115.9606,
+"place": "Beckenham, WA"
+},
+"wa-200": {
+"kind": "lead",
+"lat": -31.8415,
+"lon": 115.7567,
+"place": "Marmion, WA"
+},
+"wa-201": {
+"kind": "lead",
+"lat": -31.9151,
+"lon": 116.0772,
+"place": "Darlington, WA"
+},
+"wa-202": {
+"kind": "lead",
+"lat": -30.9132,
+"lon": 118.2094,
+"place": "Mukinbudin, WA"
+},
+"wa-203": {
+"kind": "lead",
+"lat": -32.0154,
+"lon": 115.8358,
+"place": "Applecross, WA"
+},
+"wa-204": {
+"kind": "lead",
+"lat": -32.1479,
+"lon": 116.0082,
+"place": "Armadale, WA"
+},
+"wa-205": {
+"kind": "lead",
+"lat": -32.1479,
+"lon": 116.0082,
+"place": "Armadale, WA"
+},
+"wa-206": {
+"kind": "lead",
+"lat": -32.1479,
+"lon": 116.0082,
+"place": "Armadale, WA"
+},
+"wa-207": {
+"kind": "lead",
+"lat": -31.9802,
+"lon": 115.8638,
+"place": "South Perth, WA"
+},
+"wa-208": {
+"kind": "lead",
+"lat": -31.9802,
+"lon": 115.8638,
+"place": "South Perth, WA"
+},
+"wa-209": {
+"kind": "lead",
+"lat": -32.0799,
+"lon": 115.999,
+"place": "Gosnells, WA"
+},
+"wa-210": {
+"kind": "lead",
+"lat": -32.0799,
+"lon": 115.999,
+"place": "Gosnells, WA"
+},
+"wa-211": {
+"kind": "lead",
+"lat": -28.4,
+"lon": 119.0183,
+"place": "Sandstone, WA"
+},
+"wa-212": {
+"kind": "lead",
+"lat": -28.4,
+"lon": 119.0183,
+"place": "Sandstone, WA"
+},
+"wa-213": {
+"kind": "lead",
+"lat": -33.6166,
+"lon": 115.1047,
+"place": "Dunsborough, WA"
+},
+"wa-214": {
+"kind": "lead",
+"lat": -31.8867,
+"lon": 116.0107,
+"place": "Midland, WA"
+},
+"wa-215": {
+"kind": "lead",
+"lat": -31.8877,
+"lon": 115.9092,
+"place": "Morley, WA"
+},
+"wa-216": {
+"kind": "lead",
+"lat": -33.3193,
+"lon": 115.6422,
+"place": "Bunbury, WA"
+},
+"wa-217": {
+"kind": "lead",
+"lat": -32.0164,
+"lon": 115.9456,
+"place": "Cannington, WA"
+},
+"wa-218": {
+"kind": "lead",
+"lat": -31.7329,
+"lon": 115.745,
+"place": "Currambine, WA"
+},
+"wa-219": {
+"kind": "lead",
+"lat": -31.7373,
+"lon": 115.767,
+"place": "Joondalup, WA"
+},
+"wa-220": {
+"kind": "lead",
+"lat": -31.8736,
+"lon": 115.7772,
+"place": "Karrinyup, WA"
+},
+"wa-221": {
+"kind": "lead",
+"lat": -32.0538,
+"lon": 115.8802,
+"place": "Willetton, WA"
+},
+"wa-222": {
+"kind": "lead",
+"lat": -33.6315,
+"lon": 115.339,
+"place": "Busselton, WA"
+},
+"wa-223": {
+"kind": "lead",
+"lat": -30.7486,
+"lon": 121.4724,
+"place": "Kalgoorlie, WA"
+},
+"wa-224": {
+"kind": "lead",
+"lat": -31.4836,
+"lon": 118.279,
+"place": "Merredin, WA"
+},
+"wa-225": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-226": {
+"kind": "lead",
+"lat": -32.0393,
+"lon": 115.8332,
+"place": "Booragoon, WA"
+},
+"wa-227": {
+"kind": "lead",
+"lat": -31.8399,
+"lon": 115.8057,
+"place": "Warwick, WA"
+},
+"wa-228": {
+"kind": "lead",
+"lat": -31.946,
+"lon": 115.9291,
+"place": "Belmont, WA"
+},
+"wa-229": {
+"kind": "lead",
+"lat": -32.1479,
+"lon": 116.0082,
+"place": "Armadale, WA"
+},
+"wa-230": {
+"kind": "lead",
+"lat": -32.5274,
+"lon": 115.7294,
+"place": "Mandurah, WA"
+},
+"wa-231": {
+"kind": "lead",
+"lat": -32.2796,
+"lon": 115.7334,
+"place": "Rockingham, WA"
+},
+"wa-232": {
+"kind": "lead",
+"lat": -20.7342,
+"lon": 116.8458,
+"place": "Karratha, WA"
+},
+"wa-233": {
+"kind": "lead",
+"lat": -24.8829,
+"lon": 113.6597,
+"place": "Carnarvon, WA"
+},
+"wa-234": {
+"kind": "lead",
+"lat": -33.8603,
+"lon": 121.8901,
+"place": "Esperance, WA"
+},
+"wa-235": {
+"kind": "lead",
+"lat": -33.9581,
+"lon": 115.0704,
+"place": "Margaret River, WA"
+},
+"wa-236": {
+"kind": "lead",
+"lat": -31.9624,
+"lon": 115.8973,
+"place": "Burswood, WA"
+},
+"wa-237": {
+"kind": "lead",
+"lat": -31.9068,
+"lon": 115.9453,
+"place": "Bassendean, WA"
+},
+"wa-238": {
+"kind": "lead",
+"lat": -31.7373,
+"lon": 115.767,
+"place": "Joondalup, WA"
+},
+"wa-239": {
+"kind": "lead",
+"lat": -32.0658,
+"lon": 115.8356,
+"place": "Murdoch, WA"
+},
+"wa-240": {
+"kind": "lead",
+"lat": -31.9472,
+"lon": 115.8578,
+"place": "Northbridge, WA"
+},
+"wa-241": {
+"kind": "lead",
+"lat": -31.9883,
+"lon": 115.5541,
+"place": "Rottnest Island, WA"
+},
+"wa-242": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-243": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-244": {
+"kind": "lead",
+"lat": -31.9523,
+"lon": 115.8613,
+"place": "Perth, WA"
+},
+"wa-245": {
+"kind": "lead",
+"lat": -31.9472,
+"lon": 115.8578,
+"place": "Northbridge, WA"
+},
+"wa-246": {
+"kind": "lead",
+"lat": -31.9174,
+"lon": 115.8632,
+"place": "Menora, WA"
+},
+"wests-olympia": {
+"kind": "record",
+"lat": -27.4681,
+"lon": 153.0265,
+"place": "Brisbane City, QLD"
+},
+"wintergarden": {
+"kind": "record",
+"lat": -27.4681,
+"lon": 153.0265,
+"place": "Brisbane City, QLD"
+}
+}
