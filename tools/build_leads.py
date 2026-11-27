@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """Build the research-lead pages and add them to Explore and the homepage state tiles.
 
-Research leads are unverified Phase B research (SA, ACT, QLD round 2, TAS, WA) published with the
+Research leads are unverified Phase B research (SA, ACT, QLD round 2, TAS, WA, NSW discovery batch 01) published with the
 owner's approval. They are kept apart from the genuine records:
   inputs   assets/data/leads-<state>.json   (exported from the staging databases)
   outputs  leads/<id>.html                  one page per lead
            explore.html                     list between <!-- LEAD-RESULTS:START --> and <!-- LEAD-RESULTS:END -->
            index.html                       state tile counts (records plus research leads)
 
-Leads never get map pins, photographs or personal details. Run after tools/build_genuine.py
+Leads never get exact map pins, photographs or personal details (approximate town-centre markers come from build_approx.py). Run after tools/build_genuine.py
 (build_genuine.py calls this script at the end).
 """
 from urllib.parse import quote
@@ -134,7 +134,7 @@ for l in LEADS:
     <h2 id="sources-title">Sources</h2>
     {f"<ul>{srcs}</ul>" if srcs else "<p>No source has been attached to this lead yet.</p>"}
   </article>
-  <p class="cite-meta rec-meta">{ids_line} · published {PUBLISHED} as unverified research with the owner's approval; details will change as each lead is checked.</p>
+  <p class="cite-meta rec-meta">{ids_line} · published {l.get("published", PUBLISHED)} as unverified research with the owner's approval; details will change as each lead is checked.</p>
 </div>
 </main>'''
     open(f"leads/{l['id']}.html", "w", encoding="utf-8").write(p + main + q)

@@ -269,6 +269,60 @@
 "lon": 137.7808,
 "place": "Port Augusta, SA"
 },
+"fca-nsw-d01-043": {
+"kind": "lead",
+"lat": -33.8678,
+"lon": 151.2073,
+"place": "Sydney, NSW"
+},
+"fca-nsw-d01-044": {
+"kind": "lead",
+"lat": -33.8678,
+"lon": 151.2073,
+"place": "Sydney, NSW"
+},
+"fca-nsw-d01-045": {
+"kind": "lead",
+"lat": -33.8678,
+"lon": 151.2073,
+"place": "Sydney, NSW"
+},
+"fca-nsw-d01-046": {
+"kind": "lead",
+"lat": -33.8678,
+"lon": 151.2073,
+"place": "Sydney, NSW"
+},
+"fca-nsw-d01-047": {
+"kind": "lead",
+"lat": -33.8678,
+"lon": 151.2073,
+"place": "Sydney, NSW"
+},
+"fca-nsw-d01-048": {
+"kind": "lead",
+"lat": -33.8678,
+"lon": 151.2073,
+"place": "Sydney, NSW"
+},
+"fca-nsw-d01-060": {
+"kind": "lead",
+"lat": -33.8678,
+"lon": 151.2073,
+"place": "Sydney, NSW"
+},
+"fca-nsw-d01-066": {
+"kind": "lead",
+"lat": -33.8678,
+"lon": 151.2073,
+"place": "Sydney, NSW"
+},
+"fca-nsw-d01-071": {
+"kind": "lead",
+"lat": -30.2909,
+"lon": 153.118,
+"place": "Coffs Harbour, NSW"
+},
 "forum": {
 "kind": "record",
 "lat": -27.4681,
