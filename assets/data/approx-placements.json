@@ -269,6 +269,222 @@
 "lon": 137.7808,
 "place": "Port Augusta, SA"
 },
+"fca-nsw-d01-001": {
+"kind": "lead",
+"lat": -33.8881,
+"lon": 151.1245,
+"place": "Ashfield, NSW"
+},
+"fca-nsw-d01-002": {
+"kind": "lead",
+"lat": -33.852,
+"lon": 151.0317,
+"place": "Auburn, NSW"
+},
+"fca-nsw-d01-003": {
+"kind": "lead",
+"lat": -33.9172,
+"lon": 151.0332,
+"place": "Bankstown, NSW"
+},
+"fca-nsw-d01-004": {
+"kind": "lead",
+"lat": -33.9172,
+"lon": 151.0332,
+"place": "Bankstown, NSW"
+},
+"fca-nsw-d01-005": {
+"kind": "lead",
+"lat": -33.8925,
+"lon": 151.2485,
+"place": "Bondi Junction, NSW"
+},
+"fca-nsw-d01-006": {
+"kind": "lead",
+"lat": -33.893,
+"lon": 151.264,
+"place": "Bondi, NSW"
+},
+"fca-nsw-d01-007": {
+"kind": "lead",
+"lat": -32.925,
+"lon": 151.734,
+"place": "Broadmeadow, NSW"
+},
+"fca-nsw-d01-008": {
+"kind": "lead",
+"lat": -33.8802,
+"lon": 151.1017,
+"place": "Burwood, NSW"
+},
+"fca-nsw-d01-009": {
+"kind": "lead",
+"lat": -33.8802,
+"lon": 151.1017,
+"place": "Burwood, NSW"
+},
+"fca-nsw-d01-010": {
+"kind": "lead",
+"lat": -33.8582,
+"lon": 151.1048,
+"place": "Concord, NSW"
+},
+"fca-nsw-d01-011": {
+"kind": "lead",
+"lat": -33.8255,
+"lon": 151.2035,
+"place": "Crows Nest, NSW"
+},
+"fca-nsw-d01-012": {
+"kind": "lead",
+"lat": -33.8775,
+"lon": 151.2435,
+"place": "Double Bay, NSW"
+},
+"fca-nsw-d01-013": {
+"kind": "lead",
+"lat": -33.8891,
+"lon": 151.0955,
+"place": "Enfield, NSW"
+},
+"fca-nsw-d01-014": {
+"kind": "lead",
+"lat": -33.773,
+"lon": 151.08,
+"place": "Epping, NSW"
+},
+"fca-nsw-d01-015": {
+"kind": "lead",
+"lat": -33.8688,
+"lon": 150.951,
+"place": "Fairfield, NSW"
+},
+"fca-nsw-d01-016": {
+"kind": "lead",
+"lat": -34.7446,
+"lon": 149.7183,
+"place": "Goulburn, NSW"
+},
+"fca-nsw-d01-017": {
+"kind": "lead",
+"lat": -33.8383,
+"lon": 151.0077,
+"place": "Granville, NSW"
+},
+"fca-nsw-d01-018": {
+"kind": "lead",
+"lat": -33.8383,
+"lon": 151.0077,
+"place": "Granville, NSW"
+},
+"fca-nsw-d01-019": {
+"kind": "lead",
+"lat": -33.8383,
+"lon": 151.0077,
+"place": "Granville, NSW"
+},
+"fca-nsw-d01-020": {
+"kind": "lead",
+"lat": -33.8547,
+"lon": 151.0109,
+"place": "South Granville, NSW"
+},
+"fca-nsw-d01-021": {
+"kind": "lead",
+"lat": -33.8545,
+"lon": 150.9893,
+"place": "Guildford, NSW"
+},
+"fca-nsw-d01-022": {
+"kind": "lead",
+"lat": -32.923,
+"lon": 151.746,
+"place": "Hamilton, NSW"
+},
+"fca-nsw-d01-023": {
+"kind": "lead",
+"lat": -33.864,
+"lon": 151.083,
+"place": "Homebush, NSW"
+},
+"fca-nsw-d01-024": {
+"kind": "lead",
+"lat": -32.915,
+"lon": 151.749,
+"place": "Islington, NSW"
+},
+"fca-nsw-d01-025": {
+"kind": "lead",
+"lat": -32.914,
+"lon": 151.709,
+"place": "Lambton, NSW"
+},
+"fca-nsw-d01-026": {
+"kind": "lead",
+"lat": -32.914,
+"lon": 151.709,
+"place": "Lambton, NSW"
+},
+"fca-nsw-d01-028": {
+"kind": "lead",
+"lat": -33.862,
+"lon": 151.0447,
+"place": "Lidcombe, NSW"
+},
+"fca-nsw-d01-030": {
+"kind": "lead",
+"lat": -32.9424,
+"lon": 151.7506,
+"place": "Merewether, NSW"
+},
+"fca-nsw-d01-031": {
+"kind": "lead",
+"lat": -33.8359,
+"lon": 150.988,
+"place": "Merrylands, NSW"
+},
+"fca-nsw-d01-032": {
+"kind": "lead",
+"lat": -29.4635,
+"lon": 149.8375,
+"place": "Moree, NSW"
+},
+"fca-nsw-d01-033": {
+"kind": "lead",
+"lat": -29.4635,
+"lon": 149.8375,
+"place": "Moree, NSW"
+},
+"fca-nsw-d01-034": {
+"kind": "lead",
+"lat": -32.927,
+"lon": 151.778,
+"place": "Newcastle, NSW"
+},
+"fca-nsw-d01-035": {
+"kind": "lead",
+"lat": -32.927,
+"lon": 151.778,
+"place": "Newcastle, NSW"
+},
+"fca-nsw-d01-037": {
+"kind": "lead",
+"lat": -33.8174,
+"lon": 151.0046,
+"place": "Parramatta, NSW"
+},
+"fca-nsw-d01-038": {
+"kind": "lead",
+"lat": -33.8174,
+"lon": 151.0046,
+"place": "Parramatta, NSW"
+},
+"fca-nsw-d01-041": {
+"kind": "lead",
+"lat": -33.8785,
+"lon": 151.084,
+"place": "Strathfield, NSW"
+},
 "fca-nsw-d01-043": {
 "kind": "lead",
 "lat": -33.8678,
@@ -305,11 +521,107 @@
 "lon": 151.2073,
 "place": "Sydney, NSW"
 },
+"fca-nsw-d01-049": {
+"kind": "lead",
+"lat": -33.4432,
+"lon": 151.4324,
+"place": "Terrigal, NSW"
+},
+"fca-nsw-d01-050": {
+"kind": "lead",
+"lat": -35.111,
+"lon": 147.363,
+"place": "Wagga Wagga, NSW"
+},
+"fca-nsw-d01-051": {
+"kind": "lead",
+"lat": -35.111,
+"lon": 147.363,
+"place": "Wagga Wagga, NSW"
+},
+"fca-nsw-d01-052": {
+"kind": "lead",
+"lat": -34.3138,
+"lon": 148.2993,
+"place": "Young, NSW"
+},
+"fca-nsw-d01-053": {
+"kind": "lead",
+"lat": -31.9603,
+"lon": 141.4596,
+"place": "Broken Hill, NSW"
+},
+"fca-nsw-d01-054": {
+"kind": "lead",
+"lat": -28.176,
+"lon": 153.539,
+"place": "Tweed Heads, NSW"
+},
+"fca-nsw-d01-055": {
+"kind": "lead",
+"lat": -28.176,
+"lon": 153.539,
+"place": "Tweed Heads, NSW"
+},
+"fca-nsw-d01-056": {
+"kind": "lead",
+"lat": -31.7098,
+"lon": 148.657,
+"place": "Gilgandra, NSW"
+},
+"fca-nsw-d01-057": {
+"kind": "lead",
+"lat": -31.7098,
+"lon": 148.657,
+"place": "Gilgandra, NSW"
+},
+"fca-nsw-d01-058": {
+"kind": "lead",
+"lat": -31.7098,
+"lon": 148.657,
+"place": "Gilgandra, NSW"
+},
+"fca-nsw-d01-059": {
+"kind": "lead",
+"lat": -34.3138,
+"lon": 148.2993,
+"place": "Young, NSW"
+},
 "fca-nsw-d01-060": {
 "kind": "lead",
 "lat": -33.8678,
 "lon": 151.2073,
 "place": "Sydney, NSW"
+},
+"fca-nsw-d01-061": {
+"kind": "lead",
+"lat": -33.4953,
+"lon": 151.3205,
+"place": "Woy Woy, NSW"
+},
+"fca-nsw-d01-062": {
+"kind": "lead",
+"lat": -34.485,
+"lon": 150.901,
+"place": "Port Kembla, NSW"
+},
+"fca-nsw-d01-063": {
+"kind": "lead",
+"lat": -33.9181,
+"lon": 147.197,
+"place": "West Wyalong, NSW"
+},
+"fca-nsw-d01-064": {
+"kind": "lead",
+"lat": -32.255,
+"lon": 148.615,
+"place": "Dubbo, NSW"
+},
+"fca-nsw-d01-065": {
+"kind": "lead",
+"lat": -34.883,
+"lon": 150.605,
+"place": "Nowra, NSW"
 },
 "fca-nsw-d01-066": {
 "kind": "lead",
@@ -317,11 +629,65 @@
 "lon": 151.2073,
 "place": "Sydney, NSW"
 },
+"fca-nsw-d01-067": {
+"kind": "lead",
+"lat": -33.686,
+"lon": 151.293,
+"place": "Warriewood, NSW"
+},
+"fca-nsw-d01-068": {
+"kind": "lead",
+"lat": -33.279,
+"lon": 149.096,
+"place": "Orange, NSW"
+},
+"fca-nsw-d01-069": {
+"kind": "lead",
+"lat": -28.8414,
+"lon": 153.4429,
+"place": "Alstonville, NSW"
+},
+"fca-nsw-d01-070": {
+"kind": "lead",
+"lat": -33.9181,
+"lon": 147.197,
+"place": "West Wyalong, NSW"
+},
 "fca-nsw-d01-071": {
 "kind": "lead",
 "lat": -30.2909,
 "lon": 153.118,
 "place": "Coffs Harbour, NSW"
+},
+"fca-nsw-d01-072": {
+"kind": "lead",
+"lat": -33.852,
+"lon": 151.1544,
+"place": "Drummoyne, NSW"
+},
+"fca-nsw-d01-073": {
+"kind": "lead",
+"lat": -35.111,
+"lon": 147.363,
+"place": "Wagga Wagga, NSW"
+},
+"fca-nsw-d01-074": {
+"kind": "lead",
+"lat": -32.927,
+"lon": 151.778,
+"place": "Newcastle, NSW"
+},
+"fca-nsw-d01-075": {
+"kind": "lead",
+"lat": -34.37,
+"lon": 150.897,
+"place": "Corrimal, NSW"
+},
+"fca-nsw-d01-076": {
+"kind": "lead",
+"lat": -33.8984,
+"lon": 150.9967,
+"place": "Bass Hill, NSW"
 },
 "forum": {
 "kind": "record",
