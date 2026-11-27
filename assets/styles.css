@@ -1578,3 +1578,15 @@ picture { display: contents; }
 /* Street map tiles (OpenStreetMap): softened to sit with the White Art Deco palette; inverted for dark mode */
 .rm-tiles { filter: saturate(0.35) brightness(1.04) contrast(0.95); }
 :root[data-theme="dark"] .rm-tiles { filter: invert(1) hue-rotate(180deg) saturate(0.3) brightness(0.85) contrast(0.9); }
+
+/* Research leads: outline placeholder where there is no photograph; provisional tag */
+.record-head .wrap.lead-head { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: var(--space-5, 1.5rem); align-items: start; }
+.lead-ph { margin: 0; width: 7.5rem; aspect-ratio: 1; display: grid; place-items: center; align-content: center; gap: .35rem;
+  border: 1px solid var(--line, #d9cfbf); border-radius: 6px; background: var(--paper, #fff); color: var(--navy, #0B1E2D); }
+.lead-ph svg { width: 3.4rem; height: 3.4rem; }
+.lead-ph figcaption { font-size: .75rem; color: var(--muted, #5a6470); }
+@media (max-width: 40rem) { .record-head .wrap.lead-head { grid-template-columns: 1fr; } .lead-ph { width: 5.5rem; } .lead-ph svg { width: 2.6rem; height: 2.6rem; } }
+.tag-prov { display: inline-block; font-size: .75rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: .1rem .45rem;
+  border-radius: 3px; background: #F3E6C4; color: #5B4410; margin-right: .4rem; }
+:root[data-theme="dark"] .tag-prov { background: #4a3a12; color: #f3e6c4; }
+.prov-note { font-size: .95rem; }

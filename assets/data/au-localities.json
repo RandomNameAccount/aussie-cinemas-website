@@ -1,4 +1,11 @@
 {
+"abbotsford|VIC": [
+[
+-37.8065,
+145.0023,
+"Abbotsford"
+]
+],
 "acton|ACT": [
 [
 -35.2816,
@@ -38,6 +45,13 @@
 "Adelaide"
 ]
 ],
+"airport west|VIC": [
+[
+-37.7238,
+144.8824,
+"Airport West"
+]
+],
 "albany|WA": [
 [
 -35.0297,
@@ -50,6 +64,13 @@
 "Albany"
 ]
 ],
+"albert park|VIC": [
+[
+-37.8445,
+144.953,
+"Albert Park"
+]
+],
 "alberton|SA": [
 [
 -34.8609,
@@ -57,11 +78,25 @@
 "Alberton"
 ]
 ],
+"alexandra|VIC": [
+[
+-37.1938,
+145.7106,
+"Alexandra"
+]
+],
 "alstonville|NSW": [
 [
 -28.8414,
 153.4429,
 "Alstonville"
+]
+],
+"altona|VIC": [
+[
+-37.8651,
+144.82,
+"Altona"
 ]
 ],
 "andergrove|QLD": [
@@ -97,6 +132,20 @@
 "Aramac"
 ]
 ],
+"ararat|VIC": [
+[
+-37.2832,
+142.9307,
+"Ararat"
+]
+],
+"armadale|VIC": [
+[
+-37.8572,
+145.0197,
+"Armadale"
+]
+],
 "armadale|WA": [
 [
 -32.1498,
@@ -107,6 +156,20 @@
 -32.1461,
 116.0093,
 "Armadale"
+]
+],
+"ascot vale|VIC": [
+[
+-37.7771,
+144.916,
+"Ascot Vale"
+]
+],
+"ashburton|VIC": [
+[
+-37.8672,
+145.0813,
+"Ashburton"
 ]
 ],
 "ashfield|NSW": [
@@ -154,11 +217,46 @@
 "Babinda"
 ]
 ],
+"bacchus marsh|VIC": [
+[
+-37.6727,
+144.4299,
+"Bacchus Marsh"
+]
+],
+"bairnsdale|VIC": [
+[
+-37.8284,
+147.6088,
+"Bairnsdale"
+]
+],
 "balga|WA": [
 [
 -31.8549,
 115.8397,
 "Balga"
+]
+],
+"ballarat central|VIC": [
+[
+-37.5626,
+143.8505,
+"Ballarat Central"
+]
+],
+"ballarat|VIC": [
+[
+-37.5662,
+143.8496,
+"Ballarat"
+]
+],
+"balwyn|VIC": [
+[
+-37.8096,
+145.0827,
+"Balwyn"
 ]
 ],
 "bankstown|NSW": [
@@ -211,6 +309,13 @@
 "Bassendean"
 ]
 ],
+"bayswater|VIC": [
+[
+-37.846,
+145.2648,
+"Bayswater"
+]
+],
 "beaconsfield|TAS": [
 [
 -41.1988,
@@ -232,6 +337,13 @@
 "Beechboro"
 ]
 ],
+"beechworth|VIC": [
+[
+-36.3616,
+146.6883,
+"Beechworth"
+]
+],
 "belconnen|ACT": [
 [
 -35.2167,
@@ -242,6 +354,27 @@
 -35.2397,
 149.0677,
 "Belconnen"
+]
+],
+"belgrave heights|VIC": [
+[
+-37.926,
+145.3478,
+"Belgrave Heights"
+]
+],
+"belgrave|VIC": [
+[
+-37.9121,
+145.354,
+"Belgrave"
+]
+],
+"bell post hill|VIC": [
+[
+-38.0998,
+144.3278,
+"Bell Post Hill"
 ]
 ],
 "bellerive|TAS": [
@@ -261,6 +394,32 @@
 -31.9435,
 115.9255,
 "Belmont"
+]
+],
+"benalla|VIC": [
+[
+-36.5511,
+145.9843,
+"Benalla"
+],
+[
+-36.5537,
+145.9798,
+"Benalla"
+]
+],
+"bendigo|VIC": [
+[
+-36.7583,
+144.2787,
+"Bendigo"
+]
+],
+"bentleigh|VIC": [
+[
+-37.9225,
+145.0386,
+"Bentleigh"
 ]
 ],
 "bentley|WA": [
@@ -289,6 +448,13 @@
 "Berri"
 ]
 ],
+"berwick|VIC": [
+[
+-38.0447,
+145.3431,
+"Berwick"
+]
+],
 "biggera waters|QLD": [
 [
 -27.9376,
@@ -301,6 +467,20 @@
 -24.3959,
 150.5151,
 "Biloela"
+]
+],
+"birchip|VIC": [
+[
+-35.9818,
+142.9162,
+"Birchip"
+]
+],
+"blackburn|VIC": [
+[
+-37.8204,
+145.1507,
+"Blackburn"
 ]
 ],
 "bluff|QLD": [
@@ -362,6 +542,13 @@
 "Booval"
 ]
 ],
+"boronia|VIC": [
+[
+-37.858,
+145.2831,
+"Boronia"
+]
+],
 "bothwell|TAS": [
 [
 -42.3727,
@@ -388,6 +575,13 @@
 -20.0175,
 148.2282,
 "Bowen"
+]
+],
+"box hill|VIC": [
+[
+-37.8192,
+145.1225,
+"Box Hill"
 ]
 ],
 "braddon|ACT": [
@@ -425,6 +619,13 @@
 "Brighton"
 ]
 ],
+"brighton|VIC": [
+[
+-37.9086,
+144.9972,
+"Brighton"
+]
+],
 "brisbane city|QLD": [
 [
 -27.4681,
@@ -437,6 +638,13 @@
 -28.0285,
 153.4321,
 "Broadbeach"
+]
+],
+"broadmeadows|VIC": [
+[
+-37.6839,
+144.9268,
+"Broadmeadows"
 ]
 ],
 "broadmeadow|NSW": [
@@ -453,11 +661,46 @@
 "Broken Hill"
 ]
 ],
+"brooklyn|VIC": [
+[
+-37.8202,
+144.8437,
+"Brooklyn"
+]
+],
 "broome|WA": [
 [
 -17.9629,
 122.232,
 "Broome"
+]
+],
+"brunswick east|VIC": [
+[
+-37.7709,
+144.9757,
+"Brunswick East"
+]
+],
+"brunswick west|VIC": [
+[
+-37.7625,
+144.943,
+"Brunswick West"
+]
+],
+"brunswick|VIC": [
+[
+-37.767,
+144.9616,
+"Brunswick"
+]
+],
+"bulleen|VIC": [
+[
+-37.7693,
+145.0923,
+"Bulleen"
 ]
 ],
 "bunbury|WA": [
@@ -479,6 +722,20 @@
 "Bundaberg"
 ]
 ],
+"bundoora|VIC": [
+[
+-37.6961,
+145.061,
+"Bundoora"
+]
+],
+"bunyip|VIC": [
+[
+-38.0946,
+145.7204,
+"Bunyip"
+]
+],
 "burleigh|QLD": [
 [
 -20.4532,
@@ -498,6 +755,13 @@
 "Burnie"
 ]
 ],
+"burnley|VIC": [
+[
+-37.829,
+145.0107,
+"Burnley"
+]
+],
 "burswood|WA": [
 [
 -31.9624,
@@ -514,6 +778,13 @@
 [
 -33.8771,
 151.1034,
+"Burwood"
+]
+],
+"burwood|VIC": [
+[
+-37.8508,
+145.114,
 "Burwood"
 ]
 ],
@@ -559,11 +830,25 @@
 "Caloundra"
 ]
 ],
+"camberwell|VIC": [
+[
+-37.8388,
+145.0724,
+"Camberwell"
+]
+],
 "campbell town|TAS": [
 [
 -41.9281,
 147.484,
 "Campbell Town"
+]
+],
+"camperdown|VIC": [
+[
+-38.2341,
+143.1433,
+"Camperdown"
 ]
 ],
 "canberra|ACT": [
@@ -595,6 +880,13 @@
 "Cannington"
 ]
 ],
+"canterbury|VIC": [
+[
+-37.8241,
+145.0764,
+"Canterbury"
+]
+],
 "capalaba|QLD": [
 [
 -27.5346,
@@ -609,6 +901,13 @@
 "Capella"
 ]
 ],
+"carlton|VIC": [
+[
+-37.801,
+144.9661,
+"Carlton"
+]
+],
 "carnarvon|WA": [
 [
 -24.8829,
@@ -616,11 +915,67 @@
 "Carnarvon"
 ]
 ],
+"carnegie|VIC": [
+[
+-37.8915,
+145.056,
+"Carnegie"
+]
+],
+"casterton|VIC": [
+[
+-37.5882,
+141.3985,
+"Casterton"
+]
+],
+"castlemaine|VIC": [
+[
+-37.0646,
+144.2174,
+"Castlemaine"
+]
+],
+"caulfield|VIC": [
+[
+-37.8844,
+145.0259,
+"Caulfield"
+]
+],
+"chadstone|VIC": [
+[
+-37.8812,
+145.1001,
+"Chadstone"
+]
+],
+"charlton|VIC": [
+[
+-36.2683,
+143.3502,
+"Charlton"
+]
+],
 "charters towers|QLD": [
 [
 -20.0767,
 146.2635,
 "Charters Towers"
+]
+],
+"chelsea|VIC": [
+[
+-38.0501,
+145.1202,
+"Chelsea"
+]
+],
+"cheltenham|VIC": [
+[
+-37.9632,
+145.0612,
+"Cheltenham"
 ]
 ],
 "chermside|QLD": [
@@ -635,6 +990,20 @@
 -25.2357,
 152.2757,
 "Childers"
+]
+],
+"chiltern|VIC": [
+[
+-36.16,
+146.6078,
+"Chiltern"
+]
+],
+"chirnside park|VIC": [
+[
+-37.752,
+145.3171,
+"Chirnside Park"
 ]
 ],
 "christies beach|SA": [
@@ -684,11 +1053,25 @@
 "Clayfield"
 ]
 ],
+"clayton|VIC": [
+[
+-37.919,
+145.1269,
+"Clayton"
+]
+],
 "cleveland|QLD": [
 [
 -27.5237,
 153.2851,
 "Cleveland"
+]
+],
+"clifton hill|VIC": [
+[
+-37.791,
+144.997,
+"Clifton Hill"
 ]
 ],
 "cloncurry|QLD": [
@@ -698,6 +1081,25 @@
 "Cloncurry"
 ]
 ],
+"cobram|VIC": [
+[
+-35.9207,
+145.6407,
+"Cobram"
+],
+[
+-35.9212,
+145.6526,
+"Cobram"
+]
+],
+"coburg|VIC": [
+[
+-37.7447,
+144.9643,
+"Coburg"
+]
+],
 "coffs harbour|NSW": [
 [
 -30.2909,
@@ -705,11 +1107,32 @@
 "Coffs Harbour"
 ]
 ],
+"cohuna|VIC": [
+[
+-35.8077,
+144.218,
+"Cohuna"
+]
+],
+"colac|VIC": [
+[
+-38.3404,
+143.584,
+"Colac"
+]
+],
 "collie|WA": [
 [
 -33.3535,
 116.1566,
 "Collie"
+]
+],
+"collingwood|VIC": [
+[
+-37.8024,
+144.9872,
+"Collingwood"
 ]
 ],
 "colonel light gardens|SA": [
@@ -766,6 +1189,13 @@
 "Corrimal"
 ]
 ],
+"corryong|VIC": [
+[
+-36.1962,
+147.9021,
+"Corryong"
+]
+],
 "cottesloe|WA": [
 [
 -31.994,
@@ -785,11 +1215,32 @@
 "Cotton Tree"
 ]
 ],
+"craigieburn|VIC": [
+[
+-37.5887,
+144.9159,
+"Craigieburn"
+]
+],
+"cranbourne|VIC": [
+[
+-38.1034,
+145.2761,
+"Cranbourne"
+]
+],
 "crawley|WA": [
 [
 -31.9725,
 115.8252,
 "Crawley"
+]
+],
+"creswick|VIC": [
+[
+-37.422,
+143.8895,
+"Creswick"
 ]
 ],
 "crows nest|NSW": [
@@ -802,6 +1253,13 @@
 -33.826,
 151.203,
 "Crows Nest"
+]
+],
+"croydon|VIC": [
+[
+-37.7941,
+145.284,
+"Croydon"
 ]
 ],
 "cue|WA": [
@@ -832,6 +1290,18 @@
 "Dalkeith"
 ]
 ],
+"dandenong|VIC": [
+[
+-37.9851,
+145.2114,
+"Dandenong"
+],
+[
+-37.9833,
+145.2,
+"Dandenong"
+]
+],
 "darlington|WA": [
 [
 -31.9151,
@@ -844,6 +1314,20 @@
 -27.5669,
 152.953,
 "Darra"
+]
+],
+"daylesford|VIC": [
+[
+-37.3437,
+144.144,
+"Daylesford"
+]
+],
+"delacombe|VIC": [
+[
+-37.5838,
+143.8169,
+"Delacombe"
 ]
 ],
 "deloraine|TAS": [
@@ -874,6 +1358,46 @@
 "Devonport"
 ]
 ],
+"diamond creek|VIC": [
+[
+-37.6725,
+145.1545,
+"Diamond Creek"
+]
+],
+"dimboola|VIC": [
+[
+-36.447,
+142.0329,
+"Dimboola"
+]
+],
+"docklands|VIC": [
+[
+-37.8185,
+144.9453,
+"Docklands"
+],
+[
+-37.8149,
+144.9505,
+"Docklands"
+]
+],
+"donald|VIC": [
+[
+-36.3706,
+142.9858,
+"Donald"
+]
+],
+"doncaster|VIC": [
+[
+-37.7855,
+145.1242,
+"Doncaster"
+]
+],
 "dongara|WA": [
 [
 -29.2473,
@@ -891,6 +1415,20 @@
 -33.877,
 151.243,
 "Double Bay"
+]
+],
+"dromana|VIC": [
+[
+-38.3376,
+144.9716,
+"Dromana"
+]
+],
+"drouin|VIC": [
+[
+-38.1309,
+145.852,
+"Drouin"
 ]
 ],
 "drummoyne|NSW": [
@@ -954,6 +1492,18 @@
 "East Fremantle"
 ]
 ],
+"east melbourne|VIC": [
+[
+-37.8132,
+144.9837,
+"East Melbourne"
+],
+[
+-37.8167,
+144.9879,
+"East Melbourne"
+]
+],
 "east perth|WA": [
 [
 -31.9426,
@@ -966,6 +1516,13 @@
 "East Perth"
 ]
 ],
+"east sale|VIC": [
+[
+-38.1043,
+147.126,
+"East Sale"
+]
+],
 "east victoria park|WA": [
 [
 -31.9883,
@@ -976,6 +1533,27 @@
 -31.9889,
 115.9039,
 "East Victoria Park"
+]
+],
+"echuca west|VIC": [
+[
+-36.1607,
+144.678,
+"Echuca West"
+]
+],
+"echuca|VIC": [
+[
+-36.1377,
+144.7457,
+"Echuca"
+]
+],
+"edithvale|VIC": [
+[
+-38.038,
+145.1134,
+"Edithvale"
 ]
 ],
 "edmonton|QLD": [
@@ -997,6 +1575,27 @@
 -42.6112,
 146.7141,
 "Ellendale"
+]
+],
+"elsternwick|VIC": [
+[
+-37.8854,
+145.0066,
+"Elsternwick"
+]
+],
+"eltham|VIC": [
+[
+-37.7134,
+145.1545,
+"Eltham"
+]
+],
+"elwood|VIC": [
+[
+-37.8803,
+144.9866,
+"Elwood"
 ]
 ],
 "emerald|QLD": [
@@ -1025,6 +1624,13 @@
 "Epping"
 ]
 ],
+"epping|VIC": [
+[
+-37.6403,
+145.0254,
+"Epping"
+]
+],
 "esperance|WA": [
 [
 -33.8603,
@@ -1032,11 +1638,25 @@
 "Esperance"
 ]
 ],
+"essendon|VIC": [
+[
+-37.7498,
+144.9118,
+"Essendon"
+]
+],
 "eumundi|QLD": [
 [
 -26.4672,
 152.9546,
 "Eumundi"
+]
+],
+"euroa|VIC": [
+[
+-36.7554,
+145.5717,
+"Euroa"
 ]
 ],
 "everard park|SA": [
@@ -1065,11 +1685,60 @@
 "Fairfield"
 ]
 ],
+"fairfield|VIC": [
+[
+-37.7756,
+145.0195,
+"Fairfield"
+]
+],
+"fawkner|VIC": [
+[
+-37.7056,
+144.9684,
+"Fawkner"
+]
+],
+"fitzroy north|VIC": [
+[
+-37.7838,
+144.9836,
+"Fitzroy North"
+]
+],
+"fitzroy|VIC": [
+[
+-37.8011,
+144.9793,
+"Fitzroy"
+]
+],
+"flemington|VIC": [
+[
+-37.7856,
+144.9283,
+"Flemington"
+]
+],
 "floreat|WA": [
 [
 -31.9459,
 115.7978,
 "Floreat"
+]
+],
+"footscray|VIC": [
+[
+-37.7983,
+144.8974,
+"Footscray"
+]
+],
+"forest hill|VIC": [
+[
+-37.839,
+145.1708,
+"Forest Hill"
 ]
 ],
 "forrestfield|WA": [
@@ -1084,6 +1753,13 @@
 -43.0891,
 146.9978,
 "Franklin"
+]
+],
+"frankston|VIC": [
+[
+-38.1479,
+145.1408,
+"Frankston"
 ]
 ],
 "fremantle|WA": [
@@ -1105,11 +1781,32 @@
 "Fullarton"
 ]
 ],
+"gardenvale|VIC": [
+[
+-37.898,
+145.0092,
+"Gardenvale"
+]
+],
+"garfield|VIC": [
+[
+-38.0918,
+145.6777,
+"Garfield"
+]
+],
 "gawler|SA": [
 [
 -34.5978,
 138.7466,
 "Gawler"
+]
+],
+"geelong|VIC": [
+[
+-38.1493,
+144.3612,
+"Geelong"
 ]
 ],
 "geeveston|TAS": [
@@ -1159,6 +1856,13 @@
 "Gilles Plains"
 ]
 ],
+"gisborne|VIC": [
+[
+-37.4961,
+144.5958,
+"Gisborne"
+]
+],
 "gladstone|QLD": [
 [
 -23.8485,
@@ -1173,6 +1877,13 @@
 "Gladstone"
 ]
 ],
+"glen waverley|VIC": [
+[
+-37.881,
+145.1653,
+"Glen Waverley"
+]
+],
 "glenelg|SA": [
 [
 -34.98,
@@ -1185,6 +1896,13 @@
 -42.84,
 147.2681,
 "Glenorchy"
+]
+],
+"glenroy|VIC": [
+[
+-37.7034,
+144.9235,
+"Glenroy"
 ]
 ],
 "glenside|SA": [
@@ -1255,6 +1973,13 @@
 "Grange"
 ]
 ],
+"grantville|VIC": [
+[
+-38.4073,
+145.5333,
+"Grantville"
+]
+],
 "granville|NSW": [
 [
 -33.8406,
@@ -1270,6 +1995,13 @@
 -33.8338,
 151.008,
 "Granville"
+]
+],
+"greensborough|VIC": [
+[
+-37.7009,
+145.1063,
+"Greensborough"
 ]
 ],
 "greenslopes|QLD": [
@@ -1345,11 +2077,67 @@
 "Hamilton"
 ]
 ],
+"hamilton|VIC": [
+[
+-37.7384,
+142.0252,
+"Hamilton"
+]
+],
+"hampton|VIC": [
+[
+-37.9377,
+145.009,
+"Hampton"
+]
+],
+"hartwell|VIC": [
+[
+-37.8421,
+145.0694,
+"Hartwell"
+]
+],
+"hastings|VIC": [
+[
+-38.3045,
+145.1832,
+"Hastings"
+]
+],
+"hawthorn east|VIC": [
+[
+-37.8296,
+145.0502,
+"Hawthorn East"
+]
+],
+"hawthorn|VIC": [
+[
+-37.8233,
+145.0327,
+"Hawthorn"
+]
+],
+"healesville|VIC": [
+[
+-37.6562,
+145.5197,
+"Healesville"
+]
+],
 "hectorville|SA": [
 [
 -34.8934,
 138.6651,
 "Hectorville"
+]
+],
+"heidelberg|VIC": [
+[
+-37.7531,
+145.0669,
+"Heidelberg"
 ]
 ],
 "henley beach|SA": [
@@ -1366,6 +2154,20 @@
 "Hervey Bay"
 ]
 ],
+"heywood|VIC": [
+[
+-38.1333,
+141.6292,
+"Heywood"
+]
+],
+"highett|VIC": [
+[
+-37.9505,
+145.0412,
+"Highett"
+]
+],
 "hillarys|WA": [
 [
 -31.8084,
@@ -1376,6 +2178,13 @@
 -31.807,
 115.7405,
 "Hillarys"
+]
+],
+"hilldene|VIC": [
+[
+-37.0388,
+145.0488,
+"Hilldene"
 ]
 ],
 "hilton|SA": [
@@ -1523,6 +2332,18 @@
 "Homebush"
 ]
 ],
+"horsham|VIC": [
+[
+-36.7156,
+142.1975,
+"Horsham"
+],
+[
+-36.7113,
+142.1998,
+"Horsham"
+]
+],
 "huonville|TAS": [
 [
 -43.0274,
@@ -1561,6 +2382,13 @@
 "Innaloo"
 ]
 ],
+"inverloch|VIC": [
+[
+-38.6334,
+145.7223,
+"Inverloch"
+]
+],
 "invermay|TAS": [
 [
 -41.4218,
@@ -1580,6 +2408,13 @@
 -32.915,
 151.749,
 "Islington"
+]
+],
+"ivanhoe|VIC": [
+[
+-37.7644,
+145.044,
+"Ivanhoe"
 ]
 ],
 "jandowae|QLD": [
@@ -1622,6 +2457,13 @@
 "Kalgoorlie"
 ]
 ],
+"kaniva|VIC": [
+[
+-36.3733,
+141.2439,
+"Kaniva"
+]
+],
 "karratha|WA": [
 [
 -20.7342,
@@ -1655,11 +2497,32 @@
 "Kensington Park"
 ]
 ],
+"kerang|VIC": [
+[
+-35.7322,
+143.9224,
+"Kerang"
+]
+],
+"kew|VIC": [
+[
+-37.805,
+145.0371,
+"Kew"
+]
+],
 "kilkenny|SA": [
 [
 -34.8722,
 138.5527,
 "Kilkenny"
+]
+],
+"kilmore|VIC": [
+[
+-37.2997,
+144.9501,
+"Kilmore"
 ]
 ],
 "kingaroy|QLD": [
@@ -1695,11 +2558,25 @@
 "Kingston"
 ]
 ],
+"knoxfield|VIC": [
+[
+-37.8889,
+145.2498,
+"Knoxfield"
+]
+],
 "koorda|WA": [
 [
 -30.8257,
 117.485,
 "Koorda"
+]
+],
+"koroit|VIC": [
+[
+-38.295,
+142.3639,
+"Koroit"
 ]
 ],
 "kununurra|WA": [
@@ -1714,6 +2591,37 @@
 -32.2501,
 115.7764,
 "Kwinana Beach"
+]
+],
+"kyabram|VIC": [
+[
+-36.3134,
+145.0504,
+"Kyabram"
+],
+[
+-36.3146,
+145.0467,
+"Kyabram"
+]
+],
+"kyneton|VIC": [
+[
+-37.2458,
+144.4566,
+"Kyneton"
+]
+],
+"la trobe university|VIC": [
+[
+-37.7179,
+145.0818,
+"La Trobe University"
+],
+[
+-37.7062,
+145.0474,
+"La Trobe University"
 ]
 ],
 "labrador|QLD": [
@@ -1824,6 +2732,13 @@
 "Launceston"
 ]
 ],
+"laverton north|VIC": [
+[
+-37.8269,
+144.798,
+"Laverton North"
+]
+],
 "leederville|WA": [
 [
 -31.9325,
@@ -1846,6 +2761,13 @@
 "Leederville"
 ]
 ],
+"leongatha|VIC": [
+[
+-38.478,
+145.9494,
+"Leongatha"
+]
+],
 "lidcombe|NSW": [
 [
 -33.8644,
@@ -1862,6 +2784,13 @@
 [
 -41.2488,
 147.221,
+"Lilydale"
+]
+],
+"lilydale|VIC": [
+[
+-37.7577,
+145.3539,
 "Lilydale"
 ]
 ],
@@ -1907,11 +2836,25 @@
 "Longreach"
 ]
 ],
+"lorne|VIC": [
+[
+-38.5381,
+143.9743,
+"Lorne"
+]
+],
 "loxton|SA": [
 [
 -34.4542,
 140.5767,
 "Loxton"
+]
+],
+"lucknow|VIC": [
+[
+-37.8105,
+147.6541,
+"Lucknow"
 ]
 ],
 "mackay|QLD": [
@@ -1945,11 +2888,51 @@
 "Magnetic Island"
 ]
 ],
+"maidstone|VIC": [
+[
+-37.7838,
+144.8745,
+"Maidstone"
+]
+],
+"mallacoota|VIC": [
+[
+-37.5547,
+149.7529,
+"Mallacoota"
+]
+],
+"malvern east|VIC": [
+[
+-37.8777,
+145.0624,
+"Malvern East"
+]
+],
+"malvern|VIC": [
+[
+-37.8577,
+145.0345,
+"Malvern"
+]
+],
 "mandurah|WA": [
 [
 -32.5274,
 115.7294,
 "Mandurah"
+]
+],
+"mansfield|VIC": [
+[
+-37.0587,
+146.0848,
+"Mansfield"
+],
+[
+-37.052,
+146.0885,
+"Mansfield"
 ]
 ],
 "manuka|ACT": [
@@ -1971,6 +2954,13 @@
 -33.9581,
 115.0704,
 "Margaret River"
+]
+],
+"maribyrnong|VIC": [
+[
+-37.7763,
+144.8892,
+"Maribyrnong"
 ]
 ],
 "marion|SA": [
@@ -2006,6 +2996,20 @@
 -25.5293,
 152.6966,
 "Maryborough"
+]
+],
+"maryborough|VIC": [
+[
+-37.0446,
+143.7394,
+"Maryborough"
+]
+],
+"marysville|VIC": [
+[
+-37.5105,
+145.7483,
+"Marysville"
 ]
 ],
 "mayfield|NSW": [
@@ -2049,6 +3053,37 @@
 "Meekatharra"
 ]
 ],
+"melbourne airport|VIC": [
+[
+-37.6798,
+144.848,
+"Melbourne Airport"
+]
+],
+"melbourne|VIC": [
+[
+-37.8132,
+144.9608,
+"Melbourne"
+],
+[
+-37.814,
+144.9633,
+"Melbourne"
+],
+[
+-37.8423,
+144.9768,
+"Melbourne"
+]
+],
+"melton|VIC": [
+[
+-37.6838,
+144.5848,
+"Melton"
+]
+],
 "melville|WA": [
 [
 -32.0398,
@@ -2068,11 +3103,32 @@
 "Menora"
 ]
 ],
+"mentone|VIC": [
+[
+-37.9812,
+145.0679,
+"Mentone"
+]
+],
+"merbein|VIC": [
+[
+-34.1688,
+142.0578,
+"Merbein"
+]
+],
 "merewether|NSW": [
 [
 -32.9424,
 151.7506,
 "Merewether"
+]
+],
+"merlynston|VIC": [
+[
+-37.7393,
+144.964,
+"Merlynston"
 ]
 ],
 "mermaid beach|QLD": [
@@ -2089,6 +3145,13 @@
 "Merredin"
 ]
 ],
+"merrigum|VIC": [
+[
+-36.3703,
+145.1362,
+"Merrigum"
+]
+],
 "merrylands|NSW": [
 [
 -33.8359,
@@ -2096,11 +3159,30 @@
 "Merrylands"
 ]
 ],
+"middle park|VIC": [
+[
+-37.8513,
+144.9624,
+"Middle Park"
+]
+],
 "midland|WA": [
 [
 -31.8867,
 116.0107,
 "Midland"
+]
+],
+"mildura|VIC": [
+[
+-34.1967,
+142.1447,
+"Mildura"
+],
+[
+-34.1855,
+142.1625,
+"Mildura"
 ]
 ],
 "mile end|SA": [
@@ -2115,6 +3197,13 @@
 -26.6599,
 150.1874,
 "Miles"
+]
+],
+"mitcham|VIC": [
+[
+-37.8183,
+145.1979,
+"Mitcham"
 ]
 ],
 "mitchell park|SA": [
@@ -2138,6 +3227,46 @@
 "Moffat Beach"
 ]
 ],
+"monash university|VIC": [
+[
+-38.0176,
+145.35,
+"Monash University"
+]
+],
+"monbulk|VIC": [
+[
+-37.8744,
+145.4146,
+"Monbulk"
+]
+],
+"montmorency|VIC": [
+[
+-37.7187,
+145.1245,
+"Montmorency"
+]
+],
+"montrose|VIC": [
+[
+-37.8118,
+145.3448,
+"Montrose"
+]
+],
+"moolap|VIC": [
+[
+-38.1833,
+144.4333,
+"Moolap"
+],
+[
+-38.1746,
+144.4186,
+"Moolap"
+]
+],
 "mooloolaba|QLD": [
 [
 -26.682,
@@ -2152,11 +3281,25 @@
 "Moonah"
 ]
 ],
+"moonee ponds|VIC": [
+[
+-37.7655,
+144.921,
+"Moonee Ponds"
+]
+],
 "moonta|SA": [
 [
 -34.0672,
 137.5906,
 "Moonta"
+]
+],
+"moorabbin|VIC": [
+[
+-37.9406,
+145.0542,
+"Moorabbin"
 ]
 ],
 "moranbah|QLD": [
@@ -2171,6 +3314,13 @@
 -27.1175,
 152.9463,
 "Morayfield"
+]
+],
+"mordialloc|VIC": [
+[
+-38.0008,
+145.0933,
+"Mordialloc"
 ]
 ],
 "moree|NSW": [
@@ -2192,11 +3342,25 @@
 "Morley"
 ]
 ],
+"mornington|VIC": [
+[
+-38.2297,
+145.0479,
+"Mornington"
+]
+],
 "morven|QLD": [
 [
 -26.4215,
 147.1191,
 "Morven"
+]
+],
+"morwell|VIC": [
+[
+-38.2303,
+146.4143,
+"Morwell"
 ]
 ],
 "mosman park|WA": [
@@ -2223,6 +3387,13 @@
 -35.0758,
 138.8655,
 "Mount Barker"
+]
+],
+"mount buller|VIC": [
+[
+-37.147,
+146.4479,
+"Mount Buller"
 ]
 ],
 "mount gambier|SA": [
@@ -2263,6 +3434,13 @@
 "Mount Morgan"
 ]
 ],
+"mount waverley|VIC": [
+[
+-37.8773,
+145.1292,
+"Mount Waverley"
+]
+],
 "mowbray|TAS": [
 [
 -41.4056,
@@ -2275,6 +3453,13 @@
 -30.9132,
 118.2094,
 "Mukinbudin"
+]
+],
+"mulgrave|VIC": [
+[
+-37.9277,
+145.1769,
+"Mulgrave"
 ]
 ],
 "murdoch|WA": [
@@ -2303,6 +3488,25 @@
 "Murray Bridge"
 ]
 ],
+"murrumbeena|VIC": [
+[
+-37.8952,
+145.0702,
+"Murrumbeena"
+]
+],
+"myrtleford|VIC": [
+[
+-36.561,
+146.7237,
+"Myrtleford"
+],
+[
+-36.5591,
+146.7274,
+"Myrtleford"
+]
+],
 "nambour|QLD": [
 [
 -26.6249,
@@ -2329,6 +3533,13 @@
 -35.3344,
 149.1473,
 "Narrabundah"
+]
+],
+"narre warren|VIC": [
+[
+-38.0176,
+145.3062,
+"Narre Warren"
 ]
 ],
 "narrogin|WA": [
@@ -2383,6 +3594,13 @@
 "New Town"
 ]
 ],
+"newborough|VIC": [
+[
+-38.1801,
+146.2903,
+"Newborough"
+]
+],
 "newcastle|NSW": [
 [
 -32.927,
@@ -2390,11 +3608,44 @@
 "Newcastle"
 ]
 ],
+"newport|VIC": [
+[
+-37.8427,
+144.8778,
+"Newport"
+]
+],
+"newtown|VIC": [
+[
+-37.6931,
+143.6559,
+"Newtown"
+],
+[
+-38.1535,
+144.338,
+"Newtown"
+]
+],
+"nhill|VIC": [
+[
+-36.3292,
+141.6443,
+"Nhill"
+]
+],
 "noarlunga centre|SA": [
 [
 -35.1416,
 138.4969,
 "Noarlunga Centre"
+]
+],
+"noble park|VIC": [
+[
+-37.9684,
+145.1763,
+"Noble Park"
 ]
 ],
 "north adelaide|SA": [
@@ -2437,6 +3688,13 @@
 "North Mackay"
 ]
 ],
+"north melbourne|VIC": [
+[
+-37.7987,
+144.948,
+"North Melbourne"
+]
+],
 "north perth|WA": [
 [
 -31.9204,
@@ -2473,6 +3731,13 @@
 "Northbridge"
 ]
 ],
+"northcote|VIC": [
+[
+-37.7728,
+145.0003,
+"Northcote"
+]
+],
 "norwood|SA": [
 [
 -34.9216,
@@ -2485,6 +3750,20 @@
 -34.883,
 150.605,
 "Nowra"
+]
+],
+"numurkah|VIC": [
+[
+-36.0866,
+145.4422,
+"Numurkah"
+]
+],
+"nunawading|VIC": [
+[
+-37.8183,
+145.1762,
+"Nunawading"
 ]
 ],
 "nuriootpa|SA": [
@@ -2508,6 +3787,13 @@
 "Oaklands Park"
 ]
 ],
+"oakleigh|VIC": [
+[
+-37.9007,
+145.0947,
+"Oakleigh"
+]
+],
 "oatlands|TAS": [
 [
 -42.3031,
@@ -2529,6 +3815,27 @@
 "Orange"
 ]
 ],
+"ormond|VIC": [
+[
+-37.9036,
+145.0424,
+"Ormond"
+]
+],
+"ouyen|VIC": [
+[
+-35.0678,
+142.315,
+"Ouyen"
+]
+],
+"pakenham|VIC": [
+[
+-38.0717,
+145.4764,
+"Pakenham"
+]
+],
 "palm beach|QLD": [
 [
 -28.1151,
@@ -2548,6 +3855,20 @@
 -34.9975,
 138.5976,
 "Panorama"
+]
+],
+"parkdale|VIC": [
+[
+-37.9921,
+145.0805,
+"Parkdale"
+]
+],
+"parkville|VIC": [
+[
+-37.7851,
+144.9499,
+"Parkville"
 ]
 ],
 "parramatta|NSW": [
@@ -2575,6 +3896,13 @@
 -33.815,
 151.007,
 "Parramatta"
+]
+],
+"pascoe vale|VIC": [
+[
+-37.7246,
+144.9375,
+"Pascoe Vale"
 ]
 ],
 "pearsall|WA": [
@@ -2726,6 +4054,20 @@
 "Phillip"
 ]
 ],
+"pinewood|VIC": [
+[
+-37.8756,
+145.1387,
+"Pinewood"
+]
+],
+"point cook|VIC": [
+[
+-37.8974,
+144.7436,
+"Point Cook"
+]
+],
 "port adelaide|SA": [
 [
 -34.8465,
@@ -2764,6 +4106,13 @@
 "Port Elliot"
 ]
 ],
+"port fairy|VIC": [
+[
+-38.3809,
+142.2319,
+"Port Fairy"
+]
+],
 "port hedland|WA": [
 [
 -20.3282,
@@ -2790,11 +4139,46 @@
 "Port Lincoln"
 ]
 ],
+"port melbourne|VIC": [
+[
+-37.8368,
+144.9349,
+"Port Melbourne"
+]
+],
 "port pirie|SA": [
 [
 -33.178,
 138.009,
 "Port Pirie"
+]
+],
+"portland|VIC": [
+[
+-38.3503,
+141.6021,
+"Portland"
+]
+],
+"prahran|VIC": [
+[
+-37.8513,
+144.9983,
+"Prahran"
+]
+],
+"preston west|VIC": [
+[
+-37.75,
+145.0167,
+"Preston West"
+]
+],
+"preston|VIC": [
+[
+-37.7419,
+145.0056,
+"Preston"
 ]
 ],
 "proserpine|QLD": [
@@ -2809,6 +4193,13 @@
 -34.8832,
 138.5928,
 "Prospect"
+]
+],
+"puckapunyal|VIC": [
+[
+-36.9984,
+145.0345,
+"Puckapunyal"
 ]
 ],
 "punchbowl|NSW": [
@@ -2872,11 +4263,32 @@
 "Renmark"
 ]
 ],
+"reservoir|VIC": [
+[
+-37.7139,
+145.0102,
+"Reservoir"
+]
+],
 "richmond|TAS": [
 [
 -42.7364,
 147.4309,
 "Richmond"
+]
+],
+"richmond|VIC": [
+[
+-37.8188,
+145.0015,
+"Richmond"
+]
+],
+"ringwood|VIC": [
+[
+-37.8119,
+145.2314,
+"Ringwood"
 ]
 ],
 "riverton|WA": [
@@ -2905,6 +4317,13 @@
 -28.0721,
 153.3952,
 "Robina"
+]
+],
+"robinvale|VIC": [
+[
+-34.5997,
+142.7719,
+"Robinvale"
 ]
 ],
 "rockhampton|QLD": [
@@ -2947,6 +4366,13 @@
 "Rosebery"
 ]
 ],
+"rosebud|VIC": [
+[
+-38.3677,
+144.9073,
+"Rosebud"
+]
+],
 "rosewood|QLD": [
 [
 -27.6362,
@@ -2968,11 +4394,32 @@
 "Rottnest Island"
 ]
 ],
+"rowville|VIC": [
+[
+-37.921,
+145.2481,
+"Rowville"
+]
+],
 "roxby downs|SA": [
 [
 -30.5625,
 136.9012,
 "Roxby Downs"
+]
+],
+"rushworth|VIC": [
+[
+-36.5888,
+145.0192,
+"Rushworth"
+]
+],
+"rutherglen|VIC": [
+[
+-36.055,
+146.4629,
+"Rutherglen"
 ]
 ],
 "safety bay|WA": [
@@ -2989,6 +4436,13 @@
 "St Agnes"
 ]
 ],
+"saint arnaud|VIC": [
+[
+-36.615,
+143.2556,
+"St Arnaud"
+]
+],
 "saint helens|TAS": [
 [
 -41.3239,
@@ -2996,11 +4450,30 @@
 "St Helens"
 ]
 ],
+"saint kilda|VIC": [
+[
+-37.8635,
+144.9823,
+"St Kilda"
+]
+],
 "saint marys|TAS": [
 [
 -41.5775,
 148.1885,
 "St Marys"
+]
+],
+"sale|VIC": [
+[
+-38.1022,
+147.0746,
+"Sale"
+],
+[
+-38.111,
+147.068,
+"Sale"
 ]
 ],
 "salisbury downs|SA": [
@@ -3024,6 +4497,13 @@
 "Sandgate"
 ]
 ],
+"sandringham|VIC": [
+[
+-37.9531,
+145.0155,
+"Sandringham"
+]
+],
 "sandstone|WA": [
 [
 -28.4,
@@ -3038,11 +4518,30 @@
 "Scottsdale"
 ]
 ],
+"seaford|VIC": [
+[
+-38.1092,
+145.1371,
+"Seaford"
+]
+],
 "semaphore|SA": [
 [
 -34.8374,
 138.4759,
 "Semaphore"
+]
+],
+"seymour|VIC": [
+[
+-37.0262,
+145.1464,
+"Seymour"
+],
+[
+-37.0266,
+145.1392,
+"Seymour"
 ]
 ],
 "sheffield|TAS": [
@@ -3057,6 +4556,18 @@
 -31.9568,
 115.8005,
 "Shenton Park"
+]
+],
+"shepparton|VIC": [
+[
+-36.3787,
+145.4049,
+"Shepparton"
+],
+[
+-36.3805,
+145.3987,
+"Shepparton"
 ]
 ],
 "shorncliffe|QLD": [
@@ -3094,6 +4605,13 @@
 "Sorell"
 ]
 ],
+"sorrento|VIC": [
+[
+-38.3451,
+144.7438,
+"Sorrento"
+]
+],
 "south brisbane|QLD": [
 [
 -27.4737,
@@ -3115,6 +4633,13 @@
 "South Granville"
 ]
 ],
+"south melbourne|VIC": [
+[
+-37.8333,
+144.9598,
+"South Melbourne"
+]
+],
 "south perth|WA": [
 [
 -31.977,
@@ -3127,11 +4652,25 @@
 "South Perth"
 ]
 ],
+"south yarra|VIC": [
+[
+-37.8391,
+144.9928,
+"South Yarra"
+]
+],
 "southport|QLD": [
 [
 -27.9717,
 153.4072,
 "Southport"
+]
+],
+"springvale|VIC": [
+[
+-37.9474,
+145.1523,
+"Springvale"
 ]
 ],
 "stanley|TAS": [
@@ -3153,6 +4692,13 @@
 -27.7337,
 153.2386,
 "Stapylton"
+]
+],
+"stawell|VIC": [
+[
+-37.0591,
+142.7766,
+"Stawell"
 ]
 ],
 "strahan|TAS": [
@@ -3215,6 +4761,20 @@
 "Summer Hill"
 ]
 ],
+"sunbury|VIC": [
+[
+-37.5789,
+144.7256,
+"Sunbury"
+]
+],
+"sunshine|VIC": [
+[
+-37.7879,
+144.835,
+"Sunshine"
+]
+],
 "surfers paradise|QLD": [
 [
 -28.0027,
@@ -3222,11 +4782,32 @@
 "Surfers Paradise"
 ]
 ],
+"surrey hills|VIC": [
+[
+-37.8265,
+145.0982,
+"Surrey Hills"
+]
+],
+"swan hill|VIC": [
+[
+-35.3418,
+143.5496,
+"Swan Hill"
+]
+],
 "swanbourne|WA": [
 [
 -31.9769,
 115.7637,
 "Swanbourne"
+]
+],
+"swanpool|VIC": [
+[
+-36.7433,
+146.0011,
+"Swanpool"
 ]
 ],
 "swansea|TAS": [
@@ -3998,6 +5579,13 @@
 "Sydney"
 ]
 ],
+"syndal|VIC": [
+[
+-37.8742,
+145.1479,
+"Syndal"
+]
+],
 "tanunda|SA": [
 [
 -34.5196,
@@ -4010,6 +5598,34 @@
 -27.4938,
 152.9823,
 "Taringa"
+]
+],
+"tatura|VIC": [
+[
+-36.4405,
+145.2308,
+"Tatura"
+]
+],
+"taylors lakes|VIC": [
+[
+-37.6992,
+144.7867,
+"Taylors Lakes"
+]
+],
+"tecoma|VIC": [
+[
+-37.904,
+145.3446,
+"Tecoma"
+]
+],
+"terang|VIC": [
+[
+-38.2394,
+142.9145,
+"Terang"
 ]
 ],
 "terrigal|NSW": [
@@ -4033,11 +5649,32 @@
 "Thebarton"
 ]
 ],
+"thomastown|VIC": [
+[
+-37.6822,
+145.0129,
+"Thomastown"
+]
+],
+"thornbury|VIC": [
+[
+-37.758,
+145.0044,
+"Thornbury"
+]
+],
 "thursday island|QLD": [
 [
 -10.5809,
 142.2232,
 "Thursday Island"
+]
+],
+"tidal river|VIC": [
+[
+-39.0317,
+146.3219,
+"Tidal River"
 ]
 ],
 "toombul|QLD": [
@@ -4052,6 +5689,13 @@
 -34.9338,
 138.6377,
 "Toorak Gardens"
+]
+],
+"toorak|VIC": [
+[
+-37.8421,
+145.0143,
+"Toorak"
 ]
 ],
 "toowoomba|QLD": [
@@ -4082,6 +5726,13 @@
 "Townsville"
 ]
 ],
+"traralgon|VIC": [
+[
+-38.1937,
+146.5322,
+"Traralgon"
+]
+],
 "tullah|TAS": [
 [
 -41.7377,
@@ -4089,11 +5740,25 @@
 "Tullah"
 ]
 ],
+"tullamarine|VIC": [
+[
+-37.7022,
+144.874,
+"Tullamarine"
+]
+],
 "tweed heads|NSW": [
 [
 -28.176,
 153.539,
 "Tweed Heads"
+]
+],
+"tyntynder south|VIC": [
+[
+-35.2738,
+143.5143,
+"Tyntynder South"
 ]
 ],
 "ulverstone|TAS": [
@@ -4108,6 +5773,13 @@
 -34.9481,
 138.6057,
 "Unley"
+]
+],
+"upwey|VIC": [
+[
+-37.9067,
+145.3302,
+"Upwey"
 ]
 ],
 "utakarra|WA": [
@@ -4143,6 +5815,13 @@
 "Victoria Point"
 ]
 ],
+"violet town|VIC": [
+[
+-36.6326,
+145.7159,
+"Violet Town"
+]
+],
 "wagerup|WA": [
 [
 -32.9111,
@@ -4162,6 +5841,13 @@
 -33.3097,
 117.3426,
 "Wagin"
+]
+],
+"walkerville|VIC": [
+[
+-38.8249,
+145.9964,
+"Walkerville"
 ]
 ],
 "wallangarra|QLD": [
@@ -4185,11 +5871,44 @@
 "Wandoan"
 ]
 ],
+"wangaratta|VIC": [
+[
+-36.3585,
+146.3206,
+"Wangaratta"
+],
+[
+-36.3581,
+146.3099,
+"Wangaratta"
+]
+],
+"wantirna|VIC": [
+[
+-37.853,
+145.2293,
+"Wantirna"
+]
+],
 "waratah|TAS": [
 [
 -41.4453,
 145.53,
 "Waratah"
+]
+],
+"warragul|VIC": [
+[
+-38.1548,
+145.9342,
+"Warragul"
+]
+],
+"warrandyte|VIC": [
+[
+-37.7469,
+145.2066,
+"Warrandyte"
 ]
 ],
 "warrane|TAS": [
@@ -4204,6 +5923,13 @@
 -33.686,
 151.293,
 "Warriewood"
+]
+],
+"warrnambool|VIC": [
+[
+-38.376,
+142.4901,
+"Warrnambool"
 ]
 ],
 "warwick|QLD": [
@@ -4227,6 +5953,13 @@
 "Watson"
 ]
 ],
+"waurn ponds|VIC": [
+[
+-38.2098,
+144.3016,
+"Waurn Ponds"
+]
+],
 "wellington point|QLD": [
 [
 -27.4741,
@@ -4244,6 +5977,20 @@
 -31.9333,
 115.8,
 "Wembley"
+]
+],
+"wendouree|VIC": [
+[
+-37.5307,
+143.8306,
+"Wendouree"
+]
+],
+"werribee|VIC": [
+[
+-37.9007,
+144.6474,
+"Werribee"
 ]
 ],
 "west beach|SA": [
@@ -4270,6 +6017,13 @@
 -31.9414,
 115.8312,
 "West Leederville"
+]
+],
+"west melbourne|VIC": [
+[
+-37.809,
+144.9477,
+"West Melbourne"
 ]
 ],
 "west wyalong|NSW": [
@@ -4319,6 +6073,13 @@
 "Willetton"
 ]
 ],
+"williamstown|VIC": [
+[
+-37.8601,
+144.8925,
+"Williamstown"
+]
+],
 "willunga|SA": [
 [
 -35.2713,
@@ -4333,10 +6094,24 @@
 "Wiluna"
 ]
 ],
+"winchelsea|VIC": [
+[
+-38.2431,
+143.9868,
+"Winchelsea"
+]
+],
 "windsor|QLD": [
 [
 -27.4337,
 153.0307,
+"Windsor"
+]
+],
+"windsor|VIC": [
+[
+-37.8542,
+144.9923,
 "Windsor"
 ]
 ],
@@ -4352,6 +6127,18 @@
 -35.3481,
 149.0905,
 "Woden"
+]
+],
+"wodonga|VIC": [
+[
+-36.1218,
+146.8881,
+"Wodonga"
+],
+[
+-36.1324,
+146.8855,
+"Wodonga"
 ]
 ],
 "wondai|QLD": [
@@ -4408,6 +6195,41 @@
 -40.9911,
 145.7239,
 "Wynyard"
+]
+],
+"yallourn north|VIC": [
+[
+-38.1569,
+146.3666,
+"Yallourn North"
+]
+],
+"yallourn|VIC": [
+[
+-38.1728,
+146.317,
+"Yallourn"
+]
+],
+"yarra junction|VIC": [
+[
+-37.7859,
+145.6184,
+"Yarra Junction"
+]
+],
+"yarraville|VIC": [
+[
+-37.817,
+144.8833,
+"Yarraville"
+]
+],
+"yarrawonga|VIC": [
+[
+-36.0152,
+146.0179,
+"Yarrawonga"
 ]
 ],
 "young|NSW": [

@@ -13,6 +13,7 @@ Leads never get exact map pins, photographs or personal details (approximate tow
 """
 from urllib.parse import quote
 import glob, html, json, os, re
+from datetime import date
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
@@ -60,6 +61,22 @@ def gmaps_url(*parts):
 def gmaps_btn(*parts):
     return f'<a class="btn btn-secondary" href="{E(gmaps_url(*parts))}" target="_blank" rel="noopener">Find on Google Maps<span class="visually-hidden"> (opens in a new tab)</span></a>'
 
+def _icon(name):
+    body = re.search(r"<svg[^>]*>(.*)</svg>", open(f"assets/icons/equip-{name}.svg", encoding="utf-8").read(), re.S).group(1)
+    return ('<svg viewBox="0 0 52 52" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" '
+            'aria-hidden="true" focusable="false">' + body + "</svg>")
+ICONS = {"drive-in": _icon("driveins"), "open-air": _icon("driveins"), "hall": _icon("seating"), "": _icon("sites")}
+def placeholder(l):
+    """Outline icon for leads without a photograph (no photographs are attached to research leads)."""
+    kind = l.get("type") if l.get("type") in ICONS else ""
+    label = {"drive-in": "drive-in", "open-air": "open-air cinema", "hall": "hall"}.get(kind, "cinema")
+    return f'<figure class="lead-ph" aria-label="No photograph yet: placeholder icon for a {label}">{ICONS[kind]}<figcaption>No photograph yet</figcaption></figure>'
+STATUS_TEXT = {"operating": "Operating cinema", "repurposed": "Building survives, other use", "demolished": "Demolished", "closed": "Closed or not stated"}
+def status_of(l):
+    return l.get("status") if l.get("status") in STATUS_TEXT else "closed"
+def region_of(l):
+    return l.get("region") or ""
+
 def place(l):
     return ", ".join(x for x in (l["address"], l["locality"]) if x)
 
@@ -104,15 +121,16 @@ for l in LEADS:
                                        f"national catalogue id <code>{E(l['nationalId'])}</code>" if l["nationalId"] else "",
                                        "research id " + ", ".join(f"<code>{E(c)}</code>" for c in l["candidateIds"]) if l["candidateIds"] else "") if x)
     main = f'''<main id="main" tabindex="-1">
-<section class="record-head" aria-labelledby="rec-title"><div class="wrap" style="grid-template-columns:1fr">
+<section class="record-head" aria-labelledby="rec-title"><div class="wrap lead-head">
+  {placeholder(l)}
   <div class="stack">
     <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../index.html">Home</a></li><li><a href="../explore.html?state={l["state"].lower()}">Explore cinemas</a></li><li aria-current="page">{E(l["name"])}</li></ol></nav>
     <p class="eyebrow">Research lead · {E(sn)}</p>
     <h1 id="rec-title">{E(l["name"])}</h1>
     {aliases}
-    <p class="lede">{E(place(l))} {E(l["state"])}</p>
+    <p class="lede">{E(place(l))} {E(l["state"])}{(" · " + E(region_of(l))) if region_of(l) else ""}</p>
     <dl class="rec-keyfacts">
-      <div><dt>Status today</dt><dd>Not verified</dd></div>
+      <div><dt>Status today</dt><dd>{E(l["statusNote"]) if l.get("statusNote") else "Not verified"}</dd></div>
       <div><dt>Opened</dt><dd>{E(str(year(l))) + " (as recorded, not verified)" if year(l) else "Not recorded"}</dd></div>
       <div><dt>Evidence</dt><dd>{LEAD_BADGE} {OPEN_BADGE if oq else ""}</dd></div>
       <div><dt>Location</dt><dd>{f'<a href="../index.html?focus={E(l["id"])}#map">On the map, approximately</a> (centre of {E(APPROX[l["id"]]["place"])}; the exact site is not known)' if l["id"] in APPROX else "Not on the map"}</dd></div>
@@ -125,16 +143,17 @@ for l in LEADS:
     <h2 id="how-title" class="visually-hidden">How sure we are</h2>
     <div class="notice n-info"><p><strong>This is a research lead, not a confirmed record.</strong> {E(l["basis"])}</p>
     <p>Nothing on this page has been checked against its sources by Film Cinemas Australia yet. Names, dates and places may be wrong, and this lead may turn out to be the same cinema as another lead or record.</p>
-    <p><strong>Location:</strong> not mapped. No coordinates have been checked for this lead.</p></div>
+    <p><strong>Location:</strong> {("approximate only. The map marker sits at the centre of " + E(APPROX[l["id"]]["place"]) + "; no coordinates for the cinema itself have been checked.") if l["id"] in APPROX else "not mapped. No coordinates have been checked for this lead."}</p></div>
   </section>
   <article class="site-rec rec-article" aria-labelledby="rec-title" data-lead-id="{E(l["id"])}">
     <h2 id="events-title">What the research notes say</h2>
+    {'<p class="prov-note"><span class="tag-prov">Provisional</span> Every detail below is given as its named source records it. None has been confirmed by a Film Cinemas Australia editor.</p>' if facts else ""}
     {said}
     {f'<h2 id="open-title">Open questions</h2><ul>{oq}</ul>' if oq else ""}
     <h2 id="sources-title">Sources</h2>
     {f"<ul>{srcs}</ul>" if srcs else "<p>No source has been attached to this lead yet.</p>"}
   </article>
-  <p class="cite-meta rec-meta">{ids_line} · published {l.get("published", PUBLISHED)} as unverified research with the owner's approval; details will change as each lead is checked.</p>
+  <p class="cite-meta rec-meta">{ids_line} · {("staged " + str(date.today().strftime("%-d %B %Y")) + " for editorial review (proposed evidence level " + E(l.get("level", "")) + "); not yet approved for publication") if str(l.get("published", "")).startswith("staging") else ("published " + l.get("published", PUBLISHED) + " as unverified research with the owner's approval; details will change as each lead is checked")}.</p>
 </div>
 </main>'''
     open(f"leads/{l['id']}.html", "w", encoding="utf-8").write(p + main + q)
@@ -143,11 +162,11 @@ for l in LEADS:
 items = []
 for l in sorted(LEADS, key=lambda x: (x["name"].lower(), x["locality"].lower())):
     y = year(l)
-    search = norm(" ".join([l["name"], " ".join(l["aliases"]), l["address"], l["locality"], l["state"], STATE_NAME[l["state"]], "research lead not verified"]))
-    items.append(f'''<li class="gx-item" data-id="{E(l["id"])}" data-state="{l["state"].lower()}" data-status="closed" data-evidence="lead" data-loc="{"approx" if l["id"] in APPROX else "notmapped"}" data-era="{era(y)}" data-search="{E(search)}">
+    search = norm(" ".join([l["name"], " ".join(l["aliases"]), l["address"], l["locality"], l.get("postcode", ""), region_of(l), l["state"], STATE_NAME[l["state"]], STATUS_TEXT[status_of(l)], "research lead not verified"]))
+    items.append(f'''<li class="gx-item" data-id="{E(l["id"])}" data-state="{l["state"].lower()}" data-region="{E(region_of(l))}" data-status="{status_of(l)}" data-evidence="lead" data-loc="{"approx" if l["id"] in APPROX else "notmapped"}" data-era="{era(y)}" data-search="{E(search)}">
   <h3 class="gx-name"><a href="leads/{E(l["id"])}.html">{E(l["name"])}</a></h3>
   {f'<p class="gx-alias">Also recorded as {E("; ".join(l["aliases"]))}</p>' if l["aliases"] else ""}
-  <p class="gx-place">{E(l["locality"])}, {E(l["state"])} · Status not verified{f" · opened {y} (as recorded)" if y else ""}</p>
+  <p class="gx-place">{E(l["locality"])}, {E(l["state"])} · {E(STATUS_TEXT[status_of(l)] + " (not verified)") if l.get("status") else "Status not verified"}{f" · opened {y} (as recorded)" if y else ""}</p>
   <p class="gx-badges">{LEAD_BADGE}{OPEN_BADGE if (l["conflicts"] or l["related"]) else ""}<span class="gx-loc">{E("Approximate: " + APPROX[l["id"]]["place"]) if l["id"] in APPROX else "Not on the map"}</span></p>
 </li>''')
 block = "<!-- LEAD-RESULTS:START -->\n<ul class=\"gx-list\" data-list>\n" + "\n".join(items) + "\n</ul>\n<!-- LEAD-RESULTS:END -->"
@@ -166,6 +185,20 @@ def opt(m):
     code, name = m.group(1), STATE_NAME[m.group(1).upper()]
     return f'<option value="{code}">{name}</option>' if total[code.upper()] else f'<option value="{code}" disabled>{name} (no records yet)</option>'
 ex = re.sub(r'<option value="(qld|nsw|vic|wa|sa|tas|nt|act)"(?: disabled)?>[^<]*</option>', opt, ex)
+# region filter: records carry their region; leads carry one where the research gives it. Counts are rebuilt every time.
+REC_REGION = {s["id"]: s.get("region", "") for s in SITES}
+def add_rec_region(m):
+    rid = m.group(1)
+    return m.group(0) if 'data-region=' in m.group(0) else m.group(0).replace('data-state=', f'data-region="{E(REC_REGION.get(rid, ""))}" data-state=', 1)
+ex = re.sub(r'<li class="gx-item" data-id="([^"]+)"[^>]*>', add_rec_region, ex)
+from collections import Counter
+rc = Counter([s.get("region", "") for s in SITES if s.get("region")] + [region_of(l) for l in LEADS if region_of(l)])
+reg_opts = '<option value="">Any region</option>' + "".join(f'<option value="{E(r)}">{E(r)} ({n})</option>' for r, n in sorted(rc.items()))
+reg_field = f'<div class="field" data-region-field><label for="f-region">Region</label><select id="f-region" name="region">{reg_opts}</select></div>'
+if "data-region-field" in ex:
+    ex = re.sub(r'<div class="field" data-region-field>.*?</select></div>', lambda m: reg_field, ex, count=1, flags=re.S)
+else:
+    ex = ex.replace('<div class="field"><label for="f-loc">', reg_field + '\n    <div class="field"><label for="f-loc">', 1)
 ex = re.sub(r'<p class="result-count" role="status" aria-live="polite" data-count>[^<]*</p>',
             f'<p class="result-count" role="status" aria-live="polite" data-count>{len(SITES) + len(LEADS)} cinemas</p>', ex, count=1)
 if LEADS: ex = re.sub(r"Search and filter the archive's (?:genuine cinema records|\d+ cinema records)[^<]*</p>",

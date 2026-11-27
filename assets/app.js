@@ -58,6 +58,7 @@
       var p = new URLSearchParams(window.location.search);
       if (p.get("q")) gx.elements.q.value = p.get("q");
       if (p.get("state")) gx.elements.state.value = p.get("state").toLowerCase();
+      if (p.get("region") && gx.elements.region) gx.elements.region.value = p.get("region");
       var h = (window.location.hash || "").slice(1);
       if (h.indexOf("state-") === 0) gx.elements.state.value = h.slice(6);
       if (h === "view-map" || p.get("view") === "map") view = "map";
@@ -66,6 +67,7 @@
       var p = new URLSearchParams();
       var q = gx.elements.q.value.trim(); if (q) p.set("q", q);
       if (gx.elements.state.value) p.set("state", gx.elements.state.value);
+      if (gx.elements.region && gx.elements.region.value) p.set("region", gx.elements.region.value);
       if (view === "map") p.set("view", "map");
       var url = window.location.pathname + (p.toString() ? "?" + p.toString() : "");
       try { history.replaceState(null, "", url); } catch (e) { /* ignore */ }
@@ -73,19 +75,19 @@
     function checked(name) { return $$("input[name=" + name + "]:checked", gx).map(function (i) { return i.value; }); }
     function apply() {
       var words = norm(gx.elements.q.value).split(" ").filter(Boolean);
-      var st = gx.elements.state.value, loc = gx.elements.loc.value, era = gx.elements.era.value;
+      var st = gx.elements.state.value, loc = gx.elements.loc.value, era = gx.elements.era.value, rg = gx.elements.region ? gx.elements.region.value : "";
       var statuses = checked("status"), evid = checked("evidence");
       var shown = 0, ids = new Set();
       items.forEach(function (c) {
         var toks = (" " + c.getAttribute("data-search"));
         // Whole-word prefix match: "wa" finds Western Australia and Waverley, not Nowra or Hawthorne.
         var ok = words.every(function (w) { return toks.indexOf(" " + w) !== -1; }) &&
-          (!st || c.getAttribute("data-state") === st) && (!loc || c.getAttribute("data-loc") === loc) && (!era || c.getAttribute("data-era") === era) &&
+          (!st || c.getAttribute("data-state") === st) && (!loc || c.getAttribute("data-loc") === loc) && (!era || c.getAttribute("data-era") === era) && (!rg || c.getAttribute("data-region") === rg) &&
           statuses.indexOf(c.getAttribute("data-status")) !== -1 && evid.indexOf(c.getAttribute("data-evidence")) !== -1;
         c.hidden = !ok;
         if (ok) { shown++; ids.add(c.getAttribute("data-id")); }
       });
-      var filtered = words.length || st || loc || era || statuses.length < 4 || evid.length < $$("[name=evidence]").length;
+      var filtered = words.length || st || loc || era || rg || statuses.length < 4 || evid.length < $$("[name=evidence]").length;
       empty.hidden = shown !== 0;
       listWrap.hidden = view !== "list" || shown === 0;
       mapEl.hidden = view !== "map" || shown === 0;
