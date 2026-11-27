@@ -42,7 +42,7 @@ ARCH = json.load(open("assets/data/archive-listings.json", encoding="utf-8")) if
 PINNED = {p["id"] for p in json.load(open("assets/data/archive-pins.json", encoding="utf-8"))} if os.path.exists("assets/data/archive-pins.json") else set()
 ITEMS = ([("record", s["id"], s["name"], s["suburb"], s["state"]) for s in SITES if s["loc"]["kind"] == "none"] +
          [("archive", a["id"], a["name"], a["locality"], a["state"]) for a in ARCH if a["id"] not in PINNED] +
-         [("lead", l["id"], l["name"], l["locality"], l["state"]) for l in LEADS])
+         [("lead", l["id"], l["name"], l["locality"], l["state"]) for l in LEADS if not l.get("noApprox")])
 def key(loc, st):
     k = norm(loc); return ALIAS.get((k, st), k) + "|" + st
 

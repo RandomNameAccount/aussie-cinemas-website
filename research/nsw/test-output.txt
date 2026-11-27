@@ -1,0 +1,26 @@
+PASS | Explore: Victoria filter lists all Victorian cinemas | 742 cinemas match
+PASS | Search finds a cinema by an alternative name (Moviehouse → Carlton) | ['Carlton Moviehouse']
+PASS | Search 'drive-in' within Victoria | 77 cinemas match
+PASS | Status filter: unticking 'closed' hides closed Victorian cinemas | 164 shown, statuses ['operating', 'repurposed']
+PASS | Region filter: Metropolitan Melbourne | 425 cinemas match
+PASS | Region filter from URL (Gippsland) | 29 cinemas match
+PASS | Evidence filter separates research leads from records (5 Victorian records remain) | 5 cinemas match
+PASS | Lead page: placeholder icon shown when there is no photograph | 
+PASS | Lead page: provisional label on facts | 
+PASS | Lead page: research-lead label and publication note | 
+PASS | Lead page: aliases shown | Brighton Bay Twin
+PASS | Drive-in lead uses the drive-in placeholder | 
+PASS | Lead without a placeable location stays searchable but unmapped | Birchip North Western
+PASS | Homepage Victoria tile count updates | ['VIC Victoria 5 records · 737 research leads']
+PASS | Map: Victorian approximate markers loaded | 674
+PASS | Existing Victorian record page still renders | 
+PASS | Other states unaffected (Queensland count) | 338 cinemas match
+PASS | NSW: Explore count = records + batch-01 leads + expansion leads | 693 cinemas match
+PASS | NSW: Inner West region filter | 68 shown, 68 expansion leads
+PASS | NSW: no approximate coordinates for expansion leads | 
+PASS | NSW: existing batch-01 approximate markers preserved | 
+PASS | NSW lead: summary, sources and proposed verification level shown | Royal
+PASS | NSW lead: other cinemas in the same locality listed | Annandale
+PASS | NSW lead: not on the map (no validated coordinates) | 
+PASS | NSW: search by name (World News) | 
+PASS | No JavaScript errors | 

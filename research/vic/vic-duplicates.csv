@@ -1,0 +1,391 @@
+kind,a,a_name,b,b_name,locality,reason
+merged source rows,caarp:152,Nicholas Hall,ct:72074,Nicholas Hall,3000,"same street, nearby number, same name"
+merged source rows,caarp:275,Cinema Australia,ct:52939,Australia Twin Theatre,3000,same street address
+merged source rows,caarp:449,Comedy,ct:23471,Comedy Theatre,3000,"same street, nearby number, same name"
+merged source rows,caarp:449,Comedy,vhd:64875,Comedy Theatre,3000,"same street, nearby number, same name"
+merged source rows,caarp:450,Childrens Picture Theatre,ct:52942,Childrens Picture Theatre,3000,same street address
+merged source rows,caarp:451,Video Theatrette,ct:52943,Video Theatrette,3000,same street address
+merged source rows,caarp:457,Golden Fleece Theatrette,ct:54444,Golden Fleece Theatrette,3000,same street address
+merged source rows,caarp:469,Shaft Adult Sinema,ct:52968,Ram Adult Cinema,3000,"same street, nearby number, same name"
+merged source rows,caarp:469,Shaft Adult Sinema,ct:28906,Shaft Adult Cinema,3000,same street address
+merged source rows,caarp:471,RMIT Glass House Cinema,ct:52970,Kalaide Theatre,3000,same street address
+merged source rows,caarp:425,Star Theatre,ct:52923,Star Theatre,3000,same street address
+merged source rows,caarp:426,Apollo,ct:15606,Village City Centre 4 Cinemas,3000,same street address
+merged source rows,caarp:429,The Academy of Music/ Bijou,ct:52929,Gaiety Theatre,3000,"same street, nearby number, same name"
+merged source rows,caarp:432,St Georges Hall,ct:4066,Hoyts Esquire Theatre,3000,same street address
+merged source rows,caarp:460,Kings,ct:52954,Barclay Theatre,3000,same street address
+merged source rows,caarp:460,Kings,ct:15624,Greater Union Russell Cinemas,3000,same street address
+merged source rows,caarp:462,Princess Theatre,ct:52963,Shell Theatrette,3000,same street address
+merged source rows,caarp:419,Fullers New Amphitheatre,ct:3995,Palace Theatre,3000,same street address
+merged source rows,caarp:419,Fullers New Amphitheatre,vhd:64371,Palace Theatre,3000,same street address
+merged source rows,caarp:423,Empire,ct:52922,Empire Theatre,3000,same street address
+merged source rows,caarp:431,Paramount,ct:10732,Paris Theatre,3000,"same street, nearby number, same name"
+merged source rows,caarp:453,Majestic,ct:10731,Chelsea Theatre,3000,same street address
+merged source rows,caarp:470,Guild Hall,ct:52969,Storey Hall,3000,same street address
+merged source rows,caarp:616,Columbia,ct:52931,Britannia Theatre,3000,"same street, nearby number, same name"
+merged source rows,caarp:428,Strand,ct:52928,Strand Theatre,3000,same street address
+merged source rows,caarp:441,Regent,ct:4507,Plaza Ballroom,3000,same street address
+merged source rows,caarp:441,Regent,ct:1287,Regent Theatre,3000,same street address
+merged source rows,caarp:441,Regent,vhd:64603,Regent & Plaza Theatres,3000,same street address
+merged source rows,caarp:567,Capitol,ct:863,Capitol Theatre,3000,same street address
+merged source rows,caarp:567,Capitol,vhd:65695,Capitol Theatre & Capitol House,3000,"same street, nearby number, same name"
+merged source rows,caarp:196,Tatler,ct:52938,Australia Two Theatre,3000,same name and locality (no address to compare)
+merged source rows,caarp:437,Loco,ct:52936,Loco Theatre,3000,same street address
+merged source rows,caarp:454,Vocal Tone Theatrette,ct:52950,Vocal Tone Theatrette,3000,same street address
+merged source rows,caarp:455,Paramount Review,ct:52951,Paramount Review Theatre,3000,same street address
+merged source rows,caarp:444,Star Newsreel,ct:28916,Club X Adult Cinema,3000,same street address
+merged source rows,caarp:456,Eclipse,ct:52952,Eclipse Theatre,3000,same street address
+merged source rows,caarp:148,Lyceum,ct:10732,Paris Theatre,3000,same street address
+merged source rows,caarp:420,My Fair Lady,caarp:813,Embassy,3000,same street address
+merged source rows,caarp:420,My Fair Lady,caarp:814,East End 3,3000,same street address
+merged source rows,caarp:420,My Fair Lady,ct:52921,Village East End 1-3,3000,same street address
+merged source rows,caarp:421,Bercy,ct:28312,Bercy Cinema,3000,same street address
+merged source rows,caarp:422,Hoyts Cinema Centre,ct:30651,Hoyts Cinema Centre,3000,same street address
+merged source rows,caarp:422,Hoyts Cinema Centre,vhd:64476,Hoyts Cinema Centre,3000,"same street, nearby number, same name"
+merged source rows,caarp:424,Hoyts Mid-City,ct:30653,Mid City Chinatown Cinema,3000,same name and locality (no address to compare)
+merged source rows,caarp:433,Tivoli,ct:52919,Tivoli Theatre,3000,same street address
+merged source rows,caarp:433,Tivoli,vhd:184288,Tivoli Theatre,3000,"same street, nearby number, same name"
+merged source rows,caarp:157,Temperance Hall,ct:52962,Savoy Theatre,3000,same name and locality (no address to compare)
+merged source rows,caarp:438,Kino,ct:24007,Palace Kino Cinemas,3000,"same street, nearby number, same name"
+merged source rows,caarp:447,Skating Ring,ct:52941,Bryson Theatre,3000,same street address
+merged source rows,caarp:466,Penthouse Cinema,ct:52965,Club Cinema,3000,same street address
+merged source rows,caarp:468,Barrel Theatrette,ct:52968,Ram Adult Cinema,3000,same street address
+merged source rows,caarp:604,New Savoy,ct:36413,Lumiere Cinema,3000,same street address
+merged source rows,caarp:738,Times Theatrette,ct:10739,Odeon Theatre,3000,same street address
+merged source rows,caarp:738,Times Theatrette,ct:54449,Times Cinema,3000,same street address
+merged source rows,caarp:809,Hoyts Plaza,ct:4507,Plaza Ballroom,3000,same street address
+merged source rows,caarp:810,Club Cinema,ct:52965,Club Cinema,3000,same street address
+merged source rows,caarp:811,New Theatre,ct:52944,Theatrette,3000,same street address
+merged source rows,caarp:1978,Salon Cinematographe,ct:52938,Australia Two Theatre,3000,same street address
+merged source rows,caarp:1978,Salon Cinematographe,ct:63554,Cinematographe Salon,3000,same street address
+merged source rows,caarp:2065,Palace Hall of Varieties/ Gaiety Theatre/ Hoyts New Gairty,ct:52929,Gaiety Theatre,3000,same street address
+merged source rows,caarp:436,Royal Colosseum Theatre/ Victoria Music Hall/ Melba,ct:10739,Odeon Theatre,3000,same street address
+merged source rows,ct:30653,Mid City Chinatown Cinema,vhd:64467,Midcity Cinema And Retail Arcade,3000,same street address
+merged source rows,ct:54453,Outside-In Cinema,ct:54452,Village Roadshow Theatrette,3000,same street address
+merged source rows,ct:23469,Princess Theatre,vhd:65603,Princess Theatre,3000,same street address
+merged source rows,ct:52962,Savoy Theatre,ct:52964,Total Theatre,3000,same street address
+merged source rows,caarp:449,Comedy,vhd:2665,Comedy Theatre,melbourne,"same street, nearby number, same name"
+merged source rows,caarp:448,Her Majesty's,vhd:746,Her Majesty'S Theatre,melbourne,"same street, nearby number, same name"
+merged source rows,caarp:448,Her Majesty's,vhd:9283,Her Majesty'S Theatre,melbourne,"same street, nearby number, same name"
+merged source rows,caarp:441,Regent,vhd:727,Regent Theatre,melbourne,same street address
+merged source rows,caarp:145,Central,ct:52953,Grosvenor Theatre,melbourne,same name and locality (no address to compare)
+merged source rows,caarp:422,Hoyts Cinema Centre,vhd:196067,Hoyts Cinema Centre,melbourne,"same street, nearby number, same name"
+merged source rows,ct:32327,Athenaeum Theatre,vhd:9662,Athenaeum Theatre,melbourne,"same street, nearby number, same name"
+merged source rows,ct:9330,Forum 1 & 2 Theatres,vhd:753,State Theatre,melbourne,same street address
+merged source rows,ct:23469,Princess Theatre,vhd:805,Princess Theatre,melbourne,same street address
+merged source rows,ct:52857,Garrick Theatre,ct:52860,Hoyts Lyceum South Melbourne,melbourne,same street address
+merged source rows,ct:52857,Garrick Theatre,ct:52859,Spencer's Pictures,melbourne,same street address
+merged source rows,caarp:261,Pix,ct:52817,Pix Theatre,3174,same street address
+merged source rows,caarp:733,Noble Park Hall,ct:52817,Pix Theatre,3174,same street address
+merged source rows,caarp:310,St. Ambrose Hall,ct:52703,St. Ambrose's Hall,3056,same street address
+merged source rows,caarp:311,Lyric,ct:38339,Lyric Theatre,3056,same street address
+merged source rows,caarp:311,Lyric,vhd:59094,Lyric Theatre,3056,"same street, nearby number, same name"
+merged source rows,caarp:313,Pender's Hall,ct:52707,Oxford Theatre,3056,same street address
+merged source rows,caarp:312,Alhambra,ct:52706,Hoyts Alhambra Theatre,3056,same street address
+merged source rows,caarp:150,Padua,ct:52705,Metropolitan Theatre,3056,same name and locality (no address to compare)
+merged source rows,caarp:141,Christ Church Hall,caarp:1926,St Ambrose Parish Hall,3056,same street address
+merged source rows,caarp:141,Christ Church Hall,ct:52701,Cosmopolitan Theatre,3056,same street address
+merged source rows,caarp:609,New Brunswick,caarp:816,Brunswick Scout Hall,3056,same street address
+merged source rows,caarp:874,Star Cinema Theatre,ct:52700,Star Cinema Picture Theatre,3056,same street address
+merged source rows,caarp:874,Star Cinema Theatre,vhd:59000,Star Cinema Theatre,3056,same street address
+merged source rows,caarp:210,Empire,ct:52704,Empire Theatre,3056,same street address
+merged source rows,caarp:194,Liberty,vhd:66214,Liberty Theatre,3056,same name and locality (no address to compare)
+merged source rows,caarp:377,Royal Hall,ct:52761,Royal Hall,3031,same street address
+merged source rows,caarp:163,Crown,ct:52762,Newmarket Theatre,3031,same street address
+merged source rows,caarp:382,Thames Picture Theatre,ct:52766,Thames Picture Theatre,3011,same street and name
+merged source rows,caarp:384,Grand Theatre,ct:36426,Grand Theatre,3011,same street address
+merged source rows,caarp:379,Barkly,ct:15824,Barkly Theatre,3011,same street address
+merged source rows,caarp:383,Federal Picture Company,ct:52767,Federal Picture Company,3011,same street address
+merged source rows,caarp:610,Trocadero,ct:52764,Hoyts Trocadero Theatre,3011,same street address
+merged source rows,caarp:255,La Scala Theatre,ct:36436,La Scala Cinema,3011,same street address
+merged source rows,caarp:379,Barkly,vhd:501,Barkly Theatre,footscray,"same street, nearby number, same name"
+merged source rows,caarp:379,Barkly,vhd:28124,Barkly Theatre,footscray,"same street, nearby number, same name"
+merged source rows,caarp:399,South Street,ct:52779,South Street Theatre,3046,same street and name
+merged source rows,caarp:404,Palace,ct:52776,Hoyts Palace Theatre,3122,same street address
+merged source rows,caarp:394,Grace Park Hall/ Glen,ct:38311,Lido Cinemas,3122,same name and locality (no address to compare)
+merged source rows,caarp:395,Palace Theatre,ct:52776,Hoyts Palace Theatre,3122,same street address
+merged source rows,caarp:403,Vogue,ct:23564,Vogue Theatre,3122,"same street, nearby number, same name"
+merged source rows,caarp:393,Apollo,ct:28924,Apollo Theatre,3122,same street address
+merged source rows,caarp:413,Civic,ct:32022,Civic Theatre,3140,same street and name
+merged source rows,caarp:413,Civic,vhd:115534,Mechanics Institute; Free Library & Athenaeum Theatre,lilydale,same street and name
+merged source rows,caarp:475,Merlynston Progress Assembly Hall,ct:52800,Progress Theatre,3058,same street address
+merged source rows,caarp:336,Grand Theatre,ct:28839,Hoyts Grand Theatre,3058,same street address
+merged source rows,caarp:338,Progress,ct:36417,Progress Theatre,3058,same street address
+merged source rows,caarp:337,Plaza,ct:52723,Plaza Theatre,3058,same street address
+merged source rows,ct:36417,Progress Theatre,vhd:59082,West Coburg Progress Association Hall & Cinema,3058,"same street, nearby number, same name"
+merged source rows,caarp:605,Olympic Twin,ct:35414,Hoyts Northland,3072,same street and name
+merged source rows,caarp:506,Star,ct:27929,St. James Theatre,3072,same street address
+merged source rows,caarp:507,Circle Theatre,ct:27931,Hoyts Circle Theatre,3072,"same street, nearby number, same name"
+merged source rows,caarp:508,Gowerville,ct:27932,Gowerville Theatre,3072,same street address
+merged source rows,caarp:509,Rivoli,ct:31896,Rivoli Theatre,3072,same street address
+merged source rows,caarp:505,Planet,ct:22335,Planet Cinema,3072,same street address
+merged source rows,caarp:532,Little Theatre,ct:52868,Little Theatre,3141,same street address
+merged source rows,caarp:530,Garnett Picture Gardens,ct:52866,Granetts Picture Show,3141,same street address
+merged source rows,caarp:531,Crown Picture Theatre,ct:52867,Crown Picture Theatre,3141,same street address
+merged source rows,caarp:265,Regent,ct:26926,Hoyts Regent South Yarra,3141,same street address
+merged source rows,caarp:533,Longford,ct:38313,Longford Cinema,3141,same street address
+merged source rows,caarp:869,National Theatre Theatrette,ct:52869,National Theatre Theatrette,3141,same street address
+merged source rows,ct:57451,Deckchair Cinema,ct:52080,Dromana 3  Drive-In,3936,same street address
+merged source rows,caarp:647,Dromana Drive-in,vhd:26683,Dromana Drive-In,dromana,drive-in with the same name in the same locality
+merged source rows,ct:57451,Deckchair Cinema,vhd:26683,Dromana Drive-In,dromana,same street address
+merged source rows,caarp:599,Athenaeum,ct:59802,Peninsula Cinemas -  Sorrento At...,3943,same street and name
+merged source rows,caarp:612,Glenhuntly Theatre,ct:52778,Hoyts Glenhuntly Theatre,3163,same street address
+merged source rows,caarp:326,Memorial,ct:52717,Memorial Theatre,3163,same street address
+merged source rows,caarp:269,Regent,ct:22333,Thornbury Theatre,3071,same street address
+merged source rows,caarp:553,Rio,ct:22334,Rio Cinema,3071,same street address
+merged source rows,caarp:284,Armadale Theatre,ct:32010,Armadale Theatre,3143,same street address
+merged source rows,caarp:284,Armadale Theatre,vhd:71741,Armadale Cinema,3143,same street address
+merged source rows,caarp:284,Armadale Theatre,vhd:139396,Armadale Cinema,armadale,same street address
+merged source rows,caarp:287,Paramount,ct:31893,Paramount Theatre,3032,"same street, nearby number, same name"
+merged source rows,caarp:643,Maribyrnong Sunset/ Hoyts Drive-in,ct:52152,Maribyrnong Hoyts Drive-In,3032,drive-in with the same name in the same locality
+merged source rows,caarp:300,Rialto Theatre,ct:28872,Rialto Theatre,3128,same street address
+merged source rows,caarp:369,Solway,ct:7064,Hoyts Regent Fitzroy,fitzroy,"same street number, street name spelt differently"
+merged source rows,caarp:372,Star,ct:31535,Lyric Theatre,fitzroy,"same street, nearby number, same name"
+merged source rows,caarp:370,Pavilion,ct:52753,Pavilion Theatre,fitzroy,same street address
+merged source rows,caarp:139,Fitzroy Cathedral Hall,ct:72070,Cathedral Hall,fitzroy,same street address
+merged source rows,caarp:162,Universal,ct:52755,Universal Cinema,fitzroy,same street address
+merged source rows,caarp:366,Panorama Twin,ct:52751,Panorama Twin,fitzroy,same street address
+merged source rows,ct:7064,Hoyts Regent Fitzroy,ct:52754,Solway Picture Theatre,fitzroy,same street address
+merged source rows,ct:31535,Lyric Theatre,vhd:96863,"Theatre interior, former",fitzroy,same street address
+merged source rows,caarp:479,Moonee Ponds Theatre,ct:31909,Moonee Theatre,3039,same street address
+merged source rows,caarp:483,Paramount,ct:52811,Regent Theatre,3195,same street address
+merged source rows,caarp:496,Plaza,ct:52820,Plaza Theatre,3195,"same street, nearby number, same name"
+merged source rows,caarp:489,Imperial North Melbourne,ct:35412,Imperial Theatre,3051,same street address
+merged source rows,caarp:257,Loco,ct:35358,Cinestar Theatre,3051,same name and locality (no address to compare)
+merged source rows,caarp:488,Central,ct:35413,Cairo Cinema,3051,same street address
+merged source rows,caarp:493,Lyric Northcote,ct:52818,Lyric Theatre,3070,same street address
+merged source rows,caarp:165,Westgarth,ct:22330,Westgarth Theatre,3070,same name and locality (no address to compare)
+merged source rows,caarp:165,Westgarth,vhd:65463,Westgarth Theatre,3070,same name and locality (no address to compare)
+merged source rows,caarp:260,Plaza,ct:22332,Plaza Cinema,3070,same street address
+merged source rows,ct:22331,Northcote Theatre,vhd:65465,Northcote Theatre,3070,"same street, nearby number, same name"
+merged source rows,caarp:165,Westgarth,vhd:24138,Westgarth Theatre,northcote,same name and locality (no address to compare)
+merged source rows,ct:22331,Northcote Theatre,vhd:11447,Northcote Theatre,northcote,"same street, nearby number, same name"
+merged source rows,ct:22331,Northcote Theatre,vhd:24147,Northcote Theatre,northcote,"same street, nearby number, same name"
+merged source rows,caarp:502,Lyric Prahran,ct:52825,Lyric Theatre,3181,same street address
+merged source rows,caarp:562,Royal Theatre,ct:52909,Hoyts Royal Windsor,3181,same street address
+merged source rows,caarp:504,Empress,ct:52827,Hoyts Empress Prahran,3181,same street address
+merged source rows,caarp:199,Windsor,ct:52906,Hoyts Windsor Theatre,3181,same street address
+merged source rows,caarp:523,Regal,ct:52856,Regal Theatre,3205,"same street number, street name spelt differently"
+merged source rows,caarp:538,St Kilda Bioscope Theatre,ct:52876,St. Kilda Bioscope Theatre,3182,same street address
+merged source rows,caarp:542,Diamond Picture Theatre,ct:52881,Diamond Picture Theatre,3182,same name and locality (no address to compare)
+merged source rows,caarp:548,Arcadia,ct:52895,Arcadia Theatre 2,3182,same street address
+merged source rows,caarp:543,Lyric,ct:52882,Earl's Court Theatre,3182,same name and locality (no address to compare)
+merged source rows,caarp:544,Paradise Picture Gardens,ct:52883,Rivoli Theatre,3182,same name and locality (no address to compare)
+merged source rows,caarp:271,National,ct:1848,National Theatre,3182,same street address
+merged source rows,caarp:271,National,vhd:66375,Victory Theatre,3182,same street address
+merged source rows,caarp:550,Elite,ct:2845,Palais Theatre,3182,same name and locality (no address to compare)
+merged source rows,caarp:539,Soldiers and Sailors Club,ct:32328,Memorial Hall,3182,"same street number, street name spelt differently"
+merged source rows,caarp:547,Palais,ct:52898,Barkly Theatre,3182,same name and locality (no address to compare)
+merged source rows,caarp:136,Astor Theatre,ct:1288,Astor Theatre,3182,same street address
+merged source rows,caarp:136,Astor Theatre,vhd:66465,Astor Theatre,3182,same street address
+merged source rows,caarp:540,Club Cinema,ct:52877,Club Cinema,3182,same street address
+merged source rows,caarp:650,George,ct:32329,Alex Theatre,3182,"same street, nearby number, same name"
+merged source rows,ct:52893,Cinema le Boulevarde,ct:52891,Corso Picture Theatre,3182,same street address
+merged source rows,caarp:271,National,vhd:14130,National Theatre,st kilda,same street address
+merged source rows,caarp:550,Elite,vhd:1115,Palais Theatre,st kilda,same name and locality (no address to compare)
+merged source rows,caarp:136,Astor Theatre,vhd:1818,The Astor Theatre,st kilda,same street address
+merged source rows,caarp:559,Williamstown PIcture Theatre,ct:52904,Hoyts Shore Williamstown,3016,same street address
+merged source rows,caarp:560,Pavilion,ct:31908,New Empress Theatre,3016,"same street, nearby number, same name"
+merged source rows,caarp:472,Melton Twin,ct:52794,Melton Cinema Centre,3337,same street address
+merged source rows,caarp:164,Crown,ct:52836,Valhalla Cinema,3121,same name and locality (no address to compare)
+merged source rows,caarp:515,Oriental Theatre,ct:52834,Oriental Theatre,3121,same street address
+merged source rows,caarp:512,Richmond Cinema,ct:52830,Hoyts Richmond Cinema,3121,same street address
+merged source rows,caarp:512,Richmond Cinema,vhd:66939,Hoyt's Cinema,3121,same street address
+merged source rows,caarp:319,Burnley,ct:15829,Burnley Theatre,3121,same street address
+merged source rows,caarp:319,Burnley,vhd:67210,Burnley Theatre,3121,same street address
+merged source rows,caarp:144,Globe Theatre,ct:52833,Globe Theatre,3121,same street address
+merged source rows,caarp:516,Richmond Arts Theatre,ct:52835,Arts Theatre,3121,same street address
+merged source rows,caarp:514,Pumpkin Theatre,ct:52832,Pumpkin Theatre,3121,same street address
+merged source rows,ct:38720,National Theatre,vhd:104025,"Nation Picture Theatre, former",3121,same street address
+merged source rows,caarp:256,Jubilee Palace,ct:31901,Adelphi Theatre,3054,same name and locality (no address to compare)
+merged source rows,ct:31901,Adelphi Theatre,vhd:103751,"Bicycle School and Jubilee Roller Skating Rink site, later Jubilee Picture Theatre, later Adelphi cinema, later Sam Remo Ballroom",3054,"same street, nearby number, same name"
+merged source rows,caarp:137,Carlton Theatre,ct:15849,Carlton Movie House,carlton,same street address
+merged source rows,caarp:137,Carlton Theatre,vhd:64894,Carlton Theatre,carlton,same street address
+merged source rows,vhd:5446,La Mama Theatre Building,vhd:64896,La Mama Theatre,carlton,same street address
+merged source rows,caarp:264,Our Theatre/ Broadway,ct:52715,Hoyts Broadway Theatre,3124,same street address
+merged source rows,caarp:341,Eclipse,ct:52724,Eclipse Theatre,3066,same street address
+merged source rows,caarp:340,Austral,ct:31537,Austral Theatre,3066,"same street, nearby number, same name"
+merged source rows,ct:31537,Austral Theatre,vhd:104048,Austral Picture Theatre,3066,same street address
+merged source rows,caarp:355,Elster,ct:15850,Classic Cinema,3185,same street address
+merged source rows,caarp:355,Elster,vhd:65624,Elsternwick Theatre,3185,same street address
+merged source rows,caarp:390,Gardenvale,ct:52774,Nepean Theatre,3185,same name and locality (no address to compare)
+merged source rows,caarp:354,Orpheum,ct:53023,Renown Theatre,3185,"same street number, street name spelt differently"
+merged source rows,caarp:373,King George Picture Theatre,ct:52756,King George Picture Theatre,3068,same street address
+merged source rows,caarp:374,Palace,ct:52757,Palace Theatre,3068,same street address
+merged source rows,caarp:375,Merri,ct:52759,Hoyts Merri Theatre,3068,"same street, nearby number, same name"
+merged source rows,caarp:193,Hoyts,ct:38310,Cinema Italia,3068,same street address
+merged source rows,caarp:193,Hoyts,vhd:67164,Clifton Cinema,3068,same street address
+merged source rows,caarp:193,Hoyts,vhd:103987,"Clifton Hall & Clifton Picture Theatre, later Cinema Italia",3068,same street address
+merged source rows,caarp:195,Orient,ct:52758,Cinema Orient,3068,"same street number, street name spelt differently"
+merged source rows,caarp:414,Tivoli Picture Theatre,ct:52793,Tivoli Theatre,3144,same street address
+merged source rows,caarp:268,Malvern Theatre/ New Malvern Theatre/ Hoyts New Malvern,ct:52671,Hoyts New Malvern Theatre,3144,same street address
+merged source rows,caarp:416,Victory,ct:28925,Hoyts Victory Malvern,3144,same street address
+merged source rows,caarp:415,Embassy,ct:52672,Metro Malvern,3144,same street address
+merged source rows,caarp:499,Port,ct:52822,Port Theatre,3207,same street address
+merged source rows,caarp:500,Eclipse Port Melbourne,ct:52823,Hoyts Eclipse Theatre,3207,same street address
+merged source rows,caarp:498,London Picture Gardens,ct:52824,London Pictures,3207,same name and locality (no address to compare)
+merged source rows,caarp:613,Dux Photoplays,ct:52861,Dux Theatre,3206,same street address
+merged source rows,caarp:476,Middle Park,ct:52803,Arrow Theatre,3206,same street address
+merged source rows,caarp:281,Park,ct:7110,Hoyts Park Theatre,3206,same street address
+merged source rows,caarp:146,Kinema,ct:52684,Riviera Theatre,3206,same street address
+merged source rows,caarp:1988,Beach Theatre,ct:52878,Strand Theatre,3206,same street address
+merged source rows,caarp:1988,Beach Theatre,vhd:66414,Beach Theatre,3206,same street address
+merged source rows,caarp:307,Hoyts Centre Brighton,ct:36441,Palace Brighton Bay,3186,same name and locality (no address to compare)
+merged source rows,caarp:305,Prince George,ct:52696,Prince George Theatre,3186,same street address
+merged source rows,caarp:314,Lygon Hoyts,ct:31895,Lygon Theatre,3057,same street address
+merged source rows,caarp:487,Argosy,ct:52815,Argosy Theatre,murrumbeena,same name and locality (no address to compare)
+merged source rows,caarp:329,Camden,ct:32011,Camden Theatre,3162,"same street, nearby number, same name"
+merged source rows,caarp:333,Cheltenham Memorial Hall,ct:52720,Memorial Hall,3192,same street address
+merged source rows,caarp:574,Hoyts Drive-in,vhd:26682,Coburg Drive-In,coburg,drive-in with the same name in the same locality
+merged source rows,caarp:348,Athenaeum Hall,ct:35615,Athenaeum Hall,3108,same street address
+merged source rows,caarp:347,Village Twin Doncaster,ct:35611,Village Doncaster,3108,same street address
+merged source rows,caarp:347,Village Twin Doncaster,ct:35612,Village Twin Theatre,3108,same street address
+merged source rows,caarp:358,Broadway,ct:52738,Broadway Theatre,3184,same name and locality (no address to compare)
+merged source rows,caarp:863,Phoenix Theatres,ct:52737,Phoenix Theatre,3184,"same street number, street name spelt differently"
+merged source rows,vhd:179102,New Essendon Picture Theatre,vhd:179103,New Essendon Picture Theatre,essendon,"same street, nearby number, same name"
+merged source rows,vhd:179102,New Essendon Picture Theatre,vhd:179104,New Essendon Picture Theatre,essendon,"same street, nearby number, same name"
+merged source rows,caarp:410,Rialto Kew,ct:52790,Hoyts Rialto Kew,3101,same street address
+merged source rows,caarp:473,Mentone Theatre,ct:52795,Mentone Theatre,3194,same street address
+merged source rows,caarp:563,St George,ct:31892,St. George's Theatre,3013,same street address
+merged source rows,caarp:563,St George,vhd:28980,St Georges Theatre,3013,"same street, nearby number, same name"
+merged source rows,caarp:566,Lyric,ct:36435,Lyric Theatre,3013,same street address
+merged source rows,caarp:564,Seddon,ct:52910,Seddon Theatre,3013,same street address
+merged source rows,caarp:158,Sun,ct:17887,Sun Theatre,3013,same street address
+merged source rows,caarp:158,Sun,vhd:66065,Sun Theatre,3013,same street address
+merged source rows,caarp:158,Sun,vhd:1255,Sun Theatre,yarraville,"same street, nearby number, same name"
+merged source rows,caarp:586,Garfield Picture Theatre,ct:57084,Garfield Picture Theatre,3814,same street and name
+merged source rows,caarp:156,Newport Theatre,ct:52816,Plaza Theatre,3015,same street address
+merged source rows,caarp:263,Bentleigh Hoyts,ct:52691,Hoyts Bentleigh Theatre,3204,same street address
+merged source rows,caarp:495,Plaza,ct:52819,Plaza Theatre - Ormond,3204,same street address
+merged source rows,caarp:290,Balwyn,ct:23640,Balwyn Cinema,3103,"same street, nearby number, same name"
+merged source rows,caarp:291,Time,ct:23639,Hoyts Time Theatre,3103,same street address
+merged source rows,caarp:299,Progress Hall,ct:52693,Progress Hall,3155,same street and name
+merged source rows,caarp:295,Electra,ct:26934,Metro Cinemas Boronia,3155,same street address
+merged source rows,caarp:316,Western,ct:36418,Western Theatre,3055,same street address
+merged source rows,caarp:316,Western,vhd:59062,Western Theatre,3055,"same street, nearby number, same name"
+merged source rows,caarp:316,Western,vhd:66215,Western Theatre,3055,"same street, nearby number, same name"
+merged source rows,caarp:353,Unity Theatre,ct:31912,Unity Theatre,3196,"same street, nearby number, same name"
+merged source rows,caarp:825,Fox Theatre,ct:52719,Fox Theatre,3196,"same street, nearby number, same name"
+merged source rows,caarp:359,Southern Cross,ct:52744,Regal Theatre,3040,same street address
+merged source rows,caarp:388,Palais Picture Theatre,ct:52768,Frankston Plaza Theatre,3199,same street and name
+merged source rows,caarp:389,Frankston Picture Theatre,ct:35417,Village 1 & 2,3199,same name and locality (no address to compare)
+merged source rows,caarp:713,Hoyts Drive-in,ct:52090,Village Twin Drive-In,3199,drive-in with the same name in the same locality
+merged source rows,caarp:398,Hampton Picture Theatre,ct:52782,Hoyts Southern Theatre,hampton,same name and locality (no address to compare)
+merged source rows,caarp:494,Plaza,ct:45334,Plaza Theatre,3166,"same street, nearby number, same name"
+merged source rows,caarp:266,Skyline,ct:52151,Oakleigh Skyline Hoyts Drive-In,3166,drive-in with the same name in the same locality
+merged source rows,caarp:155,Paramount,ct:32013,Paramount Theatre,3166,same street address
+merged source rows,caarp:511,Palais,ct:52829,Village Reservoir,3073,same name and locality (no address to compare)
+merged source rows,caarp:518,Roxy Sandringham,ct:52849,Roxy Theatre,3191,same street address
+merged source rows,caarp:640,Sandringham Drive-in,ct:13794,Sandringham Drive-In,3191,drive-in with the same name in the same locality
+merged source rows,caarp:596,Plaza,ct:52813,Matthew Flinders Theatre,3931,same street and name
+merged source rows,caarp:596,Plaza,ct:35420,Mornington Cinemas,3931,same street address
+merged source rows,caarp:632,Broadway,ct:66960,Broadway Theatre,3939,same street and name
+merged source rows,caarp:259,Boomerang,ct:52727,Mayfair Theatre,3175,same street address
+merged source rows,caarp:575,Panoramic,ct:13941,Lunar Drive-In,3175,drive-in with the same name in the same locality
+merged source rows,caarp:575,Panoramic,vhd:71757,Panoramic Drive-In Dandenong,3175,drive-in with the same name in the same locality
+merged source rows,caarp:603,Gala,ct:52726,Gala Cinema,3175,same street address
+merged source rows,caarp:294,Progress Belgrave Heights,ct:52690,Progress Theatre,3160,same street and name
+merged source rows,ct:28887,Cameo Cinemas,vhd:115189,Cameo Cinema,3160,same street address
+merged source rows,caarp:322,Hoyts Maling,ct:28898,Hoyts Maling Theatre,3126,same street address
+merged source rows,caarp:323,Canterbury Theatre,ct:28895,Hoyts Canterbury Theatre,3126,"same street number, street name spelt differently"
+merged source rows,caarp:350,Waverley Theatre,ct:32005,Waverley Theatre,3145,same street address
+merged source rows,caarp:350,Waverley Theatre,vhd:66876,Waverley Theatre,3145,same street address
+merged source rows,caarp:349,Centenary Hall,ct:52673,Verne Theatre,3145,"same street number, street name spelt differently"
+merged source rows,caarp:365,Kings,ct:52745,Kings Theatre,3060,same street and name
+merged source rows,caarp:536,Springvale,ct:52870,Springvale Theatre,3171,same street address
+merged source rows,caarp:554,Village,ct:38312,Trak Cinema,3142,same name and locality (no address to compare)
+merged source rows,caarp:585,Local Hall/ Loyalty,ct:31849,1812 Theatre,3156,"same street, nearby number, same name"
+merged source rows,caarp:590,Astor Theatre,ct:32173,Astor Theatre,3764,same street and name
+merged source rows,caarp:1,Rivoli,vhd:5411,Rivoli Theatre,hawthorn east,same street address
+merged source rows,caarp:1,Rivoli,vhd:140944,Rivoli Theatre,hawthorn east,"same street, nearby number, same name"
+merged source rows,caarp:270,Skyline,ct:51934,Skyline Drive-In,3125,drive-in with the same name in the same locality
+merged source rows,caarp:406,Highett,ct:52789,Lyric Theatre,highett,same name and locality (no address to compare)
+merged source rows,caarp:576,Village Drive-in,ct:52123,Village Essendon Drive-In,3043,drive-in with the same name in the same locality
+merged source rows,caarp:578,Astor Theatre,ct:35422,Impressario Theatre,3340,same street address
+merged source rows,caarp:598,Rotex Theatre/ Were Street Theatres,ct:53238,Were Street Theatre,3094,same street address
+merged source rows,caarp:644,Village Drive-in,ct:52154,Village Croydon Drive-In,3136,drive-in with the same name in the same locality
+merged source rows,caarp:342,Croydon Twin,ct:31891,Croydon Cinemas,3136,same street address
+merged source rows,caarp:646,Toorak Drive-in/ Village Drive-in,ct:52117,Village Drive-In,3123,drive-in with the same name in the same locality
+merged source rows,caarp:709,Dandenong North,ct:52094,Rowville Village Drive-In,3178,drive-in with the same name in the same locality
+merged source rows,caarp:645,Village Drive-in,ct:52093,Sunshine Village Drive-In,3020,drive-in with the same name in the same locality
+merged source rows,ct:52899,Sunshine Theatre,vhd:106133,Sunshine Picture Theatre,3020,same street address
+merged source rows,caarp:267,Skyline,ct:52096,Broadmeadows Skyline Drive-In,3047,drive-in with the same name in the same locality
+merged source rows,caarp:573,Metro Twin,ct:52097,Village Clayton Drive-In,3168,drive-in with the same name in the same locality
+merged source rows,caarp:385,Forest Hill,ct:35609,Forest Hill Cinema,3131,same street address
+merged source rows,caarp:497,Progress Hall,ct:52821,Tasma Theatre,3044,same street address
+merged source rows,caarp:519,Seaford Hall,ct:52851,Seaford Hall,3198,same street and name
+merged source rows,caarp:552,Ashril,ct:52901,Ashril Theatre,3074,same street and name
+merged source rows,caarp:641,Reservoir,ct:52091,Reservoir Village Drive-In,3074,drive-in with the same name in the same locality
+merged source rows,caarp:572,Hoyts Drive-in,ct:30804,Hoyts Doncaster Drive-In,3105,drive-in with the same name in the same locality
+merged source rows,caarp:707,Hoyts Drive-in,ct:30805,Hoyts Wantirna Drive-In,3152,drive-in with the same name in the same locality
+merged source rows,caarp:707,Hoyts Drive-in,vhd:65988,Wantirna Drive-In,3152,drive-in with the same name in the same locality
+merged source rows,ct:63051,Village Cinemas Knox,ct:31904,Village 10,3152,same street address
+merged source rows,caarp:412,Village Twin,ct:52792,Village Twin,3180,same name and locality (no address to compare)
+merged source rows,caarp:820,Globe Theatre,ct:35595,Globe Theatre,3241,same street and name
+merged source rows,caarp:820,Globe Theatre,vhd:123794,Globe Theatre,3241,same street and name
+merged source rows,caarp:820,Globe Theatre,vhd:112523,Globe Theatre,winchelsea,same street and name
+merged source rows,caarp:973,Geelong Theatre,ct:32016,Village Geelong,3220,same street address
+merged source rows,caarp:973,Geelong Theatre,vhd:16168,Geelong Picture Theatre,3220,same street address
+merged source rows,caarp:974,Regent,ct:32017,Regent Theatre,3220,"same street, nearby number, same name"
+merged source rows,caarp:975,Corio,ct:56314,Corio Theatre,3220,same street and name
+merged source rows,caarp:976,Palais Royal,ct:32015,Palais Geelong,3220,same street and name
+merged source rows,caarp:976,Palais Royal,vhd:20039,Palais Royal Pictures,3220,same street and name
+merged source rows,caarp:976,Palais Royal,vhd:68370,Palais Royal,3220,same street and name
+merged source rows,caarp:1150,Mildura Crossroads,ct:51981,Crossroads Drive-In,3500,drive-in with the same name in the same locality
+merged source rows,caarp:1029,Ozone,ct:46609,Ozone Theatre,3500,same street and name
+merged source rows,caarp:887,Midland,ct:35380,Astor Cinema,3377,same street address
+merged source rows,caarp:887,Midland,vhd:112535,Midland Theatre,ararat,same street address
+merged source rows,caarp:1017,Lorne Theatre,ct:70176,Lorne Theatre,3232,"same street, nearby number, same name"
+merged source rows,caarp:1017,Lorne Theatre,vhd:71709,Lorne Theatre,3232,same street address
+merged source rows,caarp:1017,Lorne Theatre,vhd:112539,Lorne Cinema,lorne,same street address
+merged source rows,caarp:1024,Paramount,ct:74533,Maryborough Paramount Theatre,3465,"same street, nearby number, same name"
+merged source rows,caarp:1251,Valley,ct:53157,Latrobe Cinema,3844,same street and name
+merged source rows,caarp:2097,Village Drive-in,ct:59799,Traralgon Village Drive-In,3844,drive-in with the same name in the same locality
+merged source rows,caarp:1063,Victory,vhd:68949,Roxy Theatre,3490,same street and name
+merged source rows,caarp:893,Regent,ct:36448,Palace Regent Ballarat,3350,same street address
+merged source rows,caarp:894,Plaza,ct:36450,Plaza Cinema,3350,same street and name
+merged source rows,caarp:895,Academy of Music,ct:36451,Her Majesty's Theatre,3350,"same street, nearby number, same name"
+merged source rows,caarp:896,Mechanics Hall,ct:36449,Ballarat Mechanic's Institute,3350,same street address
+merged source rows,vhd:67482,Regent Theatre,vhd:160804,Regent Picture Theatre,3350,"same street, nearby number, same name"
+merged source rows,caarp:907,Regal,ct:32079,Regal Theatre,3672,same street address
+merged source rows,caarp:909,Plaza,ct:31855,Plaza Cinema,3550,same street and name
+merged source rows,caarp:911,Royal Princess,ct:69679,Princess Theatre,3550,same street and name
+merged source rows,caarp:1987,Capital Theatre,ct:32000,Capital Theatre,3550,same street and name
+merged source rows,caarp:2108,Golden Twin,ct:31911,Bendigo Cinemas,3550,same street address
+merged source rows,caarp:1987,Capital Theatre,vhd:145,Capital Theatre (Former Masonic Hall),bendigo,same street and name
+merged source rows,caarp:2093,Swan Lake,ct:53354,Swan Lake Drive-In,3850,drive-in with the same name in the same locality
+merged source rows,caarp:925,Mechanics Institute,ct:35592,Theatre Royal,3260,same street and name
+merged source rows,caarp:925,Mechanics Institute,vhd:5298,Theatre Royal And Mechanics Institute,camperdown,same street address
+merged source rows,caarp:928,Theatre Royal,ct:26501,Theatre Royal,3450,"same street, nearby number, same name"
+merged source rows,caarp:928,Theatre Royal,vhd:5218,Theatre Royal,castlemaine,same street address
+merged source rows,caarp:939,Paramount,ct:35593,Regent Theatre,3250,same street and name
+merged source rows,caarp:939,Paramount,vhd:67765,Regent Theatre,3250,same street and name
+merged source rows,caarp:951,Rex,ct:26981,Rex Cinema,3460,same street and name
+merged source rows,caarp:951,Rex,vhd:71722,Rex Cinema,3460,same street and name
+merged source rows,caarp:960,Temperance Hall,ct:32166,Old Paramount Theatre,3564,same street address
+merged source rows,caarp:960,Temperance Hall,ct:32165,Paramount Theatre,3564,same street address
+merged source rows,caarp:2082,Echuca River-Vu,ct:60960,River Vu Drive-In,3564,drive-in with the same name in the same locality
+merged source rows,caarp:967,Civic,ct:32077,Euroa Civic Centre,3666,same street and name
+merged source rows,caarp:986,Prince Regent,ct:35997,Prince Regent Theatre,hamilton,same name and locality (no address to compare)
+merged source rows,caarp:986,Prince Regent,vhd:27215,Regent Theatre,hamilton,same street and name
+merged source rows,caarp:994,Horsham Theatre/ Horsham Cinema Centre,ct:35379,Centre Cinemas,3400,same street address
+merged source rows,caarp:994,Horsham Theatre/ Horsham Cinema Centre,vhd:123674,Horsham Theatre,3400,"same street, nearby number, same name"
+merged source rows,caarp:994,Horsham Theatre/ Horsham Cinema Centre,vhd:112817,Horsham Theatre,horsham,"same street, nearby number, same name"
+merged source rows,caarp:1068,Star,ct:35574,Star Cinema,3305,same street address
+merged source rows,caarp:1079,Touring,ct:32171,Shire Hall,3612,same street and name
+merged source rows,caarp:1080,Rutherglen Town Hall,ct:32100,Soldiers' Victoria Hall,3685,same street and name
+merged source rows,ct:28922,Capitol Cinema Centre 3,vhd:69911,Warrnambool Theatre,3280,same street address
+merged source rows,caarp:2085,Kerang Parkline,ct:53363,Parkline Drive-In,3579,same name and locality (no address to compare)
+merged source rows,caarp:2086,Leongatha Drive-in,ct:53365,Leongatha Drive-In,3953,drive-in with the same name in the same locality
+merged source rows,caarp:2096,Terang Drive-in,ct:70745,Terang Drive-In,3264,drive-in with the same name in the same locality
+merged source rows,caarp:2100,Lakeside,ct:53350,Lakeside Drive-In,3730,same street and name
+merged source rows,ct:32102,Athenaeum,ct:32103,Grove Open Air Theatre,3730,same street address
+merged source rows,ct:32087,Star Theatre,vhd:68717,Star Theatre,3683,same street and name
+merged source rows,ct:32087,Star Theatre,vhd:289,Star Theatre,chiltern,"same street, nearby number, same name"
+merged source rows,vhd:67482,Regent Theatre,vhd:112528,Regent Picture Theatre,ballarat central,"same street, nearby number, same name"
+already on the website,record:regent-melbourne,Regent Theatre,CAARP:441; CAARP:809; Cinema Treasures:4507; Cinema Treasures:1287; Victorian Heritage Database:727; Victorian Heritage Database:64603,Regent,Melbourne,same name and locality
+already on the website,record:palais-stkilda,Palais Theatre,CAARP:547; Cinema Treasures:52898,Palais,St Kilda,same name and locality
+already on the website,record:capitol-melbourne,Capitol Theatre,CAARP:567; Cinema Treasures:863; Victorian Heritage Database:65695,Capitol,Melbourne,same name and locality
+already on the website,record:sun-yarraville,Sun Theatre,CAARP:158; Cinema Treasures:17887; Victorian Heritage Database:1255; Victorian Heritage Database:66065,Sun,Yarraville,same name and locality
+already on the website,record:astor-stkilda,Astor Theatre,CAARP:136; Cinema Treasures:1288; Victorian Heritage Database:1818; Victorian Heritage Database:66465,Astor Theatre,St Kilda,same name and locality
+already on the website,record:palais-stkilda,Palais Theatre,CAARP:2003,The Casino/ Comedy Theatre/ Palais de Danse,St. Kilda,same name and locality
