@@ -7,7 +7,7 @@ PASS | Region filter from URL (Gippsland) | 29 cinemas match
 PASS | Evidence filter separates research leads from records (5 Victorian records remain) | 5 cinemas match
 PASS | Lead page: placeholder icon shown when there is no photograph | 
 PASS | Lead page: provisional label on facts | 
-PASS | Lead page: research-lead label and staging status | 
+PASS | Lead page: research-lead label and publication note | 
 PASS | Lead page: aliases shown | Brighton Bay Twin
 PASS | Drive-in lead uses the drive-in placeholder | 
 PASS | Lead without a placeable location stays searchable but unmapped | Birchip North Western

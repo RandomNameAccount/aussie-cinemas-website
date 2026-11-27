@@ -99,7 +99,7 @@ for r in M:
         "nationalId": r["fca_id"], "candidateIds": [f"{s['source']}:{s['id']}" for s in r["sources"]],
         "id": r["fca_id"].lower(), "state": STATE, "name": r["name"],
         "locality": r["locality"] or (r.get("locality_note") or ""),
-        "basis": basis(r), "published": "staging, not published",
+        "basis": basis(r), "published": os.environ.get("FCA_PUBLISHED", "staging, not published"),
         "status": r["status"], "statusNote": f"{status_word} ({r['status_basis'][0].lower() + r['status_basis'][1:] if not r['status_basis'].startswith(('Cinema Treasures', 'CAARP')) else r['status_basis']}; not verified)",
         "region": r["region"] or "", "postcode": r["postcode"],
         "level": r["proposed_level"], "levelReason": r.get("level_reason", ""), "review": r["review"],

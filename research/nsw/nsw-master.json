@@ -393,8 +393,8 @@
   "by_proposed_level": {
    "C": 499,
    "D": 27,
-   "B": 65,
-   "E": 5
+   "B": 69,
+   "E": 1
   },
   "by_evidence": {
    "single source": 514,
@@ -3446,8 +3446,8 @@
    "caarp_refs": [],
    "detail_collected": false,
    "evidence": "two independent sources agree",
-   "proposed_level": "E",
-   "level_reason": "sources give different addresses",
+   "proposed_level": "B",
+   "level_reason": "street address documented by a heritage listing or by two independent sources",
    "review": "awaiting editorial review",
    "fca_id": "FCA-NSW-0013"
   },
@@ -5391,8 +5391,8 @@
    "caarp_refs": [],
    "detail_collected": false,
    "evidence": "two independent sources agree",
-   "proposed_level": "E",
-   "level_reason": "sources give different addresses",
+   "proposed_level": "B",
+   "level_reason": "street address documented by a heritage listing or by two independent sources",
    "review": "awaiting editorial review",
    "fca_id": "FCA-NSW-0039"
   },
@@ -22403,8 +22403,8 @@
    "caarp_refs": [],
    "detail_collected": false,
    "evidence": "two independent sources agree",
-   "proposed_level": "E",
-   "level_reason": "sources give different addresses",
+   "proposed_level": "B",
+   "level_reason": "street address documented by a heritage listing or by two independent sources",
    "review": "awaiting editorial review",
    "fca_id": "FCA-NSW-0200"
   },
@@ -23518,8 +23518,8 @@
    "caarp_refs": [],
    "detail_collected": false,
    "evidence": "two independent sources agree",
-   "proposed_level": "E",
-   "level_reason": "sources give different addresses",
+   "proposed_level": "B",
+   "level_reason": "street address documented by a heritage listing or by two independent sources",
    "review": "awaiting editorial review",
    "fca_id": "FCA-NSW-0212"
   },

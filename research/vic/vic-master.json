@@ -71,8 +71,8 @@
   "by_proposed_level": {
    "C": 442,
    "D": 28,
-   "B": 249,
-   "E": 16
+   "B": 257,
+   "E": 8
   },
   "by_evidence": {
    "single source": 449,
@@ -7346,8 +7346,8 @@
    "caarp_refs": [],
    "detail_collected": true,
    "evidence": "two independent sources agree",
-   "proposed_level": "E",
-   "level_reason": "sources give different addresses",
+   "proposed_level": "B",
+   "level_reason": "street address documented by a heritage listing or by two independent sources",
    "review": "awaiting editorial review",
    "fca_id": "FCA-VIC-0121"
   },
@@ -11758,8 +11758,8 @@
    "caarp_refs": [],
    "detail_collected": true,
    "evidence": "two independent sources agree",
-   "proposed_level": "E",
-   "level_reason": "sources give different addresses",
+   "proposed_level": "B",
+   "level_reason": "street address documented by a heritage listing or by two independent sources",
    "review": "awaiting editorial review",
    "fca_id": "FCA-VIC-0201"
   },
@@ -11907,8 +11907,8 @@
    "caarp_refs": [],
    "detail_collected": true,
    "evidence": "two independent sources agree",
-   "proposed_level": "E",
-   "level_reason": "sources give different addresses",
+   "proposed_level": "B",
+   "level_reason": "street address documented by a heritage listing or by two independent sources",
    "review": "awaiting editorial review",
    "fca_id": "FCA-VIC-0204"
   },
@@ -12916,8 +12916,8 @@
    "caarp_refs": [],
    "detail_collected": true,
    "evidence": "two independent sources agree",
-   "proposed_level": "E",
-   "level_reason": "sources give different addresses",
+   "proposed_level": "B",
+   "level_reason": "street address documented by a heritage listing or by two independent sources",
    "review": "awaiting editorial review",
    "fca_id": "FCA-VIC-0785"
   },
@@ -13296,8 +13296,8 @@
    "caarp_refs": [],
    "detail_collected": true,
    "evidence": "two independent sources agree",
-   "proposed_level": "E",
-   "level_reason": "sources give different addresses",
+   "proposed_level": "B",
+   "level_reason": "street address documented by a heritage listing or by two independent sources",
    "review": "awaiting editorial review",
    "fca_id": "FCA-VIC-0223"
   },
@@ -18122,8 +18122,8 @@
    "caarp_refs": [],
    "detail_collected": true,
    "evidence": "two independent sources agree",
-   "proposed_level": "E",
-   "level_reason": "sources give different addresses",
+   "proposed_level": "B",
+   "level_reason": "street address documented by a heritage listing or by two independent sources",
    "review": "awaiting editorial review",
    "fca_id": "FCA-VIC-0313"
   },
@@ -30990,8 +30990,8 @@
    "caarp_refs": [],
    "detail_collected": true,
    "evidence": "two independent sources agree",
-   "proposed_level": "E",
-   "level_reason": "sources give different addresses",
+   "proposed_level": "B",
+   "level_reason": "street address documented by a heritage listing or by two independent sources",
    "review": "awaiting editorial review",
    "fca_id": "FCA-VIC-0646"
   },
@@ -32394,8 +32394,8 @@
    ],
    "detail_collected": true,
    "evidence": "two independent sources agree",
-   "proposed_level": "E",
-   "level_reason": "sources give different addresses",
+   "proposed_level": "B",
+   "level_reason": "street address documented by a heritage listing or by two independent sources",
    "review": "awaiting editorial review",
    "fca_id": "FCA-VIC-0671"
   },

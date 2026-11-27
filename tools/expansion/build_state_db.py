@@ -406,7 +406,13 @@ for g in groups.values():
     rec["evidence"] = ("heritage register names the place" if vh and any(v.get("cinema_word") for v in vh) else
                        "two independent sources agree" if n_src >= 2 else "single source")
     numbered = any(street_key(a)[0] for a in addrs)
-    conflict = len({street_key(a)[1] for a in addrs if street_key(a)[1]}) > 1
+    import difflib
+    _streets = []
+    for a in addrs:
+        st_ = street_key(a)[1]
+        if st_ and not any(difflib.SequenceMatcher(None, st_, x).ratio() >= 0.85 for x in _streets):
+            _streets.append(st_)
+    conflict = len(_streets) > 1
     if conflict:
         rec["proposed_level"] = "E"; rec["level_reason"] = "sources give different addresses"
     elif (vh and numbered) or (n_src >= 2 and numbered):
