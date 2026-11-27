@@ -56,12 +56,12 @@ Rebuild everything with `python3 tools/build_genuine.py` (it runs `tools/build_l
 
 ## NSW research leads, discovery batch 01 (live from 27 November 2026)
 
-Published at Matt's request on 27 November 2026.
+Published at Matt's request and approved on 27 November 2026.
 
-- 71 NSW cinemas from discovery batch `FCA_NSW_DISCOVERY_01` (76 candidates), published as research leads in `assets/data/leads-nsw.json` (`leads/fca-nsw-d01-*.html`), with the same "Research lead, not yet verified" badge.
-- Held back, not published: three already in the archive under other names (Roxy Cinema Parramatta = record `roxy-parramatta`; Roxy Cinema Leeton = `shr-01747`; Victoria Cinema Newcastle = `shr-01301`) and two to check (`FCA-NSW-D01-019` "The Cinema", Granville, possibly the Crest Theatre; `FCA-NSW-D01-038` Civic Theatre, Parramatta, flagged by the batch as a possible existing identity).
+- 73 NSW cinemas from discovery batch `FCA_NSW_DISCOVERY_01` (76 candidates), published as research leads in `assets/data/leads-nsw.json` (`leads/fca-nsw-d01-*.html`), with the same "Research lead, not yet verified" badge.
+- 73 published in all. Three are not published because they are already in the archive under other names (Roxy Cinema Parramatta = record `roxy-parramatta`; Roxy Cinema Leeton = `shr-01747`; Victoria Cinema Newcastle = `shr-01301`). Two carry an open question on their page: `FCA-NSW-D01-019` "The Cinema", Granville (possibly the Crest Theatre) and `FCA-NSW-D01-038` Civic Theatre, Parramatta (flagged by the batch as a possible existing identity).
 - Evidence is thin: 52 come from one State Library of NSW photograph-collection catalogue (photographs not inspected), 17 from a volunteer-edited directory of demolished cinemas. Each page says which.
-- Only 9 have approximate markers (Sydney and Coffs Harbour): `assets/data/au-localities.json` lacks most NSW towns. Refresh it with `python3 tools/build_approx.py --geonames AU.txt` (GeoNames AU postal file) and rebuild to place the rest.
+- 70 have approximate town or suburb markers (GeoNames NSW localities added to `assets/data/au-localities.json`). Mayfield, Punchbowl and Summer Hill each name more than one NSW place, so those three leads are not placed.
 
 ## Archive listings (Phase C)
 

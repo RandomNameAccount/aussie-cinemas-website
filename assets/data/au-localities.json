@@ -57,6 +57,13 @@
 "Alberton"
 ]
 ],
+"alstonville|NSW": [
+[
+-28.8414,
+153.4429,
+"Alstonville"
+]
+],
 "andergrove|QLD": [
 [
 -21.0945,
@@ -102,11 +109,35 @@
 "Armadale"
 ]
 ],
+"ashfield|NSW": [
+[
+-33.8883,
+151.1227,
+"Ashfield"
+],
+[
+-33.8879,
+151.1262,
+"Ashfield"
+]
+],
 "atherton|QLD": [
 [
 -17.265,
 145.4833,
 "Atherton"
+]
+],
+"auburn|NSW": [
+[
+-33.85,
+151.0333,
+"Auburn"
+],
+[
+-33.854,
+151.03,
+"Auburn"
 ]
 ],
 "ayr|QLD": [
@@ -130,6 +161,23 @@
 "Balga"
 ]
 ],
+"bankstown|NSW": [
+[
+-33.9167,
+151.0333,
+"Bankstown"
+],
+[
+-33.9167,
+151.0333,
+"Bankstown"
+],
+[
+-33.9183,
+151.0329,
+"Bankstown"
+]
+],
 "barcaldine|QLD": [
 [
 -23.556,
@@ -142,6 +190,13 @@
 -34.2523,
 140.4662,
 "Barmera"
+]
+],
+"bass hill|NSW": [
+[
+-33.8984,
+150.9967,
+"Bass Hill"
 ]
 ],
 "bassendean|WA": [
@@ -262,6 +317,25 @@
 "Bollon"
 ]
 ],
+"bondi junction|NSW": [
+[
+-33.893,
+151.247,
+"Bondi Junction"
+],
+[
+-33.892,
+151.25,
+"Bondi Junction"
+]
+],
+"bondi|NSW": [
+[
+-33.893,
+151.264,
+"Bondi"
+]
+],
 "boonah|QLD": [
 [
 -27.9949,
@@ -365,6 +439,20 @@
 "Broadbeach"
 ]
 ],
+"broadmeadow|NSW": [
+[
+-32.925,
+151.734,
+"Broadmeadow"
+]
+],
+"broken hill|NSW": [
+[
+-31.9603,
+141.4596,
+"Broken Hill"
+]
+],
 "broome|WA": [
 [
 -17.9629,
@@ -415,6 +503,18 @@
 -31.9624,
 115.8973,
 "Burswood"
+]
+],
+"burwood|NSW": [
+[
+-33.8833,
+151.1,
+"Burwood"
+],
+[
+-33.8771,
+151.1034,
+"Burwood"
 ]
 ],
 "bushy park|TAS": [
@@ -631,6 +731,13 @@
 "Como"
 ]
 ],
+"concord|NSW": [
+[
+-33.8582,
+151.1048,
+"Concord"
+]
+],
 "coober pedy|SA": [
 [
 -29.0103,
@@ -650,6 +757,13 @@
 -27.8486,
 153.3379,
 "Coomera"
+]
+],
+"corrimal|NSW": [
+[
+-34.37,
+150.897,
+"Corrimal"
 ]
 ],
 "cottesloe|WA": [
@@ -676,6 +790,18 @@
 -31.9725,
 115.8252,
 "Crawley"
+]
+],
+"crows nest|NSW": [
+[
+-33.825,
+151.204,
+"Crows Nest"
+],
+[
+-33.826,
+151.203,
+"Crows Nest"
 ]
 ],
 "cue|WA": [
@@ -753,6 +879,37 @@
 -29.2473,
 114.9296,
 "Dongara"
+]
+],
+"double bay|NSW": [
+[
+-33.878,
+151.244,
+"Double Bay"
+],
+[
+-33.877,
+151.243,
+"Double Bay"
+]
+],
+"drummoyne|NSW": [
+[
+-33.8524,
+151.1549,
+"Drummoyne"
+],
+[
+-33.8515,
+151.1539,
+"Drummoyne"
+]
+],
+"dubbo|NSW": [
+[
+-32.255,
+148.615,
+"Dubbo"
 ]
 ],
 "dulwich|SA": [
@@ -849,6 +1006,25 @@
 "Emerald"
 ]
 ],
+"enfield|NSW": [
+[
+-33.8891,
+151.0955,
+"Enfield"
+]
+],
+"epping|NSW": [
+[
+-33.773,
+151.082,
+"Epping"
+],
+[
+-33.773,
+151.078,
+"Epping"
+]
+],
 "esperance|WA": [
 [
 -33.8603,
@@ -875,6 +1051,18 @@
 -21.9467,
 114.1394,
 "Exmouth"
+]
+],
+"fairfield|NSW": [
+[
+-33.8667,
+150.95,
+"Fairfield"
+],
+[
+-33.8709,
+150.952,
+"Fairfield"
 ]
 ],
 "floreat|WA": [
@@ -955,6 +1143,13 @@
 -28.779,
 114.6146,
 "Geraldton"
+]
+],
+"gilgandra|NSW": [
+[
+-31.7098,
+148.657,
+"Gilgandra"
 ]
 ],
 "gilles plains|SA": [
@@ -1046,11 +1241,35 @@
 "Gosnells"
 ]
 ],
+"goulburn|NSW": [
+[
+-34.7446,
+149.7183,
+"Goulburn"
+]
+],
 "grange|QLD": [
 [
 -27.4239,
 153.0155,
 "Grange"
+]
+],
+"granville|NSW": [
+[
+-33.8406,
+151.0075,
+"Granville"
+],
+[
+-33.8406,
+151.0075,
+"Granville"
+],
+[
+-33.8338,
+151.008,
+"Granville"
 ]
 ],
 "greenslopes|QLD": [
@@ -1065,6 +1284,13 @@
 -35.4142,
 149.069,
 "Greenway"
+]
+],
+"guildford|NSW": [
+[
+-33.8545,
+150.9893,
+"Guildford"
 ]
 ],
 "guildford|WA": [
@@ -1110,6 +1336,13 @@
 -32.0845,
 115.7795,
 "Hamilton Hill"
+]
+],
+"hamilton|NSW": [
+[
+-32.923,
+151.746,
+"Hamilton"
 ]
 ],
 "hectorville|SA": [
@@ -1283,6 +1516,13 @@
 "Hobart"
 ]
 ],
+"homebush|NSW": [
+[
+-33.864,
+151.083,
+"Homebush"
+]
+],
 "huonville|TAS": [
 [
 -43.0274,
@@ -1333,6 +1573,13 @@
 -27.6196,
 152.7601,
 "Ipswich"
+]
+],
+"islington|NSW": [
+[
+-32.915,
+151.749,
+"Islington"
 ]
 ],
 "jandowae|QLD": [
@@ -1476,6 +1723,13 @@
 "Labrador"
 ]
 ],
+"lambton|NSW": [
+[
+-32.914,
+151.709,
+"Lambton"
+]
+],
 "latrobe|TAS": [
 [
 -41.2376,
@@ -1590,6 +1844,18 @@
 -31.9363,
 115.8419,
 "Leederville"
+]
+],
+"lidcombe|NSW": [
+[
+-33.8644,
+151.0397,
+"Lidcombe"
+],
+[
+-33.8595,
+151.0497,
+"Lidcombe"
 ]
 ],
 "lilydale|TAS": [
@@ -1742,6 +2008,28 @@
 "Maryborough"
 ]
 ],
+"mayfield|NSW": [
+[
+-32.898,
+151.738,
+"Mayfield"
+],
+[
+-33.653,
+149.777,
+"Mayfield"
+],
+[
+-35.22,
+149.772,
+"Mayfield"
+],
+[
+-34.921,
+150.668,
+"Mayfield"
+]
+],
 "maylands|WA": [
 [
 -31.9327,
@@ -1780,6 +2068,13 @@
 "Menora"
 ]
 ],
+"merewether|NSW": [
+[
+-32.9424,
+151.7506,
+"Merewether"
+]
+],
 "mermaid beach|QLD": [
 [
 -28.0486,
@@ -1792,6 +2087,13 @@
 -31.4836,
 118.279,
 "Merredin"
+]
+],
+"merrylands|NSW": [
+[
+-33.8359,
+150.988,
+"Merrylands"
 ]
 ],
 "midland|WA": [
@@ -1869,6 +2171,13 @@
 -27.1175,
 152.9463,
 "Morayfield"
+]
+],
+"moree|NSW": [
+[
+-29.4635,
+149.8375,
+"Moree"
 ]
 ],
 "morley|WA": [
@@ -2074,6 +2383,13 @@
 "New Town"
 ]
 ],
+"newcastle|NSW": [
+[
+-32.927,
+151.778,
+"Newcastle"
+]
+],
 "noarlunga centre|SA": [
 [
 -35.1416,
@@ -2164,6 +2480,13 @@
 "Norwood"
 ]
 ],
+"nowra|NSW": [
+[
+-34.883,
+150.605,
+"Nowra"
+]
+],
 "nuriootpa|SA": [
 [
 -34.4686,
@@ -2199,6 +2522,13 @@
 "One Mile"
 ]
 ],
+"orange|NSW": [
+[
+-33.279,
+149.096,
+"Orange"
+]
+],
 "palm beach|QLD": [
 [
 -28.1151,
@@ -2218,6 +2548,33 @@
 -34.9975,
 138.5976,
 "Panorama"
+]
+],
+"parramatta|NSW": [
+[
+-33.818,
+151.004,
+"Parramatta"
+],
+[
+-33.818,
+151.004,
+"Parramatta"
+],
+[
+-33.818,
+151.004,
+"Parramatta"
+],
+[
+-33.818,
+151.004,
+"Parramatta"
+],
+[
+-33.815,
+151.007,
+"Parramatta"
 ]
 ],
 "pearsall|WA": [
@@ -2414,6 +2771,13 @@
 "Port Hedland"
 ]
 ],
+"port kembla|NSW": [
+[
+-34.485,
+150.901,
+"Port Kembla"
+]
+],
 "port lincoln|SA": [
 [
 -34.7266,
@@ -2445,6 +2809,18 @@
 -34.8832,
 138.5928,
 "Prospect"
+]
+],
+"punchbowl|NSW": [
+[
+-33.9285,
+151.0526,
+"Punchbowl"
+],
+[
+-29.4791,
+152.7893,
+"Punchbowl"
 ]
 ],
 "queenstown|TAS": [
@@ -2732,6 +3108,13 @@
 "South Fremantle"
 ]
 ],
+"south granville|NSW": [
+[
+-33.8547,
+151.0109,
+"South Granville"
+]
+],
 "south perth|WA": [
 [
 -31.977,
@@ -2786,6 +3169,18 @@
 "Strathalbyn"
 ]
 ],
+"strathfield|NSW": [
+[
+-33.881,
+151.08,
+"Strathfield"
+],
+[
+-33.876,
+151.088,
+"Strathfield"
+]
+],
 "subiaco|WA": [
 [
 -31.9417,
@@ -2796,6 +3191,28 @@
 -31.9485,
 115.8268,
 "Subiaco"
+]
+],
+"summer hill|NSW": [
+[
+-32.4733,
+151.5085,
+"Summer Hill"
+],
+[
+-33.8917,
+151.1377,
+"Summer Hill"
+],
+[
+-33.8915,
+151.1382,
+"Summer Hill"
+],
+[
+-33.8915,
+151.1382,
+"Summer Hill"
 ]
 ],
 "surfers paradise|QLD": [
@@ -3595,6 +4012,13 @@
 "Taringa"
 ]
 ],
+"terrigal|NSW": [
+[
+-33.4432,
+151.4324,
+"Terrigal"
+]
+],
 "tewantin|QLD": [
 [
 -26.3928,
@@ -3665,6 +4089,13 @@
 "Tullah"
 ]
 ],
+"tweed heads|NSW": [
+[
+-28.176,
+153.539,
+"Tweed Heads"
+]
+],
 "ulverstone|TAS": [
 [
 -41.161,
@@ -3719,6 +4150,13 @@
 "Wagerup"
 ]
 ],
+"wagga wagga|NSW": [
+[
+-35.111,
+147.363,
+"Wagga Wagga"
+]
+],
 "wagin|WA": [
 [
 -33.3097,
@@ -3759,6 +4197,13 @@
 -42.8586,
 147.3814,
 "Warrane"
+]
+],
+"warriewood|NSW": [
+[
+-33.686,
+151.293,
+"Warriewood"
 ]
 ],
 "warwick|QLD": [
@@ -3825,6 +4270,13 @@
 -31.9414,
 115.8312,
 "West Leederville"
+]
+],
+"west wyalong|NSW": [
+[
+-33.9181,
+147.197,
+"West Wyalong"
 ]
 ],
 "westbury|TAS": [
@@ -3944,11 +4396,25 @@
 "Woolloongabba"
 ]
 ],
+"woy woy|NSW": [
+[
+-33.4953,
+151.3205,
+"Woy Woy"
+]
+],
 "wynyard|TAS": [
 [
 -40.9911,
 145.7239,
 "Wynyard"
+]
+],
+"young|NSW": [
+[
+-34.3138,
+148.2993,
+"Young"
 ]
 ],
 "zeehan|TAS": [

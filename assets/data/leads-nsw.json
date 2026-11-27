@@ -457,6 +457,33 @@
   "notes": [],
   "sources": [
    {
+    "label": "State Library of NSW catalogue, PXA 764/1-312c, items 86–89 (catalogue entry; photographs not inspected)",
+    "url": "https://archival.sl.nsw.gov.au/Details/archive/110095265"
+   }
+  ],
+  "conflicts": [
+   "Possibly the same venue as the Crest Theatre, Granville South; not yet checked."
+  ],
+  "related": [],
+  "nationalId": "FCA-NSW-D01-019",
+  "candidateIds": [
+   "FCA-NSW-D01-019"
+  ],
+  "id": "fca-nsw-d01-019",
+  "state": "NSW",
+  "name": "The Cinema",
+  "locality": "Granville",
+  "basis": "Named in a State Library of NSW photograph collection catalogue; the photographs themselves have not been inspected. Names, dates and place are not yet checked.",
+  "published": "27 November 2026"
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
     "label": "State Library of NSW catalogue, PXA 764/1-312c, items 90–118 (catalogue entry; photographs not inspected)",
     "url": "https://archival.sl.nsw.gov.au/Details/archive/110095265"
    }
@@ -845,6 +872,33 @@
   "id": "fca-nsw-d01-037",
   "state": "NSW",
   "name": "Astra Cinema",
+  "locality": "Parramatta",
+  "basis": "Named in a State Library of NSW photograph collection catalogue; the photographs themselves have not been inspected. Names, dates and place are not yet checked.",
+  "published": "27 November 2026"
+ },
+ {
+  "aliases": [],
+  "address": "",
+  "type": "",
+  "facts": [],
+  "notes": [],
+  "sources": [
+   {
+    "label": "State Library of NSW catalogue, PXA 764/1-312c, items 212–217 (catalogue entry; photographs not inspected)",
+    "url": "https://archival.sl.nsw.gov.au/Details/archive/110095265"
+   }
+  ],
+  "conflicts": [
+   "The researcher flagged a possible match with an existing \"Civic Arcade\" identity; not yet checked."
+  ],
+  "related": [],
+  "nationalId": "FCA-NSW-D01-038",
+  "candidateIds": [
+   "FCA-NSW-D01-038"
+  ],
+  "id": "fca-nsw-d01-038",
+  "state": "NSW",
+  "name": "Civic Theatre",
   "locality": "Parramatta",
   "basis": "Named in a State Library of NSW photograph collection catalogue; the photographs themselves have not been inspected. Names, dates and place are not yet checked.",
   "published": "27 November 2026"
