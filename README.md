@@ -1,6 +1,8 @@
 # Film Cinemas Australia
 
-Static website prototype for a cinema heritage archive: a map-first homepage of Brisbane, Sydney and Melbourne cinema sites, individual cinema pages, equipment, research, explore and share pages.
+Film Cinemas Australia ([filmcinemas.au](https://filmcinemas.au)) is a national archive of Australia's cinemas, past and present. It maps cinema sites in every state and territory, with a page for each cinema, and labels how well each detail has been checked: verified records, archive listings and unverified research leads. It also covers projection equipment, research sources, the chains still screening film, and a Cinema Community where members of the public can suggest updates.
+
+It is a static website (plain HTML, CSS and JavaScript) hosted on GitHub Pages.
 
 ## Run locally
 
@@ -15,9 +17,14 @@ then visit http://localhost:8000.
 ## Structure
 
 - `index.html`: homepage with the map
-- `cinema-*.html`: individual cinema pages
-- `explore.html`, `research.html`, `equipment.html`, `share.html`, `components.html`: other pages
-- `assets/`: styles, scripts, map data, icons, images and vendored Leaflet (see its licence files)
+- `cinemas/<id>.html`: verified cinema records
+- `archive/<id>.html`: archive listings (Phase C)
+- `leads/<id>.html`: research leads, not yet verified (Phase B)
+- `explore.html`, `research.html`, `equipment.html`, `share.html`, `whats-on.html`: main pages
+- `community.html`, `forums.html`, `thread.html`, `update.html`, `moderation.html` and related pages: Cinema Community (switched off until Supabase is connected)
+- `assets/`: styles, scripts, map data, icons, images and vendored Leaflet and Supabase (see their licence files)
+- `supabase/`: database schemas and setup notes for forums and "Suggest an update"
+- `tools/`: Python build scripts that turn the approved data into pages
 
 ## Design: White Art Deco (approved Nov 2026)
 
@@ -42,7 +49,7 @@ Unverified research for SA, ACT, Queensland (round 2), Tasmania and WA is publis
 
 - data: `assets/data/leads-<state>.json` (exported from the Phase B staging databases)
 - pages: `leads/<id>.html`, listed in Explore with the "Research lead, not yet verified" badge and filter
-- leads have no map pins, photographs or personal details, and every page says the details are not yet checked
+- leads have no photographs or personal details, and every page says the details are not yet checked. On the map they show as hollow markers at their approximate town or suburb centre (see the 27 November release below)
 - Queensland round-2 leads that match an existing QLD record are not published, so no cinema appears twice
 
 Rebuild everything with `python3 tools/build_genuine.py` (it runs `tools/build_leads.py` at the end). To remove a state's leads, delete its JSON file and rebuild.
@@ -53,7 +60,18 @@ Approved archive listings (verification levels C and D) sit between the genuine 
 
 - data: `assets/data/archive-listings.json`, exported from the editorial staging database after owner approval. Never edit it by hand.
 - pages: `archive/<id>.html`, listed in Explore with their own evidence filter.
-- level C may show its address, labelled provisional; level D never shows an address. No listing has a map pin, and only sources an editor has opened and checked are linked.
+- level C may show its address, labelled provisional; level D never shows an address. Only sources an editor has opened and checked are linked.
+- listings whose address matches official state address data (Property Address Queensland, Tasmania's LIST) are pinned at that address today; the popup says it is not the historic cinema's footprint.
 - when a listing replaces a research lead, the lead is removed in the same commit.
 
 `python3 tools/build_genuine.py` rebuilds records, then leads (`build_leads.py`), then archive listings (`build_archive.py`). To roll back a release, `git revert` its commit.
+
+## Release: approximate markers and "Suggest an update" (live from 27 November 2026)
+
+Approved by Tony, relayed by Matt, 27 November 2026.
+
+- **Approximate map markers.** Cinemas without an exact site are shown at their town or suburb centre (GeoNames, CC BY 4.0) and labelled approximate; research leads are hollow markers. Both can be switched on and off on the map. This replaces the 26 November removal of approximate pins, so the public can help pin down the real locations. Data: `assets/data/approx-placements.json`, built by `tools/build_approx.py`.
+- **"Suggest an update"** on every record, archive listing and lead page. Suggestions go to a moderation queue (`moderation.html`) and an editor applies them; nothing a member sends goes live by itself. Switched off until Supabase is connected (`assets/forum-config.js`, setup in `supabase/FORUM_SETUP.md`).
+- **Cinema chains still screening film** on the Equipment page (Palace, Dendy, Five Star, Lido group; Dendy Canberra still to confirm). Data: `assets/data/film-chains.json`, built by `tools/build_chains.py`.
+
+Member accounts and forums stay switched off until Supabase is connected; giveaways and payments stay off.
