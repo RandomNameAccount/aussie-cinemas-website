@@ -54,6 +54,15 @@ Unverified research for SA, ACT, Queensland (round 2), Tasmania and WA is publis
 
 Rebuild everything with `python3 tools/build_genuine.py` (it runs `tools/build_leads.py` at the end). To remove a state's leads, delete its JSON file and rebuild.
 
+## NSW research leads, discovery batch 01 (live from 27 November 2026)
+
+Published at Matt's request on 27 November 2026.
+
+- 71 NSW cinemas from discovery batch `FCA_NSW_DISCOVERY_01` (76 candidates), published as research leads in `assets/data/leads-nsw.json` (`leads/fca-nsw-d01-*.html`), with the same "Research lead, not yet verified" badge.
+- Held back, not published: three already in the archive under other names (Roxy Cinema Parramatta = record `roxy-parramatta`; Roxy Cinema Leeton = `shr-01747`; Victoria Cinema Newcastle = `shr-01301`) and two to check (`FCA-NSW-D01-019` "The Cinema", Granville, possibly the Crest Theatre; `FCA-NSW-D01-038` Civic Theatre, Parramatta, flagged by the batch as a possible existing identity).
+- Evidence is thin: 52 come from one State Library of NSW photograph-collection catalogue (photographs not inspected), 17 from a volunteer-edited directory of demolished cinemas. Each page says which.
+- Only 9 have approximate markers (Sydney and Coffs Harbour): `assets/data/au-localities.json` lacks most NSW towns. Refresh it with `python3 tools/build_approx.py --geonames AU.txt` (GeoNames AU postal file) and rebuild to place the rest.
+
 ## Archive listings (Phase C)
 
 Approved archive listings (verification levels C and D) sit between the genuine records and the research leads:
