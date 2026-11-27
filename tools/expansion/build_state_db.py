@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Victorian archive expansion: build one consolidated database from the raw source extracts.
+"""State archive expansion (Victoria, New South Wales, ...): build one consolidated database from the raw source extracts.
+Run with FCA_STATE=VIC (default) or FCA_STATE=NSW; files live in research/<state>/.
 
 Inputs (research/vic/, extracts saved from the sources; re-run any time, the build is idempotent)
   caarp-part*.json         CAARP venue list + venue pages (CC BY-NC-SA 3.0)
@@ -7,16 +8,19 @@ Inputs (research/vic/, extracts saved from the sources; re-run any time, the bui
   vhd.json                 Victorian Heritage Database search + place pages (name, address, listing)
   vic-localities.json      GeoNames VIC postal localities (CC BY 4.0), optional, for postcodes and regions
 Outputs
-  vic-master.json / vic-master.csv   one row per unique cinema (FCA-VIC-nnnn)
-  vic-duplicates.csv                 every merge and every match to an existing website record
-  vic-progress.json                  resumable progress: what is collected, what is still missing
+  <state>-master.json / .csv   one row per unique cinema (FCA-VIC-nnnn)
+  <state>-duplicates.csv               every merge and every match to an existing website record
+  <state>-progress.json                resumable progress: what is collected, what is still missing
 Rules: unknown stays unknown; nothing is inferred beyond what a source states; every field keeps its source.
 """
 import csv, glob, json, os, re, unicodedata
 from collections import Counter, defaultdict
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-R = os.path.join(ROOT, "research", "vic")
+STATE = os.environ.get("FCA_STATE", "VIC").upper()
+R = os.path.join(ROOT, "research", STATE.lower())
+PC_OK = {"VIC": lambda p: p[:1] in "38", "NSW": lambda p: p[:1] == "2" and not (2600 <= int(p) <= 2620 or 2900 <= int(p) <= 2920)}[STATE]
+STATE_WORD = {"VIC": "victoria", "NSW": "new south wales"}[STATE]
 os.chdir(ROOT)
 
 def norm(s):
@@ -53,6 +57,17 @@ def pc_region(pc, locality=""):
         p = int(pc)
     except (TypeError, ValueError):
         return ""
+    if STATE == "NSW":                            # regions named in the NSW expansion brief, assigned by postcode
+        for a, b, r in [(2000, 2001, "Sydney CBD"), (2002, 2009, "Inner West"), (2010, 2011, "Eastern Suburbs"), (2012, 2020, "Inner West"),
+                        (2021, 2036, "Eastern Suburbs"), (2037, 2051, "Inner West"), (2052, 2052, "Eastern Suburbs"), (2055, 2083, "North Shore"),
+                        (2084, 2108, "Northern Beaches"), (2109, 2122, "North Shore"), (2123, 2129, "Western Sydney"), (2130, 2140, "Inner West"),
+                        (2141, 2161, "Western Sydney"), (2162, 2179, "South-West Sydney"), (2190, 2200, "South-West Sydney"), (2203, 2204, "Inner West"),
+                        (2205, 2234, "St George and Sutherland"), (2555, 2574, "South-West Sydney"), (2740, 2772, "Western Sydney"),
+                        (2773, 2786, "Blue Mountains"), (2250, 2263, "Central Coast"), (2264, 2339, "Newcastle and Hunter Valley"),
+                        (2500, 2551, "Illawarra and South Coast")]:
+            if a <= p <= b:
+                return r
+        return "Regional and rural NSW" if 2000 <= p <= 2999 else ""
     if 3000 <= p <= 3006 or p == 3008:
         return "Melbourne CBD"
     metro = [(3000, 3207), (3335, 3338), (3427, 3429), (3750, 3755), (3757, 3761), (3765, 3815), (3910, 3920), (3926, 3944), (3975, 3978), (3800, 3810), (8000, 8999)]
@@ -69,34 +84,53 @@ def pc_region(pc, locality=""):
 
 # ---------- load sources ----------
 caarp_list, caarp_det = [], {}
-for f in sorted(glob.glob(os.path.join(R, "caarp-part*.json"))):
+for f in sorted(glob.glob(os.path.join(R, "caarp-part*.json")) or glob.glob(os.path.join(ROOT, "research", "vic", "caarp-part*.json"))):
     d = json.load(open(f, encoding="utf-8"))
     caarp_list = caarp_list or d.get("list", [])
     for x in d.get("details", []):
         caarp_det[x["id"]] = x
-CT = json.load(open(os.path.join(R, "cinematreasures.json"), encoding="utf-8"))["theaters"]
+CTF = os.path.join(R, "cinematreasures.json")
+CT = json.load(open(CTF, encoding="utf-8"))["theaters"] if os.path.exists(CTF) else []
 FIXF = os.path.join(R, "cinematreasures-fix.json")
 FIX = json.load(open(FIXF, encoding="utf-8"))["fix"] if os.path.exists(FIXF) else {}
 for i, t in enumerate(CT):                       # the first 142 rows came from the 'Open' listing; detail parse may have blanked status
     f = FIX.get(t["id"])
     if f and f.get("pc"):
-        t["addr"] = f"{f['addr']}, VIC {f['pc']}"; t["size"] = f.get("size") or t.get("size")
+        t["addr"] = f"{f['addr']}, {f.get('st') or STATE} {f['pc']}"; t["size"] = f.get("size") or t.get("size")
         t["status"] = "Open" if f.get("status", "").startswith("Open") else (f.get("status") or "").split(" ")[0]
     if not t.get("status"):
         t["status"] = "Open" if i < 142 else ""
-VHD = json.load(open(os.path.join(R, "vhd.json"), encoding="utf-8"))["places"]
+VHD = json.load(open(os.path.join(R, "vhd.json"), encoding="utf-8"))["places"] if os.path.exists(os.path.join(R, "vhd.json")) else []
 GEO, PC2 = defaultdict(list), defaultdict(list)          # GeoNames VIC postal localities (CC BY 4.0)
-for pc, place, lat, lon in json.load(open(os.path.join(R, "geonames-vic.json"), encoding="utf-8"))["rows"]:
+GF = os.path.join(R, f"geonames-{STATE.lower()}.json")
+for pc, place, lat, lon in (json.load(open(GF, encoding="utf-8"))["rows"] if os.path.exists(GF) else []):
     GEO[norm(place)].append([lat, lon, place, pc]); PC2[pc].append(place)
-METRO_CT = lambda city, pc: norm(city) == "melbourne" and pc and pc not in {"3000", "3001", "3002", "3003", "3004", "3005", "3006", "3008"}
+CBD = {"VIC": {"3000", "3001", "3002", "3003", "3004", "3005", "3006", "3008"}, "NSW": {"2000", "2001"}}[STATE]
+CAPITAL = {"VIC": "melbourne", "NSW": "sydney"}[STATE]
+METRO_CT = lambda city, pc: norm(city) == CAPITAL and pc and pc not in CBD
+# NSW discovery batch 01 (76 candidates; 73 already published as leads, 3 identified as existing records)
+B01 = []
+if STATE == "NSW" and os.path.exists(os.path.join(R, "NSW_CANDIDATES.json")):
+    B01 = json.load(open(os.path.join(R, "NSW_CANDIDATES.json"), encoding="utf-8"))
 
 raw = open("assets/map/cinema-sites.js", encoding="utf-8").read()
-SITES = [s for s in json.loads(raw[raw.index("window.APA_SITES = ") + 19:].strip().rstrip(";"))["sites"] if s["state"] == "VIC"]
+SITES = [s for s in json.loads(raw[raw.index("window.APA_SITES = ") + 19:].strip().rstrip(";"))["sites"] if s["state"] == STATE]
+# already published in this state: archive listings and research leads (not this expansion's own export)
+for a in json.load(open("assets/data/archive-listings.json", encoding="utf-8")):
+    if a["state"] == STATE:
+        SITES.append({"id": "archive:" + a["id"], "name": a["name"], "aliases": [], "suburb": a["locality"], "address": a.get("address", "")})
+for f in glob.glob("assets/data/leads-*.json"):
+    if f.endswith(f"leads-{STATE.lower()}-expansion.json") or f.endswith("leads-vic.json"):
+        continue
+    for l in json.load(open(f, encoding="utf-8")):
+        if l["state"] == STATE:
+            SITES.append({"id": "lead:" + l["id"], "name": l["name"], "aliases": l.get("aliases", []), "suburb": l["locality"], "address": l.get("address", "")})
 
 def is_vic_caarp(v, det):
-    if v.get("pc") and v["pc"][0] in "38":
-        return True
-    return bool(det and any(norm(x) == "victoria" for x in det.get("addr", [])))
+    pc = (re.match(r"\d{4}", v.get("pc") or "") or [""])[0]
+    if pc:
+        return PC_OK(pc)
+    return bool(det and any(norm(x) == STATE_WORD for x in det.get("addr", [])))
 
 # ---------- candidate rows (one per source entry) ----------
 cands = []
@@ -136,9 +170,9 @@ for v in caarp_list:
 
 for t in CT:
     city = (t.get("city") or "").replace(", Australia", "").strip()
-    pcm = re.search(r"\bVIC (\d{4})\b", t.get("addr") or "")
+    pcm = re.search(r"\b(?:VIC|NSW|ACT) (\d{4})\b", t.get("addr") or "")
     parts = [x.strip() for x in (t.get("addr") or "").split(",") if x.strip()]
-    if parts and re.match(r"VIC \d{4}", parts[-1]):
+    if parts and re.match(r"(?:VIC|NSW|ACT) \d{4}", parts[-1]):
         parts = parts[:-1]
     if len(parts) >= 2 and norm(parts[-1]) == norm(city):
         parts = parts[:-1]
@@ -148,18 +182,28 @@ for t in CT:
     info = t.get("info") or ""
     prev = re.search(r"Previous Names: \| ([^|]+)", info)
     ops = re.search(r"(?:Previously operated by|Operated by): \| ([^|]+)", info)
+    sty = re.search(r"Styles: \| ([^|]+)", info); arch = re.search(r"Architects: \| ([^|]+)", info)
     seats = re.search(r"(\d[\d,]*) seats", t.get("size") or "")
     cars = re.search(r"(\d[\d,]*) cars", t.get("size") or "")
-    if pcm and pcm.group(1)[0] not in "38":
+    if pcm and not PC_OK(pcm.group(1)):
         continue
     cands.append({"src": "ct", "sid": t["id"], "name": t["name"], "aliases": [x.strip() for x in prev.group(1).split(",")] if prev else [],
                   "locality": city, "address": addr if re.search(r"\d|street|road|avenue|parade|highway", addr, re.I) else "",
                   "postcode": pcm.group(1) if pcm else "", "ct_status": t.get("status") or "",
                   "operators": [x.strip() for x in ops.group(1).split(",")] if ops else [],
+                  "style": sty.group(1).strip() if sty else "", "architects": arch.group(1).strip() if arch else "",
                   "capacity": (seats.group(1).replace(",", "") if seats else (cars.group(1).replace(",", "") + " cars" if cars else "")),
                   "screens": t.get("screens") or "", "url": f"https://cinematreasures.org/theaters/{t['id']}"})
 
-KNOWN_LOC = {norm(c["locality"]) for c in cands if c["locality"]} | set(GEO)
+for b in B01:
+    cands.append({"src": "b01", "sid": b["candidate_id"], "name": b["name"].split(" / ")[0], "aliases": [x.strip() for x in b["name"].split(" / ")[1:]],
+                  "locality": b["locality"], "address": "", "postcode": "", "url": b["source_url"], "b01_level": b["verification_level"]})
+KNOWN_LOC = {norm(c["locality"]) for c in cands if c["locality"]} | set(GEO) | \
+    {k.split("|")[0] for k in json.load(open(os.path.join(ROOT, "assets", "data", "au-localities.json"), encoding="utf-8")) if k.endswith("|" + STATE)}
+LOC2PC = {}
+for c in cands:
+    if c["locality"] and c["postcode"]:
+        LOC2PC.setdefault(norm(c["locality"]), c["postcode"])
 CINEMA_WORDS = re.compile(r"cinema|picture|drive.?in|theatrette|photoplay|kinema|movie|biograph", re.I)
 for p in VHD:
     if p.get("err") or not p.get("title"):
@@ -226,7 +270,7 @@ def match(a, b):
             return "same street, nearby number, same name" if name_hit and abs(int(na) - int(nb)) <= 10 else ""
         return "same street address" if (na and nb) else ("same street and name" if name_hit else "")
     if name_hit:
-        cbd = {a["postcode"], b["postcode"]} & {"3000", "3001", "3002", "3003", "3004", "3005", "3006", "3008"} or norm(a["locality"]) == "melbourne"
+        cbd = {a["postcode"], b["postcode"]} & CBD or norm(a["locality"]) == CAPITAL
         if cbd and not (pa & pb):
             return ""                                  # central Melbourne: too many venues to match on a partial name without an address
         return "same name and locality (no address to compare)"
@@ -278,7 +322,7 @@ STATUS_LABEL = {"operating": "Operating cinema", "repurposed": "Building survive
 existing = []
 recs = []
 for g in groups.values():
-    g.sort(key=lambda c: {"caarp": 0, "ct": 1, "vhd": 2}[c["src"]])
+    g.sort(key=lambda c: {"caarp": 0, "ct": 1, "vhd": 2, "b01": 3}[c["src"]])
     srcs = {c["src"] for c in g}
     if srcs == {"vhd"} and not any(c.get("cinema_word") for c in g):
         continue                                  # heritage place with no evidence of film exhibition
@@ -293,15 +337,20 @@ for g in groups.values():
             n = n.strip()
             if n and norm(n) not in {norm(x) for x in names}:
                 names.append(n)
-    loc = next((c["locality"] for c in g if c["locality"]), "")
+    loc = next((c["locality"] for c in g if c["locality"] and not (norm(c["locality"]) == CAPITAL and c["postcode"] and c["postcode"] not in CBD)), "")
     pc = next((c["postcode"] for c in g if c["postcode"]), "")
+    if not loc and pc and not PC2.get(pc):                 # capital-city filing with a suburban postcode and no gazetteer: use a suburb named in the venue name
+        inname = sorted((k for k in KNOWN_LOC if k and k != CAPITAL and any(re.search(r"\b" + re.escape(k) + r"\b", norm(n)) for n in names)), key=len, reverse=True)
+        loc = inname[0].title() if inname else ""
     if not loc and pc:
         places = sorted({x for x in PC2.get(pc, []) if not re.search(r"\b(po|dc|mc|bc|lpo|mail centre|delivery centre)\b", x, re.I)})
         named = [x for x in places if any(norm(x) and norm(x) in norm(n) for n in names)]
         loc = named[0] if named else (places[0] if len(places) == 1 else "")
-        loc_note = "" if loc else f"Melbourne (postcode {pc})"
+        loc_note = "" if loc else f"{CAPITAL.title()} (postcode {pc})"
     else:
         loc_note = ""
+    if not pc:
+        pc = LOC2PC.get(norm(loc), "")
     if not pc and norm(loc) in GEO:
         pcs = {x[3] for x in GEO[norm(loc)]}
         pc = pcs.pop() if len(pcs) == 1 else ""
@@ -322,8 +371,8 @@ for g in groups.values():
     if any(c.get("purpose") == "Live Theatre" for c in g) and kind == "cinema":
         kind = "theatre"
     rec = {
-        "name": names[0], "aliases": names[1:], "locality": loc, "locality_note": loc_note, "postcode": pc, "state": "VIC",
-        "region": pc_region(pc) or pc_region(next((x[3] for x in GEO.get(norm(loc), [])), "")) or ("Metropolitan Melbourne" if ca and ca.get("setting") in ("City", "Suburb") else "Regional Victoria" if ca and ca.get("setting") == "Country" else ""),
+        "name": names[0], "aliases": names[1:], "locality": loc, "locality_note": loc_note, "postcode": pc, "state": STATE,
+        "region": pc_region(pc) or pc_region(next((x[3] for x in GEO.get(norm(loc), [])), "")) or (f"Metropolitan {CAPITAL.title()}" if ca and ca.get("setting") in ("City", "Suburb") else f"Regional {STATE}" if ca and ca.get("setting") == "Country" else ""),
         "address": addrs[0] if addrs else "", "other_addresses": sorted(set(addrs[1:]) - {addrs[0]}) if addrs else [],
         "type": kind,
         "first_listed": ca.get("open_listed", "") if ca else "", "last_listed": ca.get("close_listed", "") if ca else "",
@@ -333,14 +382,25 @@ for g in groups.values():
         "operators": sorted({o for c in g for o in c.get("operators", [])}),
         "heritage": [{"listing": v.get("listing"), "vhr": v.get("vhr"), "ho": v.get("ho"), "url": v["url"]} for v in vh],
         "geocode_unverified": ca.get("caarp_geocode") if ca else None,
-        "sources": [{"source": {"caarp": "CAARP", "ct": "Cinema Treasures", "vhd": "Victorian Heritage Database"}[c["src"]], "id": c["sid"], "url": c["url"]} for c in g],
+        "sources": [{"source": {"caarp": "CAARP", "ct": "Cinema Treasures", "vhd": "Victorian Heritage Database", "b01": "NSW discovery batch 01"}[c["src"]], "id": c["sid"], "url": c["url"]} for c in g],
+        "style": next((c["style"] for c in g if c.get("style")), ""), "architects": next((c["architects"] for c in g if c.get("architects")), ""),
+        "photographs": "none cleared for use",
         "caarp_note": ca.get("caarp_note", "") if ca else "", "caarp_refs": ca.get("caarp_refs", []) if ca else [],
         "detail_collected": bool(ca and ca.get("detail")) if ca else None,
     }
     n_src = len(srcs)
     rec["evidence"] = ("heritage register names the place" if vh and any(v.get("cinema_word") for v in vh) else
                        "two independent sources agree" if n_src >= 2 else "single source")
-    rec["proposed_level"] = "C" if (vh and rec["address"]) or (n_src >= 2 and rec["address"]) else "D" if n_src >= 2 or rec["address"] else "E"
+    numbered = any(street_key(a)[0] for a in addrs)
+    conflict = len({street_key(a)[1] for a in addrs if street_key(a)[1]}) > 1
+    if conflict:
+        rec["proposed_level"] = "E"; rec["level_reason"] = "sources give different addresses"
+    elif (vh and numbered) or (n_src >= 2 and numbered):
+        rec["proposed_level"] = "B"; rec["level_reason"] = "street address documented by a heritage listing or by two independent sources"
+    elif rec["address"]:
+        rec["proposed_level"] = "C"; rec["level_reason"] = "provisional historical address from one source"
+    else:
+        rec["proposed_level"] = "D"; rec["level_reason"] = "cinema name and locality established; no address"
     rec["review"] = "awaiting editorial review"
     # existing website record?
     hit = None; rec_possible = False
@@ -354,33 +414,40 @@ for g in groups.values():
         num_s = street_key(s.get("address") or "")[0]
         if num_s and nums_r and all(abs(int(n) - int(num_s)) > 10 for n in nums_r):
             continue                                      # same name, different building (e.g. Capitol 2 at 125 Swanston Street)
+        b01_ids = {c["sid"].lower() for c in g if c["src"] == "b01"}
+        if s["id"].startswith("lead:") and s["id"][5:] in b01_ids:
+            hit = s; rec_possible = False; break           # the batch-01 candidate that became this published lead
         if (st & primary) or same_addr:
             hit = s
-            rec_possible = not same_addr and not (num_s and nums_r)
+            # research leads have no addresses to compare: a name and locality match is treated as the same venue
+            rec_possible = not same_addr and not (num_s and nums_r) and not s["id"].startswith("lead:")
             break
     if hit:
         existing.append([hit["id"], hit["name"], names[0], loc, "; ".join(f"{x['source']}:{x['id']}" for x in rec["sources"])])
         rec["existing_record"] = hit["id"]
         rec["existing_match"] = "possible, check" if rec_possible else "same venue"
+        if rec_possible:
+            rec["proposed_level"] = "E"; rec["level_reason"] = f"possible identity conflict with existing {hit['id']}"
     recs.append(rec)
 
 recs.sort(key=lambda r: (norm(r["locality"]), norm(r["name"])))
 # stable ids: keep any id already assigned to the same first source in a previous build
 prev = {}
-if os.path.exists(os.path.join(R, "vic-master.json")):
-    for r in json.load(open(os.path.join(R, "vic-master.json"), encoding="utf-8"))["records"]:
+if os.path.exists(os.path.join(R, f"{STATE.lower()}-master.json")):
+    for r in json.load(open(os.path.join(R, f"{STATE.lower()}-master.json"), encoding="utf-8"))["records"]:
         for s in r["sources"]:
             prev[f"{s['source']}:{s['id']}"] = r["fca_id"]
-used, nxt = set(), 1 + max([int(v.split("-")[-1]) for v in prev.values()] or [0])
+used, nxt = set(), 1 + max([int(v.split("-")[-1]) for v in prev.values() if re.fullmatch(r"FCA-[A-Z]+-\d{4}", v)] or [0])
 for r in recs:
     pid = next((prev[f"{s['source']}:{s['id']}"] for s in r["sources"] if f"{s['source']}:{s['id']}" in prev and prev[f"{s['source']}:{s['id']}"] not in used), None)
     if not pid:
-        pid = f"FCA-VIC-{nxt:04d}"; nxt += 1
+        pid = f"FCA-{STATE}-{nxt:04d}"; nxt += 1
     used.add(pid); r["fca_id"] = pid
 
 new = [r for r in recs if not r.get("existing_record")]
 summary = {
-    "original_vic_records": len(SITES), "original_vic_record_ids": [s["id"] for s in SITES],
+    "state": STATE, "original_records": sum(1 for s in SITES if ":" not in s["id"]), "original_archive_listings": sum(1 for s in SITES if s["id"].startswith("archive:")),
+    "original_research_leads": sum(1 for s in SITES if s["id"].startswith("lead:")), "original_ids": [s["id"] for s in SITES],
     "source_rows": dict(Counter(c["src"] for c in cands)),
     "caarp_details_collected": sum(1 for c in cands if c["src"] == "caarp" and c.get("detail")),
     "caarp_details_missing": [c["sid"] for c in cands if c["src"] == "caarp" and not c.get("detail")],
@@ -390,19 +457,19 @@ summary = {
     "by_type": dict(Counter(r["type"] for r in new)), "by_proposed_level": dict(Counter(r["proposed_level"] for r in new)),
     "by_evidence": dict(Counter(r["evidence"] for r in new)),
 }
-json.dump({"generated_by": "tools/vic/build_vic_db.py", "summary": summary, "records": recs}, open(os.path.join(R, "vic-master.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+json.dump({"generated_by": "tools/expansion/build_state_db.py", "summary": summary, "records": recs}, open(os.path.join(R, f"{STATE.lower()}-master.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 cols = ["fca_id", "name", "aliases", "locality", "postcode", "region", "address", "other_addresses", "type", "first_listed", "last_listed", "dates_basis",
         "status_label", "status_basis", "capacity", "screens", "operators", "heritage", "evidence", "proposed_level", "review", "existing_record", "sources"]
-with open(os.path.join(R, "vic-master.csv"), "w", newline="", encoding="utf-8") as f:
+with open(os.path.join(R, f"{STATE.lower()}-master.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f); w.writerow(cols)
     for r in recs:
         w.writerow([("; ".join(r.get(k) or []) if k in ("aliases", "other_addresses", "operators") else
                      "; ".join(f"{h['listing']} {h['vhr'] or h['ho']}".strip() for h in r["heritage"]) if k == "heritage" else
                      "; ".join(s["url"] for s in r["sources"]) if k == "sources" else r.get(k, "")) for k in cols])
-with open(os.path.join(R, "vic-duplicates.csv"), "w", newline="", encoding="utf-8") as f:
+with open(os.path.join(R, f"{STATE.lower()}-duplicates.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f); w.writerow(["kind", "a", "a_name", "b", "b_name", "locality", "reason"])
     for d in dups: w.writerow(["merged source rows"] + d)
     for e in existing: w.writerow(["already on the website", f"record:{e[0]}", e[1], e[4], e[2], e[3], "same name and locality"])
-json.dump(summary, open(os.path.join(R, "vic-progress.json"), "w", encoding="utf-8"), indent=1)
-print(json.dumps({k: v for k, v in summary.items() if k not in ("caarp_details_missing", "original_vic_record_ids")}, indent=1))
+json.dump(summary, open(os.path.join(R, f"{STATE.lower()}-progress.json"), "w", encoding="utf-8"), indent=1)
+print(json.dumps({k: v for k, v in summary.items() if k not in ("caarp_details_missing", "original_ids")}, indent=1))
 print("CAARP details still missing:", len(summary["caarp_details_missing"]))

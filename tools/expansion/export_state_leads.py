@@ -10,7 +10,9 @@ import json, os, re, unicodedata
 from datetime import date
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))); os.chdir(ROOT)
-M = json.load(open("research/vic/vic-master.json", encoding="utf-8"))["records"]
+STATE = os.environ.get("FCA_STATE", "VIC").upper()
+M = json.load(open(f"research/{STATE.lower()}/{STATE.lower()}-master.json", encoding="utf-8"))["records"]
+OUT = {"VIC": "assets/data/leads-vic.json"}.get(STATE, f"assets/data/leads-{STATE.lower()}-expansion.json")
 MONTHS = "January February March April May June July August September October November December".split()
 
 def nice_date(d):
@@ -33,19 +35,42 @@ def basis(r):
         return "Listed on Cinema Treasures, a volunteer-edited directory. Needs a primary source for this venue."
     return "Named in the Victorian Heritage Database; film exhibition and dates are not yet checked."
 
+def summary(r):
+    """One or two plain sentences written from the structured facts (no source text is copied)."""
+    kind = {"drive-in": "drive-in", "open-air": "open-air picture venue", "hall": "hall used for film screenings", "theatre": "theatre that screened films"}.get(r["type"], "cinema")
+    where = f" at {r['address']}" if r["address"] else ""
+    loc = r["locality"] or r.get("locality_note") or ""
+    s1 = f"{r['name']} was a {kind}{where}{', ' + loc if loc else ''}."
+    if r["status"] == "operating":
+        s1 = f"{r['name']} is a {kind}{where}{', ' + loc if loc else ''}, listed as operating."
+    bits = []
+    if r["first_listed"] and r["last_listed"]:
+        bits.append(f"CAARP lists it from {nice_date(r['first_listed'])} to {nice_date(r['last_listed'])}")
+    elif r["first_listed"]:
+        bits.append(f"CAARP first lists it in {nice_date(r['first_listed'])}")
+    if r["capacity"]:
+        bits.append(f"with {r['capacity']}{'' if 'car' in r['capacity'] else ' seats'} recorded")
+    if r["aliases"]:
+        bits.append(f"it was also known as {', '.join(r['aliases'][:3])}")
+    return s1 + (" " + "; ".join(bits).capitalize() + "." if bits else "")
+
 out = []
 for r in M:
     if r.get("existing_match") == "same venue":
-        continue
+        continue                                   # already on the site as a record, archive listing or research lead
     facts = []
     if r["first_listed"]:
         facts.append(["Opened", f"{nice_date(r['first_listed'])} (first listing in CAARP, not verified)"])
     if r["last_listed"]:
-        facts.append(["Last listed", f"{nice_date(r['last_listed'])} (CAARP)"])
+        facts.append(["Closed", f"{nice_date(r['last_listed'])} (last listing in CAARP, not verified)"])
     if r["capacity"]:
         facts.append(["Capacity", f"{r['capacity']}{'' if 'car' in r['capacity'] else ' seats'} (as recorded by {('CAARP' if any(s['source']=='CAARP' for s in r['sources']) else 'Cinema Treasures')})"])
     if r["screens"] and r["screens"] not in ("", "1"):
         facts.append(["Screens", r["screens"]])
+    if r.get("style"):
+        facts.append(["Architectural style", r["style"] + " (Cinema Treasures)"])
+    if r.get("architects"):
+        facts.append(["Architects", r["architects"] + " (Cinema Treasures)"])
     if r["operators"]:
         facts.append(["Operators", ", ".join(r["operators"]) + " (Cinema Treasures)"])
     for h in r["heritage"]:
@@ -61,7 +86,8 @@ for r in M:
     sources = []
     for s in r["sources"]:
         lab = {"CAARP": f"CAARP venue {s['id']} (CC BY-NC-SA 3.0)", "Cinema Treasures": f"Cinema Treasures theatre {s['id']}",
-               "Victorian Heritage Database": f"Victorian Heritage Database place {s['id']}"}[s["source"]]
+               "Victorian Heritage Database": f"Victorian Heritage Database place {s['id']}",
+               "NSW discovery batch 01": f"NSW discovery batch 01, {s['id']} (catalogue reference)"}[s["source"]]
         sources.append({"label": lab, "url": s["url"]})
     for ref in r.get("caarp_refs", [])[:4]:
         sources.append({"label": "Cited by CAARP: " + ref[:180], "url": ""})
@@ -70,15 +96,17 @@ for r in M:
         "aliases": r["aliases"][:8], "address": r["address"], "type": r["type"] if r["type"] != "cinema" else "",
         "facts": facts, "notes": [], "sources": sources, "conflicts": conflicts, "related": [],
         "nationalId": r["fca_id"], "candidateIds": [f"{s['source']}:{s['id']}" for s in r["sources"]],
-        "id": r["fca_id"].lower(), "state": "VIC", "name": r["name"],
+        "id": r["fca_id"].lower(), "state": STATE, "name": r["name"],
         "locality": r["locality"] or (r.get("locality_note") or ""),
         "basis": basis(r), "published": "staging, not published",
         "status": r["status"], "statusNote": f"{status_word} ({r['status_basis'][0].lower() + r['status_basis'][1:] if not r['status_basis'].startswith(('Cinema Treasures', 'CAARP')) else r['status_basis']}; not verified)",
-        "region": r["region"] or "Victoria, region not known", "postcode": r["postcode"],
-        "level": r["proposed_level"], "review": r["review"],
+        "region": r["region"] or "", "postcode": r["postcode"],
+        "level": r["proposed_level"], "levelReason": r.get("level_reason", ""), "review": r["review"],
+        "summary": summary(r),
+        "noApprox": STATE == "NSW",                # NSW brief: no approximate coordinates; map pins only where validated
     })
 out.sort(key=lambda l: l["id"])
-json.dump(out, open("assets/data/leads-vic.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+json.dump(out, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 # Victorian towns for approximate markers (GeoNames, CC BY 4.0), in the format build_approx.py reads
 def norm(s):
@@ -89,11 +117,12 @@ def norm(s):
 L = json.load(open("assets/data/au-localities.json", encoding="utf-8"))
 want = {norm(l["locality"]) for l in out if l["locality"]}
 add = 0
-for pc, place, lat, lon in json.load(open("research/vic/geonames-vic.json", encoding="utf-8"))["rows"]:
+GF = f"research/{STATE.lower()}/geonames-{STATE.lower()}.json"
+for pc, place, lat, lon in (json.load(open(GF, encoding="utf-8"))["rows"] if os.path.exists(GF) and STATE != "NSW" else []):
     k = norm(place)
     if k in want:
-        key = k + "|VIC"
+        key = k + "|" + STATE
         if key not in L or not any(x[2] == place and abs(x[0] - lat) < 1e-4 for x in L[key]):
             L.setdefault(key, []).append([lat, lon, place]); add += 1
 json.dump(dict(sorted(L.items())), open("assets/data/au-localities.json", "w", encoding="utf-8"), ensure_ascii=False, indent=0)
-print(f"{len(out)} Victorian research leads written to assets/data/leads-vic.json; {add} Victorian locality points added")
+print(f"{len(out)} {STATE} research leads written to {OUT}; {add} locality points added")

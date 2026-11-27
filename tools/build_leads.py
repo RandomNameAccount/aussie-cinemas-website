@@ -50,6 +50,11 @@ def year(l):
             m = re.search(r"(1[89]\d\d|20\d\d)", v)
             if m: return int(m.group(1))
     return None
+def closed_text(l):
+    for k, v in l["facts"]:
+        if k.lower() in ("closed", "last listed"):
+            return v
+    return ""
 def era(y):
     if y is None: return "unknown"
     return "pre1930" if y < 1930 else "1930s40s" if y < 1950 else "1950s60s" if y < 1970 else "1970s80s" if y < 1990 else "1990on"
@@ -103,6 +108,21 @@ def shell(title, desc):
         q = re.sub(pat, "", q)
     return rebase(p), rebase(q)
 
+# other cinemas in the same suburb or town (records and leads), shown on each lead page
+from collections import defaultdict
+SAME = defaultdict(list)
+for s_ in SITES:
+    SAME[(norm(s_["suburb"]), s_["state"])].append((s_["name"], f"../cinemas/{s_['id']}.html", "record"))
+for l_ in LEADS:
+    SAME[(norm(l_["locality"]), l_["state"])].append((l_["name"], f"{l_['id']}.html", "research lead"))
+def related_html(l):
+    others = [x for x in SAME[(norm(l["locality"]), l["state"])] if not x[1].endswith(f"{l['id']}.html")]
+    if not others or not l["locality"] or l["locality"].startswith(("Melbourne (postcode", "Sydney (postcode")):
+        return ""
+    lis = "".join(f'<li><a href="{E(u)}">{E(n)}</a> <span class="muted">({k})</span></li>' for n, u, k in sorted(others)[:12])
+    more = f'<p><a href="../explore.html?q={quote(l["locality"])}&amp;state={l["state"].lower()}">All {len(others) + 1} in {E(l["locality"])}</a></p>' if len(others) > 12 else ""
+    return f'<h2 id="related-title">Other cinemas in {E(l["locality"])}</h2><ul>{lis}</ul>{more}'
+
 os.makedirs("leads", exist_ok=True)
 for f in os.listdir("leads"):
     if f.endswith(".html"): os.remove(os.path.join("leads", f))
@@ -132,6 +152,7 @@ for l in LEADS:
     <dl class="rec-keyfacts">
       <div><dt>Status today</dt><dd>{E(l["statusNote"]) if l.get("statusNote") else "Not verified"}</dd></div>
       <div><dt>Opened</dt><dd>{E(str(year(l))) + " (as recorded, not verified)" if year(l) else "Not recorded"}</dd></div>
+      {f'<div><dt>Closed</dt><dd>{E(closed_text(l))}</dd></div>' if closed_text(l) else ""}
       <div><dt>Evidence</dt><dd>{LEAD_BADGE} {OPEN_BADGE if oq else ""}</dd></div>
       <div><dt>Location</dt><dd>{f'<a href="../index.html?focus={E(l["id"])}#map">On the map, approximately</a> (centre of {E(APPROX[l["id"]]["place"])}; the exact site is not known)' if l["id"] in APPROX else "Not on the map"}</dd></div>
     </dl>
@@ -146,10 +167,12 @@ for l in LEADS:
     <p><strong>Location:</strong> {("approximate only. The map marker sits at the centre of " + E(APPROX[l["id"]]["place"]) + "; no coordinates for the cinema itself have been checked.") if l["id"] in APPROX else "not mapped. No coordinates have been checked for this lead."}</p></div>
   </section>
   <article class="site-rec rec-article" aria-labelledby="rec-title" data-lead-id="{E(l["id"])}">
+    {f'<h2 id="summary-title">Summary</h2><p>{E(l["summary"])}</p>' if l.get("summary") else ""}
     <h2 id="events-title">What the research notes say</h2>
     {'<p class="prov-note"><span class="tag-prov">Provisional</span> Every detail below is given as its named source records it. None has been confirmed by a Film Cinemas Australia editor.</p>' if facts else ""}
     {said}
     {f'<h2 id="open-title">Open questions</h2><ul>{oq}</ul>' if oq else ""}
+    {related_html(l)}
     <h2 id="sources-title">Sources</h2>
     {f"<ul>{srcs}</ul>" if srcs else "<p>No source has been attached to this lead yet.</p>"}
   </article>
@@ -166,7 +189,7 @@ for l in sorted(LEADS, key=lambda x: (x["name"].lower(), x["locality"].lower()))
     items.append(f'''<li class="gx-item" data-id="{E(l["id"])}" data-state="{l["state"].lower()}" data-region="{E(region_of(l))}" data-status="{status_of(l)}" data-evidence="lead" data-loc="{"approx" if l["id"] in APPROX else "notmapped"}" data-era="{era(y)}" data-search="{E(search)}">
   <h3 class="gx-name"><a href="leads/{E(l["id"])}.html">{E(l["name"])}</a></h3>
   {f'<p class="gx-alias">Also recorded as {E("; ".join(l["aliases"]))}</p>' if l["aliases"] else ""}
-  <p class="gx-place">{E(l["locality"])}, {E(l["state"])} · {E(STATUS_TEXT[status_of(l)] + " (not verified)") if l.get("status") else "Status not verified"}{f" · opened {y} (as recorded)" if y else ""}</p>
+  <p class="gx-place">{E(l["locality"])}, {E(l["state"])} · {E(STATUS_TEXT[status_of(l)] + " (not verified)") if l.get("status") else "Status not verified"}{f" · opened {y} (as recorded)" if y else ""}{(" · closed " + (re.search(r"(1[89]\d\d|20\d\d)", closed_text(l)) or [""])[0] + " (as recorded)") if re.search(r"(1[89]\d\d|20\d\d)", closed_text(l)) else ""}</p>
   <p class="gx-badges">{LEAD_BADGE}{OPEN_BADGE if (l["conflicts"] or l["related"]) else ""}<span class="gx-loc">{E("Approximate: " + APPROX[l["id"]]["place"]) if l["id"] in APPROX else "Not on the map"}</span></p>
 </li>''')
 block = "<!-- LEAD-RESULTS:START -->\n<ul class=\"gx-list\" data-list>\n" + "\n".join(items) + "\n</ul>\n<!-- LEAD-RESULTS:END -->"

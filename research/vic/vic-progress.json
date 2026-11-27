@@ -1,6 +1,9 @@
 {
- "original_vic_records": 5,
- "original_vic_record_ids": [
+ "state": "VIC",
+ "original_records": 5,
+ "original_archive_listings": 0,
+ "original_research_leads": 0,
+ "original_ids": [
   "astor-stkilda",
   "capitol-melbourne",
   "sun-yarraville",
@@ -8,7 +11,7 @@
   "palais-stkilda"
  ],
  "source_rows": {
-  "caarp": 477,
+  "caarp": 476,
   "ct": 544,
   "vhd": 112
  },
@@ -343,8 +346,7 @@
   "940",
   "2082",
   "2121",
-  "2132",
-  "2187"
+  "2132"
  ],
  "merges_between_source_rows": 373,
  "matched_existing_records": 6,
@@ -376,9 +378,10 @@
   "theatre": 8
  },
  "by_proposed_level": {
-  "D": 430,
-  "E": 23,
-  "C": 278
+  "C": 455,
+  "D": 23,
+  "B": 247,
+  "E": 6
  },
  "by_evidence": {
   "single source": 453,
