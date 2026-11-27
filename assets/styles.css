@@ -498,6 +498,7 @@ h2 { font-size: clamp(2rem, 1.5rem + 2vw, 3rem); letter-spacing: -0.01em; }
 .equip-card { position: relative; display: grid; gap: 0.5rem; align-content: start; }
 .equip-card .pic { border: 1px solid var(--gold); border-radius: var(--card-radius); overflow: hidden; aspect-ratio: 4 / 3; }
 .equip-card .pic svg { display: block; width: 100%; height: 100%; }
+.equip-card .pic picture, .equip-card .pic img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .equip-card h3 { font-size: 1.3rem; }
 .equip-card h3 a { color: var(--ivory); text-decoration: none; }
 .equip-card h3 a::after { content: ""; position: absolute; inset: 0; }
