@@ -14,6 +14,7 @@ data (labelled as the address today, not the historic footprint); level C may sh
 and gets no pin; level D never shows an address; only checked sources are linked; no excerpts or images.
 Run after tools/build_leads.py (tools/build_genuine.py runs both).
 """
+from urllib.parse import quote
 import glob, html, json, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -116,7 +117,7 @@ for a in ARCH:
       <div><dt>Verification</dt><dd>{badge(a["level"])}</dd></div>
       <div><dt>Location</dt><dd>{f'<a href="../index.html?focus={E(a["id"])}#map">On the map</a> (address point today)' if pin else "Not on the map"}</dd></div>
     </dl>
-    <div class="btn-row rec-actions"><a class="btn btn-secondary" href="../explore.html?state={a["state"].lower()}">More in {E(sn)}</a><a class="btn btn-secondary" href="../share.html">Share a memory or correction</a></div>
+    <div class="btn-row rec-actions"><a class="btn btn-secondary" href="../explore.html?state={a["state"].lower()}">More in {E(sn)}</a><a class="btn btn-primary" href="../update.html?type=archive&amp;id={E(a["id"])}&amp;name={E(quote(a["name"]))}">Suggest an update</a><a class="btn btn-secondary" href="../share.html">Share a memory</a></div>
   </div>
 </div></section>
 <div class="wrap rec-body">

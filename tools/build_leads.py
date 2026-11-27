@@ -11,6 +11,7 @@ owner's approval. They are kept apart from the genuine records:
 Leads never get map pins, photographs or personal details. Run after tools/build_genuine.py
 (build_genuine.py calls this script at the end).
 """
+from urllib.parse import quote
 import glob, html, json, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -107,7 +108,7 @@ for l in LEADS:
       <div><dt>Evidence</dt><dd>{LEAD_BADGE} {OPEN_BADGE if oq else ""}</dd></div>
       <div><dt>Location</dt><dd>Not on the map</dd></div>
     </dl>
-    <div class="btn-row rec-actions"><a class="btn btn-secondary" href="../explore.html?state={l["state"].lower()}">More in {E(sn)}</a><a class="btn btn-secondary" href="../share.html">Share a memory or correction</a></div>
+    <div class="btn-row rec-actions"><a class="btn btn-secondary" href="../explore.html?state={l["state"].lower()}">More in {E(sn)}</a><a class="btn btn-primary" href="../update.html?type=lead&amp;id={E(l["id"])}&amp;name={E(quote(l["name"]))}">Suggest an update</a><a class="btn btn-secondary" href="../share.html">Share a memory</a></div>
   </div>
 </div></section>
 <div class="wrap rec-body">

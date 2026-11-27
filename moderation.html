@@ -15,7 +15,7 @@
 <link rel="preload" href="assets/fonts/manrope-variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/marcellus-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/theme.css?v=1795520000">
-<link rel="stylesheet" href="assets/styles.css?v=1795740000">
+<link rel="stylesheet" href="assets/styles.css?v=1795750000">
 <script>try{var t=localStorage.getItem("apa-theme");if(t==="dark"||t==="light")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 </head>
 <body data-page="community">
@@ -34,6 +34,14 @@
  <aside class="stack" style="gap:1.25rem"><section class="panel" data-auth aria-label="Your account"><p class="cc-muted">Loading&#8230;</p></section>
   <div class="panel"><h2 class="cc-h3">Guide</h2><ul><li>Approve posts that follow the <a href="community-guidelines.html">guidelines</a>.</li><li>Hide posts with personal information, abuse, spam or illegal content.</li><li>Aim to clear reports within 2 business days; urgent harm the same day.</li></ul></div></aside>
 </div></section>
+<section class="section" id="updates" aria-labelledby="upq-h"><div class="wrap stack" style="gap:1rem" data-updates="moderation">
+ <div class="notice n-warn" data-forum-off hidden role="note"><span class="notice-title">Member suggestions open soon</span><span>The review queue switches on once the member database is connected.</span></div>
+ <h2 id="upq-h">Member suggestions for cinema records</h2>
+ <p class="cc-muted">Accepting a suggestion does not change the archive. Download the accepted ones for the editor, who checks the evidence and applies them through staging. Then mark each one applied.</p>
+ <div class="btn-row"><label for="upq-f" class="visually-hidden">Show</label><select id="upq-f" class="cc-select" data-up-filter><option value="pending">Waiting for review</option><option value="needs_info">More information needed</option><option value="accepted">Accepted, not yet applied</option><option value="applied">Applied</option><option value="declined">Declined</option></select>
+ <button type="button" class="btn btn-secondary" data-up-download>Download accepted suggestions</button></div>
+ <div class="stack" style="gap:1rem" data-up-queue aria-live="polite"><p class="cc-muted">Loading&#8230;</p></div>
+</div></section>
 </main>
 <footer class="site-footer"><div class="deco-band" aria-hidden="true"></div><div class="wrap footer-grid">
   <div class="footer-brand"><img src="assets/img/brand/fca-logo-on-navy.png" width="560" height="244" alt="Film Cinemas Australia" loading="lazy"><p>A free national archive of Australian cinema exhibition. Free to use, with no subscriptions, paywalls or charges.</p></div>
@@ -46,6 +54,7 @@
 <script src="assets/vendor/supabase/supabase-js-2.119.2.umd.js" integrity="sha384-A97u3Qnt9GZHURO9YJZRe7VQgGUeFzcv6I1oIGnUTxQrCxnpQMwR0/G8F2zt9abZ"></script>
 <script src="assets/forum-config.js?v=1795420000"></script>
 <script src="assets/forum.js?v=1795420000"></script>
+<script src="assets/updates.js?v=1795740000"></script>
 <script src="assets/community.js?v=1795420000"></script>
 </body>
 </html>

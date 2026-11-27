@@ -85,3 +85,16 @@ If several ads are live in one space, the site picks one at random each visit. T
 - Minimum age: sign-up asks people to confirm they're 16 or over. Get legal advice on whether the forums count as an age-restricted social media platform, which would need stronger age checks.
 - Add a real contact email (for example `hello@filmcinemas.au`) to the community guidelines page.
 - Publish a full privacy policy naming who runs the site.
+
+## E. Switch on member suggestions ("Suggest an update")
+
+Every cinema record, archive listing and research lead has a **Suggest an update** button. Members who are signed in can send a correction or a new detail (address, names, dates, what's there today, a source link). Suggestions never change the archive by themselves.
+
+1. After step B4, open **SQL Editor → New query**, paste the whole of [`supabase/cinema_updates_schema.sql`](cinema_updates_schema.sql) and select **Run**. It is safe to run again.
+2. Nothing else is needed: the same Project URL and anon key switch suggestions on together with the forums.
+
+How suggestions are handled:
+- They wait in **moderation.html → Member suggestions**. A moderator marks each one accepted, declined or needing more information, with a note the member sees.
+- **Download accepted suggestions** gives the editor a file. The editor loads it into staging, checks the evidence, and updates records through the usual sign-off. A new or moved map pin still needs an exact match in the state's official address data.
+- Once a change is live, the moderator marks the suggestion **applied**.
+- Members see only their own suggestions; moderators see all. Up to 10 suggestions a member a day. Suggestions can't be deleted, so there's always a record of where a change came from.

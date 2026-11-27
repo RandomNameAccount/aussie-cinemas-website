@@ -13,6 +13,7 @@ Outputs:
 Re-run after any change to the dataset or the research write-ups:  python3 tools/build_genuine.py
 Nothing here invents data: every fact on a record page comes from the dataset or the research write-up.
 """
+from urllib.parse import quote
 import html, json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -183,7 +184,8 @@ for s in SITES:
     if mappable(s):
         actions.append(f'<a class="btn btn-secondary" href="../index.html?focus={E(sid)}#map">Show on the map</a>')
     actions.append(f'<a class="btn btn-secondary" href="../research.html#site-{E(sid)}">Research table entry</a>')
-    actions.append(f'<a class="btn btn-secondary" href="../share.html?cinema={E(sid)}">Share a memory or correction</a>')
+    actions.append(f'<a class="btn btn-primary" href="../update.html?type=record&amp;id={E(sid)}&amp;name={E(quote(s["name"]))}">Suggest an update</a>')
+    actions.append(f'<a class="btn btn-secondary" href="../share.html?cinema={E(sid)}">Share a memory</a>')
     conflict = badge("conflict", "Sources disagree") if s.get("conflicts") else ""
     aliases = f'<p class="rec-aliases">Also known as {E("; ".join(s["aliases"]))}</p>' if s.get("aliases") else ""
     main = f'''<main id="main" tabindex="-1">
