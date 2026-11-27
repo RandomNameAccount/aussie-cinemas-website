@@ -52,6 +52,14 @@ def year(l):
 def era(y):
     if y is None: return "unknown"
     return "pre1930" if y < 1930 else "1930s40s" if y < 1950 else "1950s60s" if y < 1970 else "1970s80s" if y < 1990 else "1990on"
+def gmaps_url(*parts):
+    """Google Maps search link (no API key). Parenthetical source notes are dropped."""
+    q = ", ".join(re.sub(r"\s*\([^)]*\)", "", p).strip() for p in parts if p and p.strip())
+    return "https://www.google.com/maps/search/?api=1&query=" + quote(q)
+
+def gmaps_btn(*parts):
+    return f'<a class="btn btn-secondary" href="{E(gmaps_url(*parts))}" target="_blank" rel="noopener">Find on Google Maps<span class="visually-hidden"> (opens in a new tab)</span></a>'
+
 def place(l):
     return ", ".join(x for x in (l["address"], l["locality"]) if x)
 
@@ -109,7 +117,7 @@ for l in LEADS:
       <div><dt>Evidence</dt><dd>{LEAD_BADGE} {OPEN_BADGE if oq else ""}</dd></div>
       <div><dt>Location</dt><dd>{f'<a href="../index.html?focus={E(l["id"])}#map">On the map, approximately</a> (centre of {E(APPROX[l["id"]]["place"])}; the exact site is not known)' if l["id"] in APPROX else "Not on the map"}</dd></div>
     </dl>
-    <div class="btn-row rec-actions"><a class="btn btn-secondary" href="../explore.html?state={l["state"].lower()}">More in {E(sn)}</a><a class="btn btn-primary" href="../update.html?type=lead&amp;id={E(l["id"])}&amp;name={E(quote(l["name"]))}">Suggest an update</a><a class="btn btn-secondary" href="../share.html">Share a memory</a></div>
+    <div class="btn-row rec-actions"><a class="btn btn-secondary" href="../explore.html?state={l["state"].lower()}">More in {E(sn)}</a><a class="btn btn-primary" href="../update.html?type=lead&amp;id={E(l["id"])}&amp;name={E(quote(l["name"]))}">Suggest an update</a>{gmaps_btn(l["name"], l.get("locality", ""), l["state"])}<a class="btn btn-secondary" href="../share.html">Share a memory</a></div>
   </div>
 </div></section>
 <div class="wrap rec-body">
