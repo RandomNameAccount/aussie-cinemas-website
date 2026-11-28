@@ -48,6 +48,7 @@ merged source rows,caarp:788,Roxy,b01:FCA-NSW-D01-039,Roxy Cinema,parramatta,sam
 merged source rows,caarp:2197,Astra Theatre,b01:FCA-NSW-D01-037,Astra Cinema,parramatta,same name and locality (no address to compare)
 merged source rows,caarp:793,Wintergarden,ct:1275,Wintergarden Theatre,2029,"same street, nearby number, same name"
 merged source rows,caarp:1443,Kings,ct:38261,Rose Bay North Kings Theatre,2029,same street and name
+merged source rows,caarp:796,Stanmore,ct:44004,Stanmore Odeon,2048,same street and name
 merged source rows,ct:35281,Hoyts Melba Strathfield,b01:FCA-NSW-D01-041,Melba Cinema,strathfield,same name and locality (no address to compare)
 merged source rows,caarp:799,Royal,ct:37537,Royal Theatre,2068,same name and locality (no address to compare)
 merged source rows,caarp:803,Empress,ct:37927,Rapallo Theatre,2000,"same street, nearby number, same name"
@@ -126,6 +127,7 @@ merged source rows,caarp:2141,Strand Theatre,ct:55987,Strand Theatre,2518,same s
 merged source rows,caarp:2141,Strand Theatre,b01:FCA-NSW-D01-075,Strand Theatre,corrimal,same name and locality (no address to compare)
 merged source rows,caarp:2152,Southline Drive-In Theatre,ct:53125,Southline Drive-In,2519,drive-in with the same name in the same locality
 merged source rows,caarp:2157,Lakeline Drive-In Theatre,ct:53396,Lakeline Drive-In,2530,drive-in with the same name in the same locality
+merged source rows,caarp:2174,Canterbury Cinema,ct:32288,Windsor Theatre,2193,"same street, nearby number, same name"
 merged source rows,caarp:2177,Cronulla Theatre,ct:35269,Hoyts Cinemas Cronulla,2230,same street address
 merged source rows,caarp:2184,Kingsford Odeon Theatre,ct:41651,Kingsford Odeon,2032,same street address
 merged source rows,caarp:2193,Amusu Theatre,ct:39559,Amusu Theatre,2035,"same street, nearby number, same name"

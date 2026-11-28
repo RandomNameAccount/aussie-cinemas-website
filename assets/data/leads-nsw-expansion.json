@@ -3,7 +3,12 @@
   "aliases": [],
   "address": "646 King Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1690 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -30,7 +35,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "St Peters Theatre was a cinema at 646 King Street, St Peters.",
+  "summary": "St Peters Theatre was a cinema at 646 King Street, St Peters. Recorded capacity: 1,690 seats.",
   "noApprox": true
  },
  {
@@ -38,8 +43,17 @@
    "Crown Pictures"
   ],
   "address": "Tongarra Road",
-  "type": "",
-  "facts": [],
+  "type": "hall",
+  "facts": [
+   [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1919 (last listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -66,14 +80,29 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Albion Park Agricultural  Pavilion was a cinema at Tongarra Road, Albion Park. Also known as Crown Pictures.",
+  "summary": "Albion Park Agricultural  Pavilion was a hall used for film screenings at Tongarra Road, Albion Park. CAARP lists it from 1000 to 31 December 1919. Also known as Crown Pictures.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Centenary Hall"
+  ],
   "address": "Tongarra Road",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1 March 1960 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1964 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "570 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -100,14 +129,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Albion Park Centenary Hall was a hall used for film screenings at Tongarra Road, Albion Park.",
+  "summary": "Albion Park Centenary Hall was a hall used for film screenings at Tongarra Road, Albion Park. CAARP lists it from 1 March 1960 to 1964. Recorded capacity: 570 seats. Also known as Centenary Hall.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Tongarra Road",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "5 January 1929 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "12 December 1959 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "340 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -134,16 +176,22 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Albion Park Literary Institute was a hall used for film screenings at Tongarra Road, Albion Park.",
+  "summary": "Albion Park Literary Institute was a hall used for film screenings at Tongarra Road, Albion Park. CAARP lists it from 5 January 1929 to 12 December 1959. Recorded capacity: 340 seats.",
   "noApprox": true
  },
  {
   "aliases": [
-   "Crown Pictures"
+   "Crown Pictures",
+   "Albion Park Town Hall / Crown Pictures"
   ],
   "address": "127 Tongarra Road",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1 December 1904 (first listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -170,22 +218,40 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Albion Park Town Hall was a hall used for film screenings at 127 Tongarra Road, Albion Park. Also known as Crown Pictures.",
+  "summary": "Albion Park Town Hall was a hall used for film screenings at 127 Tongarra Road, Albion Park. CAARP first lists it in 1 December 1904. Also known as Crown Pictures, Albion Park Town Hall / Crown Pictures.",
   "noApprox": true
  },
  {
   "aliases": [
    "Civic",
-   "Plaza"
+   "Plaza",
+   "Mechnics Institute and theatre"
   ],
   "address": "Dean Street",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1934 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "30 December 1990 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "800 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
     "label": "CAARP venue 1152 (CC BY-NC-SA 3.0)",
     "url": "https://caarp.com.au/venue/view/1152"
+   },
+   {
+    "label": "Cited by CAARP: 1892 'ALBURY.', The Argus, 16 March, p. 6, viewed 24 November, 2011, http://nla.gov.au/nla.news-article8406889 1893 'ALBURY.', The Argus, 10 January, p. 6, viewed 24 November, 2011",
+    "url": ""
    }
   ],
   "conflicts": [],
@@ -207,13 +273,13 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Albury Mechanics Institute was a hall used for film screenings at Dean Street, Albury. Also known as Civic, Plaza.",
+  "summary": "Albury Mechanics Institute was a hall used for film screenings at Dean Street, Albury. CAARP lists it from 1934 to 30 December 1990. Recorded capacity: 800 seats. Also known as Civic, Plaza, Mechnics Institute and theatre.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Swift Street",
-  "type": "",
+  "type": "theatre",
   "facts": [],
   "notes": [],
   "sources": [
@@ -241,19 +307,36 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Albury Performing Arts Centre was a cinema at Swift Street, Albury.",
+  "summary": "Albury Performing Arts Centre was a theatre that screened films at Swift Street, Albury.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Olive Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1 March 1937 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1972 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1164 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
     "label": "CAARP venue 882 (CC BY-NC-SA 3.0)",
     "url": "https://caarp.com.au/venue/view/882"
+   },
+   {
+    "label": "Cited by CAARP: Film Weekly, Film Weekly: motion picture directory, Film Weekly, Sydney. 1946/7-1971 'Â£30,000 Theatre for Albury', The Argus, July 27 1936, p.10 (Tenders for the erection of the n",
+    "url": ""
    }
   ],
   "conflicts": [],
@@ -275,7 +358,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Hoyts was a cinema at Olive Street, Albury.",
+  "summary": "Hoyts was a cinema at Olive Street, Albury. CAARP lists it from 1 March 1937 to 31 December 1972. Recorded capacity: 1,164 seats.",
   "noApprox": true
  },
  {
@@ -289,8 +372,16 @@
   "type": "",
   "facts": [
    [
+    "Opened",
+    "19 February 1927 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1977 (last listing in CAARP, not verified)"
+   ],
+   [
     "Capacity",
-    "1164 seats (as recorded by CAARP)"
+    "1480 seats (as recorded by CAARP)"
    ],
    [
     "Screens",
@@ -340,14 +431,25 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Regent is a cinema at 456 Dean Street, Albury, listed as operating. Recorded capacity: 1,164 seats. Also known as Cinema Centre, Regent Cinemas, Regent Theatre and others.",
+  "summary": "Regent is a cinema at 456 Dean Street, Albury, listed as operating. CAARP lists it from 19 February 1927 to 1977. Recorded capacity: 1,480 seats. Also known as Cinema Centre, Regent Cinemas, Regent Theatre and others.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Open-Air Palais"
+  ],
   "address": "Kiewa Street",
-  "type": "",
-  "facts": [],
+  "type": "open-air",
+  "facts": [
+   [
+    "Opened",
+    "14 May 1914 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1937 (last listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -374,12 +476,13 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Theatre Royal was a cinema at Kiewa Street, Albury.",
+  "summary": "Theatre Royal was a open-air picture venue at Kiewa Street, Albury. CAARP lists it from 14 May 1914 to 1937. Also known as Open-Air Palais.",
   "noApprox": true
  },
  {
   "aliases": [
    "Annandale",
+   "Annadale",
    "Annandale Royal Theatre",
    "Annandale Theatre"
   ],
@@ -428,7 +531,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Royal was a cinema at 124 Johnson Street, Annandale. Recorded capacity: 1,678 seats. Also known as Annandale, Annandale Royal Theatre, Annandale Theatre.",
+  "summary": "Royal was a cinema at 124 Johnson Street, Annandale. Recorded capacity: 1,678 seats. Also known as Annandale, Annadale, Annandale Royal Theatre and others.",
   "noApprox": true
  },
  {
@@ -469,7 +572,20 @@
   "aliases": [],
   "address": "Rusden Street",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1900 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1924 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "752 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -496,7 +612,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Armidale Town Hall was a hall used for film screenings at Rusden Street, Armidale.",
+  "summary": "Armidale Town Hall was a hall used for film screenings at Rusden Street, Armidale. CAARP lists it from 1900 to 31 December 1924. Recorded capacity: 752 seats.",
   "noApprox": true
  },
  {
@@ -505,7 +621,12 @@
   ],
   "address": "Hampden Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1000 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -532,7 +653,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Savoy was a cinema at Hampden Street, Artarmon. Also known as Artarmon.",
+  "summary": "Savoy was a cinema at Hampden Street, Artarmon. Recorded capacity: 1,000 seats. Also known as Artarmon.",
   "noApprox": true
  },
  {
@@ -541,7 +662,20 @@
   ],
   "address": "270 Liverpool Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1934 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "2007 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1987 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -568,7 +702,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Hoyts was a cinema at 270 Liverpool Street, Ashfield. Also known as Apollo.",
+  "summary": "Hoyts was a cinema at 270 Liverpool Street, Ashfield. CAARP lists it from 1934 to 2007. Recorded capacity: 1,987 seats. Also known as Apollo.",
   "noApprox": true
  },
  {
@@ -670,8 +804,21 @@
  {
   "aliases": [],
   "address": "Cnr Balgownie Road and School Lane",
-  "type": "",
-  "facts": [],
+  "type": "hall",
+  "facts": [
+   [
+    "Opened",
+    "1919 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "30 April 1960 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "263 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -698,16 +845,23 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Balgownie School of Arts was a cinema at Cnr Balgownie Road and School Lane, Balgownie.",
+  "summary": "Balgownie School of Arts was a hall used for film screenings at Cnr Balgownie Road and School Lane, Balgownie. CAARP lists it from 1919 to 30 April 1960. Recorded capacity: 263 seats.",
   "noApprox": true
  },
  {
   "aliases": [
-   "Kings"
+   "Kings",
+   "Roxy Gardens",
+   "King's"
   ],
   "address": "Darling Street",
-  "type": "",
-  "facts": [],
+  "type": "open-air",
+  "facts": [
+   [
+    "Capacity",
+    "1000 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -734,7 +888,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Roxy Garden Theatre was a cinema at Darling Street, Balmain. Also known as Kings.",
+  "summary": "Roxy Garden Theatre was a open-air picture venue at Darling Street, Balmain. Recorded capacity: 1,000 seats. Also known as Kings, Roxy Gardens, King's.",
   "noApprox": true
  },
  {
@@ -787,11 +941,26 @@
  {
   "aliases": [
    "Batemans Bay Talkies",
-   "Carnelian Theatre"
+   "Carnelian Theatre",
+   "Annetts Batemans Bay Theatre / Batemans Bay Talkies / Carnelian Theatre",
+   "Annett's Open Air Theatre"
   ],
   "address": "10 Orient Street",
-  "type": "",
-  "facts": [],
+  "type": "open-air",
+  "facts": [
+   [
+    "Opened",
+    "7 August 1931 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1979 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "260 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -818,14 +987,25 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Annett's Batemans Bay Theatre was a cinema at 10 Orient Street, Batemans Bay. Also known as Batemans Bay Talkies, Carnelian Theatre.",
+  "summary": "Annett's Batemans Bay Theatre was a open-air picture venue at 10 Orient Street, Batemans Bay. CAARP lists it from 7 August 1931 to 31 December 1979. Recorded capacity: 260 seats. Also known as Batemans Bay Talkies, Carnelian Theatre, Annetts Batemans Bay Theatre / Batemans Bay Talkies / Carnelian Theatre and others.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Bay City Cinemas"
+  ],
   "address": "Perry Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "27 January 1984 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "330 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -852,14 +1032,29 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Bay City Cinema was a cinema at Perry Street, Batemans Bay.",
+  "summary": "Bay City Cinema was a cinema at Perry Street, Batemans Bay. CAARP first lists it in 27 January 1984. Recorded capacity: 330 seats. Also known as Bay City Cinemas.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Lyceum Hall"
+  ],
   "address": "Cnr Carp and Auckland Streets",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "30 March 1897 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1910 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "900 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -886,7 +1081,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Bega Lyceum Hall was a hall used for film screenings at Cnr Carp and Auckland Streets, Bega.",
+  "summary": "Bega Lyceum Hall was a hall used for film screenings at Cnr Carp and Auckland Streets, Bega. CAARP lists it from 30 March 1897 to 1910. Recorded capacity: 900 seats. Also known as Lyceum Hall.",
   "noApprox": true
  },
  {
@@ -896,7 +1091,20 @@
   ],
   "address": "Carp Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "28 October 1910 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "27 April 1936 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "600 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -923,14 +1131,23 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Bega Picture Palace was a cinema at Carp Street, Bega. Also known as Lyric Theatre, New Lyric Theatre.",
+  "summary": "Bega Picture Palace was a cinema at Carp Street, Bega. CAARP lists it from 28 October 1910 to 27 April 1936. Recorded capacity: 600 seats. Also known as Lyric Theatre, New Lyric Theatre.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Carp Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "30 May 1902 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "260 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -957,14 +1174,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Bega School of Arts was a cinema at Carp Street, Bega.",
+  "summary": "Bega School of Arts was a cinema at Carp Street, Bega. CAARP first lists it in 30 May 1902. Recorded capacity: 260 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Carp Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "28 November 1935 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1992 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "843 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -991,14 +1221,29 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Kings Theatre was a cinema at Carp Street, Bega.",
+  "summary": "Kings Theatre was a cinema at Carp Street, Bega. CAARP lists it from 28 November 1935 to 1992. Recorded capacity: 843 seats.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Star Picture Palace"
+  ],
   "address": "Carp Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "15 April 1911 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1 December 1922 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "500 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -1025,7 +1270,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Star Picture Theatre was a cinema at Carp Street, Bega.",
+  "summary": "Star Picture Theatre was a cinema at Carp Street, Bega. CAARP lists it from 15 April 1911 to 1 December 1922. Recorded capacity: 500 seats. Also known as Star Picture Palace.",
   "noApprox": true
  },
  {
@@ -1034,7 +1279,20 @@
   ],
   "address": "Snowy Mountains Highway",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1 December 1898 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1965 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "450 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -1061,14 +1319,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Bemboka School of Arts was a hall used for film screenings at Snowy Mountains Highway, Bemboka. Also known as Bemboka Memorial Hall.",
+  "summary": "Bemboka School of Arts was a hall used for film screenings at Snowy Mountains Highway, Bemboka. CAARP lists it from 1 December 1898 to 1965. Recorded capacity: 450 seats. Also known as Bemboka Memorial Hall.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Wapengo",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1900 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1999 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "188 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -1095,14 +1366,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Bermagui School of Arts was a cinema at Wapengo, Bermagui North.",
+  "summary": "Bermagui School of Arts was a cinema at Wapengo, Bermagui North. CAARP lists it from 1900 to 31 December 1999. Recorded capacity: 188 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Lamont Street",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "24 January 1912 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "22 December 1951 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "367 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -1129,14 +1413,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Kings Hall was a hall used for film screenings at Lamont Street, Bermagui South.",
+  "summary": "Kings Hall was a hall used for film screenings at Lamont Street, Bermagui South. CAARP lists it from 24 January 1912 to 22 December 1951. Recorded capacity: 367 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Lamont Street",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1 December 1952 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1 April 1969 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "350 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -1163,14 +1460,29 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Melody Hall was a hall used for film screenings at Lamont Street, Bermagui South.",
+  "summary": "Melody Hall was a hall used for film screenings at Lamont Street, Bermagui South. CAARP lists it from 1 December 1952 to 1 April 1969. Recorded capacity: 350 seats.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Berry School of Arts/Berry Picture Palace/BerryTheatre/Lyric Theatre"
+  ],
   "address": "",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "13 April 1897 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1 December 1966 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "540 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -1197,11 +1509,12 @@
   "level": "D",
   "levelReason": "cinema name and locality established; no address",
   "review": "awaiting editorial review",
-  "summary": "Berry School of Arts was a cinema, Berry.",
+  "summary": "Berry School of Arts was a cinema, Berry. CAARP lists it from 13 April 1897 to 1 December 1966. Recorded capacity: 540 seats. Also known as Berry School of Arts/Berry Picture Palace/BerryTheatre/Lyric Theatre.",
   "noApprox": true
  },
  {
   "aliases": [
+   "Berverly Hills Twin Cinema",
    "Event Cinemas GU Film House Sydney",
    "Beverly Hills Twin Cinema",
    "Beverly Hills Cinemas"
@@ -1211,11 +1524,11 @@
   "facts": [
    [
     "Capacity",
-    "605 seats (as recorded by CAARP)"
+    "600 seats (as recorded by CAARP)"
    ],
    [
     "Screens",
-    "6"
+    "2"
    ],
    [
     "Operators",
@@ -1259,11 +1572,13 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "St James Theatre was a cinema at 447-453 King George Road, Beverly Hills. Recorded capacity: 605 seats. Also known as Event Cinemas GU Film House Sydney, Beverly Hills Twin Cinema, Beverly Hills Cinemas.",
+  "summary": "St James Theatre was a cinema at 447-453 King George Road, Beverly Hills. Recorded capacity: 600 seats. Also known as Berverly Hills Twin Cinema, Event Cinemas GU Film House Sydney, Beverly Hills Twin Cinema and others.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Regent"
+  ],
   "address": "Maitland Street",
   "type": "hall",
   "facts": [],
@@ -1293,11 +1608,13 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Bingara Memorial Hall/ Regent, was a hall used for film screenings at Maitland Street, Bingara.",
+  "summary": "Bingara Memorial Hall/ Regent, was a hall used for film screenings at Maitland Street, Bingara. Also known as Regent.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Bingara Moving Puctures"
+  ],
   "address": "Maitland Street",
   "type": "open-air",
   "facts": [],
@@ -1327,14 +1644,19 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Bingara Open-Air Moving Pictures was a open-air picture venue at Maitland Street, Bingara.",
+  "summary": "Bingara Open-Air Moving Pictures was a open-air picture venue at Maitland Street, Bingara. Also known as Bingara Moving Puctures.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Maitland Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "630 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -1361,14 +1683,19 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Regent was a cinema at Maitland Street, Bingara.",
+  "summary": "Regent was a cinema at Maitland Street, Bingara. Recorded capacity: 630 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Flushcombe Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "20 December 1963 (first listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -1395,7 +1722,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Blacktown Skyline was a cinema at Flushcombe Road, Blacktown.",
+  "summary": "Blacktown Skyline was a cinema at Flushcombe Road, Blacktown. CAARP first lists it in 20 December 1963.",
   "noApprox": true
  },
  {
@@ -1404,7 +1731,20 @@
   ],
   "address": "Princes Highway",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1 July 1909 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 August 1960 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "300 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -1431,14 +1771,23 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Bodalla Hall was a hall used for film screenings at Princes Highway, Bodalla. Also known as Bodalla Memorial Theatre.",
+  "summary": "Bodalla Hall was a hall used for film screenings at Princes Highway, Bodalla. CAARP lists it from 1 July 1909 to 31 August 1960. Recorded capacity: 300 seats. Also known as Bodalla Memorial Theatre.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Meroo Street",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1 March 1956 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1 February 1958 (last listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -1465,14 +1814,23 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Bomaderry Public Hall was a hall used for film screenings at Meroo Street, Bomaderry.",
+  "summary": "Bomaderry Public Hall was a hall used for film screenings at Meroo Street, Bomaderry. CAARP lists it from 1 March 1956 to 1 February 1958.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Forbes Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1917 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "413 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -1499,14 +1857,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "De-Luxe Olympia was a cinema at Forbes Street, Bombala.",
+  "summary": "De-Luxe Olympia was a cinema at Forbes Street, Bombala. CAARP first lists it in 1917. Recorded capacity: 413 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Cnr O'Brien",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1923 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "8 August 1959 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1700 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -1533,7 +1904,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Six Ways was a cinema at Cnr O'Brien, Bondi.",
+  "summary": "Six Ways was a cinema at Cnr O'Brien, Bondi. CAARP lists it from 1923 to 8 August 1959. Recorded capacity: 1,700 seats.",
   "noApprox": true
  },
  {
@@ -1545,6 +1916,10 @@
   "address": "239 Oxford Street",
   "type": "",
   "facts": [
+   [
+    "Capacity",
+    "1900 seats (as recorded by CAARP)"
+   ],
    [
     "Architectural style",
     "Art Deco (Cinema Treasures)"
@@ -1589,17 +1964,22 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Olympic 1 was a cinema at 239 Oxford Street, Bondi Junction. Also known as Metro Bondi Junction, Olympic No.1 Theatre, Regal Theatre.",
+  "summary": "Olympic 1 was a cinema at 239 Oxford Street, Bondi Junction. Recorded capacity: 1,900 seats. Also known as Metro Bondi Junction, Olympic No.1 Theatre, Regal Theatre.",
   "noApprox": true
  },
  {
   "aliases": [
+   "Olympic No. 2",
    "Hoyts Bondi Road Theatre",
    "Olympic Theatre no. 2"
   ],
   "address": "185 Bondi Road cnr Avoca Street",
   "type": "",
   "facts": [
+   [
+    "Capacity",
+    "1464 seats (as recorded by CAARP)"
+   ],
    [
     "Architectural style",
     "Art Deco (Cinema Treasures)"
@@ -1646,18 +2026,27 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Olympic 2 was a cinema at 185 Bondi Road cnr Avoca Street, Bondi Junction. Also known as Hoyts Bondi Road Theatre, Olympic Theatre no. 2.",
+  "summary": "Olympic 2 was a cinema at 185 Bondi Road cnr Avoca Street, Bondi Junction. Recorded capacity: 1,464 seats. Also known as Olympic No. 2, Hoyts Bondi Road Theatre, Olympic Theatre no. 2.",
   "noApprox": true
  },
  {
   "aliases": [
    "Star No. 2",
+   "Star Bondi Junction",
    "Hoyts Star Theatre",
    "Star Theatre"
   ],
   "address": "Cnr Bronte Rd",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "24 July 1924 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "2165 seats (as recorded by CAARP)"
+   ],
    [
     "Architectural style",
     "Art Deco (Cinema Treasures)"
@@ -1708,16 +2097,25 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Star was a cinema at Cnr Bronte Rd, Bondi Junction. Also known as Star No. 2, Hoyts Star Theatre, Star Theatre.",
+  "summary": "Star was a cinema at Cnr Bronte Rd, Bondi Junction. CAARP first lists it in 24 July 1924. Recorded capacity: 2,165 seats. Also known as Star No. 2, Star Bondi Junction, Hoyts Star Theatre and others.",
   "noApprox": true
  },
  {
   "aliases": [
+   "Empire, Botany",
    "Empire Theatre"
   ],
   "address": "Botany Road",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "971 seats (as recorded by CAARP)"
+   ],
    [
     "Architectural style",
     "Spanish Colonial (Cinema Treasures)"
@@ -1760,14 +2158,19 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Empire was a cinema at Botany Road, Botany. Also known as Empire Theatre.",
+  "summary": "Empire was a cinema at Botany Road, Botany. CAARP first lists it in 1000. Recorded capacity: 971 seats. Also known as Empire, Botany, Empire Theatre.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Bay Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1680 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -1794,21 +2197,26 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Brighton Theatre was a cinema at Bay Street, Brighton Le-Sands.",
+  "summary": "Brighton Theatre was a cinema at Bay Street, Brighton Le-Sands. Recorded capacity: 1,680 seats.",
   "noApprox": true
  },
  {
   "aliases": [
    "Century",
    "Silver City,Broken Hill",
+   "Johnsons Broken Hill",
    "Silver City Cinema"
   ],
   "address": "41 Oxide Street",
   "type": "",
   "facts": [
    [
+    "Opened",
+    "23 June 1915 (first listing in CAARP, not verified)"
+   ],
+   [
     "Capacity",
-    "536 seats (as recorded by CAARP)"
+    "1200 seats (as recorded by CAARP)"
    ],
    [
     "Screens",
@@ -1856,14 +2264,25 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Johnsons is a cinema at 41 Oxide Street, Broken Hill, listed as operating. Recorded capacity: 536 seats. Also known as Century, Silver City,Broken Hill, Silver City Cinema.",
+  "summary": "Johnsons is a cinema at 41 Oxide Street, Broken Hill, listed as operating. CAARP first lists it in 23 June 1915. Recorded capacity: 1,200 seats. Also known as Century, Silver City,Broken Hill, Johnsons Broken Hill and others.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Bulli Friendly Society Hall"
+  ],
   "address": "Princes Highway",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1914 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1919 (last listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -1890,14 +2309,19 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Bulli Friendly Societies' Hall was a hall used for film screenings at Princes Highway, Bulli.",
+  "summary": "Bulli Friendly Societies' Hall was a hall used for film screenings at Princes Highway, Bulli. CAARP lists it from 1914 to 31 December 1919. Also known as Bulli Friendly Society Hall.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Princes Highway",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1904 (first listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -1924,17 +2348,31 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Bulli Oddfellows' Hall was a hall used for film screenings at Princes Highway, Bulli.",
+  "summary": "Bulli Oddfellows' Hall was a hall used for film screenings at Princes Highway, Bulli. CAARP first lists it in 1904.",
   "noApprox": true
  },
  {
   "aliases": [
    "Royal Theatre",
-   "Vista"
+   "Vista",
+   "Theatre Royal / Royal Theatre"
   ],
   "address": "Cnr Princes Highway and Hopetoun Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "9 September 1924 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "16 January 1987 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "850 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -1961,14 +2399,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Theatre Royal was a cinema at Cnr Princes Highway and Hopetoun Street, Bulli. Also known as Royal Theatre, Vista.",
+  "summary": "Theatre Royal was a cinema at Cnr Princes Highway and Hopetoun Street, Bulli. CAARP lists it from 9 September 1924 to 16 January 1987. Recorded capacity: 850 seats. Also known as Royal Theatre, Vista, Theatre Royal / Royal Theatre.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Balmoral Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "13 December 1946 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1 December 2000 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "500 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -1995,14 +2446,29 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Bungalow Cinema was a cinema at Balmoral Road, Burrill Lake.",
+  "summary": "Bungalow Cinema was a cinema at Balmoral Road, Burrill Lake. CAARP lists it from 13 December 1946 to 1 December 2000. Recorded capacity: 500 seats.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Cambewarra School of Arts"
+  ],
   "address": "Main Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "18 June 1902 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1953 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "213 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -2029,14 +2495,19 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Camberwarra School of Arts was a cinema at Main Street, Cambewarra.",
+  "summary": "Camberwarra School of Arts was a cinema at Main Street, Cambewarra. CAARP lists it from 18 June 1902 to 1953. Recorded capacity: 213 seats. Also known as Cambewarra School of Arts.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Parramatta Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -2063,17 +2534,31 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Union Theatre was a cinema at Parramatta Road, Camperdown.",
+  "summary": "Union Theatre was a cinema at Parramatta Road, Camperdown. CAARP first lists it in 1000.",
   "noApprox": true
  },
  {
   "aliases": [
    "Candelo Cinema",
-   "Candelo Talkies"
+   "Candelo Talkies",
+   "Candelo Cinema / Candelo Talkies"
   ],
   "address": "William Street",
-  "type": "",
-  "facts": [],
+  "type": "hall",
+  "facts": [
+   [
+    "Opened",
+    "1900 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1965 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "497 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -2100,54 +2585,82 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Candelo School of Arts was a cinema at William Street, Candelo. Also known as Candelo Cinema, Candelo Talkies.",
+  "summary": "Candelo School of Arts was a hall used for film screenings at William Street, Candelo. CAARP lists it from 1900 to 31 December 1965. Recorded capacity: 497 seats. Also known as Candelo Cinema, Candelo Talkies, Candelo Cinema / Candelo Talkies.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Canterbury Cinema",
+   "Windsor Theatre"
+  ],
   "address": "225 Canterbury Rd",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "766 seats (as recorded by CAARP)"
+   ],
+   [
+    "Architectural style",
+    "Art Deco (Cinema Treasures)"
+   ],
+   [
+    "Other addresses recorded",
+    "229 Canterbury Road"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
     "label": "CAARP venue 2174 (CC BY-NC-SA 3.0)",
     "url": "https://caarp.com.au/venue/view/2174"
+   },
+   {
+    "label": "Cinema Treasures theatre 32288",
+    "url": "https://cinematreasures.org/theaters/32288"
    }
   ],
-  "conflicts": [],
+  "conflicts": [
+   "The sources give more than one address."
+  ],
   "related": [],
   "nationalId": "FCA-NSW-0067",
   "candidateIds": [
-   "CAARP:2174"
+   "CAARP:2174",
+   "Cinema Treasures:32288"
   ],
   "id": "fca-nsw-0067",
   "state": "NSW",
-  "name": "Canterbury Cinema",
+  "name": "Canterbury Cinema/Windsor",
   "locality": "Canterbury",
-  "basis": "Recorded in the CAARP research database (Cinema and Audience Research Project), usually from directory and newspaper listings. Not yet checked against a second source.",
+  "basis": "Recorded independently by CAARP and Cinema Treasures, which agree on the name and place. Dates and other details are as those sources give them and are not yet checked.",
   "published": "27 November 2026",
   "status": "closed",
-  "statusNote": "Closed or not stated (no source states the current status; not verified)",
+  "statusNote": "Closed or not stated (Cinema Treasures lists it as closed (it does not say whether the building survives); not verified)",
   "region": "South-West Sydney",
   "postcode": "2193",
-  "level": "C",
-  "levelReason": "provisional historical address from one source",
+  "level": "B",
+  "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Canterbury Cinema was a cinema at 225 Canterbury Rd, Canterbury.",
+  "summary": "Canterbury Cinema/Windsor was a cinema at 225 Canterbury Rd, Canterbury. Recorded capacity: 766 seats. Also known as Canterbury Cinema, Windsor Theatre.",
   "noApprox": true
  },
  {
   "aliases": [
    "Carlton Theatre",
+   "Carlton",
    "Odeon Carlton"
   ],
   "address": "296 Railway Parade",
   "type": "",
   "facts": [
    [
+    "Opened",
+    "1934 (first listing in CAARP, not verified)"
+   ],
+   [
     "Capacity",
-    "1093 seats (as recorded by CAARP)"
+    "1166 seats (as recorded by CAARP)"
    ]
   ],
   "notes": [],
@@ -2181,14 +2694,23 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Odeon was a cinema at 296 Railway Parade, Carlton. Recorded capacity: 1,093 seats. Also known as Carlton Theatre, Odeon Carlton.",
+  "summary": "Odeon was a cinema at 296 Railway Parade, Carlton. CAARP first lists it in 1934. Recorded capacity: 1,166 seats. Also known as Carlton Theatre, Carlton, Odeon Carlton.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Bate Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "30 November 1898 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "206 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -2215,14 +2737,19 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Central Tilba School of Arts was a cinema at Bate Street, Central Tilba.",
+  "summary": "Central Tilba School of Arts was a cinema at Bate Street, Central Tilba. CAARP first lists it in 30 November 1898. Recorded capacity: 206 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Victoria Avenue",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1500 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -2249,16 +2776,21 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Arcadia was a cinema at Victoria Avenue, Chatswood.",
+  "summary": "Arcadia was a cinema at Victoria Avenue, Chatswood. Recorded capacity: 1,500 seats.",
   "noApprox": true
  },
  {
   "aliases": [
+   "Hoyts",
    "Hoyts Arcadia Theatre"
   ],
   "address": "Victoria Avenue",
   "type": "",
   "facts": [
+   [
+    "Capacity",
+    "1553 seats (as recorded by CAARP)"
+   ],
    [
     "Architectural style",
     "Art Deco (Cinema Treasures)"
@@ -2303,7 +2835,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Hoyts Arcadia was a cinema at Victoria Avenue, Chatswood. Also known as Hoyts Arcadia Theatre.",
+  "summary": "Hoyts Arcadia was a cinema at Victoria Avenue, Chatswood. Recorded capacity: 1,553 seats. Also known as Hoyts, Hoyts Arcadia Theatre.",
   "noApprox": true
  },
  {
@@ -2344,7 +2876,12 @@
   "aliases": [],
   "address": "St Marks Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1675 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -2371,7 +2908,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Hoyts was a cinema at St Marks Road, Clovelly.",
+  "summary": "Hoyts was a cinema at St Marks Road, Clovelly. Recorded capacity: 1,675 seats.",
   "noApprox": true
  },
  {
@@ -2414,7 +2951,20 @@
   ],
   "address": "Bermagui Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1900 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1965 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "316 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -2441,14 +2991,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Cobargo School of Arts was a cinema at Bermagui Road, Cobargo. Also known as Cobargo Theatre.",
+  "summary": "Cobargo School of Arts was a cinema at Bermagui Road, Cobargo. CAARP lists it from 1900 to 1965. Recorded capacity: 316 seats. Also known as Cobargo Theatre.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Lawrence Hargrave Drive",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "8 September 1916 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "28 February 1959 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "424 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -2475,7 +3038,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Empire Hall was a hall used for film screenings at Lawrence Hargrave Drive, Coledale.",
+  "summary": "Empire Hall was a hall used for film screenings at Lawrence Hargrave Drive, Coledale. CAARP lists it from 8 September 1916 to 28 February 1959. Recorded capacity: 424 seats.",
   "noApprox": true
  },
  {
@@ -2486,6 +3049,10 @@
   "address": "cnr Beach",
   "type": "",
   "facts": [
+   [
+    "Capacity",
+    "1450 seats (as recorded by CAARP)"
+   ],
    [
     "Architectural style",
     "Streamline Moderne (Cinema Treasures)"
@@ -2528,14 +3095,25 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Boomerang was a cinema at cnr Beach, Coogee. Also known as Boomerang Theatre, Bray's Boomerang Theatre.",
+  "summary": "Boomerang was a cinema at cnr Beach, Coogee. Recorded capacity: 1,450 seats. Also known as Boomerang Theatre, Bray's Boomerang Theatre.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "School of Arts Hall"
+  ],
   "address": "Hargrave Drive",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "26 April 1912 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 October 1913 (last listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -2562,14 +3140,21 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Corrimal School of Arts Hall was a hall used for film screenings at Hargrave Drive, Corrimal.",
+  "summary": "Corrimal School of Arts Hall was a hall used for film screenings at Hargrave Drive, Corrimal. CAARP lists it from 26 April 1912 to 31 October 1913. Also known as School of Arts Hall.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Excelsior Hall"
+  ],
   "address": "Cnr Princess Highway and Railway Street",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1910 (first listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -2596,7 +3181,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Excelsior Hall Corrimal was a hall used for film screenings at Cnr Princess Highway and Railway Street, Corrimal.",
+  "summary": "Excelsior Hall Corrimal was a hall used for film screenings at Cnr Princess Highway and Railway Street, Corrimal. CAARP first lists it in 1910. Also known as Excelsior Hall.",
   "noApprox": true
  },
  {
@@ -2605,7 +3190,20 @@
   ],
   "address": "Hargrave Drive",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "16 July 1912 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "13 September 1971 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "582 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -2632,13 +3230,13 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Princess Theatre was a cinema at Hargrave Drive, Corrimal. Also known as Roma Cinema.",
+  "summary": "Princess Theatre was a cinema at Hargrave Drive, Corrimal. CAARP lists it from 16 July 1912 to 13 September 1971. Recorded capacity: 582 seats. Also known as Roma Cinema.",
   "noApprox": true
  },
  {
   "aliases": [
    "Cronulla Theatre",
-   "Odeon",
+   "Hoyts Cinemas Cronulla",
    "Cronulla Cinema",
    "Event Cinemas Cronulla",
    "GU Filmhouse"
@@ -2647,8 +3245,8 @@
   "type": "",
   "facts": [
    [
-    "Screens",
-    "6"
+    "Capacity",
+    "1532 seats (as recorded by CAARP)"
    ],
    [
     "Operators",
@@ -2681,7 +3279,7 @@
   ],
   "id": "fca-nsw-0085",
   "state": "NSW",
-  "name": "Hoyts Cinemas Cronulla",
+  "name": "Odeon",
   "locality": "Cronulla",
   "basis": "Recorded independently by CAARP and Cinema Treasures, which agree on the name and place. Dates and other details are as those sources give them and are not yet checked.",
   "published": "27 November 2026",
@@ -2692,20 +3290,25 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Hoyts Cinemas Cronulla is a cinema at 2 Cronulla St, Cronulla, listed as operating. Also known as Cronulla Theatre, Odeon, Cronulla Cinema and others.",
+  "summary": "Odeon is a cinema at 2 Cronulla St, Cronulla, listed as operating. Recorded capacity: 1,532 seats. Also known as Cronulla Theatre, Hoyts Cinemas Cronulla, Cronulla Cinema and others.",
   "noApprox": true
  },
  {
   "aliases": [
-   "Metro Crows Nest",
    "Queens Theatre",
    "Sesqui Theatre",
+   "Metro Crows Nest",
+   "Dendy Crows Nest Theatre",
    "Village Theatre",
    "Dendy Theatre"
   ],
   "address": "360 Pacific Hwy",
   "type": "",
   "facts": [
+   [
+    "Capacity",
+    "1046 seats (as recorded by CAARP)"
+   ],
    [
     "Architectural style",
     "Art Deco (Cinema Treasures)"
@@ -2752,14 +3355,19 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Dendy Crow's Nest Theatre was a cinema at 360 Pacific Hwy, Crows Nest. Also known as Metro Crows Nest, Queens Theatre, Sesqui Theatre and others.",
+  "summary": "Dendy Crow's Nest Theatre was a cinema at 360 Pacific Hwy, Crows Nest. Recorded capacity: 1,046 seats. Also known as Queens Theatre, Sesqui Theatre, Metro Crows Nest and others.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "6-10 Falcon Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1817 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -2786,7 +3394,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Hoyts was a cinema at 6-10 Falcon Street, Crows Nest.",
+  "summary": "Hoyts was a cinema at 6-10 Falcon Street, Crows Nest. Recorded capacity: 1,817 seats.",
   "noApprox": true
  },
  {
@@ -2795,7 +3403,12 @@
   ],
   "address": "2 Meta Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1178 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -2827,16 +3440,30 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "De Luxe was a cinema at 2 Meta Street, Croydon. Also known as De-Luxe Theatre.",
+  "summary": "De Luxe was a cinema at 2 Meta Street, Croydon. Recorded capacity: 1,178 seats. Also known as De-Luxe Theatre.",
   "noApprox": true
  },
  {
   "aliases": [
-   "Croydon Park Theatre"
+   "Croydon Park Theatre",
+   "Croydon Park"
   ],
   "address": "Beaufort Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1922 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1 August 1960 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "960 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -2863,14 +3490,23 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Bett's Theatre was a cinema at Beaufort Street, Croydon Park. Also known as Croydon Park Theatre.",
+  "summary": "Bett's Theatre was a cinema at Beaufort Street, Croydon Park. CAARP lists it from 1922 to 1 August 1960. Recorded capacity: 960 seats. Also known as Croydon Park Theatre, Croydon Park.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Penguin Head Road",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1965 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "240 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -2897,14 +3533,23 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Culburra Progress Hall was a hall used for film screenings at Penguin Head Road, Culburra.",
+  "summary": "Culburra Progress Hall was a hall used for film screenings at Penguin Head Road, Culburra. CAARP first lists it in 1965. Recorded capacity: 240 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Cnr Walton Way and Merimbula Street",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1956 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "420 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -2931,7 +3576,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Currarong Hall was a hall used for film screenings at Cnr Walton Way and Merimbula Street, Currarong.",
+  "summary": "Currarong Hall was a hall used for film screenings at Cnr Walton Way and Merimbula Street, Currarong. CAARP first lists it in 1956. Recorded capacity: 420 seats.",
   "noApprox": true
  },
  {
@@ -2942,8 +3587,16 @@
   "type": "drive-in",
   "facts": [
    [
-    "Screens",
-    "2"
+    "Opened",
+    "22 November 1967 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "19 March 1986 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "750 cars (as recorded by CAARP)"
    ],
    [
     "Operators",
@@ -2987,7 +3640,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Lakeline Drive-In Theatre was a drive-in at Kanahooka Road, Dapto. Also known as Lakeline Drive-In.",
+  "summary": "Lakeline Drive-In Theatre was a drive-in at Kanahooka Road, Dapto. CAARP lists it from 22 November 1967 to 19 March 1986. Recorded capacity: 750 cars. Also known as Lakeline Drive-In.",
   "noApprox": true
  },
  {
@@ -2998,6 +3651,10 @@
   "address": "445 New South Head Road",
   "type": "",
   "facts": [
+   [
+    "Capacity",
+    "1365 seats (as recorded by CAARP)"
+   ],
    [
     "Architectural style",
     "Art Deco (Cinema Treasures)"
@@ -3044,16 +3701,25 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Hoyts was a cinema at 445 New South Head Road, Double Bay. Also known as Hoyts Double Bay Theatre, Southern Cross Theatre.",
+  "summary": "Hoyts was a cinema at 445 New South Head Road, Double Bay. Recorded capacity: 1,365 seats. Also known as Hoyts Double Bay Theatre, Southern Cross Theatre.",
   "noApprox": true
  },
  {
   "aliases": [
-   "Vogue Theatre"
+   "Vogue Theatre",
+   "Village Twin"
   ],
   "address": "377-379 New South Head Road",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "13 May 1938 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "2004 (last listing in CAARP, not verified)"
+   ],
    [
     "Capacity",
     "986 seats (as recorded by CAARP)"
@@ -3102,14 +3768,19 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Village Twin Theatre was a cinema at 377-379 New South Head Road, Double Bay. Recorded capacity: 986 seats. Also known as Vogue Theatre.",
+  "summary": "Village Twin Theatre was a cinema at 377-379 New South Head Road, Double Bay. CAARP lists it from 13 May 1938 to 2004. Recorded capacity: 986 seats. Also known as Vogue Theatre, Village Twin.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Loftus",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1365 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -3136,22 +3807,30 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Britannia was a cinema at Loftus, Dulwich Hill.",
+  "summary": "Britannia was a cinema at Loftus, Dulwich Hill. Recorded capacity: 1,365 seats.",
   "noApprox": true
  },
  {
   "aliases": [
    "Ellas",
    "Atlas",
-   "Atlas Theatre",
-   "Chelsea Theatre"
+   "Chelsea Theatre",
+   "Atlas Theatre"
   ],
   "address": "285-287 Homer Street",
   "type": "",
   "facts": [
    [
+    "Opened",
+    "16 October 1940 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1978 (last listing in CAARP, not verified)"
+   ],
+   [
     "Capacity",
-    "824 seats (as recorded by CAARP)"
+    "826 seats (as recorded by CAARP)"
    ],
    [
     "Architectural style",
@@ -3195,7 +3874,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Chelsea was a cinema at 285-287 Homer Street, Earlwood. Recorded capacity: 824 seats. Also known as Ellas, Atlas, Atlas Theatre and others.",
+  "summary": "Chelsea was a cinema at 285-287 Homer Street, Earlwood. CAARP lists it from 16 October 1940 to 1978. Recorded capacity: 826 seats. Also known as Ellas, Atlas, Chelsea Theatre and others.",
   "noApprox": true
  },
  {
@@ -3204,7 +3883,20 @@
   ],
   "address": "Chandos Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "10 January 1898 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "16 August 1975 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "400 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -3231,14 +3923,19 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Eden School of Arts was a cinema at Chandos Street, Eden. Also known as Excelsior Theatre.",
+  "summary": "Eden School of Arts was a cinema at Chandos Street, Eden. CAARP lists it from 10 January 1898 to 16 August 1975. Recorded capacity: 400 seats. Also known as Excelsior Theatre.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Liverpool Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1904 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -3265,7 +3962,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Enfield Cinema was a cinema at Liverpool Road, Enfield.",
+  "summary": "Enfield Cinema was a cinema at Liverpool Road, Enfield. Recorded capacity: 1,904 seats.",
   "noApprox": true
  },
  {
@@ -3274,12 +3971,33 @@
   ],
   "address": "68 - 70 Elliott Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1949 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1999 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "333 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
     "label": "CAARP venue 2142 (CC BY-NC-SA 3.0)",
     "url": "https://caarp.com.au/venue/view/2142"
+   },
+   {
+    "label": "Cited by CAARP: â€œFilm Weekly Motion Picture Directoryâ€, Film Weekly, Sydney, 1936 â€“ 1971.",
+    "url": ""
+   },
+   {
+    "label": "Cited by CAARP: Parkinson, R 1995, Gauffered Velour: a history of motion picture exhibition and picture theatres in the Illawarra district of New South Wales, 1897-1994, Australian Theatre Histori",
+    "url": ""
    }
   ],
   "conflicts": [],
@@ -3301,7 +4019,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Fairy Meadow School of Arts was a cinema at 68 - 70 Elliott Street, Fairy Meadow. Also known as Empire Theatre.",
+  "summary": "Fairy Meadow School of Arts was a cinema at 68 - 70 Elliott Street, Fairy Meadow. CAARP lists it from 1949 to 31 December 1999. Recorded capacity: 333 seats. Also known as Empire Theatre.",
   "noApprox": true
  },
  {
@@ -3311,6 +4029,18 @@
   "address": "Balgownie Road",
   "type": "drive-in",
   "facts": [
+   [
+    "Opened",
+    "30 October 1957 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "24 March 1984 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "682 cars (as recorded by CAARP)"
+   ],
    [
     "Operators",
     "Greater Union Theatres (Cinema Treasures)"
@@ -3353,7 +4083,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Southline Drive-In Theatre was a drive-in at Balgownie Road, Fairy Meadow. Also known as Southline Drive-In.",
+  "summary": "Southline Drive-In Theatre was a drive-in at Balgownie Road, Fairy Meadow. CAARP lists it from 30 October 1957 to 24 March 1984. Recorded capacity: 682 cars. Also known as Southline Drive-In.",
   "noApprox": true
  },
  {
@@ -3364,6 +4094,10 @@
   "address": "Great North Road",
   "type": "",
   "facts": [
+   [
+    "Capacity",
+    "1500 seats (as recorded by CAARP)"
+   ],
    [
     "Architectural style",
     "Art Deco (Cinema Treasures)"
@@ -3410,14 +4144,27 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Victory was a cinema at Great North Road, Fivedock. Also known as Ca'd'Or Cinema, Victory Theatre.",
+  "summary": "Victory was a cinema at Great North Road, Fivedock. Recorded capacity: 1,500 seats. Also known as Ca'd'Or Cinema, Victory Theatre.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Blackwood Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1 November 1945 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "17 November 1945 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "200 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -3444,14 +4191,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Gerringong School of Arts was a cinema at Blackwood Street, Gerringong.",
+  "summary": "Gerringong School of Arts was a cinema at Blackwood Street, Gerringong. CAARP lists it from 1 November 1945 to 17 November 1945. Recorded capacity: 200 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Fern Street",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "17 November 1948 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "2008 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "497 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -3478,14 +4238,21 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Gerringong Town Hall was a hall used for film screenings at Fern Street, Gerringong.",
+  "summary": "Gerringong Town Hall was a hall used for film screenings at Fern Street, Gerringong. CAARP lists it from 17 November 1948 to 2008. Recorded capacity: 497 seats.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Granville Cinema"
+  ],
   "address": "Sydney Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1464 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -3512,7 +4279,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Granville was a cinema at Sydney Road, Granville.",
+  "summary": "Granville was a cinema at Sydney Road, Granville. Recorded capacity: 1,464 seats. Also known as Granville Cinema.",
   "noApprox": true
  },
  {
@@ -3521,7 +4288,16 @@
   ],
   "address": "155 Ramsay Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1934 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1530 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -3548,14 +4324,23 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Elite was a cinema at 155 Ramsay Road, Haberfield. Also known as Haberfield Pictures.",
+  "summary": "Elite was a cinema at 155 Ramsay Road, Haberfield. CAARP first lists it in 1934. Recorded capacity: 1,530 seats. Also known as Haberfield Pictures.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Parkes Street",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1 October 1911 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1923 (last listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -3582,14 +4367,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Centennial Picture Hall was a hall used for film screenings at Parkes Street, Helensburgh.",
+  "summary": "Centennial Picture Hall was a hall used for film screenings at Parkes Street, Helensburgh. CAARP lists it from 1 October 1911 to 1923.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Parkes Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "5 May 1923 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1963 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "541 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -3621,14 +4419,23 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Empire Theatre was a cinema at Parkes Street, Helensburgh.",
+  "summary": "Empire Theatre was a cinema at Parkes Street, Helensburgh. CAARP lists it from 5 May 1923 to 31 December 1963. Recorded capacity: 541 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Walker Street",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1 February 1913 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1 April 1923 (last listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -3655,14 +4462,19 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Paragon Hall was a hall used for film screenings at Walker Street, Helensburgh.",
+  "summary": "Paragon Hall was a hall used for film screenings at Walker Street, Helensburgh. CAARP lists it from 1 February 1913 to 1 April 1923.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Forest Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1854 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -3689,14 +4501,23 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Queen's was a cinema at Forest Road, Hurstville.",
+  "summary": "Queen's was a cinema at Forest Road, Hurstville. Recorded capacity: 1,854 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Cnr Sydney and Owen Streets",
-  "type": "",
-  "facts": [],
+  "type": "hall",
+  "facts": [
+   [
+    "Opened",
+    "1914 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "179 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -3723,16 +4544,30 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Huskisson Pictures was a cinema at Cnr Sydney and Owen Streets, Huskisson.",
+  "summary": "Huskisson Pictures was a hall used for film screenings at Cnr Sydney and Owen Streets, Huskisson. CAARP first lists it in 1914. Recorded capacity: 179 seats.",
   "noApprox": true
  },
  {
   "aliases": [
-   "The New Crown Theatre"
+   "The New Crown Theatre",
+   "New Crown Theatre"
   ],
   "address": "Cnr Keira and Burelli Streets",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "7 October 1911 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "11 October 1965 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "2456 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -3759,16 +4594,30 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Crown Picture Palace was a cinema at Cnr Keira and Burelli Streets, Illawara. Also known as The New Crown Theatre.",
+  "summary": "Crown Picture Palace was a cinema at Cnr Keira and Burelli Streets, Illawara. CAARP lists it from 7 October 1911 to 11 October 1965. Recorded capacity: 2,456 seats. Also known as The New Crown Theatre, New Crown Theatre.",
   "noApprox": true
  },
  {
   "aliases": [
-   "Sun Pictures"
+   "Sun Pictures",
+   "School of Arts Hall"
   ],
   "address": "Allowrie Street",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "12 August 1899 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1959 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "180 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -3795,14 +4644,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Jamberoo School of Arts Hall was a hall used for film screenings at Allowrie Street, Jamberoo. Also known as Sun Pictures.",
+  "summary": "Jamberoo School of Arts Hall was a hall used for film screenings at Allowrie Street, Jamberoo. CAARP lists it from 12 August 1899 to 31 December 1959. Recorded capacity: 180 seats. Also known as Sun Pictures, School of Arts Hall.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Moss Vale Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "24 February 1928 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1961 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "260 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -3829,14 +4691,19 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Kangaroo Valley School of Arts was a cinema at Moss Vale Road, Kangaroo Valley.",
+  "summary": "Kangaroo Valley School of Arts was a cinema at Moss Vale Road, Kangaroo Valley. CAARP lists it from 24 February 1928 to 1961. Recorded capacity: 260 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Cnr Rose and Bell Street",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -3863,16 +4730,30 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Keiraville Mechanics Institute was a hall used for film screenings at Cnr Rose and Bell Street, Keiraville.",
+  "summary": "Keiraville Mechanics Institute was a hall used for film screenings at Cnr Rose and Bell Street, Keiraville. CAARP first lists it in 1000.",
   "noApprox": true
  },
  {
   "aliases": [
-   "Community Hall"
+   "Community Hall",
+   "Kembla Heights Miners Reading Room / Community Hall"
   ],
   "address": "Cnr Benjamin and Cordeaux Road",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1940 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1958 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "300 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -3899,14 +4780,23 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Kembla Heights Miners Reading Room was a hall used for film screenings at Cnr Benjamin and Cordeaux Road, Kembla Heights. Also known as Community Hall.",
+  "summary": "Kembla Heights Miners Reading Room was a hall used for film screenings at Cnr Benjamin and Cordeaux Road, Kembla Heights. CAARP lists it from 1940 to 31 December 1958. Recorded capacity: 300 seats. Also known as Community Hall, Kembla Heights Miners Reading Room / Community Hall.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "216 Anzac Parade",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1 June 1929 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "2000 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -3933,7 +4823,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Doncaster was a cinema at 216 Anzac Parade, Kensington.",
+  "summary": "Doncaster was a cinema at 216 Anzac Parade, Kensington. CAARP first lists it in 1 June 1929. Recorded capacity: 2,000 seats.",
   "noApprox": true
  },
  {
@@ -3972,12 +4862,18 @@
  },
  {
   "aliases": [
+   "Minerva",
+   "Metro Kings Cross",
    "Metro King's Cross",
    "Minerva Theatre"
   ],
   "address": "26-30 Orwell Street",
   "type": "",
   "facts": [
+   [
+    "Capacity",
+    "1006 seats (as recorded by CAARP)"
+   ],
    [
     "Architectural style",
     "Streamline Moderne (Cinema Treasures)"
@@ -4022,17 +4918,30 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Metro was a cinema at 26-30 Orwell Street, Kings Cross. Also known as Metro King's Cross, Minerva Theatre.",
+  "summary": "Metro was a cinema at 26-30 Orwell Street, Kings Cross. Recorded capacity: 1,006 seats. Also known as Minerva, Metro Kings Cross, Metro King's Cross and others.",
   "noApprox": true
  },
  {
   "aliases": [
-   "Kingsford Odeon",
-   "Reno Theatre"
+   "Reno Theatre",
+   "Kingsford Odeon"
   ],
   "address": "448 Anzac Parade",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "19 October 1961 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "19 October 1961 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1387 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -4064,7 +4973,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Kingsford Odeon Theatre was a cinema at 448 Anzac Parade, Kingsford. Also known as Kingsford Odeon, Reno Theatre.",
+  "summary": "Kingsford Odeon Theatre was a cinema at 448 Anzac Parade, Kingsford. CAARP lists it from 19 October 1961 to 19 October 1961. Recorded capacity: 1,387 seats. Also known as Reno Theatre, Kingsford Odeon.",
   "noApprox": true
  },
  {
@@ -4078,6 +4987,18 @@
   "address": "28 Station St",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "17 November 1920 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1 September 2003 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1534 seats (as recorded by CAARP)"
+   ],
    [
     "Screens",
     "4"
@@ -4128,14 +5049,19 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Mecca Theatre was a cinema at 28 Station St, Kogarah. Also known as Victory De-Luxe Theatre, New Victory Theatre, Victory Theatre and others.",
+  "summary": "Mecca Theatre was a cinema at 28 Station St, Kogarah. CAARP lists it from 17 November 1920 to 1 September 2003. Recorded capacity: 1,534 seats. Also known as Victory De-Luxe Theatre, New Victory Theatre, Victory Theatre and others.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Bay Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1508 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -4162,14 +5088,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Victory was a cinema at Bay Road, Kogarah.",
+  "summary": "Victory was a cinema at Bay Road, Kogarah. Recorded capacity: 1,508 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Conjurong Street",
   "type": "open-air",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1956 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1961 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "294 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -4196,16 +5135,30 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Lake Conjola Open Air Theatre was a open-air picture venue at Conjurong Street, Lake Conjola.",
+  "summary": "Lake Conjola Open Air Theatre was a open-air picture venue at Conjurong Street, Lake Conjola. CAARP lists it from 1956 to 31 December 1961. Recorded capacity: 294 seats.",
   "noApprox": true
  },
  {
   "aliases": [
-   "Century Theatre"
+   "Century Theatre",
+   "Lake Illawarra South Progress Association Hall / Century Theatre"
   ],
   "address": "Peterborough Avenue",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1954 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1 April 1963 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "336 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -4232,7 +5185,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Lake Illawarra South Progress Association Hall was a hall used for film screenings at Peterborough Avenue, Lake Illawarra South. Also known as Century Theatre.",
+  "summary": "Lake Illawarra South Progress Association Hall was a hall used for film screenings at Peterborough Avenue, Lake Illawarra South. CAARP lists it from 1954 to 1 April 1963. Recorded capacity: 336 seats. Also known as Century Theatre, Lake Illawarra South Progress Association Hall / Century Theatre.",
   "noApprox": true
  },
  {
@@ -4242,6 +5195,10 @@
   "address": "26 Burns Bay Road",
   "type": "",
   "facts": [
+   [
+    "Capacity",
+    "950 seats (as recorded by CAARP)"
+   ],
    [
     "Architectural style",
     "Streamline Moderne (Cinema Treasures)"
@@ -4284,14 +5241,19 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Rio was a cinema at 26 Burns Bay Road, Lane Cove. Also known as Rio Theatre.",
+  "summary": "Rio was a cinema at 26 Burns Bay Road, Lane Cove. Recorded capacity: 950 seats. Also known as Rio Theatre.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "21 Marlborough Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "2200 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -4318,7 +5280,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Marlborough was a cinema at 21 Marlborough Street, Leichhardt.",
+  "summary": "Marlborough was a cinema at 21 Marlborough Street, Leichhardt. Recorded capacity: 2,200 seats.",
   "noApprox": true
  },
  {
@@ -4330,7 +5292,7 @@
   "facts": [
    [
     "Capacity",
-    "2022 seats (as recorded by CAARP)"
+    "2310 seats (as recorded by CAARP)"
    ],
    [
     "Architectural style",
@@ -4368,14 +5330,19 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Strand was a cinema at 277 Parramatta Road, Leichhardt. Recorded capacity: 2,022 seats. Also known as Strand Theatre.",
+  "summary": "Strand was a cinema at 277 Parramatta Road, Leichhardt. Recorded capacity: 2,310 seats. Also known as Strand Theatre.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Addison Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1743 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -4402,7 +5369,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Lindfield was a cinema at Addison Road, Lindfield.",
+  "summary": "Lindfield was a cinema at Addison Road, Lindfield. Recorded capacity: 1,743 seats.",
   "noApprox": true
  },
  {
@@ -4472,6 +5439,18 @@
   "type": "",
   "facts": [
    [
+    "Opened",
+    "1 December 1921 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "13 June 1958 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1508 seats (as recorded by CAARP)"
+   ],
+   [
     "Architectural style",
     "Art Deco (Cinema Treasures)"
    ],
@@ -4521,17 +5500,30 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Amusu Theatre was a cinema at 791-801 Anzac Parade, Maroubra.",
+  "summary": "Amusu Theatre was a cinema at 791-801 Anzac Parade, Maroubra. CAARP lists it from 1 December 1921 to 13 June 1958. Recorded capacity: 1,508 seats.",
   "noApprox": true
  },
  {
   "aliases": [
+   "Addison",
    "Addison Theatre",
    "Victory Theatre"
   ],
   "address": "93 Addison Road",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "1934 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1959 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1839 seats (as recorded by CAARP)"
+   ],
    [
     "Architects",
     "Charles Bohringer (Cinema Treasures)"
@@ -4572,7 +5564,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Addison Road was a cinema at 93 Addison Road, Marrickville. Also known as Addison Theatre, Victory Theatre.",
+  "summary": "Addison Road was a cinema at 93 Addison Road, Marrickville. CAARP lists it from 1934 to 1959. Recorded capacity: 1,839 seats. Also known as Addison, Addison Theatre, Victory Theatre.",
   "noApprox": true
  },
  {
@@ -4583,6 +5575,14 @@
   "address": "263 Illawarra Road",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "2027 seats (as recorded by CAARP)"
+   ],
    [
     "Architectural style",
     "Art Deco, Spanish Colonial (Cinema Treasures)"
@@ -4623,16 +5623,29 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Hoyts was a cinema at 263 Illawarra Road, Marrickville. Also known as Hoyts Marrickville Theatre, Hoyts De Luxe Theatre.",
+  "summary": "Hoyts was a cinema at 263 Illawarra Road, Marrickville. CAARP first lists it in 1000. Recorded capacity: 2,027 seats. Also known as Hoyts Marrickville Theatre, Hoyts De Luxe Theatre.",
   "noApprox": true
  },
  {
   "aliases": [
+   "Kings Theatre",
    "Marrickville Kings Theatre"
   ],
   "address": "200 Marrickville Road",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "1 May 1937 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1970 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1113 seats (as recorded by CAARP)"
+   ],
    [
     "Architectural style",
     "Art Deco (Cinema Treasures)"
@@ -4673,14 +5686,27 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Kings was a cinema at 200 Marrickville Road, Marrickville. Also known as Marrickville Kings Theatre.",
+  "summary": "Kings was a cinema at 200 Marrickville Road, Marrickville. CAARP lists it from 1 May 1937 to 1970. Recorded capacity: 1,113 seats. Also known as Kings Theatre, Marrickville Kings Theatre.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "253 Botany Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1925 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1 March 1960 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1514 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -4707,14 +5733,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Ascot Theatre was a cinema at 253 Botany Road, Mascot.",
+  "summary": "Ascot Theatre was a cinema at 253 Botany Road, Mascot. CAARP lists it from 1925 to 1 March 1960. Recorded capacity: 1,514 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Twyford Hall, Cnr Beach and Market Streets",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1948 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1 August 1975 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "130 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -4741,14 +5780,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Merimbula Theatre was a cinema at Twyford Hall, Cnr Beach and Market Streets, Merimbula.",
+  "summary": "Merimbula Theatre was a cinema at Twyford Hall, Cnr Beach and Market Streets, Merimbula. CAARP lists it from 1948 to 1 August 1975. Recorded capacity: 130 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "2 December 1993 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "318 seats (as recorded by CAARP)"
+   ],
+   [
+    "Screens",
+    "2"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -4775,12 +5827,14 @@
   "level": "D",
   "levelReason": "cinema name and locality established; no address",
   "review": "awaiting editorial review",
-  "summary": "The Picture Show Man was a cinema, Merimbula.",
+  "summary": "The Picture Show Man was a cinema, Merimbula. CAARP first lists it in 2 December 1993. Recorded capacity: 318 seats.",
   "noApprox": true
  },
  {
   "aliases": [
    "Milton United Cinema",
+   "Milton School of Arts - original premise",
+   "Milton School of Arts - new building",
    "Milton Theatre",
    "School of Arts Theatre"
   ],
@@ -4788,8 +5842,16 @@
   "type": "",
   "facts": [
    [
+    "Opened",
+    "29 April 1899 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "18 November 1992 (last listing in CAARP, not verified)"
+   ],
+   [
     "Capacity",
-    "200 seats (as recorded by CAARP)"
+    "400 seats (as recorded by CAARP)"
    ],
    [
     "Other addresses recorded",
@@ -4829,14 +5891,19 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Milton School of Arts is a cinema at Princes Highway, Milton, listed as operating. Recorded capacity: 200 seats. Also known as Milton United Cinema, Milton Theatre, School of Arts Theatre.",
+  "summary": "Milton School of Arts is a cinema at Princes Highway, Milton, listed as operating. CAARP lists it from 29 April 1899 to 18 November 1992. Recorded capacity: 400 seats. Also known as Milton United Cinema, Milton School of Arts - original premise, Milton School of Arts - new building and others.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Princes Highway",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1903 (first listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -4863,14 +5930,21 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Mogo Public Hall was a hall used for film screenings at Princes Highway, Mogo.",
+  "summary": "Mogo Public Hall was a hall used for film screenings at Princes Highway, Mogo. CAARP first lists it in 1903.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Mortdale"
+  ],
   "address": "12 Railway Parade",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1100 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -4897,14 +5971,29 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Mortdale Hoyts was a cinema at 12 Railway Parade, Mortdale.",
+  "summary": "Mortdale Hoyts was a cinema at 12 Railway Parade, Mortdale. Recorded capacity: 1,100 seats. Also known as Mortdale.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Amusu Theatre"
+  ],
   "address": "Vulcan Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "21 December 1921 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1939 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "464 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -4931,14 +6020,25 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Moruya Amusu Theatre was a cinema at Vulcan Street, Moruya.",
+  "summary": "Moruya Amusu Theatre was a cinema at Vulcan Street, Moruya. CAARP lists it from 21 December 1921 to 31 December 1939. Recorded capacity: 464 seats. Also known as Amusu Theatre.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Centennial Hall"
+  ],
   "address": "Queen Street",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "4 November 1898 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1 March 1934 (last listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -4965,18 +6065,32 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Moruya Centennial Hall was a hall used for film screenings at Queen Street, Moruya.",
+  "summary": "Moruya Centennial Hall was a hall used for film screenings at Queen Street, Moruya. CAARP lists it from 4 November 1898 to 1 March 1934. Also known as Centennial Hall.",
   "noApprox": true
  },
  {
   "aliases": [
    "Orion",
    "New Orion",
-   "Fiesta"
+   "Fiesta",
+   "Liberty Theatre"
   ],
   "address": "Queen Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "4 August 1934 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1956 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "555 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -5003,14 +6117,25 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Moruya Liberty Theatre was a cinema at Queen Street, Moruya. Also known as Orion, New Orion, Fiesta.",
+  "summary": "Moruya Liberty Theatre was a cinema at Queen Street, Moruya. CAARP lists it from 4 August 1934 to 1956. Recorded capacity: 555 seats. Also known as Orion, New Orion, Fiesta and others.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Moruya Mechanics Hall"
+  ],
   "address": "Page Street",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "5 April 1897 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1916 (last listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -5037,7 +6162,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Moruya Mechanics Institute was a hall used for film screenings at Page Street, Moruya.",
+  "summary": "Moruya Mechanics Institute was a hall used for film screenings at Page Street, Moruya. CAARP lists it from 5 April 1897 to 31 December 1916. Also known as Moruya Mechanics Hall.",
   "noApprox": true
  },
  {
@@ -5046,7 +6171,16 @@
   ],
   "address": "Church Street",
   "type": "open-air",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "14 March 1914 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1916 (last listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -5073,7 +6207,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Moruya Open Air Picture Palace was a open-air picture venue at Church Street, Moruya. Also known as Empire Picture Palace.",
+  "summary": "Moruya Open Air Picture Palace was a open-air picture venue at Church Street, Moruya. CAARP lists it from 14 March 1914 to 31 December 1916. Also known as Empire Picture Palace.",
   "noApprox": true
  },
  {
@@ -5088,7 +6222,7 @@
   "facts": [
    [
     "Capacity",
-    "540 seats (as recorded by CAARP)"
+    "600 seats (as recorded by CAARP)"
    ],
    [
     "Architectural style",
@@ -5136,7 +6270,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Anzac Memorial Hall was a hall used for film screenings at 742 Military Road, Mosman. Recorded capacity: 540 seats. Also known as Kings, Rex, Rex Theatre and others.",
+  "summary": "Anzac Memorial Hall was a hall used for film screenings at 742 Military Road, Mosman. Recorded capacity: 600 seats. Also known as Kings, Rex, Rex Theatre and others.",
   "noApprox": true
  },
  {
@@ -5151,8 +6285,8 @@
   "type": "",
   "facts": [
    [
-    "Screens",
-    "2"
+    "Capacity",
+    "540 seats (as recorded by CAARP)"
    ],
    [
     "Architectural style",
@@ -5203,7 +6337,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Australian was a cinema at 9 Spit Road, Mosman. Also known as Greater Union Mosman Cinemas, G.U. Cinema Centre, New Kings Theatre and others.",
+  "summary": "Australian was a cinema at 9 Spit Road, Mosman. Recorded capacity: 540 seats. Also known as Greater Union Mosman Cinemas, G.U. Cinema Centre, New Kings Theatre and others.",
   "noApprox": true
  },
  {
@@ -5214,6 +6348,10 @@
   "address": "721 Military Road",
   "type": "",
   "facts": [
+   [
+    "Capacity",
+    "1447 seats (as recorded by CAARP)"
+   ],
    [
     "Architectural style",
     "Art Deco (Cinema Treasures)"
@@ -5264,16 +6402,26 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Kinema was a cinema at 721 Military Road, Mosman. Also known as Hoyts Kinema Theatre, Kinema Theatre.",
+  "summary": "Kinema was a cinema at 721 Military Road, Mosman. Recorded capacity: 1,447 seats. Also known as Hoyts Kinema Theatre, Kinema Theatre.",
   "noApprox": true
  },
  {
   "aliases": [
-   "Village"
+   "Village",
+   "Mosman Twin"
   ],
   "address": "Split Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "15 October 1937 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "26 January 2011 (last listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -5300,14 +6448,23 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Kings was a cinema at Split Road, Mosman. Also known as Village.",
+  "summary": "Kings was a cinema at Split Road, Mosman. CAARP lists it from 15 October 1937 to 26 January 2011. Also known as Village, Mosman Twin.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Tathra Bermagui Road",
-  "type": "",
-  "facts": [],
+  "type": "hall",
+  "facts": [
+   [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1950 (last listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -5334,7 +6491,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Murrah School of Arts was a cinema at Tathra Bermagui Road, Murrah.",
+  "summary": "Murrah School of Arts was a hall used for film screenings at Tathra Bermagui Road, Murrah. CAARP lists it from 1000 to 1950.",
   "noApprox": true
  },
  {
@@ -5344,7 +6501,20 @@
   ],
   "address": "",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "371 seats (as recorded by CAARP)"
+   ],
+   [
+    "Screens",
+    "2"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -5371,7 +6541,7 @@
   "level": "D",
   "levelReason": "cinema name and locality established; no address",
   "review": "awaiting editorial review",
-  "summary": "Narooma School of Arts was a cinema, Narooma. Also known as Narooma Cinema, Narooma Kinema.",
+  "summary": "Narooma School of Arts was a cinema, Narooma. CAARP first lists it in 1000. Recorded capacity: 371 seats. Also known as Narooma Cinema, Narooma Kinema.",
   "noApprox": true
  },
  {
@@ -5417,6 +6587,10 @@
   "type": "",
   "facts": [
    [
+    "Capacity",
+    "1610 seats (as recorded by CAARP)"
+   ],
+   [
     "Architectural style",
     "Art Deco (Cinema Treasures)"
    ],
@@ -5456,7 +6630,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Southern Cross was a cinema at 156 Military Road, Neutral Bay. Also known as Hoyts Southern Cross Theatre, Southern Cross Theatre.",
+  "summary": "Southern Cross was a cinema at 156 Military Road, Neutral Bay. Recorded capacity: 1,610 seats. Also known as Hoyts Southern Cross Theatre, Southern Cross Theatre.",
   "noApprox": true
  },
  {
@@ -5465,7 +6639,20 @@
   ],
   "address": "98 King Street (Wolfe Street)",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1915 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "721 seats (as recorded by CAARP)"
+   ],
+   [
+    "Screens",
+    "3"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -5492,14 +6679,21 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Lyric was a cinema at 98 King Street (Wolfe Street), Newcastle. Also known as Lyrique.",
+  "summary": "Lyric was a cinema at 98 King Street (Wolfe Street), Newcastle. CAARP first lists it in 1915. Recorded capacity: 721 seats. Also known as Lyrique.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Tatler Theatrette"
+  ],
   "address": "249 Hunter St",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "216 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -5526,11 +6720,13 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Roma theatre was a cinema at 249 Hunter St, Newcastle.",
+  "summary": "Roma theatre was a cinema at 249 Hunter St, Newcastle. Recorded capacity: 216 seats. Also known as Tatler Theatrette.",
   "noApprox": true
  },
  {
   "aliases": [
+   "Hub No. 1",
+   "Hub No. 2",
    "Hub Theatre",
    "Clays Bridge Theatre",
    "Hub Theatre No.1",
@@ -5539,6 +6735,14 @@
   "address": "7 Bedford Street",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "1939 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1990 (last listing in CAARP, not verified)"
+   ],
    [
     "Capacity",
     "1187 seats (as recorded by CAARP)"
@@ -5579,7 +6783,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Hub is a cinema at 7 Bedford Street, Newtown, listed as operating. Recorded capacity: 1,187 seats. Also known as Hub Theatre, Clays Bridge Theatre, Hub Theatre No.1 and others.",
+  "summary": "Hub is a cinema at 7 Bedford Street, Newtown, listed as operating. CAARP lists it from 1939 to 1990. Recorded capacity: 1,187 seats. Also known as Hub No. 1, Hub No. 2, Hub Theatre and others.",
   "noApprox": true
  },
  {
@@ -5591,6 +6795,10 @@
   "address": "Wilson Street",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ],
    [
     "Architects",
     "Henry Eli White (Cinema Treasures)"
@@ -5637,14 +6845,19 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Majestic was a cinema at Wilson Street, Newtown. Also known as Elizabethan, Elizabethan Theatre, Majestic Theatre.",
+  "summary": "Majestic was a cinema at Wilson Street, Newtown. CAARP first lists it in 1000. Also known as Elizabethan, Elizabethan Theatre, Majestic Theatre.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "3-5 Pacific Highway",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1719 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -5671,7 +6884,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Orpheum was a cinema at 3-5 Pacific Highway, North Sydney.",
+  "summary": "Orpheum was a cinema at 3-5 Pacific Highway, North Sydney. Recorded capacity: 1,719 seats.",
   "noApprox": true
  },
  {
@@ -5679,6 +6892,10 @@
   "address": "Sailors Bay Road",
   "type": "",
   "facts": [
+   [
+    "Capacity",
+    "918 seats (as recorded by CAARP)"
+   ],
    [
     "Other addresses recorded",
     "Sailors Bay Road and Eastern Valley Way"
@@ -5717,7 +6934,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Northbridge Theatre was a cinema at Sailors Bay Road, Northbridge.",
+  "summary": "Northbridge Theatre was a cinema at Sailors Bay Road, Northbridge. Recorded capacity: 918 seats.",
   "noApprox": true
  },
  {
@@ -5728,6 +6945,18 @@
   "address": "Junction Street",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "21 December 1918 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1964 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "800 seats (as recorded by CAARP)"
+   ],
    [
     "Architectural style",
     "Streamline Moderne (Cinema Treasures)"
@@ -5778,7 +7007,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Crown Theatre was a cinema at Junction Street, Nowra. Also known as West's Theatre, West's New Crown Theatre.",
+  "summary": "Crown Theatre was a cinema at Junction Street, Nowra. CAARP lists it from 21 December 1918 to 31 December 1964. Recorded capacity: 800 seats. Also known as West's Theatre, West's New Crown Theatre.",
   "noApprox": true
  },
  {
@@ -5787,7 +7016,20 @@
   ],
   "address": "Berry Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "12 April 1897 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "30 September 1930 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "650 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -5814,7 +7056,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Nowra School of Arts was a cinema at Berry Street, Nowra. Also known as Nowra Pictures.",
+  "summary": "Nowra School of Arts was a cinema at Berry Street, Nowra. CAARP lists it from 12 April 1897 to 30 September 1930. Recorded capacity: 650 seats. Also known as Nowra Pictures.",
   "noApprox": true
  },
  {
@@ -5825,8 +7067,12 @@
   "type": "",
   "facts": [
    [
+    "Opened",
+    "14 August 1935 (first listing in CAARP, not verified)"
+   ],
+   [
     "Capacity",
-    "540 seats (as recorded by CAARP)"
+    "368 seats (as recorded by CAARP)"
    ],
    [
     "Screens",
@@ -5872,7 +7118,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Roxy Theatre is a cinema at 41 Berry Street, Nowra, listed as operating. Recorded capacity: 540 seats. Also known as Roxy Cinemas.",
+  "summary": "Roxy Theatre is a cinema at 41 Berry Street, Nowra, listed as operating. CAARP first lists it in 14 August 1935. Recorded capacity: 368 seats. Also known as Roxy Cinemas.",
   "noApprox": true
  },
  {
@@ -5884,7 +7130,7 @@
   "facts": [
    [
     "Capacity",
-    "1375 seats (as recorded by CAARP)"
+    "1350 seats (as recorded by CAARP)"
    ],
    [
     "Other addresses recorded",
@@ -5924,22 +7170,24 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Five Ways was a cinema at 220 Glenmore Road, Paddington. Recorded capacity: 1,375 seats. Also known as Five Ways Picture Palace.",
+  "summary": "Five Ways was a cinema at 220 Glenmore Road, Paddington. Recorded capacity: 1,350 seats. Also known as Five Ways Picture Palace.",
   "noApprox": true
  },
  {
   "aliases": [
+   "Olympia",
+   "Odeon",
+   "Mandala Cinema",
    "Academy Twin Cinemas",
    "West's Olympia Theatre",
-   "Odeon Theatre",
-   "Mandala Cinema"
+   "Odeon Theatre"
   ],
   "address": "3A Oxford St",
   "type": "",
   "facts": [
    [
     "Capacity",
-    "769 seats (as recorded by CAARP)"
+    "800 seats (as recorded by CAARP)"
    ],
    [
     "Screens",
@@ -5987,14 +7235,19 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Olympia/West's Olympia/Odeon/Mandala/Academy was a cinema at 3A Oxford St, Paddington. Recorded capacity: 769 seats. Also known as Academy Twin Cinemas, West's Olympia Theatre, Odeon Theatre and others.",
+  "summary": "Olympia/West's Olympia/Odeon/Mandala/Academy was a cinema at 3A Oxford St, Paddington. Recorded capacity: 800 seats. Also known as Olympia, Odeon, Mandala Cinema and others.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "383-385 Oxford Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1830 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -6021,17 +7274,31 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Oxford was a cinema at 383-385 Oxford Street, Paddington.",
+  "summary": "Oxford was a cinema at 383-385 Oxford Street, Paddington. Recorded capacity: 1,830 seats.",
   "noApprox": true
  },
  {
   "aliases": [
    "Pambula Pictures",
-   "Pambula School of Arts"
+   "Pambula School of Arts",
+   "Pambula Pictures / Talkies"
   ],
   "address": "Quondola Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "27 March 1897 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "6 May 1967 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "350 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -6058,14 +7325,25 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Pambula Talkies was a cinema at Quondola Street, Pambula. Also known as Pambula Pictures, Pambula School of Arts.",
+  "summary": "Pambula Talkies was a cinema at Quondola Street, Pambula. CAARP lists it from 27 March 1897 to 6 May 1967. Recorded capacity: 350 seats. Also known as Pambula Pictures, Pambula School of Arts, Pambula Pictures / Talkies.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Audley"
+  ],
   "address": "New Canterbury Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1025 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -6092,7 +7370,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Petersham Audley was a cinema at New Canterbury Road, Petersham.",
+  "summary": "Petersham Audley was a cinema at New Canterbury Road, Petersham. CAARP first lists it in 1000. Recorded capacity: 1,025 seats. Also known as Audley.",
   "noApprox": true
  },
  {
@@ -6110,8 +7388,16 @@
   "type": "",
   "facts": [
    [
+    "Opened",
+    "1921 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1976 (last listing in CAARP, not verified)"
+   ],
+   [
     "Capacity",
-    "1764 seats (as recorded by CAARP)"
+    "1602 seats (as recorded by CAARP)"
    ],
    [
     "Architectural style",
@@ -6163,14 +7449,23 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Petersham Picture Show was a cinema at 49 Canterbury Road, Petersham. Recorded capacity: 1,764 seats. Also known as Audley No 2, Waddington's, Elite and others.",
+  "summary": "Petersham Picture Show was a cinema at 49 Canterbury Road, Petersham. CAARP lists it from 1921 to 1976. Recorded capacity: 1,602 seats. Also known as Audley No 2, Waddington's, Elite and others.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Corner Pyree Lane and Greenwell Point Road",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1903 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1950 (last listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -6197,14 +7492,19 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Pyree Literary Institute was a hall used for film screenings at Corner Pyree Lane and Greenwell Point Road, Pyree.",
+  "summary": "Pyree Literary Institute was a hall used for film screenings at Corner Pyree Lane and Greenwell Point Road, Pyree. CAARP lists it from 1903 to 31 December 1950.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Coogee Bay",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1474 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -6231,14 +7531,23 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Randwick Theatre was a cinema at Coogee Bay, Randwick.",
+  "summary": "Randwick Theatre was a cinema at Coogee Bay, Randwick. Recorded capacity: 1,474 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Cnr Lawson Sq. and Gibsons St.",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1909 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -6265,14 +7574,19 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Lawson was a cinema at Cnr Lawson Sq. and Gibsons St., Redfern.",
+  "summary": "Lawson was a cinema at Cnr Lawson Sq. and Gibsons St., Redfern. CAARP first lists it in 1000. Recorded capacity: 1,909 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "569 Rocky Point Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1785 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -6299,17 +7613,30 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Acme was a cinema at 569 Rocky Point Road, Rockdale.",
+  "summary": "Acme was a cinema at 569 Rocky Point Road, Rockdale. Recorded capacity: 1,785 seats.",
   "noApprox": true
  },
  {
   "aliases": [
+   "Odeon",
    "Odeon Rockdale",
    "Acme Theatre"
   ],
   "address": "564 Princes Highway",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "1948 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1971 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1785 seats (as recorded by CAARP)"
+   ],
    [
     "Operators",
     "Greater Union Theatres (Cinema Treasures)"
@@ -6352,14 +7679,19 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Alfa Theatre was a cinema at 564 Princes Highway, Rockdale. Also known as Odeon Rockdale, Acme Theatre.",
+  "summary": "Alfa Theatre was a cinema at 564 Princes Highway, Rockdale. CAARP lists it from 1948 to 1971. Recorded capacity: 1,785 seats. Also known as Odeon, Odeon Rockdale, Acme Theatre.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "453-457 Rocky Point Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1262 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -6386,7 +7718,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Rex was a cinema at 453-457 Rocky Point Road, Rockdale.",
+  "summary": "Rex was a cinema at 453-457 Rocky Point Road, Rockdale. Recorded capacity: 1,262 seats.",
   "noApprox": true
  },
  {
@@ -6461,6 +7793,10 @@
   "type": "",
   "facts": [
    [
+    "Capacity",
+    "2170 seats (as recorded by CAARP)"
+   ],
+   [
     "Architectural style",
     "Neo-Classical (Cinema Treasures)"
    ],
@@ -6506,11 +7842,12 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Wintergarden was a cinema at 614-622 New South Head Road, Rose Bay. Also known as Wintergarden Theatre.",
+  "summary": "Wintergarden was a cinema at 614-622 New South Head Road, Rose Bay. Recorded capacity: 2,170 seats. Also known as Wintergarden Theatre.",
   "noApprox": true
  },
  {
   "aliases": [
+   "Marina Theatre",
    "Rosebery Cinema",
    "Marina Picture Palace"
   ],
@@ -6518,8 +7855,16 @@
   "type": "",
   "facts": [
    [
+    "Opened",
+    "1927 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1984 (last listing in CAARP, not verified)"
+   ],
+   [
     "Capacity",
-    "1134 seats (as recorded by CAARP)"
+    "1210 seats (as recorded by CAARP)"
    ],
    [
     "Architectural style",
@@ -6571,7 +7916,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Marina was a cinema at 409 Gardners Road, Rosebery. Recorded capacity: 1,134 seats. Also known as Rosebery Cinema, Marina Picture Palace.",
+  "summary": "Marina was a cinema at 409 Gardners Road, Rosebery. CAARP lists it from 1927 to 1984. Recorded capacity: 1,210 seats. Also known as Marina Theatre, Rosebery Cinema, Marina Picture Palace.",
   "noApprox": true
  },
  {
@@ -6581,7 +7926,20 @@
   ],
   "address": "411 Laurence Hargrave Drive",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1913 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "5 August 1967 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "200 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -6608,7 +7966,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Palace Hall was a hall used for film screenings at 411 Laurence Hargrave Drive, Scarborough. Also known as Palace Theatre, Gala Cinema.",
+  "summary": "Palace Hall was a hall used for film screenings at 411 Laurence Hargrave Drive, Scarborough. CAARP lists it from 1913 to 5 August 1967. Recorded capacity: 200 seats. Also known as Palace Theatre, Gala Cinema.",
   "noApprox": true
  },
  {
@@ -6618,7 +7976,20 @@
   ],
   "address": "Cnr of Addison and Sophia Streets",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1913 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "18 June 1960 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "197 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -6645,17 +8016,30 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Temperance Hall was a hall used for film screenings at Cnr of Addison and Sophia Streets, Shellharbour. Also known as Pictorium Hall, Empire Theatre.",
+  "summary": "Temperance Hall was a hall used for film screenings at Cnr of Addison and Sophia Streets, Shellharbour. CAARP lists it from 1913 to 18 June 1960. Recorded capacity: 197 seats. Also known as Pictorium Hall, Empire Theatre.",
   "noApprox": true
  },
  {
   "aliases": [
-   "Starline Drive-In",
+   "Southline Drive-in Theatre",
+   "Starline Drive-in",
    "Nowra Shoa Drive-In"
   ],
   "address": "Bellevue Street",
   "type": "drive-in",
   "facts": [
+   [
+    "Opened",
+    "13 April 1978 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "10 February 1986 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "300 cars (as recorded by CAARP)"
+   ],
    [
     "Other addresses recorded",
     "8-16 Bellevue Street"
@@ -6694,7 +8078,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Southline Drive-in Theatre/Starline Drive-in was a drive-in at Bellevue Street, South Nowra. Also known as Starline Drive-In, Nowra Shoa Drive-In.",
+  "summary": "Southline Drive-in Theatre/Starline Drive-in was a drive-in at Bellevue Street, South Nowra. CAARP lists it from 13 April 1978 to 10 February 1986. Recorded capacity: 300 cars. Also known as Southline Drive-in Theatre, Starline Drive-in, Nowra Shoa Drive-In.",
   "noApprox": true
  },
  {
@@ -6704,6 +8088,18 @@
   "address": "Wyndham Road",
   "type": "drive-in",
   "facts": [
+   [
+    "Opened",
+    "1 July 1975 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1986 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "154cars (as recorded by CAARP)"
+   ],
    [
     "Other addresses recorded",
     "Drive In Road and Mount Darragh Road"
@@ -6742,48 +8138,86 @@
   "level": "E",
   "levelReason": "sources give different addresses",
   "review": "awaiting editorial review",
-  "summary": "Panoramic Drive-In was a drive-in at Wyndham Road, South Pambula. Also known as Pambula Drive-In.",
+  "summary": "Panoramic Drive-In was a drive-in at Wyndham Road, South Pambula. CAARP lists it from 1 July 1975 to 1986. Recorded capacity: 154cars. Also known as Pambula Drive-In.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Stanmore",
+   "Stanmore Odeon",
+   "Stanmore Theatre",
+   "Stanmore Terminus Theatre"
+  ],
   "address": "Stanmore Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1744 seats (as recorded by CAARP)"
+   ],
+   [
+    "Architects",
+    "Clifford M. Chard, Lewis Kaberry (Cinema Treasures)"
+   ],
+   [
+    "Operators",
+    "Greater Union Theatres (Cinema Treasures)"
+   ],
+   [
+    "Other addresses recorded",
+    "18 Stanmore Road"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
     "label": "CAARP venue 796 (CC BY-NC-SA 3.0)",
     "url": "https://caarp.com.au/venue/view/796"
+   },
+   {
+    "label": "Cinema Treasures theatre 44004",
+    "url": "https://cinematreasures.org/theaters/44004"
    }
   ],
-  "conflicts": [],
+  "conflicts": [
+   "The sources give more than one address."
+  ],
   "related": [],
   "nationalId": "FCA-NSW-0218",
   "candidateIds": [
-   "CAARP:796"
+   "CAARP:796",
+   "Cinema Treasures:44004"
   ],
   "id": "fca-nsw-0218",
   "state": "NSW",
-  "name": "Stanmore",
+  "name": "Odeon",
   "locality": "Stanmore",
-  "basis": "Recorded in the CAARP research database (Cinema and Audience Research Project), usually from directory and newspaper listings. Not yet checked against a second source.",
+  "basis": "Recorded independently by CAARP and Cinema Treasures, which agree on the name and place. Dates and other details are as those sources give them and are not yet checked.",
   "published": "27 November 2026",
   "status": "closed",
-  "statusNote": "Closed or not stated (no source states the current status; not verified)",
+  "statusNote": "Closed or not stated (Cinema Treasures lists it as closed (it does not say whether the building survives); not verified)",
   "region": "Inner West",
   "postcode": "2048",
-  "level": "C",
-  "levelReason": "provisional historical address from one source",
+  "level": "B",
+  "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Stanmore was a cinema at Stanmore Road, Stanmore.",
+  "summary": "Odeon was a cinema at Stanmore Road, Stanmore. Recorded capacity: 1,744 seats. Also known as Stanmore, Stanmore Odeon, Stanmore Theatre and others.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Beach Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1957 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "160 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -6810,14 +8244,23 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Stanwell Park Surf Life Saving Club was a cinema at Beach Road, Stanwell Park.",
+  "summary": "Stanwell Park Surf Life Saving Club was a cinema at Beach Road, Stanwell Park. CAARP first lists it in 1957. Recorded capacity: 160 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "46 Moseley Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1934 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1514 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -6844,14 +8287,24 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Strathfield Cinema was a cinema at 46 Moseley Street, Strathfield.",
+  "summary": "Strathfield Cinema was a cinema at 46 Moseley Street, Strathfield. CAARP first lists it in 1934. Recorded capacity: 1,514 seats.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Premier"
+  ],
   "address": "517 Crown Street",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "30 January 1928 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1 February 1959 (last listing in CAARP, not verified)"
+   ],
    [
     "Capacity",
     "1200 seats (as recorded by CAARP)"
@@ -6888,16 +8341,21 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Premier Theatre was a cinema at 517 Crown Street, Surry Hills. Recorded capacity: 1,200 seats.",
+  "summary": "Premier Theatre was a cinema at 517 Crown Street, Surry Hills. CAARP lists it from 30 January 1928 to 1 February 1959. Recorded capacity: 1,200 seats. Also known as Premier.",
   "noApprox": true
  },
  {
   "aliases": [
+   "Sussex Inlet Cinema",
    "Inlet Cinema"
   ],
   "address": "Jacobs Drive",
-  "type": "",
+  "type": "hall",
   "facts": [
+   [
+    "Opened",
+    "1956 (first listing in CAARP, not verified)"
+   ],
    [
     "Capacity",
     "300 seats (as recorded by CAARP)"
@@ -6940,14 +8398,19 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Sussex Cinema is a cinema at Jacobs Drive, Sussex Inlet, listed as operating. Recorded capacity: 300 seats. Also known as Inlet Cinema.",
+  "summary": "Sussex Cinema is a hall used for film screenings at Jacobs Drive, Sussex Inlet, listed as operating. CAARP first lists it in 1956. Recorded capacity: 300 seats. Also known as Sussex Inlet Cinema, Inlet Cinema.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Station Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1336 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -6974,7 +8437,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Sutherland was a cinema at Station Street, Sutherland.",
+  "summary": "Sutherland was a cinema at Station Street, Sutherland. Recorded capacity: 1,336 seats.",
   "noApprox": true
  },
  {
@@ -7017,6 +8480,18 @@
   "type": "",
   "facts": [
    [
+    "Opened",
+    "1965 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1971 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "900 seats (as recorded by CAARP)"
+   ],
+   [
     "Operators",
     "Village Theatres (Cinema Treasures)"
    ],
@@ -7058,7 +8533,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Ascot Theatre was a cinema at 254 Pitt St, Sydney.",
+  "summary": "Ascot Theatre was a cinema at 254 Pitt St, Sydney. CAARP lists it from 1965 to 1971. Recorded capacity: 900 seats.",
   "noApprox": true
  },
  {
@@ -7067,14 +8542,21 @@
    "Colonial No. 1",
    "DeLuxe",
    "Plaza",
+   "Oxford Theatre",
+   "Colonial",
+   "Hoyts DeLuxe",
    "Plaza Theatre"
   ],
   "address": "George Street",
   "type": "hall",
   "facts": [
    [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ],
+   [
     "Capacity",
-    "1650 seats (as recorded by CAARP)"
+    "2000 seats (as recorded by CAARP)"
    ],
    [
     "Architectural style",
@@ -7126,7 +8608,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Atheneum Hall was a hall used for film screenings at George Street, Sydney. Recorded capacity: 1,650 seats. Also known as Oxford, Colonial No. 1, DeLuxe and others.",
+  "summary": "Atheneum Hall was a hall used for film screenings at George Street, Sydney. CAARP first lists it in 1000. Recorded capacity: 2,000 seats. Also known as Oxford, Colonial No. 1, DeLuxe and others.",
   "noApprox": true
  },
  {
@@ -7279,7 +8761,16 @@
   ],
   "address": "George Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "827 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -7306,7 +8797,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Colonial No. 2 was a cinema at George Street, Sydney. Also known as Empress, Victory, Rapallo.",
+  "summary": "Colonial No. 2 was a cinema at George Street, Sydney. CAARP first lists it in 1000. Recorded capacity: 827 seats. Also known as Empress, Victory, Rapallo.",
   "noApprox": true
  },
  {
@@ -7637,8 +9128,8 @@
   "type": "",
   "facts": [
    [
-    "Screens",
-    "3"
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
    ],
    [
     "Architectural style",
@@ -7695,7 +9186,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Grand was a cinema at Pitt Street, Sydney. Also known as Rialto, Liberty, Greater Union Pitt Centre and others.",
+  "summary": "Grand was a cinema at Pitt Street, Sydney. CAARP first lists it in 1000. Also known as Rialto, Liberty, Greater Union Pitt Centre and others.",
   "noApprox": true
  },
  {
@@ -7703,14 +9194,18 @@
    "Civic",
    "Palladium",
    "Barclay",
-   "Barclay Theatre",
    "Haymarket Theatre",
+   "Barclay Theatre",
    "Civic Theatre",
    "Palladium Theatre"
   ],
   "address": "George Street",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ],
    [
     "Architectural style",
     "Neo-Classical (Cinema Treasures)"
@@ -7757,14 +9252,19 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Haymarket was a cinema at George Street, Sydney. Also known as Civic, Palladium, Barclay and others.",
+  "summary": "Haymarket was a cinema at George Street, Sydney. CAARP first lists it in 1000. Also known as Civic, Palladium, Barclay and others.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "William Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "6 October 1913 (first listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -7791,7 +9291,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Imperial was a cinema at William Street, Sydney.",
+  "summary": "Imperial was a cinema at William Street, Sydney. CAARP first lists it in 6 October 1913.",
   "noApprox": true
  },
  {
@@ -7802,6 +9302,10 @@
   "address": "Pitt Street",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ],
    [
     "Architectural style",
     "Art Deco (Cinema Treasures)"
@@ -7848,7 +9352,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Lyceum was a cinema at Pitt Street, Sydney. Also known as Lyceum Theatre, New Lyceum Theatre.",
+  "summary": "Lyceum was a cinema at Pitt Street, Sydney. CAARP first lists it in 1000. Also known as Lyceum Theatre, New Lyceum Theatre.",
   "noApprox": true
  },
  {
@@ -7860,6 +9364,10 @@
   "address": "George Street",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ],
    [
     "Architectural style",
     "Art Deco (Cinema Treasures)"
@@ -7906,16 +9414,16 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Lyric was a cinema at George Street, Sydney. Also known as Forum, Forum Theatre, Lyric Theatre.",
+  "summary": "Lyric was a cinema at George Street, Sydney. CAARP first lists it in 1000. Also known as Forum, Forum Theatre, Lyric Theatre.",
   "noApprox": true
  },
  {
   "aliases": [
+   "Rivoli Theatre",
    "Mandolin Cinema",
    "Australian Hall",
    "Phillip Theatre",
    "Richbrooke Theatre",
-   "Rivoli Theatre",
    "Dave's Encore Cinema",
    "Jade Cinema",
    "42nd Street Cinema"
@@ -7973,7 +9481,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Mandarin Cinema was a hall used for film screenings at 150 Elizabeth St, Sydney. Recorded capacity: 500 seats. Also known as Mandolin Cinema, Australian Hall, Phillip Theatre and others.",
+  "summary": "Mandarin Cinema was a hall used for film screenings at 150 Elizabeth St, Sydney. Recorded capacity: 500 seats. Also known as Rivoli Theatre, Mandolin Cinema, Australian Hall and others.",
   "noApprox": true
  },
  {
@@ -7984,6 +9492,10 @@
   "address": "Castlereagh Street",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ],
    [
     "Architectural style",
     "Art Deco (Cinema Treasures)"
@@ -8034,7 +9546,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Mayfair was a cinema at Castlereagh Street, Sydney. Also known as Mayfair Theatre, Roxy Theatre.",
+  "summary": "Mayfair was a cinema at Castlereagh Street, Sydney. CAARP first lists it in 1000. Also known as Mayfair Theatre, Roxy Theatre.",
   "noApprox": true
  },
  {
@@ -8396,11 +9908,21 @@
   "aliases": [
    "Apollo",
    "Astor",
+   "Victoria Pictures",
+   "Kookaburra Theatre",
    "Apollo Theatre"
   ],
   "address": "254 Pitt Street",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "1911 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1928 (last listing in CAARP, not verified)"
+   ],
    [
     "Other addresses recorded",
     "Pitt Street and Park Street"
@@ -8439,7 +9961,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Victoria was a cinema at 254 Pitt Street, Sydney. Also known as Apollo, Astor, Apollo Theatre.",
+  "summary": "Victoria was a cinema at 254 Pitt Street, Sydney. CAARP lists it from 1911 to 1928. Also known as Apollo, Astor, Victoria Pictures and others.",
   "noApprox": true
  },
  {
@@ -8450,6 +9972,10 @@
   "address": "George Street",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ],
    [
     "Architectural style",
     "Art Deco, Colonial Revival (Cinema Treasures)"
@@ -8492,7 +10018,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "World News was a cinema at George Street, Sydney. Also known as Lido Theatre, World Newsreel Theatre.",
+  "summary": "World News was a cinema at George Street, Sydney. CAARP first lists it in 1000. Also known as Lido Theatre, World Newsreel Theatre.",
   "noApprox": true
  },
  {
@@ -8533,7 +10059,20 @@
   "aliases": [],
   "address": "Barabooka Road",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1950 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "294 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -8560,14 +10099,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Tanja Hall was a hall used for film screenings at Barabooka Road, Tanja.",
+  "summary": "Tanja Hall was a hall used for film screenings at Barabooka Road, Tanja. CAARP lists it from 1000 to 1950. Recorded capacity: 294 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Bega Street",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1930 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1965 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "310 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -8594,14 +10146,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Tathra Hall was a hall used for film screenings at Bega Street, Tathra.",
+  "summary": "Tathra Hall was a hall used for film screenings at Bega Street, Tathra. CAARP lists it from 1930 to 1965. Recorded capacity: 310 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Lawrence Hargrave Drive",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "14 June 1923 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "23 October 1926 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1800 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -8628,14 +10193,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Arcadia Theatre was a cinema at Lawrence Hargrave Drive, Thirroul.",
+  "summary": "Arcadia Theatre was a cinema at Lawrence Hargrave Drive, Thirroul. CAARP lists it from 14 June 1923 to 23 October 1926. Recorded capacity: 1,800 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "The Esplanade",
-  "type": "",
-  "facts": [],
+  "type": "hall",
+  "facts": [
+   [
+    "Opened",
+    "13 September 1920 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "12 November 1920 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1000 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -8662,17 +10240,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Arena Picture Palace was a cinema at The Esplanade, Thirroul.",
+  "summary": "Arena Picture Palace was a hall used for film screenings at The Esplanade, Thirroul. CAARP lists it from 13 September 1920 to 12 November 1920. Recorded capacity: 1,000 seats.",
   "noApprox": true
  },
  {
   "aliases": [
    "King's",
-   "Chrystal Picture Gardens"
+   "Chrystal Picture Gardens",
+   "Chrystal Picture Palace"
   ],
   "address": "Main South Coast Road",
   "type": "open-air",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "17 March 1913 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1 April 1915 (last listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -8699,7 +10287,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "King's Open-Air Theatre was a open-air picture venue at Main South Coast Road, Thirroul. Also known as King's, Chrystal Picture Gardens.",
+  "summary": "King's Open-Air Theatre was a open-air picture venue at Main South Coast Road, Thirroul. CAARP lists it from 17 March 1913 to 1 April 1915. Also known as King's, Chrystal Picture Gardens, Chrystal Picture Palace.",
   "noApprox": true
  },
  {
@@ -8708,7 +10296,16 @@
   ],
   "address": "Cnr King Street and Lawrence Hargrave Drive",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "22 October 1925 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "900 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -8735,16 +10332,26 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "King's Theatre was a cinema at Cnr King Street and Lawrence Hargrave Drive, Thirroul. Also known as Anita's Theatre.",
+  "summary": "King's Theatre was a cinema at Cnr King Street and Lawrence Hargrave Drive, Thirroul. CAARP first lists it in 22 October 1925. Recorded capacity: 900 seats. Also known as Anita's Theatre.",
   "noApprox": true
  },
  {
   "aliases": [
-   "Pictoria Pictures"
+   "Pictoria Pictures",
+   "Thirroul School of Arts / Pictoria Pictures"
   ],
   "address": "Main South Coast Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1 December 1913 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "670 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -8771,14 +10378,25 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Thirroul School of Arts was a cinema at Main South Coast Road, Thirroul. Also known as Pictoria Pictures.",
+  "summary": "Thirroul School of Arts was a cinema at Main South Coast Road, Thirroul. CAARP first lists it in 1 December 1913. Recorded capacity: 670 seats. Also known as Pictoria Pictures, Thirroul School of Arts / Pictoria Pictures.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Star Gazer"
+  ],
   "address": "219 Corrys Road",
   "type": "drive-in",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1951 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1963 (last listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -8805,14 +10423,19 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Star Gazer Drive in was a drive-in at 219 Corrys Road, Thurgoona.",
+  "summary": "Star Gazer Drive in was a drive-in at 219 Corrys Road, Thurgoona. CAARP lists it from 1951 to 1963. Also known as Star Gazer.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Towamba - Burragate Road",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1902 (first listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -8839,7 +10462,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Towamba Hall was a hall used for film screenings at Towamba - Burragate Road, Towamba.",
+  "summary": "Towamba Hall was a hall used for film screenings at Towamba - Burragate Road, Towamba. CAARP first lists it in 1902.",
   "noApprox": true
  },
  {
@@ -8849,6 +10472,10 @@
   "address": "Boree Street",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "21 December 1992 (first listing in CAARP, not verified)"
+   ],
    [
     "Screens",
     "2"
@@ -8885,14 +10512,19 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Arcadia Twin Cinemas is a cinema at Boree Street, Ulladulla, listed as operating. Also known as Milton Theatre.",
+  "summary": "Arcadia Twin Cinemas is a cinema at Boree Street, Ulladulla, listed as operating. CAARP first lists it in 21 December 1992. Also known as Milton Theatre.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Princes Highway",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1 May 1899 (first listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -8919,7 +10551,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Ulladulla School of Arts was a cinema at Princes Highway, Ulladulla.",
+  "summary": "Ulladulla School of Arts was a cinema at Princes Highway, Ulladulla. CAARP first lists it in 1 May 1899.",
   "noApprox": true
  },
  {
@@ -8930,12 +10562,16 @@
   "type": "",
   "facts": [
    [
+    "Opened",
+    "2 November 1988 (first listing in CAARP, not verified)"
+   ],
+   [
     "Capacity",
     "1538 seats (as recorded by CAARP)"
    ],
    [
     "Screens",
-    "9"
+    "6"
    ],
    [
     "Operators",
@@ -8979,20 +10615,25 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Hoyts 6 Cinecentre is a cinema at Cnr King and Cowper Streets, Warrawong, listed as operating. Recorded capacity: 1,538 seats. Also known as Hoyts Warrawong.",
+  "summary": "Hoyts 6 Cinecentre is a cinema at Cnr King and Cowper Streets, Warrawong, listed as operating. CAARP first lists it in 2 November 1988. Recorded capacity: 1,538 seats. Also known as Hoyts Warrawong.",
   "noApprox": true
  },
  {
   "aliases": [
    "Gala Cinema",
+   "Gala Theatre",
    "Odeon Warrawong"
   ],
   "address": "204 Cowper Street",
   "type": "",
   "facts": [
    [
+    "Opened",
+    "11 December 1948 (first listing in CAARP, not verified)"
+   ],
+   [
     "Capacity",
-    "625 seats (as recorded by CAARP)"
+    "733 seats (as recorded by CAARP)"
    ],
    [
     "Screens",
@@ -9042,7 +10683,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Odeon Theatre is a cinema at 204 Cowper Street, Warrawong, listed as operating. Recorded capacity: 625 seats. Also known as Gala Cinema, Odeon Warrawong.",
+  "summary": "Odeon Theatre is a cinema at 204 Cowper Street, Warrawong, listed as operating. CAARP first lists it in 11 December 1948. Recorded capacity: 733 seats. Also known as Gala Cinema, Gala Theatre, Odeon Warrawong.",
   "noApprox": true
  },
  {
@@ -9053,6 +10694,10 @@
   "address": "Mowbray",
   "type": "",
   "facts": [
+   [
+    "Capacity",
+    "1553 seats (as recorded by CAARP)"
+   ],
    [
     "Architectural style",
     "Art Deco (Cinema Treasures)"
@@ -9099,7 +10744,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Royal was a cinema at Mowbray, Willoughby. Also known as Royal Theatre, Willoughby Picture Theatre.",
+  "summary": "Royal was a cinema at Mowbray, Willoughby. Recorded capacity: 1,553 seats. Also known as Royal Theatre, Willoughby Picture Theatre.",
   "noApprox": true
  },
  {
@@ -9108,7 +10753,20 @@
   ],
   "address": "Kembla Street",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "7 December 1927 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "25 January 1964 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1564 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -9135,17 +10793,33 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Civic Theatre was a hall used for film screenings at Kembla Street, Wollongong. Also known as Wollongong Town Hall Theatre.",
+  "summary": "Civic Theatre was a hall used for film screenings at Kembla Street, Wollongong. CAARP lists it from 7 December 1927 to 25 January 1964. Recorded capacity: 1,564 seats. Also known as Wollongong Town Hall Theatre.",
   "noApprox": true
  },
  {
   "aliases": [
    "Church Street Garden Picture Palace",
-   "The Star"
+   "The Star",
+   "Star Theatre",
+   "Globe Theatre",
+   "New Globe Theatre"
   ],
   "address": "Cnr William and Church Streets",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "21 July 1911 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1 March 1935 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "900 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -9172,12 +10846,13 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Globe was a cinema at Cnr William and Church Streets, Wollongong. Also known as Church Street Garden Picture Palace, The Star.",
+  "summary": "Globe was a cinema at Cnr William and Church Streets, Wollongong. CAARP lists it from 21 July 1911 to 1 March 1935. Recorded capacity: 900 seats. Also known as Church Street Garden Picture Palace, The Star, Star Theatre and others.",
   "noApprox": true
  },
  {
   "aliases": [
    "Town Triple Cinema",
+   "Greater Union Town / Town Triple Cinema",
    "Event Cinemas Wollongong",
    "Town Cinemas",
    "Greater Union Cinemas"
@@ -9186,8 +10861,12 @@
   "type": "",
   "facts": [
    [
+    "Opened",
+    "20 December 1977 (first listing in CAARP, not verified)"
+   ],
+   [
     "Capacity",
-    "1101 seats (as recorded by CAARP)"
+    "1190 seats (as recorded by CAARP)"
    ],
    [
     "Screens",
@@ -9239,7 +10918,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Greater Union Town was a cinema at Burelli  Street, Wollongong. Recorded capacity: 1,101 seats. Also known as Town Triple Cinema, Event Cinemas Wollongong, Town Cinemas and others.",
+  "summary": "Greater Union Town was a cinema at Burelli  Street, Wollongong. CAARP first lists it in 20 December 1977. Recorded capacity: 1,190 seats. Also known as Town Triple Cinema, Greater Union Town / Town Triple Cinema, Event Cinemas Wollongong and others.",
   "noApprox": true
  },
  {
@@ -9247,6 +10926,18 @@
   "address": "Church street",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "3 December 1936 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "14 September 1964 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1102 seats (as recorded by CAARP)"
+   ],
    [
     "Architectural style",
     "Streamline Moderne (Cinema Treasures)"
@@ -9293,7 +10984,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Savoy Theatre was a cinema at Church street, Wollongong.",
+  "summary": "Savoy Theatre was a cinema at Church street, Wollongong. CAARP lists it from 3 December 1936 to 14 September 1964. Recorded capacity: 1,102 seats.",
   "noApprox": true
  },
  {
@@ -9305,8 +10996,16 @@
   "type": "hall",
   "facts": [
    [
+    "Opened",
+    "10 February 1897 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "30 June 1912 (last listing in CAARP, not verified)"
+   ],
+   [
     "Capacity",
-    "1564 seats (as recorded by CAARP)"
+    "700 seats (as recorded by CAARP)"
    ],
    [
     "Other addresses recorded",
@@ -9346,16 +11045,26 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Wollongong Town Hall (Annex) is a hall used for film screenings at Crown and Kembla Streets, Wollongong, listed as operating. Recorded capacity: 1,564 seats. Also known as Civic Theatre, Wollongong Town Hall Cinema.",
+  "summary": "Wollongong Town Hall (Annex) is a hall used for film screenings at Crown and Kembla Streets, Wollongong, listed as operating. CAARP lists it from 10 February 1897 to 30 June 1912. Recorded capacity: 700 seats. Also known as Civic Theatre, Wollongong Town Hall Cinema.",
   "noApprox": true
  },
  {
   "aliases": [
-   "Wollongong UniMovies"
+   "Wollongong UniMovies",
+   "Wollongong University Union Hall / Wollongong UniMovies"
   ],
   "address": "Northfields Avenue",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1971 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "800 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -9382,16 +11091,30 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Wollongong University Union Hall was a hall used for film screenings at Northfields Avenue, Wollongong. Also known as Wollongong UniMovies.",
+  "summary": "Wollongong University Union Hall was a hall used for film screenings at Northfields Avenue, Wollongong. CAARP first lists it in 1971. Recorded capacity: 800 seats. Also known as Wollongong UniMovies, Wollongong University Union Hall / Wollongong UniMovies.",
   "noApprox": true
  },
  {
   "aliases": [
-   "Memorial Hall"
+   "Memorial Hall",
+   "Wolumla Memorial Hall"
   ],
   "address": "Princes Highway",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "12 December 1898 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1955 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "480 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -9418,14 +11141,21 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Wolumla School of Arts was a hall used for film screenings at Princes Highway, Wolumla. Also known as Memorial Hall.",
+  "summary": "Wolumla School of Arts was a hall used for film screenings at Princes Highway, Wolumla. CAARP lists it from 12 December 1898 to 31 December 1955. Recorded capacity: 480 seats. Also known as Memorial Hall, Wolumla Memorial Hall.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Woollahra"
+  ],
   "address": "182 Oxford Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Capacity",
+    "1553 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -9452,14 +11182,29 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Hoyts was a cinema at 182 Oxford Street, Woollahra.",
+  "summary": "Hoyts was a cinema at 182 Oxford Street, Woollahra. Recorded capacity: 1,553 seats. Also known as Woollahra.",
   "noApprox": true
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Princess Theatre"
+  ],
   "address": "Cnr Princess Highway and Ball Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "19 January 1912 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1925 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "800 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -9486,14 +11231,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Princess Theatre Woonona was a cinema at Cnr Princess Highway and Ball Street, Woonona.",
+  "summary": "Princess Theatre Woonona was a cinema at Cnr Princess Highway and Ball Street, Woonona. CAARP lists it from 19 January 1912 to 1925. Recorded capacity: 800 seats. Also known as Princess Theatre.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Cnr Russell Street and Princes Highway",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1901 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "15 December 1906 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1000 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -9520,14 +11278,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Woonona Music Hall was a hall used for film screenings at Cnr Russell Street and Princes Highway, Woonona.",
+  "summary": "Woonona Music Hall was a hall used for film screenings at Cnr Russell Street and Princes Highway, Woonona. CAARP lists it from 1901 to 15 December 1906. Recorded capacity: 1,000 seats.",
   "noApprox": true
  },
  {
   "aliases": [],
   "address": "Monaro Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "15 August 1902 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1 June 1956 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "250 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -9554,7 +11325,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Wyndham School of Arts was a cinema at Monaro Street, Wyndham.",
+  "summary": "Wyndham School of Arts was a cinema at Monaro Street, Wyndham. CAARP lists it from 15 August 1902 to 1 June 1956. Recorded capacity: 250 seats.",
   "noApprox": true
  },
  {
@@ -12147,49 +13918,6 @@
  },
  {
   "aliases": [],
-  "address": "229 Canterbury Road",
-  "type": "",
-  "facts": [
-   [
-    "Capacity",
-    "766 seats (as recorded by Cinema Treasures)"
-   ],
-   [
-    "Architectural style",
-    "Art Deco (Cinema Treasures)"
-   ]
-  ],
-  "notes": [],
-  "sources": [
-   {
-    "label": "Cinema Treasures theatre 32288",
-    "url": "https://cinematreasures.org/theaters/32288"
-   }
-  ],
-  "conflicts": [],
-  "related": [],
-  "nationalId": "FCA-NSW-0371",
-  "candidateIds": [
-   "Cinema Treasures:32288"
-  ],
-  "id": "fca-nsw-0371",
-  "state": "NSW",
-  "name": "Windsor Theatre",
-  "locality": "Canterbury",
-  "basis": "Listed on Cinema Treasures, a volunteer-edited directory. Needs a primary source for this venue.",
-  "published": "27 November 2026",
-  "status": "closed",
-  "statusNote": "Closed or not stated (Cinema Treasures lists it as closed (it does not say whether the building survives); not verified)",
-  "region": "South-West Sydney",
-  "postcode": "2193",
-  "level": "C",
-  "levelReason": "provisional historical address from one source",
-  "review": "awaiting editorial review",
-  "summary": "Windsor Theatre was a cinema at 229 Canterbury Road, Canterbury. Recorded capacity: 766 seats.",
-  "noApprox": true
- },
- {
-  "aliases": [],
   "address": "",
   "type": "drive-in",
   "facts": [],
@@ -12743,6 +14471,14 @@
   "type": "",
   "facts": [
    [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "687 seats (as recorded by CAARP)"
+   ],
+   [
     "Architectural style",
     "Streamline Moderne (Cinema Treasures)"
    ],
@@ -12786,7 +14522,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Regent was a cinema at 19 Restwell Street, Bankstown. Also known as Hoyts, Hoyts Bankstown, Regent Theatre and others.",
+  "summary": "Regent was a cinema at 19 Restwell Street, Bankstown. CAARP first lists it in 1000. Recorded capacity: 687 seats. Also known as Hoyts, Hoyts Bankstown, Regent Theatre and others.",
   "noApprox": true
  },
  {
@@ -22695,52 +24431,6 @@
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
   "summary": "Globe Cinema was a cinema at 200 Parramatta Road, Stanmore. Also known as Olympia Pictures, Olympia De Luxe, Z Cinema and others.",
-  "noApprox": true
- },
- {
-  "aliases": [
-   "Stanmore Theatre",
-   "Stanmore Terminus Theatre"
-  ],
-  "address": "18 Stanmore Road",
-  "type": "",
-  "facts": [
-   [
-    "Architects",
-    "Clifford M. Chard, Lewis Kaberry (Cinema Treasures)"
-   ],
-   [
-    "Operators",
-    "Greater Union Theatres (Cinema Treasures)"
-   ]
-  ],
-  "notes": [],
-  "sources": [
-   {
-    "label": "Cinema Treasures theatre 44004",
-    "url": "https://cinematreasures.org/theaters/44004"
-   }
-  ],
-  "conflicts": [],
-  "related": [],
-  "nationalId": "FCA-NSW-0634",
-  "candidateIds": [
-   "Cinema Treasures:44004"
-  ],
-  "id": "fca-nsw-0634",
-  "state": "NSW",
-  "name": "Stanmore Odeon",
-  "locality": "Stanmore",
-  "basis": "Listed on Cinema Treasures, a volunteer-edited directory. Needs a primary source for this venue.",
-  "published": "27 November 2026",
-  "status": "closed",
-  "statusNote": "Closed or not stated (Cinema Treasures lists it as closed (it does not say whether the building survives); not verified)",
-  "region": "Inner West",
-  "postcode": "2048",
-  "level": "C",
-  "levelReason": "provisional historical address from one source",
-  "review": "awaiting editorial review",
-  "summary": "Stanmore Odeon was a cinema at 18 Stanmore Road, Stanmore. Also known as Stanmore Theatre, Stanmore Terminus Theatre.",
   "noApprox": true
  },
  {

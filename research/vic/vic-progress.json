@@ -15,28 +15,8 @@
   "ct": 544,
   "vhd": 112
  },
- "caarp_details_collected": 473,
- "caarp_details_missing": [
-  "604",
-  "650",
-  "730",
-  "1977",
-  "1978",
-  "1980",
-  "194",
-  "393",
-  "909",
-  "911",
-  "1085",
-  "2025",
-  "2033",
-  "2049",
-  "2059",
-  "2065",
-  "2072",
-  "2073",
-  "2074"
- ],
+ "caarp_details_collected": 492,
+ "caarp_details_missing": [],
  "merges_between_source_rows": 384,
  "matched_existing_records": 6,
  "unique_records": 741,
@@ -60,11 +40,11 @@
   "repurposed": 24
  },
  "by_type": {
-  "cinema": 466,
+  "cinema": 465,
   "drive-in": 76,
   "hall": 150,
   "open-air": 28,
-  "theatre": 15
+  "theatre": 16
  },
  "by_proposed_level": {
   "C": 442,

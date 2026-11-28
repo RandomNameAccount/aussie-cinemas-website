@@ -55,3 +55,7 @@ Regions are assigned from postcodes (a documented approximation in `tools/vic/bu
 
 
 Current regional split: Metropolitan Melbourne 425, Melbourne CBD 103, Goulburn Valley and Hume 43, Loddon Mallee and Bendigo 31, Western District 31, Gippsland 29, Ballarat and Central Highlands 24, Geelong and Barwon 19, North East 13, Macedon Ranges and Central Victoria 12, Wimmera 7. Status: operating 135, building survives 24, closed or not stated 578. Evidence: two sources agree 259, heritage listing 28, single source 450.
+
+## Update, 28 November 2026
+
+All but a handful of the 477 CAARP Victorian venue pages are now collected. Coverage: opening dates 464, closing dates 352, capacity 465. Proposed levels: B 257, C 442, D 28, E 10. Still 737 new leads.

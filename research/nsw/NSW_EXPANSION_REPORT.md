@@ -68,3 +68,7 @@ Searchable by name, former name, suburb, postcode and region; region filter with
   to add opening and closing dates and capacities. Ids stay stable.
 - Editorial review, starting with the 65 at level B and the 8 at level E.
 - 55 Sydney cinemas are known only by postcode (Cinema Treasures files them under "Sydney"); an editor should set the suburb.
+
+## Update, 28 November 2026: CAARP NSW venue pages added
+
+236 of 251 CAARP NSW venue pages collected (15 did not respond and can be retried). NSW expansion now **597** new leads (two pairs merged using CAARP's recorded name changes: Windsor Theatre/Canterbury Cinema, Canterbury; Stanmore Odeon/Odeon, Stanmore; their old pages redirect to the merged entries). Coverage: opening dates 145, closing dates 94, capacity 325. Proposed levels: B 71, C 495, D 27, E 4. Updated NSW total on the site: 691. Tests 26/26, integrity 17/17.
