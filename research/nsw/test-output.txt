@@ -15,8 +15,8 @@ PASS | Homepage Victoria tile count updates | ['VIC Victoria 5 records · 737 re
 PASS | Map: Victorian approximate markers loaded | 674
 PASS | Existing Victorian record page still renders | 
 PASS | Other states unaffected (Queensland count) | 338 cinemas match
-PASS | NSW: Explore count = records + batch-01 leads + expansion leads | 693 cinemas match
-PASS | NSW: Inner West region filter | 68 shown, 68 expansion leads
+PASS | NSW: Explore count = records + batch-01 leads + expansion leads | 691 cinemas match
+PASS | NSW: Inner West region filter | 67 shown, 67 expansion leads
 PASS | NSW: no approximate coordinates for expansion leads | 
 PASS | NSW: existing batch-01 approximate markers preserved | 
 PASS | NSW lead: summary, sources and proposed verification level shown | Royal

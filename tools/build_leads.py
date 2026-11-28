@@ -124,8 +124,16 @@ def related_html(l):
     return f'<h2 id="related-title">Other cinemas in {E(l["locality"])}</h2><ul>{lis}</ul>{more}'
 
 os.makedirs("leads", exist_ok=True)
+
 for f in os.listdir("leads"):
     if f.endswith(".html"): os.remove(os.path.join("leads", f))
+# merged leads: keep their old addresses working (assets/data/lead-redirects.json, old id -> new id)
+REDIRECTS = json.load(open("assets/data/lead-redirects.json", encoding="utf-8")) if os.path.exists("assets/data/lead-redirects.json") else {}
+for old, new in REDIRECTS.items():
+    with open(f"leads/{old}.html", "w", encoding="utf-8") as f:
+        f.write(f'<!DOCTYPE html><html lang="en-AU"><head><meta charset="utf-8"><title>Moved</title><meta name="robots" content="noindex">'
+                f'<link rel="canonical" href="{new}.html"><meta http-equiv="refresh" content="0; url={new}.html"></head>'
+                f'<body><p>This research lead has been merged with another record of the same cinema. <a href="{new}.html">Go to the merged record</a>.</p></body></html>')
 
 for l in LEADS:
     sn = STATE_NAME[l["state"]]

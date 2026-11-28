@@ -1,17 +1,17 @@
-PASS | Lead ids unique across all states | 2197 leads
+PASS | Lead ids unique across all states | 2189 leads
 PASS | No lead id clashes with a record or archive id | 
 PASS | Every lead has a page | 
-PASS | VIC: every lead names at least one source with a link | 742 leads
+PASS | Merged lead addresses redirect to an existing lead | {'fca-nsw-0371': 'fca-nsw-0067', 'fca-nsw-0634': 'fca-nsw-0218'}
+PASS | VIC: every lead names at least one source with a link | 737 leads
 PASS | VIC: every lead has a name and a locality or postcode | 
-PASS | VIC: every lead has a verification level A-E with a reason | Counter({'C': 452, 'B': 244, 'D': 28, 'E': 18})
-PASS | VIC: no two leads share name, locality and address | []
-PASS | VIC: no lead repeats an existing record's exact name and suburb | []
-PASS | NSW: every lead names at least one source with a link | 600 leads
+PASS | VIC: every lead has a verification level A-E with a reason | {'C': 442, 'B': 257, 'D': 28, 'E': 10}
+PASS | VIC: no two leads share name, locality and address | 
+PASS | VIC: no lead repeats an existing record's exact name and suburb | 
+PASS | NSW: every lead names at least one source with a link | 597 leads
 PASS | NSW: every lead has a name and a locality or postcode | 
-PASS | NSW: every lead has a verification level A-E with a reason | Counter({'C': 501, 'B': 64, 'D': 27, 'E': 8})
-PASS | NSW: no two leads share name, locality and address | []
-PASS | NSW: no lead repeats an existing record's exact name and suburb | []
-PASS | NSW: no invented coordinates (no approximate marker for any expansion lead) | 
+PASS | NSW: every lead has a verification level A-E with a reason | {'C': 495, 'B': 71, 'D': 27, 'E': 4}
+PASS | NSW: no two leads share name, locality and address | 
+PASS | NSW: no lead repeats an existing record's exact name and suburb | 
+PASS | NSW: no invented coordinates for expansion leads | 
 PASS | NSW: existing batch-01 markers preserved (70) | 
-PASS | Existing verified record pins unchanged (43 mapped records) | 
-PASS | Existing record pages unchanged by this build | 
+PASS | Existing verified record pins unchanged (43) | 

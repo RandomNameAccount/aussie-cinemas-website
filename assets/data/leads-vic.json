@@ -1651,8 +1651,21 @@
  {
   "aliases": [],
   "address": "South Street",
-  "type": "",
-  "facts": [],
+  "type": "theatre",
+  "facts": [
+   [
+    "Opened",
+    "28 September 1908 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "25 March 1936 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "6000 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -1679,7 +1692,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Coliseum was a cinema at South Street, Ballarat.",
+  "summary": "Coliseum was a theatre that screened films at South Street, Ballarat. CAARP lists it from 28 September 1908 to 25 March 1936. Recorded capacity: 6,000 seats.",
   "noApprox": false
  },
  {
@@ -2924,8 +2937,16 @@
   "type": "",
   "facts": [
    [
+    "Opened",
+    "28 December 1934 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "20 December 1975 (last listing in CAARP, not verified)"
+   ],
+   [
     "Capacity",
-    "1174 seats (as recorded by CAARP)"
+    "1,174 seats (as recorded by CAARP)"
    ],
    [
     "Architectural style",
@@ -2973,17 +2994,30 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Plaza was a cinema at Mitchell Street, Bendigo. Recorded capacity: 1,174 seats. Also known as Plaza Cinema.",
+  "summary": "Plaza was a cinema at Mitchell Street, Bendigo. CAARP lists it from 28 December 1934 to 20 December 1975. Recorded capacity: 1,174. Also known as Plaza Cinema.",
   "noApprox": false
  },
  {
   "aliases": [
+   "New Royal Princess",
    "Princess Theatre",
    "Royal Princess Theatre"
   ],
   "address": "View  Street",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "31 August 1874 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "3 May 1963 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "1,457 seats (as recorded by CAARP)"
+   ],
    [
     "Architects",
     "Reginald Appleford, Christopher A. Cowper, Gordon Murphy, William Charles Vahland (Cinema Treasures)"
@@ -3026,7 +3060,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Royal Princess was a cinema at View  Street, Bendigo. Also known as Princess Theatre, Royal Princess Theatre.",
+  "summary": "Royal Princess was a cinema at View  Street, Bendigo. CAARP lists it from 31 August 1874 to 3 May 1963. Recorded capacity: 1,457. Also known as New Royal Princess, Princess Theatre, Royal Princess Theatre.",
   "noApprox": false
  },
  {
@@ -3862,11 +3896,25 @@
   "aliases": [
    "Moderno",
    "Galaxy",
+   "Broadway Dance Palais",
+   "Kinema Picture Theatre",
    "Liberty Theatre"
   ],
   "address": "499 Lygon Steet",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "1935 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1 December 1987 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "769 seats (as recorded by CAARP)"
+   ],
    [
     "Heritage listing",
     "National Trust (Victorian Heritage Database)"
@@ -3909,7 +3957,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Liberty was a cinema at 499 Lygon Steet, Brunswick. Also known as Moderno, Galaxy, Liberty Theatre.",
+  "summary": "Liberty was a cinema at 499 Lygon Steet, Brunswick. CAARP lists it from 1935 to 1 December 1987. Recorded capacity: 769 seats. Also known as Moderno, Galaxy, Broadway Dance Palais and others.",
   "noApprox": false
  },
  {
@@ -5283,7 +5331,16 @@
   "aliases": [],
   "address": "Princes Park",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1908 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1908 (last listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -5310,7 +5367,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Carlton Cricket Ground was a cinema at Princes Park, Carlton.",
+  "summary": "Carlton Cricket Ground was a cinema at Princes Park, Carlton. CAARP lists it from 1908 to 31 December 1908.",
   "noApprox": false
  },
  {
@@ -9883,7 +9940,20 @@
   "aliases": [],
   "address": "33 Victoria Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1896 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1909 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "3000 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -9910,7 +9980,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Cyclorama was a cinema at 33 Victoria Street, Fitzroy.",
+  "summary": "Cyclorama was a cinema at 33 Victoria Street, Fitzroy. CAARP lists it from 1896 to 31 December 1909. Recorded capacity: 3,000 seats.",
   "noApprox": false
  },
  {
@@ -12120,12 +12190,20 @@
  },
  {
   "aliases": [
-   "Apollo Theatre",
-   "Manresa Hall"
+   "Manresa Hall",
+   "Apollo Theatre"
   ],
   "address": "331 Burwood Road",
   "type": "hall",
   "facts": [
+   [
+    "Opened",
+    "29 September 1934 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "2 June 1939 (last listing in CAARP, not verified)"
+   ],
    [
     "Capacity",
     "800 seats (as recorded by CAARP)"
@@ -12162,7 +12240,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "Apollo was a hall used for film screenings at 331 Burwood Road, Glenferrie. Recorded capacity: 800 seats. Also known as Apollo Theatre, Manresa Hall.",
+  "summary": "Apollo was a hall used for film screenings at 331 Burwood Road, Glenferrie. CAARP lists it from 29 September 1934 to 2 June 1939. Recorded capacity: 800 seats. Also known as Manresa Hall, Apollo Theatre.",
   "noApprox": false
  },
  {
@@ -17342,7 +17420,12 @@
   ],
   "address": "25 Collin Street",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1909 (first listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -17369,7 +17452,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Masonic Hall was a hall used for film screenings at 25 Collin Street, Melbourne. Also known as Casino.",
+  "summary": "Masonic Hall was a hall used for film screenings at 25 Collin Street, Melbourne. CAARP first lists it in 1909. Also known as Casino.",
   "noApprox": false
  },
  {
@@ -21420,7 +21503,12 @@
   "aliases": [],
   "address": "Princes Street",
   "type": "hall",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -21447,7 +21535,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Royal Hall was a hall used for film screenings at Princes Street, Newmarket.",
+  "summary": "Royal Hall was a hall used for film screenings at Princes Street, Newmarket. CAARP first lists it in 1000.",
   "noApprox": false
  },
  {
@@ -25130,7 +25218,16 @@
   "aliases": [],
   "address": "Raymond Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1926 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1928 (last listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -25157,7 +25254,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Palais was a cinema at Raymond Street, Sale.",
+  "summary": "Palais was a cinema at Raymond Street, Sale. CAARP lists it from 1926 to 1928.",
   "noApprox": false
  },
  {
@@ -25479,7 +25576,16 @@
   "aliases": [],
   "address": "Yea Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1000 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "410 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -25506,14 +25612,27 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Regent was a cinema at Yea Road, Seymour.",
+  "summary": "Regent was a cinema at Yea Road, Seymour. CAARP first lists it in 1000. Recorded capacity: 410 seats.",
   "noApprox": false
  },
  {
   "aliases": [],
   "address": "Puckapunyal Road",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1971 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1994 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "500 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -25540,7 +25659,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Seymour Sunset was a cinema at Puckapunyal Road, Seymour.",
+  "summary": "Seymour Sunset was a cinema at Puckapunyal Road, Seymour. CAARP lists it from 1971 to 1994. Recorded capacity: 500 seats.",
   "noApprox": false
  },
  {
@@ -26897,12 +27016,20 @@
   "type": "",
   "facts": [
    [
+    "Opened",
+    "24 November 1994 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "24 March 2011 (last listing in CAARP, not verified)"
+   ],
+   [
     "Capacity",
-    "805 seats (as recorded by CAARP)"
+    "800 seats (as recorded by CAARP)"
    ],
    [
     "Screens",
-    "3"
+    "4"
    ],
    [
     "Architects",
@@ -26950,7 +27077,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "George is a cinema at 125-9 Fitzroy Street, St Kilda, listed as operating. Recorded capacity: 805 seats. Also known as George Cinemas, Aurora Cinemas, Alex Theatre and others.",
+  "summary": "George is a cinema at 125-9 Fitzroy Street, St Kilda, listed as operating. CAARP lists it from 24 November 1994 to 24 March 2011. Recorded capacity: 800 seats. Also known as George Cinemas, Aurora Cinemas, Alex Theatre and others.",
   "noApprox": false
  },
  {
@@ -31864,10 +31991,25 @@
   "noApprox": false
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Ballarat Village"
+  ],
   "address": "11 Grenville Street",
   "type": "drive-in",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1961 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "1991 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "601 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -31894,7 +32036,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Village Southern Drive-in was a drive-in at 11 Grenville Street, Ballarat.",
+  "summary": "Village Southern Drive-in was a drive-in at 11 Grenville Street, Ballarat. CAARP lists it from 1961 to 1991. Recorded capacity: 601 seats. Also known as Ballarat Village.",
   "noApprox": false
  },
  {
@@ -35128,6 +35270,9 @@
    "The Academy of Music",
    "Bijou",
    "Palace Hall of Varieties/ Gaiety Theatre/ Hoyts New Gairty",
+   "Palace Hall of Varieties",
+   "Gaiety",
+   "Hoyts New Gaiety",
    "Gaiety Theatre",
    "Bijou and Gaiety Theatres"
   ],
@@ -35145,10 +35290,6 @@
    [
     "Capacity",
     "1000 seats (as recorded by CAARP)"
-   ],
-   [
-    "Screens",
-    "2"
    ],
    [
     "Other addresses recorded",
@@ -35770,10 +35911,25 @@
   "noApprox": false
  },
  {
-  "aliases": [],
+  "aliases": [
+   "Moorabbin Village"
+  ],
   "address": "Roberra Street",
   "type": "drive-in",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1966 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "28 May 1980 (last listing in CAARP, not verified)"
+   ],
+   [
+    "Capacity",
+    "890 seats (as recorded by CAARP)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -35800,7 +35956,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Village Drive-in was a drive-in at Roberra Street, Moorabbin.",
+  "summary": "Village Drive-in was a drive-in at Roberra Street, Moorabbin. CAARP lists it from 1966 to 28 May 1980. Recorded capacity: 890 seats. Also known as Moorabbin Village.",
   "noApprox": false
  },
  {
@@ -36178,14 +36334,22 @@
    "Dendy Movie House",
    "Chinatown",
    "Lumiere",
+   "Dendy Movie House, Melbourne",
+   "Lumiere, Melbourne",
    "Lumiere Cinema",
-   "Dendy Cinema",
-   "Mayfair Cinema",
-   "Savoy Cinema"
+   "Dendy Cinema"
   ],
   "address": "108 Lonsdale Street",
   "type": "",
   "facts": [
+   [
+    "Opened",
+    "3 November 1977 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "2005 (last listing in CAARP, not verified)"
+   ],
    [
     "Capacity",
     "300 seats (as recorded by CAARP)"
@@ -36230,7 +36394,7 @@
   "level": "B",
   "levelReason": "street address documented by a heritage listing or by two independent sources",
   "review": "awaiting editorial review",
-  "summary": "New Savoy was a cinema at 108 Lonsdale Street, Melbourne. Recorded capacity: 300 seats. Also known as Dendy Lonsdale, Dendy Movie House, Chinatown and others.",
+  "summary": "New Savoy was a cinema at 108 Lonsdale Street, Melbourne. CAARP lists it from 3 November 1977 to 2005. Recorded capacity: 300 seats. Also known as Dendy Lonsdale, Dendy Movie House, Chinatown and others.",
   "noApprox": false
  },
  {
@@ -36416,7 +36580,16 @@
   "aliases": [],
   "address": "222 Exhibition Street",
   "type": "",
-  "facts": [],
+  "facts": [
+   [
+    "Opened",
+    "1909 (first listing in CAARP, not verified)"
+   ],
+   [
+    "Closed",
+    "31 December 1909 (last listing in CAARP, not verified)"
+   ]
+  ],
   "notes": [],
   "sources": [
    {
@@ -36443,7 +36616,7 @@
   "level": "C",
   "levelReason": "provisional historical address from one source",
   "review": "awaiting editorial review",
-  "summary": "Australian Hippodrome was a cinema at 222 Exhibition Street, Melbourne.",
+  "summary": "Australian Hippodrome was a cinema at 222 Exhibition Street, Melbourne. CAARP lists it from 1909 to 31 December 1909.",
   "noApprox": false
  },
  {
